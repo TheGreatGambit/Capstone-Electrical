@@ -1,0 +1,129 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid cecfef01-b656-4119-b95f-07b25befc9ba)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 91.44 66.04) (size 15.24 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 780e5f60-97c7-4a2f-828b-89de114569d5)
+    (property "Sheet name" "Button_2" (id 0) (at 91.44 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Button_Template.kicad_sch" (id 1) (at 91.44 70.4346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 91.44 91.44) (size 15.24 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8a2adae9-25ce-4e1d-b87d-59c29ea35cae)
+    (property "Sheet name" "Button_4" (id 0) (at 91.44 90.7284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Button_Template.kicad_sch" (id 1) (at 91.44 95.8346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 91.44 53.34) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 90b2813b-0bb0-4e97-994b-a5d98fe2289e)
+    (property "Sheet name" "Button_1" (id 0) (at 91.44 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Button_Template.kicad_sch" (id 1) (at 91.44 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 91.44 78.74) (size 15.24 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f39e38eb-2b55-425c-b654-b4614e8243aa)
+    (property "Sheet name" "Button_3" (id 0) (at 91.44 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Button_Template.kicad_sch" (id 1) (at 91.44 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/90b2813b-0bb0-4e97-994b-a5d98fe2289e" (page "2"))
+    (path "/780e5f60-97c7-4a2f-828b-89de114569d5" (page "3"))
+    (path "/f39e38eb-2b55-425c-b654-b4614e8243aa" (page "4"))
+    (path "/8a2adae9-25ce-4e1d-b87d-59c29ea35cae" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/90b2813b-0bb0-4e97-994b-a5d98fe2289e/6254e49c-0ce2-4322-8cde-988358416975"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/780e5f60-97c7-4a2f-828b-89de114569d5/6254e49c-0ce2-4322-8cde-988358416975"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f39e38eb-2b55-425c-b654-b4614e8243aa/6254e49c-0ce2-4322-8cde-988358416975"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8a2adae9-25ce-4e1d-b87d-59c29ea35cae/6254e49c-0ce2-4322-8cde-988358416975"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/90b2813b-0bb0-4e97-994b-a5d98fe2289e/ca310836-c838-4866-afeb-0f28b61f52b7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/780e5f60-97c7-4a2f-828b-89de114569d5/ca310836-c838-4866-afeb-0f28b61f52b7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f39e38eb-2b55-425c-b654-b4614e8243aa/ca310836-c838-4866-afeb-0f28b61f52b7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8a2adae9-25ce-4e1d-b87d-59c29ea35cae/ca310836-c838-4866-afeb-0f28b61f52b7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/90b2813b-0bb0-4e97-994b-a5d98fe2289e/3627efd8-04b9-4552-874c-0df3128b1e1a"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/780e5f60-97c7-4a2f-828b-89de114569d5/3627efd8-04b9-4552-874c-0df3128b1e1a"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/f39e38eb-2b55-425c-b654-b4614e8243aa/3627efd8-04b9-4552-874c-0df3128b1e1a"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/8a2adae9-25ce-4e1d-b87d-59c29ea35cae/3627efd8-04b9-4552-874c-0df3128b1e1a"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/90b2813b-0bb0-4e97-994b-a5d98fe2289e/2bb26731-08b7-4592-9505-10c14750555c"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/780e5f60-97c7-4a2f-828b-89de114569d5/2bb26731-08b7-4592-9505-10c14750555c"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/f39e38eb-2b55-425c-b654-b4614e8243aa/2bb26731-08b7-4592-9505-10c14750555c"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/8a2adae9-25ce-4e1d-b87d-59c29ea35cae/2bb26731-08b7-4592-9505-10c14750555c"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/90b2813b-0bb0-4e97-994b-a5d98fe2289e/b1015715-2427-4851-b816-fa438cf8e15d"
+      (reference "SW?") (unit 1) (value "SW_Push") (footprint "")
+    )
+    (path "/780e5f60-97c7-4a2f-828b-89de114569d5/b1015715-2427-4851-b816-fa438cf8e15d"
+      (reference "SW?") (unit 1) (value "SW_Push") (footprint "")
+    )
+    (path "/f39e38eb-2b55-425c-b654-b4614e8243aa/b1015715-2427-4851-b816-fa438cf8e15d"
+      (reference "SW?") (unit 1) (value "SW_Push") (footprint "")
+    )
+    (path "/8a2adae9-25ce-4e1d-b87d-59c29ea35cae/b1015715-2427-4851-b816-fa438cf8e15d"
+      (reference "SW?") (unit 1) (value "SW_Push") (footprint "")
+    )
+  )
+)

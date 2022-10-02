@@ -1,0 +1,83 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 156a09df-806b-4f9f-af99-82751deb8c6d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 95.25 83.82) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4382dad4-e411-4c8a-bd11-5d571245c7aa)
+    (property "Sheet name" "LED_1" (id 0) (at 95.25 83.1084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "LED_Template.kicad_sch" (id 1) (at 95.25 88.2146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 95.25 93.98) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8a5eb472-ce42-4daa-b008-f23517dabf91)
+    (property "Sheet name" "LED_2" (id 0) (at 95.25 93.2684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "LED_Template.kicad_sch" (id 1) (at 95.25 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 95.25 105.41) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9f3a6c3c-cfb4-4592-83d4-27263dec8025)
+    (property "Sheet name" "LED_3" (id 0) (at 95.25 104.6984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "LED_Template.kicad_sch" (id 1) (at 95.25 109.8046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/4382dad4-e411-4c8a-bd11-5d571245c7aa" (page "2"))
+    (path "/8a5eb472-ce42-4daa-b008-f23517dabf91" (page "3"))
+    (path "/9f3a6c3c-cfb4-4592-83d4-27263dec8025" (page "4"))
+  )
+
+  (symbol_instances
+    (path "/4382dad4-e411-4c8a-bd11-5d571245c7aa/a6b7f9f3-4123-4201-aea1-d228bbc1ecb5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8a5eb472-ce42-4daa-b008-f23517dabf91/a6b7f9f3-4123-4201-aea1-d228bbc1ecb5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9f3a6c3c-cfb4-4592-83d4-27263dec8025/a6b7f9f3-4123-4201-aea1-d228bbc1ecb5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4382dad4-e411-4c8a-bd11-5d571245c7aa/abb33329-6a38-451b-9828-291f9d4627f9"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/8a5eb472-ce42-4daa-b008-f23517dabf91/abb33329-6a38-451b-9828-291f9d4627f9"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/9f3a6c3c-cfb4-4592-83d4-27263dec8025/abb33329-6a38-451b-9828-291f9d4627f9"
+      (reference "D?") (unit 1) (value "LED") (footprint "")
+    )
+    (path "/4382dad4-e411-4c8a-bd11-5d571245c7aa/836190c2-e300-44c2-a190-2f4defc7d338"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/8a5eb472-ce42-4daa-b008-f23517dabf91/836190c2-e300-44c2-a190-2f4defc7d338"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+    (path "/9f3a6c3c-cfb4-4592-83d4-27263dec8025/836190c2-e300-44c2-a190-2f4defc7d338"
+      (reference "R?") (unit 1) (value "R") (footprint "")
+    )
+  )
+)
