@@ -1,0 +1,15 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 6d8b3c67-9afe-44f0-a795-fdf354c13d4b)
+
+  (paper "A4")
+
+  (title_block
+    (title "Sensor Network Subsystem")
+    (company "The Great Gambit")
+  )
+
+  (lib_symbols
+  )
+
+)

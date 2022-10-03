@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8824QPWPRQ1
+D Automotive 1.6A Bipolar Stepper Motor Driver with On-Chip 1/32 Microstepping Indexer (Step/Dir Ctrl)
+K
+F http://www.ti.com/lit/gpn/drv8824-q1
+$ENDCMP
+#
+#End Doc Library

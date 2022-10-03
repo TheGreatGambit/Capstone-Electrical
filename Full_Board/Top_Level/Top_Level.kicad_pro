@@ -416,52 +416,56 @@
       ""
     ],
     [
-      "e61ea18a-bee3-4121-8895-fa04f552dedc",
-      "Buttons_All"
+      "69c9bf85-c31a-4094-90b8-a1614b909ff9",
+      "StepperDriver2_Y"
     ],
     [
-      "c1bd93ef-3771-4288-8066-1bbe9758726c",
-      "LEDs_All"
+      "84630889-4c81-4427-b227-6a7d31e9afff",
+      "StepperDriver3_Z"
     ],
     [
-      "95430e53-e51b-426f-bde6-d2bda4069c89",
-      "Motor_All"
+      "647404c9-5ba1-4291-8ffe-ad0ab4836cd8",
+      "LED2"
     ],
     [
-      "7c243984-32cb-4db8-bd8b-993b49c144a7",
-      "Servos"
+      "fcb57cde-f0db-40ec-9e21-05d9382b9bd6",
+      "LED3"
     ],
     [
-      "af2a0060-821f-482f-bdb1-792fb2d8baac",
-      "Steppers"
+      "0ff37166-a71a-47a9-937d-23fd840229ab",
+      "Button2"
     ],
     [
-      "4382dad4-e411-4c8a-bd11-5d571245c7aa",
-      "LED_1"
+      "86702842-173a-4383-816d-31c4597e63ce",
+      "Button3"
     ],
     [
-      "8a5eb472-ce42-4daa-b008-f23517dabf91",
-      "LED_2"
+      "ebc80814-4044-4d9b-87c5-771a37b035bf",
+      "Button4"
     ],
     [
-      "9f3a6c3c-cfb4-4592-83d4-27263dec8025",
-      "LED_3"
+      "369b5ae9-4af3-455b-8453-a585234168a6",
+      "StepperDriver1_X"
     ],
     [
-      "90b2813b-0bb0-4e97-994b-a5d98fe2289e",
-      "Button_1"
+      "eed9ac13-0553-4be8-a87c-cf15a0799b3e",
+      "MSP432E401Y"
     ],
     [
-      "780e5f60-97c7-4a2f-828b-89de114569d5",
-      "Button_2"
+      "85301cef-e065-48de-8b1a-931cd1e8745e",
+      "PowerSupply1"
     ],
     [
-      "f39e38eb-2b55-425c-b654-b4614e8243aa",
-      "Button_3"
+      "e841011a-0d76-447f-b141-73da960fe0e4",
+      "Button1"
     ],
     [
-      "8a2adae9-25ce-4e1d-b87d-59c29ea35cae",
-      "Button_4"
+      "d502e42a-f07d-48a4-870f-6cc62b560384",
+      "LED1"
+    ],
+    [
+      "b2aa64e3-6d16-4ba0-adea-08cdcba55275",
+      "SensorNetwork1"
     ]
   ],
   "text_variables": {}

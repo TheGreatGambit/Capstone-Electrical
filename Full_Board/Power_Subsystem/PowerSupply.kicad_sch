@@ -1,0 +1,15 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 95ca51ef-a9f1-443d-8daa-a518c541ffc3)
+
+  (paper "A4")
+
+  (title_block
+    (title "Power Supply Subsystem")
+    (company "The Great Gambit")
+  )
+
+  (lib_symbols
+  )
+
+)

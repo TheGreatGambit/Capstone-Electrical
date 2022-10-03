@@ -1,0 +1,16 @@
+.DRV8824QPWPRQ1 :1 ;Automotive 1.6A Bipolar Stepper Motor Driver with On-Chip 1/32 Microstepping Indexer (Step/Dir Ctrl)
+SOP65P640X120-28N
+*STM IC
+*NGS
+*PLB 1="CP1" 2="CP2" 3="VCP" 4="VMA" 5="AOUT1" 6="ISENA" 7="AOUT2" 8="BOUT2" 9="ISENB" 10="BOUT1" 11="VMB" 12="AVREF" 13="BVREF" 14="GND_1" 15="V3P3OUT" 16="NRESET" 17="NSLEEP" 18="NFAULT" 19="DECAY" 20="DIR" 21="NENBL" 22="STEP" 23="NC" 24="MODE0" 25="MODE1" 26="MODE2" 27="NHOME" 28="GND_2"
+*MXP 28
+*DFN DRV8824QPWPRQ1
+~!Mouser Part Number (595-DRV8824QPWPRQ1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8824QPWPRQ1?qs=MJut%252BdqOEgi82YN%2FoMkwBg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (DRV8824QPWPRQ1)
+~!Link Datasheet (http://www.ti.com/lit/gpn/drv8824-q1)
+~!Height (1.2mm)
+~!3D_Model (DRV8824QPWPRQ1)
+DRV8824QPWPRQ1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 

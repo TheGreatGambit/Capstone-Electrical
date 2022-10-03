@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=DRV8824QPWPRQ1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=28
+Version=1.1
+Released=2019-11-12 09:10:45
+Downloaded=2022-10-03 21:23:17
+3D=Y
