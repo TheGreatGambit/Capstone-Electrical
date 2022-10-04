@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "KLDHCX-8-0202-B")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/ul_KLDHCX-8-0202-B/KiCAD/2022-10-03_22-21-06/footprints.pretty")(options "")(descr ""))
+)

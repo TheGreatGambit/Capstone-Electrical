@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'KLDHCX_8_0202_A'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Kycon", "KLDHCX-8-0202-A" (!) = "", "KLDHCX80202A", "Other", "806-KLDHCX-8-0202-A", "https://www.mouser.co.uk/ProductDetail/Kycon/KLDHCX-8-0202-A?qs=8jfIC9vqKDumIG1oGh6fxg%3D%3D", "CONN PWR JACK 2.1X5.5MM SOLDER", "http://www.kycon.com/Pub_Eng_Draw/KLDHCX-8-0202-X.pdf", "9 mm"
+END_PART
+
+END.

@@ -1,0 +1,152 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "KLDHCX-8-0202-A"
+   (description "CONN PWR JACK 2.1X5.5MM SOLDER")
+   (family "CON")
+   (package "KLDHCX80202A")
+   (attribute "Datasheet Link" "http://www.kycon.com/Pub_Eng_Draw/KLDHCX-8-0202-X.pdf")
+   (attribute "Geometry.Height" "9mm")
+   (attribute "Mouser Part Number" "806-KLDHCX-8-0202-A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kycon/KLDHCX-8-0202-A?qs=8jfIC9vqKDumIG1oGh6fxg%3D%3D")
+   (attribute "Manufacturer_Name" "Kycon")
+   (attribute "Manufacturer_Part_Number" "KLDHCX-8-0202-A")
+   (gate
+    (symbol "KLDHCX-8-0202-A")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "KLDHCX-8-0202-A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "KLDHCX80202A"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -12 5)
+      (pt 1 5)
+      (pt 1 -5)
+      (pt -12 -5)
+      (pt -12 5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -13 7.668)
+      (pt 4.2 7.668)
+      (pt 4.2 -7.668)
+      (pt -13 -7.668)
+      (pt -13 7.668))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -12 5)
+      (pt -12 -5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1 -5)
+      (pt -4 -5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -4 5)
+      (pt 1 5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 3 0.5)
+      (arc (pt 3.000 0.500) (pt 3.000 0.400) (pt 3.200 0.600) (start 180.0) (sweep 180.0))
+      (pt 3.2 0.5)
+      (arc (pt 3.200 0.500) (pt 3.000 0.400) (pt 3.200 0.600) (start 180.0) (sweep .0))
+      (pt 3 0.5))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -6.000 0.000) (padstack 2))
+   (leg 3 (pt -7.000 -4.500) (padstack 0))
+   (leg 4 (pt -7.000 4.500) (padstack 0))
+   (leg MH1 (pt -9.000 0.000) (padstack 5))
+   (padstack 0
+    (hole 2.89)
+    (plated true)
+    (pad (layer TCOP) (round 4.335))
+    (pad (layer INNER) (round 4.335))
+    (pad (layer BCOP) (round 4.335))
+   )
+   (padstack 1
+    (hole 3.36)
+    (plated true)
+    (pad (layer TCOP) (round 5.040))
+    (pad (layer INNER) (round 5.040))
+    (pad (layer BCOP) (round 5.040))
+   )
+   (padstack 2
+    (hole 2.71)
+    (plated true)
+    (pad (layer TCOP) (round 4.065))
+    (pad (layer INNER) (round 4.065))
+    (pad (layer BCOP) (round 4.065))
+   )
+   (padstack 5
+    (hole 1.7)
+    (plated false)
+    (pad (layer TCOP) (round 0.850))
+    (pad (layer INNER) (round 0.850))
+    (pad (layer BCOP) (round 0.850))
+   )
+   (model "KLDHCX-8-0202-A.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

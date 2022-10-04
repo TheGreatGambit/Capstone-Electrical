@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name "DRV8824QPWPRQ1")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/DRV8824QPWPRQ1/KiCad/DRV8824QPWPRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "KLDHCX-8-0202-A")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/KLDHCX-8-0202-A/KiCad/KLDHCX-8-0202-A.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS5403DR")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/ul_TPS5403DR/KiCAD/2022-10-04_01-51-30/2022-10-04_01-51-30.kicad_sym")(options "")(descr ""))
 )
