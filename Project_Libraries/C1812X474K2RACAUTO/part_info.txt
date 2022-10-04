@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=C1812X474K2RACAUTO
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2022-04-05 16:44:12
+Downloaded=2022-10-04 22:30:21
+3D=Y

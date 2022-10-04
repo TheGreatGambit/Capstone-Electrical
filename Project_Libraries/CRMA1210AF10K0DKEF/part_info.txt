@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=CRMA1210AF10K0DKEF
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2022-08-31 13:32:29
+Downloaded=2022-10-04 23:22:13
+3D=Y

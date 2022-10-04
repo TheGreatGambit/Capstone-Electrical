@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TNPV0805180KBEEA"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TNPV0805180KBEEA")
+        (spec "default")
+    )
+)

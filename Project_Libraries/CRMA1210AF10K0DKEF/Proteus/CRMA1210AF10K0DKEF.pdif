@@ -1,0 +1,91 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CRMA1210AF10K0DKEF"
+   (description "Thick Film Resistors - SMD 0.35W 10Kohm .5% AEC-Q200")
+   (family "RES")
+   (package "RESC3225X74N")
+   (attribute "Datasheet Link" "https://www.vishay.com/docs/68043/crma.pdf")
+   (attribute "Geometry.Height" "0.74mm")
+   (attribute "Mouser Part Number" "71-CRMA1210AF10K0DKF")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay/CRMA1210AF10K0DKEF?qs=QNEnbhJQKvaa%2FM91bKtskg%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "CRMA1210AF10K0DKEF")
+   (gate
+    (symbol "CRMA1210AF10K0DKEF")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "CRMA1210AF10K0DKEF"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESC3225X74N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.275 1.6)
+      (pt 2.275 1.6)
+      (pt 2.275 -1.6)
+      (pt -2.275 -1.6)
+      (pt -2.275 1.6))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.59 1.27)
+      (pt 1.59 1.27)
+      (pt 1.59 -1.27)
+      (pt -1.59 -1.27)
+      (pt -1.59 1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 1.17)
+      (pt 0 -1.17))))
+   (leg 1 (pt -1.45 0) (padstack 0))
+   (leg 2 (pt 1.45 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.15 2.7 0 0 90))
+   )
+   (model "CRMA1210AF10K0DKEF.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

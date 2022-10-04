@@ -1,0 +1,16 @@
+.CR0402-FX-5620GLF :1 ;Thick Film Resistors - SMD 562 OHM 1%
+RESC1005X40N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CR0402-FX-5620GLF
+~!Mouser Part Number (652-CR0402FX-5620GLF)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0402FX-5620GLF)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (CR0402-FX-5620GLF)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/CR0402-FX-5620GLF.pdf)
+~!Height (0.4mm)
+~!3D_Model (CR0402-FX-5620GLF)
+CR0402-FX-5620GLF
+1.1!U 2.1!U 

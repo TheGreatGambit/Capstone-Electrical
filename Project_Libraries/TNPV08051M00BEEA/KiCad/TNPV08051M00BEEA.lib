@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TNPV08051M00BEEA
+#/16013800/959554/2.49/2/2/Resistor
+DEF TNPV08051M00BEEA R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "TNPV08051M00BEEA" 550 150 50 H V L CNN
+F2 "TNPV0805180KBEEA" 550 50 50 H I L CNN
+F3 "https://www.vishay.com/docs/28881/tnpve3.pdf" 550 -50 50 H I L CNN
+F4 "Thin Film Resistors - SMD 1Mohms .1% 25ppm High Voltage RES, 1M, 0.2W, 0805" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "71-TNPV08051M00BEEA" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay/TNPV08051M00BEEA?qs=Li%252BoUPsLEnsbIe6HaZRepg%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "TNPV08051M00BEEA" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library

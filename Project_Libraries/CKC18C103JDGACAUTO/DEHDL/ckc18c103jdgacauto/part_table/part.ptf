@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CKC18C103JDGACAUTO'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KEMET", "CKC18C103JDGACAUTO" (!) = "", "CAPC4732X220N", "Capacitor Chip Non-polarised", "80-CKC18C103JDGCAUTO", "https://www.mouser.co.uk/ProductDetail/KEMET/CKC18C103JDGACAUTO?qs=rI7uf1IzohQ1IWJBnjxtzg%3D%3D", "KC-LINK Auto C0G, Ceramic, 0.01 uF, 5%, 1000 VDC, 1200 VDC, 150C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, High Voltage, Automotive Grade, 0.1 % , 100 GOhms, 87 mg, 1812, 4.7mm, 3.2mm, 2mm, 0.6mm, 500, 78  Weeks, 120", "https://content.kemet.com/datasheets/KEM_C1039_KC-LINK_C0G.pdf", "2.2 mm"
+END_PART
+
+END.

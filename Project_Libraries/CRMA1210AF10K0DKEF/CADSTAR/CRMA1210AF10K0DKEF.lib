@@ -1,0 +1,16 @@
+.CRMA1210AF10K0DKEF :1 ;Thick Film Resistors - SMD 0.35W 10Kohm .5% AEC-Q200
+RESC3225X74N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CRMA1210AF10K0DKEF
+~!Mouser Part Number (71-CRMA1210AF10K0DKF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay/CRMA1210AF10K0DKEF?qs=QNEnbhJQKvaa%2FM91bKtskg%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (CRMA1210AF10K0DKEF)
+~!Link Datasheet (https://www.vishay.com/docs/68043/crma.pdf)
+~!Height (0.74mm)
+~!3D_Model (CRMA1210AF10K0DKEF)
+CRMA1210AF10K0DKEF
+1.1!U 2.1!U 

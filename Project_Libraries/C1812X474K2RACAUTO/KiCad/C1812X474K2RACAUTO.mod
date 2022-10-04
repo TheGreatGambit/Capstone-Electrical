@@ -1,0 +1,40 @@
+PCBNEW-LibModule-V1  2022-10-04 22:30:21
+# encoding utf-8
+Units mm
+$INDEX
+C1812_FT
+$EndINDEX
+$MODULE C1812_FT
+Po 0 0 0 15 633ca5ed 00000000 ~~
+Li C1812_FT
+Cd C1812_FT
+Kw Capacitor
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 0 0 1.27 1.27 0 0.254 N V 21 N "C**"
+T1 0 0 1.27 1.27 0 0.254 N I 21 N "C1812_FT"
+DS -2.25 -1.6 2.25 -1.6 0.2 24
+DS 2.25 -1.6 2.25 1.6 0.2 24
+DS 2.25 1.6 -2.25 1.6 0.2 24
+DS -2.25 1.6 -2.25 -1.6 0.2 24
+DS -3.6 -2.6 3.6 -2.6 0.05 24
+DS 3.6 -2.6 3.6 2.6 0.05 24
+DS 3.6 2.6 -3.6 2.6 0.05 24
+DS -3.6 2.6 -3.6 -2.6 0.05 24
+DC -3.15 0 -3.2 0 0.254 21
+$PAD
+Po -2 0
+Sh "1" R 1.6 3.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2 0
+Sh "2" R 1.6 3.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE C1812_FT
+$EndLIBRARY

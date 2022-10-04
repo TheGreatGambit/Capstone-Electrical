@@ -1,0 +1,77 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "WSL2010R4000FEA"
+   (description "RESISTOR, 2010 0.40 Ohm +/-1% 0.5 W")
+   (family "RES")
+   (package "RESC5025X88N")
+   (attribute "Datasheet Link" "")
+   (attribute "Mouser Part Number" "71-WSL2010R4000FEA")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/WSL2010R4000FEA?qs=fncU5wK7Cm8i6t2Y9tVSqw%3D%3D")
+   (attribute "Manufacturer_Name" "Vishay")
+   (attribute "Manufacturer_Part_Number" "WSL2010R4000FEA")
+   (gate
+    (symbol "WSL2010R4000FEA")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "WSL2010R4000FEA"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESC5025X88N"
+   (units MM)
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt -1.397 -1.3208)
+      (pt 1.397 -1.3208))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1524)
+     (path
+      (closed false)
+      (pt 1.397 1.3208)
+      (pt -1.397 1.3208))))
+   (leg 1 (pt -2.3368 0) (padstack 0))
+   (leg 2 (pt 2.3368 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.1938 2.6416 0 0 90))
+   )
+   (model "WSL2010R4000FEA.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

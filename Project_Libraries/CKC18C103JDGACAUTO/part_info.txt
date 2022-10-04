@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=CKC18C103JDGACAUTO
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=2.1
+Released=2022-04-19 11:42:57
+Downloaded=2022-10-04 22:46:08
+3D=Y

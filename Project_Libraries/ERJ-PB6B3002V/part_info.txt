@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERJ-PB6B3002V
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2020-03-16 02:58:28
+Downloaded=2022-10-04 23:50:32
+3D=Y

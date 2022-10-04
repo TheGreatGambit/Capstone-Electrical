@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "WSL2010R4000FEA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "RESC5025X88N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CRMA1210AF10K0DKEF
+D Thick Film Resistors - SMD 0.35W 10Kohm .5% AEC-Q200
+K
+F https://www.vishay.com/docs/68043/crma.pdf
+$ENDCMP
+#
+#End Doc Library

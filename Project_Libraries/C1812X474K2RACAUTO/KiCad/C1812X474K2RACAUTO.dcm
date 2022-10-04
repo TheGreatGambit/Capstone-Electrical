@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C1812X474K2RACAUTO
+D SMD Auto X7R Flex, Ceramic, 0.47 uF, 10%, 200 VDC, 500 VDC, 125C, -55C, X7R, SMD, MLCC, FT-CAP, Automotive Grade, 2.5 % , 2.1277 GOhms, 185 mg, 1812, 4.5mm, 3.2mm, 1.7mm, 0.7mm, 1000, 78  Weeks, 80
+K
+F https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf
+$ENDCMP
+#
+#End Doc Library

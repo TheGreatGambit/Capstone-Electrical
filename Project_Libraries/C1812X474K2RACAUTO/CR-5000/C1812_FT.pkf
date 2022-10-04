@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "C1812_FT"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "C1812_FT")
+        (spec "default")
+    )
+)

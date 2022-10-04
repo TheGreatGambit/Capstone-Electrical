@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=CR0402-FX-5620GLF
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2019-07-31 19:20:03
+Downloaded=2022-10-05 00:08:38
+3D=Y

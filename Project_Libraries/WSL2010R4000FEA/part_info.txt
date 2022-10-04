@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=WSL2010R4000FEA
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=2.1
+Released=2017-01-12 11:18:21
+Downloaded=2022-10-04 23:42:52
+3D=Y

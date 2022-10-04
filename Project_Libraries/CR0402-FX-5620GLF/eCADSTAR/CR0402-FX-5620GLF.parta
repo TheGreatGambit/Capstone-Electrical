@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_2356806"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-07-31-19:20:03)
+    (utime 2019-08-01-06:48:52)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "CR0402-FX-5620GLF")
+)
+
+
+(pinAssign "ECS_2356806"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-07-31-19:20:03)
+    (utime 2019-08-01-06:48:52)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2356806")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CR0402-FX-5620GLF")
+)
+
+
+(part "CR0402-FX-5620GLF"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-07-31-19:20:03)
+    (utime 2019-08-01-06:48:52)
+    (packageRef "CR0402-FX-5620GLF")
+    (pinAssignRef "ECS_2356806")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "Thick Film Resistors - SMD 562 OHM 1%")
+    (property "Mouser_Part_Number" "652-CR0402FX-5620GLF")
+    (property "Mouser_Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0402FX-5620GLF")
+    (property "Manufacturer_Name" "Bourns")
+    (property "Manufacturer_Part_Number" "CR0402-FX-5620GLF")
+    (property "Datasheet_Link" "https://componentsearchengine.com/Datasheets/1/CR0402-FX-5620GLF.pdf")
+    (property "compAreaTopHeight" 0.4)
+)
+
+

@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=TNPV08051M00BEEA
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=3.1
+Released=2022-03-23 05:03:05
+Downloaded=2022-10-04 23:37:11
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C1812X474K2RACAUTO'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "KEMET", "C1812X474K2RACAUTO" (!) = "", "C1812_FT", "Other", "80-C1812X474K2RAUTO", "https://www.mouser.co.uk/ProductDetail/KEMET/C1812X474K2RACAUTO?qs=ds50AKTGxA83cwzvgPK8QA%3D%3D", "SMD Auto X7R Flex, Ceramic, 0.47 uF, 10%, 200 VDC, 500 VDC, 125C, -55C, X7R, SMD, MLCC, FT-CAP, Automotive Grade, 2.5 % , 2.1277 GOhms, 185 mg, 1812, 4.5mm, 3.2mm, 1.7mm, 0.7mm, 1000, 78  Weeks, 80", "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf"
+END_PART
+
+END.

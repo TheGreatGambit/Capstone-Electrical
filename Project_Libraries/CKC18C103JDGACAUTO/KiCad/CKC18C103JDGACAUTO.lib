@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CKC18C103JDGACAUTO
+#/12076115/959554/2.49/2/2/Capacitor
+DEF CKC18C103JDGACAUTO C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "CKC18C103JDGACAUTO" 350 150 50 H V L CNN
+F2 "CAPC4732X220N" 350 50 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1039_KC-LINK_C0G.pdf" 350 -50 50 H I L CNN
+F4 "KC-LINK Auto C0G, Ceramic, 0.01 uF, 5%, 1000 VDC, 1200 VDC, 150C, -55C, C0G, SMD, MLCC, Ultra-Stable, Low Loss, High Voltage, Automotive Grade, 0.1 % , 100 GOhms, 87 mg, 1812, 4.7mm, 3.2mm, 2mm, 0.6mm, 500, 78  Weeks, 120" 350 -150 50 H I L CNN "Description"
+F5 "2.2" 350 -250 50 H I L CNN "Height"
+F6 "80-CKC18C103JDGCAUTO" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/CKC18C103JDGACAUTO?qs=rI7uf1IzohQ1IWJBnjxtzg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "KEMET" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CKC18C103JDGACAUTO" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

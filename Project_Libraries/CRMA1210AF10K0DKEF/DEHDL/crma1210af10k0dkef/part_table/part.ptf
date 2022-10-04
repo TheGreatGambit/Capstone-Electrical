@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CRMA1210AF10K0DKEF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "CRMA1210AF10K0DKEF" (!) = "", "RESC3225X74N", "Resistor Chip", "71-CRMA1210AF10K0DKF", "https://www.mouser.co.uk/ProductDetail/Vishay/CRMA1210AF10K0DKEF?qs=QNEnbhJQKvaa%2FM91bKtskg%3D%3D", "Thick Film Resistors - SMD 0.35W 10Kohm .5% AEC-Q200", "https://www.vishay.com/docs/68043/crma.pdf", "0.74 mm"
+END_PART
+
+END.

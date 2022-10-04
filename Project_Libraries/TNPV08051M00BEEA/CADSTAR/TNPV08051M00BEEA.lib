@@ -1,0 +1,16 @@
+.TNPV08051M00BEEA :1 ;Thin Film Resistors - SMD 1Mohms .1% 25ppm High Voltage RES, 1M, 0.2W, 0805
+TNPV0805180KBEEA
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN TNPV08051M00BEEA
+~!Mouser Part Number (71-TNPV08051M00BEEA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay/TNPV08051M00BEEA?qs=Li%252BoUPsLEnsbIe6HaZRepg%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (TNPV08051M00BEEA)
+~!Link Datasheet (https://www.vishay.com/docs/28881/tnpve3.pdf)
+~!Height (0.55mm)
+~!3D_Model (TNPV08051M00BEEA)
+TNPV08051M00BEEA
+1.1!U 2.1!U 
