@@ -29,6 +29,14 @@ View this project on [CADLAB.io](https://cadlab.io/project/25988)
     - Nickname: `<LIBRARY_NAME>`, Library Path: `${KICAD_CAPSTONE_LIBRARIES}/<LIBRARY_NAME>/KiCad/<LIBRARY_NAME>.lib`
 10. Select `Migrate Libraries`
 11. To place the device in KiCad, go to `Place`->`Add Symbol` and search for `<LIBRARY_NAME>`
+12. When you first add the symbol to your schematic you need give values for the fields `Datasheet`, `Manufacturer's Part Number`, `Digikey Part Number`, `Mouser Part Number`, `Digikey link`, and `Mouser link` in that order. 
+    1. Right click on the symbol and click `Properties`
+    2. Click `Edit Library Symbol`. This should open a symbol editing window. 
+    3. Go to `File -> Symbol Properties`
+    4. Use the `+` button to add the appropriate fields. The `Datasheet` should be a URL to the datasheet, and the `Digikey link` and `Mouser link` fields should be links to the part's product page.
+    5. Uncheck the `Show` field for everything except the `Reference` and `Value` fields
+    6. Click `Ok` and close the library editor
+    7. Delete and add the symbol from the library. The fields should now be included. 
 
 # Adding a Subsheet
 1. Create a new directory: `<LOCAL PATH TO GIT REPO>/Full_Board/<SUBSHEET NAME>`
