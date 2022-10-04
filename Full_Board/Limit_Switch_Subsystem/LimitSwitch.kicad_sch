@@ -1,0 +1,21 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid c26b5183-d285-4dfa-9dc3-e6f46317de21)
+
+  (paper "A4")
+
+  (title_block
+    (title "Limit Switch Subsystem")
+    (company "The Great Gambit")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "General Notes:\n	This will be the limit switch subsystem"
+    (at 17.78 24.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid bfa0dabf-b124-4ef8-b583-90895b1d4baa)
+  )
+)

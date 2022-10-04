@@ -1,0 +1,16 @@
+.PTS636_SL43_LFS :1 ;Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 4.3mm H, 130gf, THT leads, Black Actuator
+PTS636SL43LFS
+*STM S
+*NGS
+*PLB 1="COM" 2="NO"
+*MXP 2
+*DFN PTS636_SL43_LFS
+~!Mouser Part Number (611-PTS636SL43LFS)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CK/PTS636-SL43-LFS?qs=vLWxofP3U2xHB0Q2opWSaw%3D%3D)
+~!Manufacturer_Name (C & K COMPONENTS)
+~!Manufacturer_Part_Number (PTS636 SL43 LFS)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/PTS636 SL43 LFS.pdf)
+~!Height (4.5mm)
+~!3D_Model (PTS636_SL43_LFS)
+PTS636_SL43_LFS
+1.1!U 2.1!U 

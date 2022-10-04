@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LRTB_R48G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-13-18:34:23)
+    (mountForm default
+        (footprintRef "LRTB-R48G")
+        (spec "System")
+    )
+)

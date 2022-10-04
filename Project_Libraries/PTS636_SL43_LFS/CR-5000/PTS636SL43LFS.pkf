@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PTS636SL43LFS"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PTS636SL43LFS")
+        (spec "default")
+    )
+)

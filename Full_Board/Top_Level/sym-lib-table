@@ -1,5 +1,8 @@
 (sym_lib_table
   (lib (name "DRV8824QPWPRQ1")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/DRV8824QPWPRQ1/KiCad/DRV8824QPWPRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "PTS636_SL43_LFS")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/PTS636_SL43_LFS/KiCad/PTS636_SL43_LFS.kicad_sym")(options "")(descr ""))
+  (lib (name "LRTB_R48G")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/LRTB_R48G/KiCad/LRTB_R48G.kicad_sym")(options "")(descr ""))
   (lib (name "KLDHCX-8-0202-A")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/KLDHCX-8-0202-A/KiCad/KLDHCX-8-0202-A.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS5403DR")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/ul_TPS5403DR/KiCAD/2022-10-04_01-51-30/2022-10-04_01-51-30.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS5403DR")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/TPS5403DR/KiCAD/2022-10-04_01-51-30/2022-10-04_01-51-30.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD1E10B06DPYR")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/TPD1E10B06DPYR/KiCad/TPD1E10B06DPYR.kicad_sym")(options "")(descr ""))
 )

@@ -1,0 +1,9 @@
+Manufacturer=C & K COMPONENTS
+PartNumber=PTS636 SL43 LFS
+PartCategory=Switch
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2019-09-28 19:23:28
+Downloaded=2022-10-04 01:21:29
+3D=Y

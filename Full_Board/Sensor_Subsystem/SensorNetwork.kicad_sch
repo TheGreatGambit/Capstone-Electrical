@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 6d8b3c67-9afe-44f0-a795-fdf354c13d4b)
+  (uuid 628a3427-20ab-46db-bc3c-435f53eac39c)
 
   (paper "A4")
 
@@ -12,4 +12,10 @@
   (lib_symbols
   )
 
+
+  (text "General Notes:\n	This should be the entire sensor network\n	We can do a subsheet for the individual reed witch components if needed"
+    (at 19.05 24.13 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4d08bd5b-fe22-41d4-984c-11bf392e5d67)
+  )
 )
