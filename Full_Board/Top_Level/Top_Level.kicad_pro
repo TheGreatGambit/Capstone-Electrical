@@ -428,6 +428,10 @@
       "LED2"
     ],
     [
+      "a5b3d784-747e-4724-9de6-cf9f647fa0b8",
+      "LimitSwitch2"
+    ],
+    [
       "633acf2e-cb30-4033-99e2-4d89cfa67ef2",
       "Button2"
     ],
@@ -436,20 +440,28 @@
       "Button3"
     ],
     [
+      "ce2025d5-91d2-4bf2-b416-f2c0e85d8356",
+      "LimitSwitch3"
+    ],
+    [
       "369b5ae9-4af3-455b-8453-a585234168a6",
       "StepperDriver1"
     ],
     [
       "eed9ac13-0553-4be8-a87c-cf15a0799b3e",
-      "MSP432"
+      "MSP432E401Y"
     ],
     [
-      "85301cef-e065-48de-8b1a-931cd1e8745e",
+      "0decb850-c73f-4a21-ac88-d022f064034a",
       "PowerSupply1"
     ],
     [
       "e841011a-0d76-447f-b141-73da960fe0e4",
       "Button1"
+    ],
+    [
+      "6bee1ebb-ad97-4b5a-bd69-85886de2f795",
+      "LimitSwitch1"
     ],
     [
       "b2aa64e3-6d16-4ba0-adea-08cdcba55275",

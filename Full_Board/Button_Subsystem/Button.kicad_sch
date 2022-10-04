@@ -415,7 +415,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6972bc87-b7ab-43b0-b0df-ea8f9669eff1)
   )
-  (hierarchical_label "3.3V" (shape input) (at 148.59 66.04 180)
+  (hierarchical_label "+3.3V" (shape input) (at 148.59 66.04 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c064cb15-ea08-4c35-bc9a-80f4dbbb814a)
   )
