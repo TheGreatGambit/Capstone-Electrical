@@ -1,2 +1,6 @@
 (fp_lib_table
+  (lib (name "DRV_MOTOR_DRIVER")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/DRV8824QPWPRQ1/KiCad")(options "")(descr ""))
+  (lib (name "LED_RBG_LRTB")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/LRTB_R48G/KiCad")(options "")(descr ""))
+  (lib (name "Resistor_CRMA")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CRMA1210AF10K0DKEF/KiCad")(options "")(descr ""))
+  (lib (name "Resistor_Chip_CR04")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CR0402-FX-5620GLF/KiCad")(options "")(descr ""))
 )
