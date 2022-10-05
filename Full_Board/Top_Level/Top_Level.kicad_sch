@@ -2567,11 +2567,11 @@
     (path "/ce2025d5-91d2-4bf2-b416-f2c0e85d8356" (page "8"))
     (path "/369b5ae9-4af3-455b-8453-a585234168a6" (page "11"))
     (path "/eed9ac13-0553-4be8-a87c-cf15a0799b3e" (page "12"))
-    (path "/0decb850-c73f-4a21-ac88-d022f064034a" (page "13"))
     (path "/e841011a-0d76-447f-b141-73da960fe0e4" (page "13"))
     (path "/6bee1ebb-ad97-4b5a-bd69-85886de2f795" (page "13"))
-    (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275" (page "14"))
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a" (page "13"))
     (path "/d502e42a-f07d-48a4-870f-6cc62b560384" (page "14"))
+    (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275" (page "14"))
   )
 
   (symbol_instances
@@ -2639,7 +2639,7 @@
       (reference "C18") (unit 1) (value "100 uF") (footprint "Capacitor_SMD:CP_Elec_3x5.3")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/91a63d88-509f-4c53-a898-f6d161457d8f"
-      (reference "C19") (unit 1) (value "1000uF") (footprint "Capacitor_SMD:CP_Elec_3x5.3")
+      (reference "C19") (unit 1) (value "330 uF") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
     )
     (path "/e841011a-0d76-447f-b141-73da960fe0e4/6dc65fb4-51e5-48e1-88f8-b0a67a7ae30a"
       (reference "C20") (unit 1) (value "C1210C822K2RACAUTO") (footprint "")
@@ -2651,7 +2651,7 @@
       (reference "D2") (unit 1) (value "TPD1E10B06DPYR") (footprint "Diode_Protection_TPD1:TPD1E10B06DPYR")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/ed81c189-85f8-47ee-b42e-361e1d71f12d"
-      (reference "D3") (unit 1) (value "31DQ04") (footprint "Diode_SMD:D_0201_0603Metric")
+      (reference "D3") (unit 1) (value "31DQ04") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
     )
     (path "/e841011a-0d76-447f-b141-73da960fe0e4/22550570-741c-4d3f-9ed7-f8a8912853c8"
       (reference "D4") (unit 1) (value "TPD1E10B06DPYR") (footprint "Diode_Protection_TPD1:TPD1E10B06DPYR")
@@ -2680,8 +2680,8 @@
     (path "/eed9ac13-0553-4be8-a87c-cf15a0799b3e/ac4bb516-e492-477c-a38c-647438db058c"
       (reference "J8-J1") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
     )
-    (path "/0decb850-c73f-4a21-ac88-d022f064034a/59812318-6a91-4c03-9533-436b09821cc3"
-      (reference "L1") (unit 1) (value "100uH") (footprint "")
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/8e575a13-eb08-41db-b5ab-de0d50d642ba"
+      (reference "L?") (unit 1) (value "680 uH") (footprint "IND_BOURNS_SRR1210")
     )
     (path "/f95d199a-bbfb-408b-b62d-3e5ca4dfa395/222f2051-29cd-4e5b-8fd7-384343057448"
       (reference "LED1") (unit 1) (value "LRTB_R48G") (footprint "LED_RGB_LRT:LRTB-R48G")
@@ -2882,7 +2882,7 @@
       (reference "TP25") (unit 1) (value "~") (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/89a2ac25-4a7f-40de-9795-9c0a95c0ac04"
-      (reference "U1") (unit 1) (value "LM2576SX-3.3/NOPB") (footprint "")
+      (reference "U1") (unit 1) (value "LM2576SX-3.3/NOPB") (footprint "LM2576SX-3-3-NOPB:LM2576SX-3.3&slash_NOPB")
     )
   )
 )
