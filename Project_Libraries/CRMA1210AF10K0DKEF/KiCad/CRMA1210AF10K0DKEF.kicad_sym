@@ -6,7 +6,7 @@
     (property "Value" "CRMA1210AF10K0DKEF" (id 1) (at 13.97 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "RESC3225X74N" (id 2) (at 13.97 1.27 0)
+    (property "Footprint" "CRMA1210AF10K0DKEF:RESC3225X74N" (id 2) (at 13.97 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.vishay.com/docs/68043/crma.pdf" (id 3) (at 13.97 -1.27 0)

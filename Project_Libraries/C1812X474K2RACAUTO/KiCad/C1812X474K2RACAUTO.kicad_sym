@@ -6,7 +6,7 @@
     (property "Value" "C1812X474K2RACAUTO" (id 1) (at 8.89 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "C1812_FT" (id 2) (at 8.89 1.27 0)
+    (property "Footprint" "C1812X474K2RACAUTO:C1812_FT" (id 2) (at 8.89 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1078_X7R_FT-CAP_AUTO_SMD.pdf" (id 3) (at 8.89 -1.27 0)

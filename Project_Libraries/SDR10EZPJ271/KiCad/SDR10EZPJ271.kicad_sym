@@ -6,7 +6,7 @@
     (property "Value" "SDR10EZPJ271" (id 1) (at 13.97 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "RESC2012X65N" (id 2) (at 13.97 1.27 0)
+    (property "Footprint" "SDR10EZPJ271:RESC2012X65N" (id 2) (at 13.97 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/sdr-e.pdf" (id 3) (at 13.97 -1.27 0)
