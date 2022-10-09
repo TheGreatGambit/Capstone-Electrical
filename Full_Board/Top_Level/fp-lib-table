@@ -10,7 +10,7 @@
   (lib (name "LRTB_R48G")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/LRTB_R48G/KiCad")(options "")(descr ""))
   (lib (name "PTS636_SL43_LFS")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/PTS636_SL43_LFS/KiCad")(options "")(descr ""))
   (lib (name "OQ0432500000G")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/OQ0432500000G/KiCad")(options "")(descr ""))
-  (lib (name "OQ0212500000G")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/OQ0212500000G")(options "")(descr ""))
+  (lib (name "OQ0212500000G")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/OQ0212500000G/KiCad")(options "")(descr ""))
   (lib (name "RCV2512100KFKEGAT")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/RCV2512100KFKEGAT/KiCad")(options "")(descr ""))
   (lib (name "SDR10EZPJ271")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/SDR10EZPJ271/KiCad")(options "")(descr ""))
   (lib (name "SRR1210-681M")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/SRR1210-681M/KiCAD/2022-10-05_14-30-20/footprints.pretty")(options "")(descr ""))

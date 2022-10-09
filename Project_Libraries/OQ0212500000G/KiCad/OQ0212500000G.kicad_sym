@@ -6,7 +6,7 @@
     (property "Value" "OQ0212500000G" (id 1) (at 16.51 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "OQ0212500000G" (id 2) (at 16.51 2.54 0)
+    (property "Footprint" "OQ0212500000G:OQ0212500000G" (id 2) (at 16.51 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-9/178262.pdf" (id 3) (at 16.51 0 0)
