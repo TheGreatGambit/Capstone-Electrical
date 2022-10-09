@@ -6,4 +6,6 @@
   (lib (name "LM2576SX-3-3-NOPB")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/LM2576SX-3-3-NOPB/KiCAD/2022-10-04_20-56-27/footprints.pretty")(options "")(descr ""))
   (lib (name "SRR1210-681M")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/SRR1210-681M/KiCAD/2022-10-05_14-30-20/footprints.pretty")(options "")(descr ""))
   (lib (name "PTS636_SL43_LFS")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/PTS636_SL43_LFS/KiCad")(options "")(descr ""))
+  (lib (name "OQ0432500000G")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/OQ0432500000G/KiCad")(options "")(descr ""))
+  (lib (name "OQ0212500000G")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/OQ0212500000G")(options "")(descr ""))
 )

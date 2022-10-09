@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=OQ0212500000G
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2019-04-03 11:05:25
+Downloaded=2022-10-09 21:13:58
+3D=Y

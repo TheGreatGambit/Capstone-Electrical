@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=OQ0432500000G
+PartCategory=Connector
+PackageCategory=Header, Receptacle - Straight PTH Box
+PinCount=4
+Version=2.1
+Released=2019-09-06 03:21:34
+Downloaded=2022-10-09 20:59:01
+3D=Y
