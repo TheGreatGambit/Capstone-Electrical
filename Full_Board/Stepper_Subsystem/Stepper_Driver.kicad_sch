@@ -1241,7 +1241,7 @@
     (uuid f9f24841-5b54-441c-9f3d-3781fb195442)
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 184.15 90.17 0)
+  (symbol (lib_id "Connector:TestPoint") (at 184.15 90.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 308d5d6d-2391-4e26-b8fa-6eecea3cca89)
     (property "Reference" "TP20" (id 0) (at 185.42 86.36 0)
@@ -1259,7 +1259,7 @@
     (pin "1" (uuid 783cc8c3-b71b-45c0-bc65-b3d52cd9ddf5))
   )
 
-  (symbol (lib_id "WSL2010R4000FEA:WSL2010R4000FEA") (at 102.87 87.63 0)
+  (symbol (lib_id "WSL2010R4000FEA:WSL2010R4000FEA") (at 102.87 87.63 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 384ced9e-a1cd-4dfa-ac84-20318618d2c2)
     (property "Reference" "R29" (id 0) (at 111.76 88.9 0))
@@ -1291,7 +1291,7 @@
     (pin "2" (uuid f1147aa5-3091-4395-9d5b-e874c0a897a1))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 184.15 95.25 180)
+  (symbol (lib_id "Connector:TestPoint") (at 184.15 95.25 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 38cb5d64-643a-4f42-9e49-e5f63d63308a)
     (property "Reference" "TP21" (id 0) (at 190.5 97.79 0)
@@ -1309,7 +1309,7 @@
     (pin "1" (uuid 19edbbd3-a732-4d4d-9c55-6aeb89b78585))
   )
 
-  (symbol (lib_id "WSL2010R4000FEA:WSL2010R4000FEA") (at 102.87 95.25 0)
+  (symbol (lib_id "WSL2010R4000FEA:WSL2010R4000FEA") (at 102.87 95.25 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 48a47c4f-10d1-4d06-950e-500f31550418)
     (property "Reference" "R30" (id 0) (at 111.76 92.71 0))
@@ -1341,7 +1341,7 @@
     (pin "2" (uuid d792e816-45ac-4f2b-b9fd-f4e8b4acd3db))
   )
 
-  (symbol (lib_id "TNPV08051M00BEEA:TNPV08051M00BEEA") (at 95.25 82.55 90)
+  (symbol (lib_id "TNPV08051M00BEEA:TNPV08051M00BEEA") (at 95.25 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 667748b5-6438-4f82-988b-c4cce03550e8)
     (property "Reference" "R27" (id 0) (at 97.79 78.1049 90)
@@ -1375,7 +1375,7 @@
     (pin "2" (uuid 806caf3f-cf82-4e36-b478-008287f8eba8))
   )
 
-  (symbol (lib_id "C1812X474K2RACAUTO:C1812X474K2RACAUTO") (at 81.28 115.57 0)
+  (symbol (lib_id "C1812X474K2RACAUTO:C1812X474K2RACAUTO") (at 81.28 115.57 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7a336878-0547-4f9d-a882-6eb436f463f5)
     (property "Reference" "C15" (id 0) (at 85.09 113.03 0))
@@ -1407,7 +1407,7 @@
     (pin "2" (uuid 5670fe98-38e3-4056-ab5a-8878648815a6))
   )
 
-  (symbol (lib_id "CKC18C103JDGACAUTO:CKC18C103JDGACAUTO") (at 125.73 74.93 0)
+  (symbol (lib_id "CKC18C103JDGACAUTO:CKC18C103JDGACAUTO") (at 125.73 74.93 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7b85cfc2-a140-4f83-9c96-9b2e0d186334)
     (property "Reference" "C19" (id 0) (at 129.54 72.39 0))
@@ -1439,7 +1439,7 @@
     (pin "2" (uuid 03dda30a-4fc5-4bd4-8e77-99df1b4f1a87))
   )
 
-  (symbol (lib_id "ERJ-PB6B3002V:ERJ-PB6B3002V") (at 113.03 114.3 90)
+  (symbol (lib_id "ERJ-PB6B3002V:ERJ-PB6B3002V") (at 113.03 114.3 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 856ecf21-f5fb-4829-88f9-b237c607d844)
     (property "Reference" "R31" (id 0) (at 107.95 110.49 90)
@@ -1473,7 +1473,7 @@
     (pin "2" (uuid 9b647f6e-2113-4a0d-9df5-686e2742d686))
   )
 
-  (symbol (lib_id "CKC18C103JDGACAUTO:CKC18C103JDGACAUTO") (at 83.82 90.17 90)
+  (symbol (lib_id "CKC18C103JDGACAUTO:CKC18C103JDGACAUTO") (at 83.82 90.17 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8d94ddfe-a346-4198-adff-20fbc5555675)
     (property "Reference" "C16" (id 0) (at 80.01 86.36 90))
@@ -1505,7 +1505,7 @@
     (pin "2" (uuid d14805e8-6573-40e7-83a2-74efca4c93b9))
   )
 
-  (symbol (lib_id "C1210C822K2RACAUTO:C1210C822K2RACAUTO") (at 105.41 74.93 270)
+  (symbol (lib_id "C1210C822K2RACAUTO:C1210C822K2RACAUTO") (at 105.41 74.93 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 92235173-c545-4a79-b864-68070da44352)
     (property "Reference" "C18" (id 0) (at 109.22 77.47 90))
@@ -1537,7 +1537,7 @@
     (pin "2" (uuid 54324c7d-3354-4abb-8409-7dbcf4f50721))
   )
 
-  (symbol (lib_id "CRMA1210AF10K0DKEF:CRMA1210AF10K0DKEF") (at 200.66 109.22 90)
+  (symbol (lib_id "CRMA1210AF10K0DKEF:CRMA1210AF10K0DKEF") (at 200.66 109.22 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 92f7e812-a798-4afe-bb43-2d28fb51f68c)
     (property "Reference" "R32" (id 0) (at 203.2 104.14 0))
@@ -1569,7 +1569,7 @@
     (pin "2" (uuid d44e6f25-e982-41b2-88ee-918d618421fd))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 125.73 90.17 0)
+  (symbol (lib_id "Connector:TestPoint") (at 125.73 90.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9b659183-8698-4d90-a21e-e10be393a6cd)
     (property "Reference" "TP15" (id 0) (at 127 86.36 0)
@@ -1587,7 +1587,7 @@
     (pin "1" (uuid d9a15b89-4e23-4c12-ba66-548567574370))
   )
 
-  (symbol (lib_id "CRMA1210AF10K0DKEF:CRMA1210AF10K0DKEF") (at 212.09 95.25 90)
+  (symbol (lib_id "CRMA1210AF10K0DKEF:CRMA1210AF10K0DKEF") (at 212.09 95.25 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9bbf2c9e-286c-418f-8d6a-5cf49b5a4f84)
     (property "Reference" "R33" (id 0) (at 214.63 90.17 0))
@@ -1619,7 +1619,7 @@
     (pin "2" (uuid 4539873e-ba41-4b61-919d-b34e4bce60b3))
   )
 
-  (symbol (lib_id "CKC18C103JDGACAUTO:CKC18C103JDGACAUTO") (at 83.82 92.71 90) (mirror x)
+  (symbol (lib_id "CKC18C103JDGACAUTO:CKC18C103JDGACAUTO") (at 83.82 92.71 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ab1a5663-9213-4a75-a8c9-084005a99667)
     (property "Reference" "C17" (id 0) (at 80.01 95.25 90))
@@ -1651,7 +1651,7 @@
     (pin "2" (uuid b41b2888-b1cd-428f-80f1-dd9a0f781887))
   )
 
-  (symbol (lib_id "DRV8824QPWPRQ1:DRV8824QPWPRQ1") (at 137.16 74.93 0)
+  (symbol (lib_id "DRV8824QPWPRQ1:DRV8824QPWPRQ1") (at 137.16 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ab925756-3c3b-42b7-ba26-49879a7a1cb1)
     (property "Reference" "IC3" (id 0) (at 153.67 67.31 0))
@@ -1722,7 +1722,7 @@
     (pin "9" (uuid 2bdb4940-87df-4746-b51c-f3e2fc3c3b2b))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 135.89 85.09 180)
+  (symbol (lib_id "Connector:TestPoint") (at 135.89 85.09 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid aebc4a66-5b08-4f08-9230-2fa01566be28)
     (property "Reference" "TP17" (id 0) (at 134.62 88.9 0)
@@ -1740,7 +1740,7 @@
     (pin "1" (uuid 560955c6-f3d7-4cff-a29b-84e461ff8a24))
   )
 
-  (symbol (lib_id "CRMA1210AF10K0DKEF:CRMA1210AF10K0DKEF") (at 101.6 105.41 0)
+  (symbol (lib_id "CRMA1210AF10K0DKEF:CRMA1210AF10K0DKEF") (at 101.6 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b77aff6d-c003-4c81-9ae3-9f58f671eff1)
     (property "Reference" "R28" (id 0) (at 106.68 107.95 0))
@@ -1772,7 +1772,7 @@
     (pin "2" (uuid 6901e714-cf87-4671-b520-1b7b88a09bb8))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 135.89 97.79 0)
+  (symbol (lib_id "Connector:TestPoint") (at 135.89 97.79 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f2f5d8cb-8f55-4713-9b84-2a923139ab85)
     (property "Reference" "TP18" (id 0) (at 132.08 93.98 0)
@@ -1790,7 +1790,7 @@
     (pin "1" (uuid 86de123c-5723-4dd6-a27b-036a3138290e))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 180.6702 92.71 0)
+  (symbol (lib_id "Connector:TestPoint") (at 180.6702 92.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f6589ebc-9d24-42f8-9684-08f1f0d5d06f)
     (property "Reference" "TP19" (id 0) (at 175.26 91.44 0)
@@ -1808,7 +1808,7 @@
     (pin "1" (uuid be10b43f-25a2-4360-a77c-4ba09a84ef20))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 125.73 92.71 180)
+  (symbol (lib_id "Connector:TestPoint") (at 125.73 92.71 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fa888886-f6c5-47d1-a8ac-29b8413f74e6)
     (property "Reference" "TP16" (id 0) (at 132.08 96.52 0)
