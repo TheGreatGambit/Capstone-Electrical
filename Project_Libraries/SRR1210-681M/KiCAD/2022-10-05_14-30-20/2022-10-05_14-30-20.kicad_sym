@@ -6,7 +6,7 @@
     (property "Value" "SRR1210-681M" (id 1) (at 6.985 -5.715 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "IND_BOURNS_SRR1210" (id 2) (at 6.985 -7.239 0)
+    (property "Footprint" "SRR1210-681M:SRR1210-681M" (id 2) (at 6.985 -7.239 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR1210.pdf" (id 3) (at 0 0 0)

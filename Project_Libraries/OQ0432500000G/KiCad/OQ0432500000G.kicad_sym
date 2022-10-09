@@ -6,7 +6,7 @@
     (property "Value" "OQ0432500000G" (id 1) (at 16.51 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "RHDR4W80P0X381_1X4_1540X700X920P" (id 2) (at 16.51 2.54 0)
+    (property "Footprint" "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P" (id 2) (at 16.51 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.mouser.com/datasheet/2/18/1/Msay_ptCL4tp-1379199.pdf" (id 3) (at 16.51 0 0)
