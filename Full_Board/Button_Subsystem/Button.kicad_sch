@@ -558,7 +558,7 @@
     (uuid e6a4d495-437c-4227-8c1f-5a5dc089f8a2)
   )
 
-  (symbol (lib_id "PTS636_SL43_LFS:PTS636_SL43_LFS") (at 129.54 97.79 180) (unit 1)
+  (symbol (lib_id "PTS636_SL43_LFS:PTS636_SL43_LFS") (at 129.54 97.79 180)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 03e1005c-ac60-4cb1-ad12-39e13b4fcc1a)
     (property "Reference" "S3" (id 0) (at 118.11 87.63 0))
@@ -588,7 +588,7 @@
     (pin "2" (uuid c70e4c1b-3b9d-4fad-8c33-3e0908cd143a))
   )
 
-  (symbol (lib_id "TPD1E10B06DPYR:TPD1E10B06DPYR") (at 175.26 97.79 270) (unit 1)
+  (symbol (lib_id "TPD1E10B06DPYR:TPD1E10B06DPYR") (at 175.26 97.79 270)
     (in_bom yes) (on_board yes)
     (uuid 22550570-741c-4d3f-9ed7-f8a8912853c8)
     (property "Reference" "D4" (id 0) (at 179.07 106.68 90)
@@ -622,7 +622,7 @@
     (pin "2" (uuid e95b2f77-770e-4355-b7b0-6100b0fd7a55))
   )
 
-  (symbol (lib_id "C1210C822K2RACAUTO:C1210C822K2RACAUTO") (at 153.67 106.68 90) (unit 1)
+  (symbol (lib_id "C1210C822K2RACAUTO:C1210C822K2RACAUTO") (at 153.67 106.68 90)
     (in_bom yes) (on_board yes)
     (uuid 6dc65fb4-51e5-48e1-88f8-b0a67a7ae30a)
     (property "Reference" "C20" (id 0) (at 148.59 102.87 90)
@@ -656,7 +656,7 @@
     (pin "2" (uuid dac1c4a2-0081-4574-8ed0-8996cdeae663))
   )
 
-  (symbol (lib_id "CRMA1210AF10K0DKEF:CRMA1210AF10K0DKEF") (at 153.67 81.28 90) (unit 1)
+  (symbol (lib_id "CRMA1210AF10K0DKEF:CRMA1210AF10K0DKEF") (at 153.67 81.28 90)
     (in_bom yes) (on_board yes)
     (uuid 7e64675b-c3d2-4ad1-a0cc-0e82608d50a2)
     (property "Reference" "R29" (id 0) (at 148.59 74.93 90)
@@ -690,7 +690,7 @@
     (pin "2" (uuid bfbaf253-584d-43e7-bb90-7a77277d937e))
   )
 
-  (symbol (lib_id "RCV2512100KFKEGAT:RCV2512100KFKEGAT") (at 162.56 95.25 0) (unit 1)
+  (symbol (lib_id "RCV2512100KFKEGAT:RCV2512100KFKEGAT") (at 162.56 95.25 0)
     (in_bom yes) (on_board yes)
     (uuid 9f140c2b-32c1-4952-9063-05a6a7e409ee)
     (property "Reference" "R30" (id 0) (at 167.64 91.44 0))
@@ -722,7 +722,7 @@
     (pin "2" (uuid 4bcc9b82-155d-47e5-8b3a-05610041f1fc))
   )
 
-  (symbol (lib_id "CR0402-FX-5620GLF:CR0402-FX-5620GLF") (at 139.7 95.25 0) (unit 1)
+  (symbol (lib_id "CR0402-FX-5620GLF:CR0402-FX-5620GLF") (at 139.7 95.25 0)
     (in_bom yes) (on_board yes)
     (uuid ec300815-d2f8-4921-b392-1d7301ac9161)
     (property "Reference" "R28" (id 0) (at 144.78 91.44 0))
