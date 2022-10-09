@@ -2110,11 +2110,11 @@
     (path "/ce2025d5-91d2-4bf2-b416-f2c0e85d8356" (page "8"))
     (path "/369b5ae9-4af3-455b-8453-a585234168a6" (page "11"))
     (path "/eed9ac13-0553-4be8-a87c-cf15a0799b3e" (page "12"))
-    (path "/0decb850-c73f-4a21-ac88-d022f064034a" (page "13"))
     (path "/e841011a-0d76-447f-b141-73da960fe0e4" (page "13"))
     (path "/6bee1ebb-ad97-4b5a-bd69-85886de2f795" (page "13"))
-    (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275" (page "14"))
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a" (page "13"))
     (path "/d502e42a-f07d-48a4-870f-6cc62b560384" (page "14"))
+    (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275" (page "14"))
     (path "/f059198e-ec55-48b1-bb71-d05bde55edab" (page "15"))
   )
 
@@ -2210,7 +2210,7 @@
       (reference "IC3") (unit 1) (value "DRV8824QPWPRQ1") (footprint "DRV_MOTOR_DRIVER:SOP65P640X120-28N")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/226fd98f-4580-4d25-bdf9-113de3aa2d45"
-      (reference "J1") (unit 1) (value "KLDHCX-8-0202-A") (footprint "Power_Connector_KLDHCX:KLDHCX80202A")
+      (reference "J1") (unit 1) (value "KLDHCX-8-0202-A") (footprint "KLDHCX80202A")
     )
     (path "/eed9ac13-0553-4be8-a87c-cf15a0799b3e/e6ba01e7-fe50-4df3-8c33-307516bbd642"
       (reference "J1-J1") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
@@ -2225,10 +2225,10 @@
       (reference "J8-J1") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/8e575a13-eb08-41db-b5ab-de0d50d642ba"
-      (reference "L?") (unit 1) (value "680 uH") (footprint "IND_BOURNS_SRR1210")
+      (reference "L1") (unit 1) (value "680 uH") (footprint "IND_BOURNS_SRR1210")
     )
     (path "/d502e42a-f07d-48a4-870f-6cc62b560384/a70b5319-2606-47f7-94f2-6f40fa712dec"
-      (reference "LED?") (unit 1) (value "LRTB_R48G") (footprint "LED_RGB_LRT:LRTB-R48G")
+      (reference "LED1") (unit 1) (value "LRTB_R48G") (footprint "LED_RGB_LRT:LRTB-R48G")
     )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/667748b5-6438-4f82-988b-c4cce03550e8"
       (reference "R1") (unit 1) (value "TNPV08051M00BEEA") (footprint "Resistor_CRMA:RESC3225X74N")
@@ -2271,6 +2271,15 @@
     )
     (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/9bbf2c9e-286c-418f-8d6a-5cf49b5a4f84"
       (reference "R14") (unit 1) (value "CRMA1210AF10K0DKEF") (footprint "Resistor_CRMA:RESC3225X74N")
+    )
+    (path "/d502e42a-f07d-48a4-870f-6cc62b560384/2eba2a94-7163-48d0-b08f-de4fa22a3d1e"
+      (reference "R15") (unit 1) (value "260") (footprint "RESC2012X65N")
+    )
+    (path "/d502e42a-f07d-48a4-870f-6cc62b560384/4a8e2f5d-b7ea-415c-9776-17c93a84c492"
+      (reference "R16") (unit 1) (value "562") (footprint "RESC1005X40N")
+    )
+    (path "/d502e42a-f07d-48a4-870f-6cc62b560384/c3ef1bd2-84a9-4d34-9561-944686b80c76"
+      (reference "R17") (unit 1) (value "562") (footprint "RESC1005X40N")
     )
     (path "/633acf2e-cb30-4033-99e2-4d89cfa67ef2/ec300815-d2f8-4921-b392-1d7301ac9161"
       (reference "R18") (unit 1) (value "CR0402-FX-5620GLF") (footprint "Resistor_Chip_CR0402-FX-5620GLF:RESC1005X40N")
@@ -2319,15 +2328,6 @@
     )
     (path "/e841011a-0d76-447f-b141-73da960fe0e4/9f140c2b-32c1-4952-9063-05a6a7e409ee"
       (reference "R33") (unit 1) (value "RCV2512100KFKEGAT") (footprint "")
-    )
-    (path "/d502e42a-f07d-48a4-870f-6cc62b560384/2eba2a94-7163-48d0-b08f-de4fa22a3d1e"
-      (reference "R?") (unit 1) (value "260") (footprint "RESC2012X65N")
-    )
-    (path "/d502e42a-f07d-48a4-870f-6cc62b560384/4a8e2f5d-b7ea-415c-9776-17c93a84c492"
-      (reference "R?") (unit 1) (value "562") (footprint "RESC1005X40N")
-    )
-    (path "/d502e42a-f07d-48a4-870f-6cc62b560384/c3ef1bd2-84a9-4d34-9561-944686b80c76"
-      (reference "R?") (unit 1) (value "562") (footprint "RESC1005X40N")
     )
     (path "/633acf2e-cb30-4033-99e2-4d89cfa67ef2/03e1005c-ac60-4cb1-ad12-39e13b4fcc1a"
       (reference "S1") (unit 1) (value "PTS636_SL43_LFS") (footprint "")
