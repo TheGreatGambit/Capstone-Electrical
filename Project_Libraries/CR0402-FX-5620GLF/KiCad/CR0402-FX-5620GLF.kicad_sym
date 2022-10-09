@@ -6,7 +6,7 @@
     (property "Value" "CR0402-FX-5620GLF" (id 1) (at 13.97 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "RESC1005X40N" (id 2) (at 13.97 1.27 0)
+    (property "Footprint" "CR0402-FX-5620GLF:RESC1005X40N" (id 2) (at 13.97 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CR0402-FX-5620GLF.pdf" (id 3) (at 13.97 -1.27 0)

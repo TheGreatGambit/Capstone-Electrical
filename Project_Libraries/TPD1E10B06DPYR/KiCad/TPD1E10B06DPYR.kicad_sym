@@ -6,7 +6,7 @@
     (property "Value" "TPD1E10B06DPYR" (id 1) (at 12.7 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "TPD1E10B06DPYR" (id 2) (at 12.7 3.81 0)
+    (property "Footprint" "TPD1E10B06DPYR:TPD1E10B06DPYR" (id 2) (at 12.7 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1664782336823&ref_url=https%253A%252F%252Feu.mouser.com%252F" (id 3) (at 12.7 1.27 0)

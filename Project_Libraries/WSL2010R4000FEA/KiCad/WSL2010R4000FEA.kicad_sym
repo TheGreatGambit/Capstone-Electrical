@@ -6,7 +6,7 @@
     (property "Value" "WSL2010R4000FEA" (id 1) (at 13.97 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "RESC5025X88N" (id 2) (at 13.97 1.27 0)
+    (property "Footprint" "WSL2010R4000FEA:RESC5025X88N" (id 2) (at 13.97 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 13.97 -1.27 0)

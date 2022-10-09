@@ -6,7 +6,7 @@
     (property "Value" "C1210C822K2RACAUTO" (id 1) (at 8.89 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "CAPC3225X88N" (id 2) (at 8.89 1.27 0)
+    (property "Footprint" "C1210C822K2RACAUTO:CAPC3225X88N" (id 2) (at 8.89 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" (id 3) (at 8.89 -1.27 0)

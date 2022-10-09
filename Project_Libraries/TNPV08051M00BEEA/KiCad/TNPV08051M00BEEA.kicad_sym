@@ -6,7 +6,7 @@
     (property "Value" "TNPV08051M00BEEA" (id 1) (at 13.97 3.81 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "TNPV0805180KBEEA" (id 2) (at 13.97 1.27 0)
+    (property "Footprint" "TNPV08051M00BEEA:TNPV0805180KBEEA" (id 2) (at 13.97 1.27 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.vishay.com/docs/28881/tnpve3.pdf" (id 3) (at 13.97 -1.27 0)
