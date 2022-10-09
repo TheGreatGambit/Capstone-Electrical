@@ -6,7 +6,7 @@
     (property "Value" "PTS636_SL43_LFS" (id 1) (at 19.05 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "PTS636SL43LFS" (id 2) (at 19.05 2.54 0)
+    (property "Footprint" "PTS636_SL43_LFS:PTS636SL43LFS" (id 2) (at 19.05 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PTS636 SL43 LFS.pdf" (id 3) (at 19.05 0 0)

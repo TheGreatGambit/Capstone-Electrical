@@ -2330,13 +2330,13 @@
       (reference "R33") (unit 1) (value "RCV2512100KFKEGAT") (footprint "")
     )
     (path "/633acf2e-cb30-4033-99e2-4d89cfa67ef2/03e1005c-ac60-4cb1-ad12-39e13b4fcc1a"
-      (reference "S1") (unit 1) (value "PTS636_SL43_LFS") (footprint "")
+      (reference "S1") (unit 1) (value "PTS636_SL43_LFS") (footprint "PTS636_SL43_LFS:PTS636SL43LFS")
     )
     (path "/c2f302c5-c68a-44e0-84f5-58094c026476/03e1005c-ac60-4cb1-ad12-39e13b4fcc1a"
-      (reference "S2") (unit 1) (value "PTS636_SL43_LFS") (footprint "")
+      (reference "S2") (unit 1) (value "PTS636_SL43_LFS") (footprint "PTS636_SL43_LFS:PTS636SL43LFS")
     )
     (path "/e841011a-0d76-447f-b141-73da960fe0e4/03e1005c-ac60-4cb1-ad12-39e13b4fcc1a"
-      (reference "S3") (unit 1) (value "PTS636_SL43_LFS") (footprint "")
+      (reference "S3") (unit 1) (value "PTS636_SL43_LFS") (footprint "PTS636_SL43_LFS:PTS636SL43LFS")
     )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/9b659183-8698-4d90-a21e-e10be393a6cd"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose")
