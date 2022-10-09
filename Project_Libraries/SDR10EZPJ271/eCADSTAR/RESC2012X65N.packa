@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SDR10EZPJ271"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-27-15:01:11)
+    (mountForm default
+        (footprintRef "RESC2012X65N")
+        (spec "System")
+    )
+)

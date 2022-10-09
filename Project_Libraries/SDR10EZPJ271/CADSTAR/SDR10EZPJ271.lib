@@ -1,0 +1,16 @@
+.SDR10EZPJ271 :1 ;Thick Film Resistors - SMD
+RESC2012X65N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN SDR10EZPJ271
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (SDR10EZPJ271)
+~!Link Datasheet (https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/sdr-e.pdf)
+~!Height (0.65mm)
+~!3D_Model (SDR10EZPJ271)
+SDR10EZPJ271
+1.1!U 2.1!U 

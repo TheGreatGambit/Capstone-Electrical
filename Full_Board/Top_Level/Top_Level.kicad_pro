@@ -424,8 +424,8 @@
       "StepperDriver3"
     ],
     [
-      "f95d199a-bbfb-408b-b62d-3e5ca4dfa395",
-      "LED2"
+      "f355d1b6-bee3-4968-acb9-caad2ec6238b",
+      "PiConnector1"
     ],
     [
       "a5b3d784-747e-4724-9de6-cf9f647fa0b8",
@@ -470,6 +470,10 @@
     [
       "d502e42a-f07d-48a4-870f-6cc62b560384",
       "LED1"
+    ],
+    [
+      "f059198e-ec55-48b1-bb71-d05bde55edab",
+      "Electromagnet1"
     ]
   ],
   "text_variables": {}

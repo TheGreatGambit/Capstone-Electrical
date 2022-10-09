@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SDR10EZPJ271
+D Thick Film Resistors - SMD
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/sdr-e.pdf
+$ENDCMP
+#
+#End Doc Library
