@@ -19,4 +19,5 @@
   (lib (name "OQ0212500000G")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/OQ0212500000G/KiCad/OQ0212500000G.kicad_sym")(options "")(descr ""))
   (lib (name "SDR10EZPJ271")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/SDR10EZPJ271/KiCad/SDR10EZPJ271.kicad_sym")(options "")(descr ""))
   (lib (name "LM2576SX-3.3-NOPB")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/LM2576SX-3.3-NOPB/KiCAD/2022-10-04_20-56-27/LM2576SX-3.3-NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "SSQ-110-03-T-D")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/SSQ-110-03-T-D/KiCAD/2022-10-09_23-41-57/2022-10-09_23-41-57.kicad_sym")(options "")(descr ""))
 )

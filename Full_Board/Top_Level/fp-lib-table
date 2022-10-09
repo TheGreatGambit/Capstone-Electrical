@@ -19,4 +19,5 @@
   (lib (name "TPS5403DR")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/TPS5403DR/KiCAD/2022-10-04_01-51-30/footprints.pretty")(options "")(descr ""))
   (lib (name "WSL2010R4000FEA")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/WSL2010R4000FEA/KiCad")(options "")(descr ""))
   (lib (name "LM2576SX-3.3-NOPB")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/LM2576SX-3.3-NOPB/KiCAD/2022-10-04_20-56-27/footprints.pretty")(options "")(descr ""))
+  (lib (name "SSQ-110-03-T-D")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/SSQ-110-03-T-D/KiCAD/2022-10-09_23-41-57/footprints.pretty")(options "")(descr ""))
 )

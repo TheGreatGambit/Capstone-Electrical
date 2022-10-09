@@ -463,7 +463,6 @@
     )
   )
 
-
   (junction (at 95.25 80.01) (diameter 0) (color 0 0 0 0)
     (uuid 0131a345-a3cb-4636-a92f-a9079f35d716)
   )
@@ -759,9 +758,9 @@
   (symbol (lib_id "KLDHCX-8-0202-A:KLDHCX-8-0202-A") (at 86.36 82.55 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 226fd98f-4580-4d25-bdf9-113de3aa2d45)
-    (property "Reference" "J6" (id 0) (at 76.2 73.66 0))
+    (property "Reference" "J7" (id 0) (at 76.2 73.66 0))
     (property "Value" "KLDHCX-8-0202-A" (id 1) (at 76.2 76.2 0))
-    (property "Footprint" "KLDHCX80202A" (id 2) (at 69.85 85.09 0)
+    (property "Footprint" "KLDHCX-8-0202-A:KLDHCX80202A" (id 2) (at 69.85 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Kycon%20PDFs/KLDHCX-8-0202-x.pdf" (id 3) (at 69.85 82.55 0)
@@ -1013,7 +1012,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 171.45 102.87 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ed81c189-85f8-47ee-b42e-361e1d71f12d)
-    (property "Reference" "D5" (id 0) (at 173.0376 105.41 90)
+    (property "Reference" "D7" (id 0) (at 173.0376 105.41 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "31DQ04" (id 1) (at 170.4976 105.41 90)
