@@ -506,7 +506,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 0cf6c54c-0a7c-4606-9241-7bfbfbc40c3f)
-    (at 208.119176 88.865417)
+    (at 211.256571 89.588982)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -603,7 +603,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 12064f4e-0a98-404f-9eb4-1ed61b353210)
-    (at 207.854604 112.096548)
+    (at 207.854604 128.430331)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -806,7 +806,7 @@
 
   (footprint "PTS636_SL43_LFS:PTS636SL43LFS" (layer "F.Cu")
     (tedit 0) (tstamp 1c120930-df43-4ebf-a1bd-d83aa4366540)
-    (at 153.89 177.105)
+    (at 231.108668 101.173726 90)
     (descr "PTS636 SL43 LFS-2")
     (tags "Switch")
     (property "Digikey Part Number" "CKN12301-ND")
@@ -818,15 +818,15 @@
     (property "Sheetname" "Button1")
     (path "/e841011a-0d76-447f-b141-73da960fe0e4/03e1005c-ac60-4cb1-ad12-39e13b4fcc1a")
     (attr through_hole)
-    (fp_text reference "S3" (at 2.75 0) (layer "F.SilkS")
+    (fp_text reference "S3" (at 2.75 0 90) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 98707bc0-4992-49c8-acdc-b3a67e55454e)
     )
-    (fp_text value "PTS636_SL43_LFS" (at 2.75 0) (layer "F.SilkS") hide
+    (fp_text value "PTS636_SL43_LFS" (at 2.75 0 90) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 83a596f4-abef-40a2-8912-f9ea26c605f8)
     )
-    (fp_text user "${REFERENCE}" (at 2.75 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 2.75 0 90) (layer "F.Fab")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp b8e933be-6e41-4be9-b055-0e7a5bccf51d)
     )
@@ -852,9 +852,9 @@
     (fp_line (start 0.2 -1.75) (end 0.2 1.75) (layer "F.Fab") (width 0.2) (tstamp 2a1fb3ca-9e01-40de-8de8-ed8d6f0e2baa))
     (fp_line (start 6.2 -1.75) (end 0.2 -1.75) (layer "F.Fab") (width 0.2) (tstamp 4b5a804a-92b6-48ad-aa47-2333bdb46729))
     (fp_line (start 0.2 1.75) (end 6.2 1.75) (layer "F.Fab") (width 0.2) (tstamp 7d2884d2-4228-49e5-add8-3ed2f81b9544))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle locked (at 0 0 90) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "COM") (pintype "passive") (tstamp f3d666d1-48ce-4061-82b0-275cd53f982d))
-    (pad "2" thru_hole circle locked (at 6.4 0) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle locked (at 6.4 0 90) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask)
       (net 115 "Net-(R36-Pad1)") (pinfunction "NO") (pintype "passive") (tstamp 255fd2a3-de04-464b-b768-8828ac92fb83))
     (model "PTS636_SL43_LFS.stp"
       (offset (xyz 0 0 0))
@@ -1040,7 +1040,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 22387478-b3e9-4e04-a5dc-a813547f109d)
-    (at 207.69254 97.46451 180)
+    (at 207.69254 113.798293 180)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -1293,7 +1293,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp 2cb34364-a018-4fb2-bf18-d0f973a5dec4)
-    (at 215.9 101.6 180)
+    (at 215.9 117.933783 180)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -1498,7 +1498,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp 325571a0-6ae0-4041-907e-fe3ba16fc818)
-    (at 206.9503 108.07043 180)
+    (at 206.9503 124.404213 180)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
@@ -1590,7 +1590,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp 3614d522-3ca2-4c5c-957c-5f3fe04e57fb)
-    (at 218.44 88.9)
+    (at 220.085348 85.088594 180)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -1622,9 +1622,9 @@
     (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 8d7efde0-f593-414e-b3d3-92980522b4e0))
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp cdd775d1-4988-40fa-8a58-827e22c7bfc9))
     (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp ecd4260e-ff4b-419e-a2b1-80bfd7f3c601))
-    (pad "1" smd rect locked (at -0.55 0 90) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at -0.55 0 270) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 113 "Net-(R20-Pad1)") (pintype "passive") (tstamp c12d093a-d0be-426a-966e-182b94eb79bd))
-    (pad "2" smd rect locked (at 0.55 0 90) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 0.55 0 270) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "Net-(C12-Pad2)") (pintype "passive") (tstamp cc3f2c92-a84c-4455-b099-64607eed9a20))
     (model "CR0402-FX-5620GLF.stp"
       (offset (xyz 0 0 0))
@@ -1635,7 +1635,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp 363701b5-77f7-4b76-a6f3-5ff0edffea0e)
-    (at 139.935 182.44)
+    (at 215.830834 76.524083)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -1940,7 +1940,7 @@
 
   (footprint "PTS636_SL43_LFS:PTS636SL43LFS" (layer "F.Cu")
     (tedit 0) (tstamp 41f03dc7-1bc8-4c4d-99a3-2bad30a10441)
-    (at 230.435131 82.726217 -90)
+    (at 231.057286 83.510513 -90)
     (descr "PTS636 SL43 LFS-2")
     (tags "Switch")
     (property "Digikey Part Number" "CKN12301-ND")
@@ -2047,7 +2047,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp 44231301-9d3d-4deb-aadd-e165a51bf03c)
-    (at 161.925 182.44)
+    (at 215.077325 101.300845)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -2347,7 +2347,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp 506d5e42-ded1-4020-bb2b-e573985a59c2)
-    (at 132.95 182.88)
+    (at 211.412685 72.236204 180)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
@@ -2380,9 +2380,9 @@
     (fp_line (start 3.15 1.575) (end -3.15 1.575) (layer "F.Fab") (width 0.1) (tstamp 163203e6-624f-483d-864a-b96961c0a83a))
     (fp_line (start -3.15 1.575) (end -3.15 -1.575) (layer "F.Fab") (width 0.1) (tstamp 93620cab-7cfb-4833-80ff-006b2ec9268d))
     (fp_line (start -3.15 -1.575) (end 3.15 -1.575) (layer "F.Fab") (width 0.1) (tstamp a9880501-1aaf-43ea-836c-361e647a2d9b))
-    (pad "1" smd rect locked (at -3 0) (size 1.25 3.35) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at -3 0 180) (size 1.25 3.35) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 13 "Net-(C13-Pad2)") (pintype "passive") (tstamp 13875d77-0492-4289-b7f1-3ed41c1fa594))
-    (pad "2" smd rect locked (at 3 0) (size 1.25 3.35) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 3 0 180) (size 1.25 3.35) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 20 "HOME_OUT") (pintype "passive") (tstamp 46ba7f64-a2f6-45b2-98ee-df05fc262e65))
     (model "RCV2512100KFKEGAT.stp"
       (offset (xyz 0 0 0))
@@ -2393,7 +2393,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 5224708b-c063-4736-8223-1685816118b8)
-    (at 131.35 187.48)
+    (at 220.966316 76.449295)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -2439,7 +2439,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 536e7514-a52e-4546-8bc8-f67c6370ac11)
-    (at 166.49 175.655)
+    (at 210.667611 101.325775)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -2541,7 +2541,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 55d379ba-a5a2-4a40-98f6-c252db74036e)
-    (at 206.413097 120.926239)
+    (at 206.413097 137.260022)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -2675,7 +2675,7 @@
 
   (footprint "PTS636_SL43_LFS:PTS636SL43LFS" (layer "F.Cu")
     (tedit 0) (tstamp 59d5d645-b9c1-4f66-9433-35582e08b2f7)
-    (at 131.9 177.105)
+    (at 231.057286 76.82161 90)
     (descr "PTS636 SL43 LFS-2")
     (tags "Switch")
     (property "Digikey Part Number" "CKN12301-ND")
@@ -2687,15 +2687,15 @@
     (property "Sheetname" "Button3")
     (path "/c2f302c5-c68a-44e0-84f5-58094c026476/03e1005c-ac60-4cb1-ad12-39e13b4fcc1a")
     (attr through_hole)
-    (fp_text reference "S2" (at 2.75 0) (layer "F.SilkS")
+    (fp_text reference "S2" (at 2.75 0 90) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp c6b26ff2-352b-4b38-a6c3-fafacfe14c46)
     )
-    (fp_text value "PTS636_SL43_LFS" (at 2.75 0) (layer "F.SilkS") hide
+    (fp_text value "PTS636_SL43_LFS" (at 2.75 0 90) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 406410df-35dd-4c50-b8eb-9f6b6e2521a0)
     )
-    (fp_text user "${REFERENCE}" (at 2.75 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 2.75 0 90) (layer "F.Fab")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 13ebb78f-1b8e-4a45-ba5a-d8bda6a33543)
     )
@@ -2721,9 +2721,9 @@
     (fp_line (start 6.2 1.75) (end 6.2 -1.75) (layer "F.Fab") (width 0.2) (tstamp 96e9e983-b4c6-42fe-b5ac-8cc527f850fa))
     (fp_line (start 6.2 -1.75) (end 0.2 -1.75) (layer "F.Fab") (width 0.2) (tstamp 9a75c4fc-dc6c-41f3-95d5-02d05a6b57c9))
     (fp_line (start 0.2 1.75) (end 6.2 1.75) (layer "F.Fab") (width 0.2) (tstamp 9d0c9257-e666-42ee-bd61-d34397030184))
-    (pad "1" thru_hole circle locked (at 0 0) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle locked (at 0 0 90) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "COM") (pintype "passive") (tstamp e3f5e563-7558-44a0-92fe-81074e445e02))
-    (pad "2" thru_hole circle locked (at 6.4 0) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle locked (at 6.4 0 90) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask)
       (net 114 "Net-(R23-Pad1)") (pinfunction "NO") (pintype "passive") (tstamp 222a339b-7607-4997-b161-61c96a81b574))
     (model "PTS636_SL43_LFS.stp"
       (offset (xyz 0 0 0))
@@ -2856,7 +2856,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 60e43830-ae6d-4ba2-a2a3-a4e898bbd6ac)
-    (at 222.88564 98.810704)
+    (at 223.158147 110.829781)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -2907,7 +2907,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp 625727ae-b493-424c-aaa0-b8ffea60feb4)
-    (at 216.869439 121.057119 180)
+    (at 216.869439 137.390902 180)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -2998,7 +2998,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 65c9cb9d-4827-479d-935a-8d0329ef7391)
-    (at 144.5 175.655)
+    (at 209.399017 76.499154 180)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -3036,9 +3036,9 @@
     (fp_line (start 0.5 -0.3) (end -0.5 -0.3) (layer "F.Fab") (width 0.2) (tstamp 9521fdb9-1ba2-44f1-8c7b-73e0f7a4a055))
     (fp_line (start -0.5 -0.3) (end -0.5 0.3) (layer "F.Fab") (width 0.2) (tstamp c6f81383-023d-4ebb-9a50-de21ed474601))
     (fp_line (start -0.5 0.3) (end 0.5 0.3) (layer "F.Fab") (width 0.2) (tstamp f9ce7128-1c64-4017-804f-57781c62b7b5))
-    (pad "1" smd rect locked (at -0.5 0 90) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at -0.5 0 270) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 20 "HOME_OUT") (pintype "passive") (tstamp 0bd45043-c2d6-4614-b3bb-7b1d535f1edc))
-    (pad "2" smd rect locked (at 0.5 0 90) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 0.5 0 270) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 1475af3c-4bd5-4a2f-ae83-aef96ccdd3b0))
     (model "TPD1E10B06DPYR.stp"
       (offset (xyz 0 0 0.04999999999))
@@ -3049,7 +3049,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp 6631bdc6-98ba-47fa-a8ba-dd1ad9875b46)
-    (at 208.867062 92.717028 180)
+    (at 211.480045 85.129713 180)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
@@ -3197,7 +3197,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp 6f1db8ee-66d4-415d-b111-7aeada2c09e0)
-    (at 215.31254 97.46451)
+    (at 215.31254 113.798293)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
@@ -3358,7 +3358,7 @@
 
   (footprint "OQ0212500000G:OQ0212500000G" (layer "F.Cu")
     (tedit 0) (tstamp 76fd6689-29c9-4531-baa4-0c52e2eb2dc1)
-    (at 229.69568 119.636136 -90)
+    (at 229.69568 133.296136 -90)
     (descr "OQ0212500000G-1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 2P 3.50MM HDR STR PLUGGABLE TERM BLK")
@@ -3522,7 +3522,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp 825a827c-c8b9-439e-9cba-1b3c70d25e69)
-    (at 164.44 178.58)
+    (at 220.08816 96.476982 180)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -3554,9 +3554,9 @@
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 9067dfd6-1e90-4a90-808a-bcc8e8ff923a))
     (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 9d15f78b-e589-45f8-9f0c-fcc4461eca2d))
     (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp dfa40388-8464-4ab6-88bb-a7653518742e))
-    (pad "1" smd rect locked (at -0.55 0 90) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at -0.55 0 270) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 115 "Net-(R36-Pad1)") (pintype "passive") (tstamp 0be31965-c201-491f-826f-60f05291e61e))
-    (pad "2" smd rect locked (at 0.55 0 90) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 0.55 0 270) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 79 "Net-(C22-Pad2)") (pintype "passive") (tstamp 07e0198a-3800-4a45-9426-74b9813f366a))
     (model "CR0402-FX-5620GLF.stp"
       (offset (xyz 0 0 0))
@@ -3704,7 +3704,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp 8db021d5-af0b-4a5f-af33-e12b44708011)
-    (at 220.98 111.76 180)
+    (at 220.98 128.093783 180)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -3983,7 +3983,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 90dc90ab-abd3-4f32-8c52-4446c0e2de80)
-    (at 214.81 116.84 180)
+    (at 214.81 133.173783 180)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -4029,7 +4029,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 9348fa2a-f9e9-4734-90e0-3c1b923e1327)
-    (at 216.981622 92.829211)
+    (at 221.232106 89.326613)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -4075,7 +4075,7 @@
 
   (footprint "OQ0212500000G:OQ0212500000G" (layer "F.Cu")
     (tedit 0) (tstamp 96b7256e-67ce-46dd-9b4a-24a9ce4930db)
-    (at 231.14 99.06 90)
+    (at 229.636707 110.156684 -90)
     (descr "OQ0212500000G-1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 2P 3.50MM HDR STR PLUGGABLE TERM BLK")
@@ -4115,9 +4115,9 @@
     (fp_line (start 5.95 -4.4) (end 5.95 2.8) (layer "F.Fab") (width 0.2) (tstamp 4f2e314c-1b58-49cb-918b-b18c0dbd056c))
     (fp_line (start -2.45 -4.4) (end 5.95 -4.4) (layer "F.Fab") (width 0.2) (tstamp b5d838f4-2578-43fe-8eed-18c01054d6e0))
     (fp_line (start -2.45 2.8) (end -2.45 -4.4) (layer "F.Fab") (width 0.2) (tstamp d623cfbd-129d-4e29-acd2-17d9e73c8fe2))
-    (pad "1" thru_hole circle locked (at 0 0 90) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle locked (at 0 0 270) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "1") (pintype "passive") (tstamp 1ec58af7-5499-4ae9-9866-d92caaec5b6d))
-    (pad "2" thru_hole circle locked (at 3.5 0 90) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle locked (at 3.5 0 270) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask)
       (net 106 "Net-(J5-Pad2)") (pinfunction "2") (pintype "passive") (tstamp f820c319-c07b-4227-ae18-764b921347f1))
     (model "OQ0212500000G.stp"
       (offset (xyz 0 0 0))
@@ -4290,7 +4290,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp a4c6326e-70ec-4ff0-9ce4-edac77f9e0b3)
-    (at 222.586486 95.453528)
+    (at 222.271598 114.026993)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -4427,7 +4427,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp a85cc011-646f-41c5-9634-c2f52fd63ea0)
-    (at 154.94 182.88)
+    (at 211.28 96.52 180)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
@@ -4460,9 +4460,9 @@
     (fp_line (start -3.15 1.575) (end -3.15 -1.575) (layer "F.Fab") (width 0.1) (tstamp 08d6e4dc-1665-444a-9ae3-c8f2cef5d0c2))
     (fp_line (start -3.15 -1.575) (end 3.15 -1.575) (layer "F.Fab") (width 0.1) (tstamp 22e5d941-84af-43e1-bc66-f0b78aff80cc))
     (fp_line (start 3.15 -1.575) (end 3.15 1.575) (layer "F.Fab") (width 0.1) (tstamp cb5a0d35-4653-4f53-8256-06bac8b24797))
-    (pad "1" smd rect locked (at -3 0) (size 1.25 3.35) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at -3 0 180) (size 1.25 3.35) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 79 "Net-(C22-Pad2)") (pintype "passive") (tstamp 055f6511-cc05-4ea8-b50a-040c8733528b))
-    (pad "2" smd rect locked (at 3 0) (size 1.25 3.35) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 3 0 180) (size 1.25 3.35) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 22 "START_OUT") (pintype "passive") (tstamp d8cef650-b41b-4a4a-be87-e7dde9bc8c86))
     (model "RCV2512100KFKEGAT.stp"
       (offset (xyz 0 0 0))
@@ -4510,7 +4510,7 @@
 
   (footprint "OQ0212500000G:OQ0212500000G" (layer "F.Cu")
     (tedit 0) (tstamp ae051c77-7a9c-449e-b289-d53b5dac0f4f)
-    (at 229.521783 107.905576 -90)
+    (at 229.521783 121.565576 -90)
     (descr "OQ0212500000G-1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 2P 3.50MM HDR STR PLUGGABLE TERM BLK")
@@ -4604,7 +4604,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp b3900448-cc6e-4196-8926-870ccc03cef3)
-    (at 213.36 111.76)
+    (at 213.36 128.093783)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -5064,7 +5064,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp c2444d3f-d904-4543-ad75-50c0a5fd5f65)
-    (at 207.245976 103.514559 180)
+    (at 208.860467 117.813165 180)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -5310,7 +5310,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp ca9d6cb7-f861-4bfa-8e94-4d3419869453)
-    (at 153.34 187.48)
+    (at 220.312526 101.300845)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -5721,7 +5721,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp db9990fe-41d2-4240-90d7-535f54a330a3)
-    (at 213.055222 88.828023)
+    (at 215.968251 89.420708)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -5815,7 +5815,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp dfb9f212-9168-408c-8c30-7b6bc7f7453d)
-    (at 211.349143 121.150605)
+    (at 211.349143 137.484388)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -6089,7 +6089,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp ef00ec5a-1061-46f2-9374-8b755db6d247)
-    (at 142.45 178.58)
+    (at 219.420686 72.186346 180)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -6121,9 +6121,9 @@
     (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp 6a835931-ab30-4977-ac15-98ceddccb154))
     (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 8cea3429-0330-4f62-8ec1-7d2ee6931ecf))
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 9df6b3f0-f50e-4a30-802a-d7e78562881e))
-    (pad "1" smd rect locked (at -0.55 0 90) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at -0.55 0 270) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 114 "Net-(R23-Pad1)") (pintype "passive") (tstamp c1e5dc47-038d-4a13-892b-1a8adec489e8))
-    (pad "2" smd rect locked (at 0.55 0 90) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 0.55 0 270) (size 0.6 0.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 13 "Net-(C13-Pad2)") (pintype "passive") (tstamp 2469f233-534e-4a8f-802a-23df6bc9e49d))
     (model "CR0402-FX-5620GLF.stp"
       (offset (xyz 0 0 0))
@@ -6191,7 +6191,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp f03b1c26-8edf-41ea-abf9-43ab0d7ad182)
-    (at 206.91792 117.05593 180)
+    (at 206.91792 133.389713 180)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
