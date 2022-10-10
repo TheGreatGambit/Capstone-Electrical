@@ -355,7 +355,7 @@
 
   (footprint "LM2576SX-3.3-NOPB:LM2576SX-3.3-NOPB" (layer "F.Cu")
     (tedit 0) (tstamp 0ba74374-7673-4d8f-aafd-594e6512f37c)
-    (at 29.6527 29.3116)
+    (at 159.593067 28.192631)
     (property "Digikey Part Number" "LM2576SX-3.3/NOPBCT-ND")
     (property "Digikey link" "https://www.digikey.com/en/products/detail/texas-instruments/LM2576SX-3-3-NOPB/366792")
     (property "Manufacturer's Part Number" "LM2576SX-3.3/NOPB")
@@ -693,7 +693,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 17f66714-0439-4276-99ab-60bd40342ee3)
-    (at 122.04092 115.245682)
+    (at 139.716078 109.94062)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -1385,7 +1385,7 @@
 
   (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" (layer "F.Cu")
     (tedit 5AE50CD5) (tstamp 2dbafdf3-a4b8-4d3b-aa3f-94a7d85d4842)
-    (at 23.3497 45.8656)
+    (at 137.344159 58.404114 180)
     (descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.5*5.2mm^2, , http://www.diodes.com/_files/packages/DO-201AD.pdf")
     (tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/smc-diode-solutions/31DQ04/12142289")
@@ -1439,9 +1439,9 @@
     (fp_line (start 4.295 -2.6) (end 4.295 2.6) (layer "F.Fab") (width 0.1) (tstamp 9fbf32c3-d5ca-4ad9-b014-7bbfe6a5f91d))
     (fp_line (start 0 0) (end 2.87 0) (layer "F.Fab") (width 0.1) (tstamp b9fcb6b4-0cca-4683-8054-8b70ebb00fbb))
     (fp_line (start 4.395 -2.6) (end 4.395 2.6) (layer "F.Fab") (width 0.1) (tstamp c0ac7656-33fc-4892-a938-69f699ff64a3))
-    (pad "1" thru_hole rect (at 0 0) (size 3.2 3.2) (drill 1.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 3.2 3.2) (drill 1.6) (layers *.Cu *.Mask)
       (net 105 "Net-(D7-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 4242b72c-cb9b-45d2-be7d-f80acbcfbaf7))
-    (pad "2" thru_hole oval (at 15.24 0) (size 3.2 3.2) (drill 1.6) (layers *.Cu *.Mask)
+    (pad "2" thru_hole oval (at 15.24 0 180) (size 3.2 3.2) (drill 1.6) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "A") (pintype "passive") (tstamp c1bbd2d2-a3f3-40da-ae2c-345fa7ae2135))
     (model "${KICAD6_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-201AD_P15.24mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -1738,7 +1738,7 @@
 
   (footprint "Capacitor_SMD:CP_Elec_3x5.3" (layer "F.Cu")
     (tedit 5B303299) (tstamp 3e44fa6f-5b49-470a-b8af-5d952d48e5e8)
-    (at 24.3497 51.6656)
+    (at 121.025348 32.89254 180)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860020573008/5727177")
@@ -1791,9 +1791,9 @@
     (fp_line (start -0.825 1.65) (end 1.65 1.65) (layer "F.Fab") (width 0.1) (tstamp d22cd1e7-cd4f-48d9-b528-172bc2df1b69))
     (fp_line (start 1.65 -1.65) (end 1.65 1.65) (layer "F.Fab") (width 0.1) (tstamp ea961697-c224-4d01-9515-6a247b0e1872))
     (fp_circle (center 0 0) (end 1.5 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 97163e7d-4791-4352-b3e0-917f86d46e77))
-    (pad "1" smd rect (at -1.5 0) (size 2.2 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect (at -1.5 0 180) (size 2.2 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "+24V") (pintype "passive") (tstamp 566a455a-a0b2-4089-bab5-7accf9ba029d))
-    (pad "2" smd rect (at 1.5 0) (size 2.2 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect (at 1.5 0 180) (size 2.2 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 047f5e58-e947-47af-ad0f-b45f9f4937c7))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_3x5.3.wrl"
       (offset (xyz 0 0 0))
@@ -2227,7 +2227,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 47612e04-a158-4a3f-a9e2-7216a901d0e1)
-    (at 121.92 84.54132)
+    (at 139.595158 79.236258)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -2264,7 +2264,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 4a47ac12-25e4-4d39-9bfc-7bf76a1ea8ec)
-    (at 122.024842 109.445062)
+    (at 139.7 104.14)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -2638,7 +2638,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 56d01e81-078e-4e67-afcb-b790d4f55e2d)
-    (at 76.2997 23.2856)
+    (at 123.009073 26.333896)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Power_Subsystem/PowerSupply.kicad_sch")
@@ -2649,11 +2649,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b9f6c789-a29c-4ffe-b4fe-bae20ba9d27e)
     )
-    (fp_text value "~" (at 0 2.75) (layer "F.Fab")
+    (fp_text value "~" (at 0 2.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp adb815a2-cdb9-4d67-84e3-952df7ec415a)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 0.6 0.6) (thickness 0.09)))
       (tstamp 755cb3a9-a764-418d-9a7c-94b519b35003)
     )
@@ -2734,7 +2734,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 5d15cf84-abfe-4dc1-ba2d-557465b5cdfd)
-    (at 121.92 121.92)
+    (at 139.595158 116.614938)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -3095,7 +3095,7 @@
 
   (footprint "SRR1210-681M:SRR1210-681M" (layer "F.Cu")
     (tedit 0) (tstamp 675237e1-93c0-49bc-87a8-f49e479763f8)
-    (at 48.26 33.02)
+    (at 139.7 48.26)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/bourns-inc/SRR1210-681M/2562365")
     (property "Digikey Part Number" "SRR1210-681MCT-ND")
     (property "Manufacturers Part Number" "SRR1210-681M")
@@ -3112,27 +3112,27 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6ba1f2ce-e2d5-4273-98e1-dd629ae1cbd7)
     )
-    (fp_text user "*" (at 0 0) (layer "F.SilkS")
+    (fp_text user "*" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a3d5a295-310e-457a-86ad-2289cdfda6be)
     )
-    (fp_text user "0.507in/12.878mm" (at 0 9.2964) (layer "Cmts.User")
+    (fp_text user "0.507in/12.878mm" (at 0 9.2964) (layer "Cmts.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 46022b46-53be-4108-80bb-6497886c8f46)
     )
-    (fp_text user "0.287in/7.29mm" (at 0 -9.2964) (layer "Cmts.User")
+    (fp_text user "0.287in/7.29mm" (at 0 -9.2964) (layer "Cmts.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4b3c76aa-1d88-4827-bffc-e1f8eb231c52)
     )
-    (fp_text user "0.209in/5.309mm" (at 5.7023 0) (layer "Cmts.User")
+    (fp_text user "0.209in/5.309mm" (at 5.7023 0) (layer "Cmts.User") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8c7a2522-3f57-4028-a189-4fffedf1c4ee)
     )
-    (fp_text user "Copyright 2021 Accelerated Designs. All rights reserved." (at 0 0) (layer "Cmts.User")
+    (fp_text user "Copyright 2021 Accelerated Designs. All rights reserved." (at 0 0) (layer "Cmts.User") hide
       (effects (font (size 0.127 0.127) (thickness 0.002)))
       (tstamp cdb77e00-7a1a-4b34-b509-ade126ec162f)
     )
-    (fp_text user "*" (at 0 0) (layer "F.Fab")
+    (fp_text user "*" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d4d0a7e1-ed20-4d03-9e2a-de230d6146ef)
     )
@@ -3411,7 +3411,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 78dcaf7d-de2d-42d3-a8ae-508577dd0dfd)
-    (at 162.56 33.02)
+    (at 177.8 43.18)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -3448,7 +3448,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 797719ef-2d40-47aa-bf36-6cd9a010762b)
-    (at 121.994787 103.524222)
+    (at 139.669945 98.21916)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -3613,7 +3613,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp 86f2284a-c52f-4dca-9430-9878e1f2c3fe)
-    (at 140.612606 115.795772)
+    (at 142.307814 129.925065)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -3749,7 +3749,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (layer "F.Cu")
     (tedit 5AE50EF1) (tstamp 8f196435-f70a-4da4-88dc-ed329b8eeceb)
-    (at 45.72 48.26)
+    (at 127.200045 45.53113 180)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor")
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/cornell-dubilier-electronics-cde/SEK331M050ST/1627188")
@@ -3970,9 +3970,9 @@
     (fp_line (start -1.288861 -2.6875) (end -1.288861 -1.6875) (layer "F.Fab") (width 0.1) (tstamp 148e7210-2e2b-462b-af93-37f80a710b3b))
     (fp_line (start -1.788861 -2.1875) (end -0.788861 -2.1875) (layer "F.Fab") (width 0.1) (tstamp 66a47e73-f2af-4d86-9b0e-d9498f907cfa))
     (fp_circle (center 2.5 0) (end 7.5 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp b1682739-8fb3-4d47-b3ef-457ca6310624))
-    (pad "1" thru_hole rect (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
+    (pad "1" thru_hole rect (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 17 "+3.3V") (pintype "passive") (tstamp dfb301d3-0670-4069-83ff-6d666dafc07d))
-    (pad "2" thru_hole circle (at 5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at 5 0 180) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 1 "GND") (pintype "passive") (tstamp 078cc33e-c966-4959-9f81-96137fd73a67))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl"
       (offset (xyz 0 0 0))
@@ -4128,7 +4128,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 973b95ec-f2fc-434e-98d3-169718963d3d)
-    (at 142.24 57.235)
+    (at 144.700572 58.908937)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -4139,11 +4139,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dfbd3e8f-95db-4808-87e8-336d7f2610b6)
     )
-    (fp_text value "TestPoint" (at 0 2.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 2.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e110660b-1ec4-434a-9790-70bf504736df)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 0.6 0.6) (thickness 0.09)))
       (tstamp e41486c1-5094-4203-b904-124253aa67fd)
     )
@@ -4165,7 +4165,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 9b381417-de52-495e-9615-7f781e273b42)
-    (at 182.88 33.02)
+    (at 198.12 43.18)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -4473,7 +4473,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp a8869997-c238-43cf-a489-a3ab03afecb5)
-    (at 30.2497 51.7656)
+    (at 128.225576 26.418034)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Power_Subsystem/PowerSupply.kicad_sch")
@@ -4563,7 +4563,7 @@
 
   (footprint "LRTB_R48G:LRTB-R48G" (layer "F.Cu")
     (tedit 0) (tstamp b1c8ff9b-3df2-4b04-abfe-6a9fb5f3acc9)
-    (at 140.422822 117.88704)
+    (at 142.11803 132.016333)
     (descr "LRTB-R48G")
     (tags "LED")
     (property "Digikey Part Number" "475-3483-1-ND")
@@ -4742,7 +4742,7 @@
 
   (footprint "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P" (layer "F.Cu")
     (tedit 0) (tstamp b90339fd-1e32-4b73-9371-54c5088f3846)
-    (at 115 117.085 90)
+    (at 132.675158 111.779938 90)
     (descr "OQ0432500000G1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 4P 3.81MM HDR STR PLUGGABLE TERM BLK")
@@ -4799,7 +4799,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp ba381667-a8bf-4a84-8aea-52e821af2dca)
-    (at 170.18 33.02)
+    (at 185.42 43.18)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -4836,7 +4836,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp bcf60f78-7ce8-4575-abf8-f319e327fb53)
-    (at 121.845212 90.447483)
+    (at 139.52037 85.142421)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -4873,14 +4873,14 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp bd16fff3-2c60-479d-a17e-4d28f44a0e51)
-    (at 35.2997 51.7656)
+    (at 118.402125 26.366628)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Power_Subsystem/PowerSupply.kicad_sch")
     (property "Sheetname" "PowerSupply1")
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/4254629d-5025-4fa7-bce7-820d59c81b8c")
     (attr through_hole)
-    (fp_text reference "TP24" (at 0 -2.75) (layer "F.SilkS")
+    (fp_text reference "TP24" (at -0.026148 -2.914857) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2841996d-5e43-489a-8e6d-5c7b9d8cb235)
     )
@@ -5356,7 +5356,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp cd831110-ca01-4bdc-8879-2e753091f242)
-    (at 121.92 78.74)
+    (at 139.595158 73.434938)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -5529,7 +5529,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp d4a82675-fb78-480e-a74e-b02555260033)
-    (at 140.544792 120.490707)
+    (at 142.24 134.62)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -5574,7 +5574,7 @@
 
   (footprint "KLDHCX-8-0202-A:KLDHCX80202A" (layer "F.Cu")
     (tedit 0) (tstamp d9868129-f8d6-4f39-9863-40b17f7f41f5)
-    (at 69.0247 28.9786)
+    (at 139.668228 26.064114 90)
     (descr "KLDHCX-8-0202-A-1")
     (tags "Connector")
     (property "Description" "CONN PWR JACK 2.1X5.5MM SOLDER")
@@ -5591,15 +5591,15 @@
     (property "Sheetname" "PowerSupply1")
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/226fd98f-4580-4d25-bdf9-113de3aa2d45")
     (attr through_hole)
-    (fp_text reference "J7" (at -4.4 0) (layer "F.SilkS")
+    (fp_text reference "J7" (at -4.4 0 90) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 8fb2dc2f-7300-48ab-93db-164da3c003f0)
     )
-    (fp_text value "KLDHCX-8-0202-A" (at -4.4 0) (layer "F.SilkS") hide
+    (fp_text value "KLDHCX-8-0202-A" (at -4.4 0 90) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp b909915b-9b4e-45ca-932e-5b5712b4e54e)
     )
-    (fp_text user "${REFERENCE}" (at -4.4 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -4.4 0 90) (layer "F.Fab")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp 917cb09a-4a4d-44f5-a172-6687088be768)
     )
@@ -5618,14 +5618,14 @@
     (fp_line (start 1 -5) (end 1 5) (layer "F.Fab") (width 0.2) (tstamp 8b786d5c-283d-44e6-a716-4483c3d6e6c0))
     (fp_line (start 1 5) (end -12 5) (layer "F.Fab") (width 0.2) (tstamp 9d4ec990-273c-4892-94c1-1612e69a6ccb))
     (fp_line (start -12 -5) (end 1 -5) (layer "F.Fab") (width 0.2) (tstamp d31b330d-dc43-40d6-86c4-40c004dbb66f))
-    (pad "" np_thru_hole circle locked (at -9 0) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp cfe80470-ee3d-4993-b6bc-26070346b468))
-    (pad "1" thru_hole circle locked (at 0 0) (size 5.04 5.04) (drill 3.36) (layers *.Cu *.Mask)
+    (pad "" np_thru_hole circle locked (at -9 0 90) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp cfe80470-ee3d-4993-b6bc-26070346b468))
+    (pad "1" thru_hole circle locked (at 0 0 90) (size 5.04 5.04) (drill 3.36) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "1") (pintype "passive") (tstamp f0ca6919-a011-422f-ac4c-0f08274f9b14))
-    (pad "2" thru_hole circle locked (at -6 0) (size 4.065 4.065) (drill 2.71) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle locked (at -6 0 90) (size 4.065 4.065) (drill 2.71) (layers *.Cu *.Mask)
       (net 3 "+24V") (pinfunction "2") (pintype "passive") (tstamp 63184bac-b7dd-42bf-a23c-dd7180639805))
-    (pad "3" thru_hole circle locked (at -7 4.5) (size 4.335 4.335) (drill 2.89) (layers *.Cu *.Mask)
+    (pad "3" thru_hole circle locked (at -7 4.5 90) (size 4.335 4.335) (drill 2.89) (layers *.Cu *.Mask)
       (net 110 "unconnected-(J7-Pad3)") (pinfunction "3") (pintype "passive+no_connect") (tstamp 2f135498-7276-4bff-93fc-20515896a48a))
-    (pad "4" thru_hole circle locked (at -7 -4.5) (size 4.335 4.335) (drill 2.89) (layers *.Cu *.Mask)
+    (pad "4" thru_hole circle locked (at -7 -4.5 90) (size 4.335 4.335) (drill 2.89) (layers *.Cu *.Mask)
       (net 111 "unconnected-(J7-Pad4)") (pinfunction "4") (pintype "passive+no_connect") (tstamp f6ce6ce8-7d1d-4042-ad79-116933419507))
     (model "KLDHCX-8-0202-A.stp"
       (offset (xyz 0 0 0))
@@ -5861,7 +5861,7 @@
 
   (footprint "SDR10EZPJ271:RESC2012X65N" (layer "F.Cu")
     (tedit 0) (tstamp e0c3f9bc-d739-459f-a52f-1349262b3420)
-    (at 144.07232 117.924434)
+    (at 145.767528 132.053727)
     (descr "SDR10")
     (tags "Resistor")
     (property "Digikey Part Number" "511-SDR10EZPJ271CT-ND")
@@ -5907,7 +5907,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp e5f99f5e-06c4-4bcd-911b-175c28527e94)
-    (at 175.26 33.02)
+    (at 190.5 43.18)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -5944,7 +5944,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp eabc0a7a-5086-480f-b61b-d79676171a95)
-    (at 121.92 96.52)
+    (at 139.595158 91.214938)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -6134,7 +6134,7 @@
 
   (footprint "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P" (layer "F.Cu")
     (tedit 0) (tstamp ef190602-7651-429b-8662-91d4e5599698)
-    (at 169.935 26.1)
+    (at 185.175 36.26)
     (descr "OQ0432500000G1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 4P 3.81MM HDR STR PLUGGABLE TERM BLK")
@@ -6237,7 +6237,7 @@
 
   (footprint "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P" (layer "F.Cu")
     (tedit 0) (tstamp f67867ce-bccd-4570-8f82-911bfd664b3c)
-    (at 115 94.225 90)
+    (at 132.675158 88.919938 90)
     (descr "OQ0432500000G1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 4P 3.81MM HDR STR PLUGGABLE TERM BLK")
@@ -6423,7 +6423,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp f7d7e9a0-65e8-4b35-9328-1f94e2105fd0)
-    (at 57.9997 39.7156)
+    (at 128.311611 33.022811)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Power_Subsystem/PowerSupply.kicad_sch")
@@ -6434,11 +6434,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ad02fb94-5721-43aa-a9fc-f168ac65176c)
     )
-    (fp_text value "TestPoint" (at 0 2.75) (layer "F.Fab")
+    (fp_text value "TestPoint" (at 0 2.75) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2e116a8a-7f54-4944-aefb-c2ea4e67b8ac)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 0.6 0.6) (thickness 0.09)))
       (tstamp 072b70b2-fa96-4fa0-bc95-a92a51613330)
     )
