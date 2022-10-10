@@ -44,6 +44,7 @@
 
   (setup
     (pad_to_mask_clearance 0)
+    (grid_origin 190.5 53.34)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -213,10 +214,15 @@
   (net 131 "Net-(R20-Pad1)")
   (net 132 "Net-(R23-Pad1)")
   (net 133 "Net-(R36-Pad1)")
+  (net 134 "/MSP432E401Y/PF_1")
+  (net 135 "/MSP432E401Y/PF_2")
+  (net 136 "/MSP432E401Y/PF_3")
+  (net 137 "/MSP432E401Y/PG_0")
+  (net 138 "/MSP432E401Y/PL_4")
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp 04752667-dbce-44cd-b82c-5870bcbdbd97)
-    (at 184.92 61.01)
+    (at 23.215 88.735)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -262,7 +268,7 @@
 
   (footprint "CKC18C103JDGACAUTO:CAPC4732X220N" (layer "F.Cu")
     (tedit 0) (tstamp 072adf4a-0efa-48e9-8fbf-6fd94f3aabb6)
-    (at 172.605 67.89)
+    (at 10.9 95.615)
     (descr "1812_(H=2mm)")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-CKC18C103JDGACAUTOCT-ND")
@@ -308,7 +314,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp 0affc2e5-69aa-4e00-9932-cef0754c0a99)
-    (at 137.1 95.75)
+    (at -42.71 102.125)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -354,7 +360,7 @@
 
   (footprint "LM2576SX-3.3-NOPB:LM2576SX-3.3-NOPB" (layer "F.Cu")
     (tedit 0) (tstamp 0ba74374-7673-4d8f-aafd-594e6512f37c)
-    (at 121.833 25.736)
+    (at -39.872 53.461)
     (property "Digikey Part Number" "LM2576SX-3.3/NOPBCT-ND")
     (property "Digikey link" "https://www.digikey.com/en/products/detail/texas-instruments/LM2576SX-3-3-NOPB/366792")
     (property "Manufacturer's Part Number" "LM2576SX-3.3/NOPB")
@@ -505,7 +511,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 0cf6c54c-0a7c-4606-9241-7bfbfbc40c3f)
-    (at 276.695 19.035)
+    (at 114.99 46.76)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -556,7 +562,7 @@
 
   (footprint "C1812X474K2RACAUTO:C1812_FT" (layer "F.Cu")
     (tedit 0) (tstamp 10bc70cc-0ef0-42a6-9c2d-b68c4f948fd1)
-    (at 165.1 68.58)
+    (at 3.395 96.305)
     (descr "C1812_FT")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1812X474K2RACAUTOCT-ND")
@@ -602,7 +608,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 12064f4e-0a98-404f-9eb4-1ed61b353210)
-    (at 242.335 43.785)
+    (at 80.63 71.51)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -653,7 +659,7 @@
 
   (footprint "WSL2010R4000FEA:RESC5025X88N" (layer "F.Cu")
     (tedit 0) (tstamp 17dc4cd8-e185-4fa7-89eb-91f7d9c5ca67)
-    (at 116.5887 108.342)
+    (at -63.2213 114.717)
     (descr "RESC5025X88N")
     (tags "Resistor")
     (property "Digikey Part Number" "WSLE-.40CT-ND")
@@ -692,7 +698,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 17f66714-0439-4276-99ab-60bd40342ee3)
-    (at 184.11 65.9)
+    (at 22.405 93.625)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -729,7 +735,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 1981ba4b-21bb-4b51-abe2-b27620c5ff1b)
-    (at 191.62 56.63)
+    (at 29.915 84.355)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -766,7 +772,7 @@
 
   (footprint "WSL2010R4000FEA:RESC5025X88N" (layer "F.Cu")
     (tedit 0) (tstamp 19d698d7-732f-45fa-84e9-900369748ad9)
-    (at 188.7987 19.082)
+    (at 218.0437 18.442)
     (descr "RESC5025X88N")
     (tags "Resistor")
     (property "Digikey Part Number" "WSLE-.40CT-ND")
@@ -805,7 +811,7 @@
 
   (footprint "PTS636_SL43_LFS:PTS636SL43LFS" (layer "F.Cu")
     (tedit 0) (tstamp 1c120930-df43-4ebf-a1bd-d83aa4366540)
-    (at 228.915 72.085)
+    (at 67.21 99.81)
     (descr "PTS636 SL43 LFS-2")
     (tags "Switch")
     (property "Digikey Part Number" "CKN12301-ND")
@@ -864,7 +870,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 1d443ae4-5434-4169-99ec-915648117208)
-    (at 178.785 65.5)
+    (at 17.08 93.225)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -910,7 +916,7 @@
 
   (footprint "ERJ-PB6B3002V:RESC2012X70N" (layer "F.Cu")
     (tedit 0) (tstamp 1d69858d-9f57-435a-9a64-50527c67cbff)
-    (at 163.225 76.97)
+    (at 1.52 104.695)
     (descr "ERJ-PB6B3002V")
     (tags "Resistor")
     (property "Digikey Part Number" "P20760CT-ND")
@@ -956,7 +962,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 207fed6e-69db-41d7-8ecc-581960935b53)
-    (at 142.21 96.42)
+    (at -37.6 102.795)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -993,7 +999,7 @@
 
   (footprint "CKC18C103JDGACAUTO:CAPC4732X220N" (layer "F.Cu")
     (tedit 0) (tstamp 21ca7bdb-8a06-4578-be92-d0da37eeddf2)
-    (at 180.115 56.54)
+    (at 18.41 84.265)
     (descr "1812_(H=2mm)")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-CKC18C103JDGACAUTOCT-ND")
@@ -1039,7 +1045,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 22387478-b3e9-4e04-a5dc-a813547f109d)
-    (at 180.545 99.35)
+    (at 18.84 127.075)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -1085,7 +1091,7 @@
 
   (footprint "CKC18C103JDGACAUTO:CAPC4732X220N" (layer "F.Cu")
     (tedit 0) (tstamp 2616f482-c55e-4c70-9944-6cc83bb06ef0)
-    (at 173.255 60.33)
+    (at 11.55 88.055)
     (descr "1812_(H=2mm)")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-CKC18C103JDGACAUTOCT-ND")
@@ -1131,7 +1137,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 28ecc047-3c1d-45ef-b533-c08f8bcd0159)
-    (at 143.8 91.37)
+    (at -36.01 97.745)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -1168,7 +1174,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 5A19A427) (tstamp 29c6d947-6624-4f22-8b5d-fa9c94e5ea6e)
-    (at 69.87 21.62)
+    (at 196.87 49.56)
     (descr "Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x10 2.54mm double row")
     (property "Sheetfile" "../MSP_Subsystem/MSP432E401Y.kicad_sch")
@@ -1205,45 +1211,45 @@
     (fp_line (start -3.81 24.13) (end -3.81 -1.27) (layer "F.Fab") (width 0.1) (tstamp a3d50b17-f7c0-42f9-83e6-98e036a7cbd0))
     (fp_line (start 1.27 24.13) (end -3.81 24.13) (layer "F.Fab") (width 0.1) (tstamp c50bef0b-0f66-49bd-9f8c-20812e715604))
     (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 62 "X_DIR") (pinfunction "Pin_1") (pintype "passive") (tstamp 98d6a38d-72c4-42c0-99b0-c0d4cc51dda3))
+      (net 134 "/MSP432E401Y/PF_1") (pinfunction "Pin_1") (pintype "passive") (tstamp 98d6a38d-72c4-42c0-99b0-c0d4cc51dda3))
     (pad "2" thru_hole oval (at -2.54 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp 18bf6924-fde8-4dac-990b-6c924046769c))
     (pad "3" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 64 "X_STEP") (pinfunction "Pin_3") (pintype "passive") (tstamp 18950184-7753-4c38-8a7c-57d6c8ed39df))
+      (net 135 "/MSP432E401Y/PF_2") (pinfunction "Pin_3") (pintype "passive") (tstamp 18950184-7753-4c38-8a7c-57d6c8ed39df))
     (pad "4" thru_hole oval (at -2.54 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 30 "XYZ_RESET") (pinfunction "Pin_4") (pintype "passive") (tstamp 64581aca-56d5-4d66-8bbd-6a49a7649e2c))
+      (net 66 "X_HOME") (pinfunction "Pin_4") (pintype "passive") (tstamp 64581aca-56d5-4d66-8bbd-6a49a7649e2c))
     (pad "5" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 63 "X_ENABLE") (pinfunction "Pin_5") (pintype "passive") (tstamp 3a34d396-3987-42af-a5e3-e3c0f1e99773))
+      (net 136 "/MSP432E401Y/PF_3") (pinfunction "Pin_5") (pintype "passive") (tstamp 3a34d396-3987-42af-a5e3-e3c0f1e99773))
     (pad "6" thru_hole oval (at -2.54 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 32 "XYZ_DECAY") (pinfunction "Pin_6") (pintype "passive") (tstamp cb9aa4f4-0593-4d43-96ab-4f9881e900e2))
+      (net 39 "XYZ_MS2") (pinfunction "Pin_6") (pintype "passive") (tstamp cb9aa4f4-0593-4d43-96ab-4f9881e900e2))
     (pad "7" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 66 "X_HOME") (pinfunction "Pin_7") (pintype "passive") (tstamp 402447b8-8f29-42cd-8b29-e9a2ee22cecc))
+      (net 137 "/MSP432E401Y/PG_0") (pinfunction "Pin_7") (pintype "passive") (tstamp 402447b8-8f29-42cd-8b29-e9a2ee22cecc))
     (pad "8" thru_hole oval (at -2.54 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 37 "XYZ_MS0") (pinfunction "Pin_8") (pintype "passive") (tstamp bf7aeed0-ffc3-4ab9-a740-6983dcbc8069))
+      (net 38 "XYZ_MS1") (pinfunction "Pin_8") (pintype "passive") (tstamp bf7aeed0-ffc3-4ab9-a740-6983dcbc8069))
     (pad "9" thru_hole oval (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 61 "X_FAULT") (pinfunction "Pin_9") (pintype "passive") (tstamp 92aa3200-ed49-44bd-9c77-0bb1166a2d5e))
+      (net 138 "/MSP432E401Y/PL_4") (pinfunction "Pin_9") (pintype "passive") (tstamp 92aa3200-ed49-44bd-9c77-0bb1166a2d5e))
     (pad "10" thru_hole oval (at -2.54 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 38 "XYZ_MS1") (pinfunction "Pin_10") (pintype "passive") (tstamp 32e56045-19a2-4d67-97c9-21bc43d9df96))
+      (net 37 "XYZ_MS0") (pinfunction "Pin_10") (pintype "passive") (tstamp 32e56045-19a2-4d67-97c9-21bc43d9df96))
     (pad "11" thru_hole oval (at 0 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 33 "Y_DIR") (pinfunction "Pin_11") (pintype "passive") (tstamp e592bad0-9676-4832-b896-678f448d1151))
     (pad "12" thru_hole oval (at -2.54 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 39 "XYZ_MS2") (pinfunction "Pin_12") (pintype "passive") (tstamp e9ccff96-c63c-4613-8a0b-ef6dcc5dd9eb))
+      (net 64 "X_STEP") (pinfunction "Pin_12") (pintype "passive") (tstamp e9ccff96-c63c-4613-8a0b-ef6dcc5dd9eb))
     (pad "13" thru_hole oval (at 0 15.24) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 35 "Y_STEP") (pinfunction "Pin_13") (pintype "passive") (tstamp b6b6d198-55e2-43a1-a26a-4e118383d5bf))
     (pad "14" thru_hole oval (at -2.54 15.24) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 49 "Z_DIR") (pinfunction "Pin_14") (pintype "passive") (tstamp a8965593-cffd-4542-ae13-1e64b003dbe7))
+      (net 63 "X_ENABLE") (pinfunction "Pin_14") (pintype "passive") (tstamp a8965593-cffd-4542-ae13-1e64b003dbe7))
     (pad "15" thru_hole oval (at 0 17.78) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 34 "Y_ENABLE") (pinfunction "Pin_15") (pintype "passive") (tstamp 791e1e38-0edc-4a29-bc9f-f82edd386225))
     (pad "16" thru_hole oval (at -2.54 17.78) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 51 "Z_STEP") (pinfunction "Pin_16") (pintype "passive") (tstamp e081d6eb-1c3b-4727-94ff-9e48b284ff62))
+      (net 62 "X_DIR") (pinfunction "Pin_16") (pintype "passive") (tstamp e081d6eb-1c3b-4727-94ff-9e48b284ff62))
     (pad "17" thru_hole oval (at 0 20.32) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 40 "Y_HOME") (pinfunction "Pin_17") (pintype "passive") (tstamp a86adc99-61a0-4be1-a46c-879d95f0ee24))
     (pad "18" thru_hole oval (at -2.54 20.32) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 50 "Z_ENABLE") (pinfunction "Pin_18") (pintype "passive") (tstamp aeb350d7-de01-4705-be5b-b9c2136213d7))
+      (net 32 "XYZ_DECAY") (pinfunction "Pin_18") (pintype "passive") (tstamp aeb350d7-de01-4705-be5b-b9c2136213d7))
     (pad "19" thru_hole oval (at 0 22.86) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 31 "Y_FAULT") (pinfunction "Pin_19") (pintype "passive") (tstamp 835c962d-9f97-48ab-b2dc-d7bf2f338af8))
     (pad "20" thru_hole oval (at -2.54 22.86) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 48 "Z_FAULT") (pinfunction "Pin_20") (pintype "passive") (tstamp ba9a2194-4341-4b67-b774-7f6be292c3f1))
+      (net 61 "X_FAULT") (pinfunction "Pin_20") (pintype "passive") (tstamp ba9a2194-4341-4b67-b774-7f6be292c3f1))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x10_P2.54mm_Vertical.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1253,7 +1259,7 @@
 
   (footprint "WSL2010R4000FEA:RESC5025X88N" (layer "F.Cu")
     (tedit 0) (tstamp 29f1b4ee-2064-4813-acf1-26e24d74058d)
-    (at 125.4887 90.742)
+    (at -54.3213 97.117)
     (descr "RESC5025X88N")
     (tags "Resistor")
     (property "Digikey Part Number" "WSLE-.40CT-ND")
@@ -1292,7 +1298,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp 2cb34364-a018-4fb2-bf18-d0f973a5dec4)
-    (at 191.83 87.71)
+    (at 30.125 115.435)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -1338,7 +1344,7 @@
 
   (footprint "CKC18C103JDGACAUTO:CAPC4732X220N" (layer "F.Cu")
     (tedit 0) (tstamp 2d1092fe-9d9f-4ad1-939d-7818f10c2d24)
-    (at 125.435 95.07)
+    (at -54.375 101.445)
     (descr "1812_(H=2mm)")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-CKC18C103JDGACAUTOCT-ND")
@@ -1384,7 +1390,7 @@
 
   (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" (layer "F.Cu")
     (tedit 5AE50CD5) (tstamp 2dbafdf3-a4b8-4d3b-aa3f-94a7d85d4842)
-    (at 115.53 42.29)
+    (at -46.175 70.015)
     (descr "Diode, DO-201AD series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.5*5.2mm^2, , http://www.diodes.com/_files/packages/DO-201AD.pdf")
     (tags "Diode DO-201AD series Axial Horizontal pin pitch 15.24mm  length 9.5mm diameter 5.2mm")
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/smc-diode-solutions/31DQ04/12142289")
@@ -1451,7 +1457,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 31866b88-ee33-4071-9a0b-29b9c56bd1f3)
-    (at 138.475 90.97)
+    (at -41.335 97.345)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -1497,7 +1503,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp 325571a0-6ae0-4041-907e-fe3ba16fc818)
-    (at 231.485 54.71)
+    (at 69.78 82.435)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
@@ -1543,7 +1549,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 34ef2773-154d-4e58-8eee-51664458d74a)
-    (at 201.785 19.31)
+    (at 231.03 18.67)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -1589,7 +1595,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp 3614d522-3ca2-4c5c-957c-5f3fe04e57fb)
-    (at 274.645 21.96)
+    (at 112.94 49.685)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -1634,7 +1640,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp 363701b5-77f7-4b76-a6f3-5ff0edffea0e)
-    (at 214.96 77.42)
+    (at 53.255 105.145)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -1680,7 +1686,7 @@
 
   (footprint "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P" (layer "F.Cu")
     (tedit 0) (tstamp 3bc8a03d-6ff5-48c3-8a5f-7c11388ab73a)
-    (at 222.29 22.16)
+    (at 60.585 49.885)
     (descr "OQ0432500000G1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 4P 3.81MM HDR STR PLUGGABLE TERM BLK")
@@ -1737,7 +1743,7 @@
 
   (footprint "Capacitor_SMD:CP_Elec_3x5.3" (layer "F.Cu")
     (tedit 5B303299) (tstamp 3e44fa6f-5b49-470a-b8af-5d952d48e5e8)
-    (at 116.53 48.09)
+    (at -45.175 75.815)
     (descr "SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics ")
     (tags "Capacitor Electrolytic")
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860020573008/5727177")
@@ -1803,7 +1809,7 @@
 
   (footprint "TNPV08051M00BEEA:TNPV0805180KBEEA" (layer "F.Cu")
     (tedit 0) (tstamp 412d5ecc-e3bb-4c10-97a5-9c3a4f1b86d8)
-    (at 131.665 95.915)
+    (at -48.145 102.29)
     (descr "TNPV0805180KBEEA")
     (tags "Resistor")
     (property "Digikey Part Number" "541-TNPV08051M00BEEACT-ND")
@@ -1854,7 +1860,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 5A19A427) (tstamp 4195dab8-8cc3-4485-97ee-eae202593718)
-    (at 26.69 85.12)
+    (at 153.69 113.06)
     (descr "Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x10 2.54mm double row")
     (property "Sheetfile" "../MSP_Subsystem/MSP432E401Y.kicad_sch")
@@ -1939,7 +1945,7 @@
 
   (footprint "PTS636_SL43_LFS:PTS636SL43LFS" (layer "F.Cu")
     (tedit 0) (tstamp 41f03dc7-1bc8-4c4d-99a3-2bad30a10441)
-    (at 264.095 20.485)
+    (at 102.39 48.21)
     (descr "PTS636 SL43 LFS-2")
     (tags "Switch")
     (property "Digikey Part Number" "CKN12301-ND")
@@ -1998,7 +2004,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 4236b226-6d64-4451-99c2-a4ccb2cd8b75)
-    (at 157.33 94.92)
+    (at -4.375 122.645)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "../Pi_Subsystem/PiConnector.kicad_sch")
@@ -2046,7 +2052,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp 44231301-9d3d-4deb-aadd-e165a51bf03c)
-    (at 236.95 77.42)
+    (at 75.245 105.145)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -2092,7 +2098,7 @@
 
   (footprint "ERJ-PB6B3002V:RESC2012X70N" (layer "F.Cu")
     (tedit 0) (tstamp 4468cbad-841b-4e43-aa87-4e8fa2a68780)
-    (at 178.715 40.05)
+    (at 207.96 39.41)
     (descr "ERJ-PB6B3002V")
     (tags "Resistor")
     (property "Digikey Part Number" "P20760CT-ND")
@@ -2138,7 +2144,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 447fd4bd-364c-4ef7-8dd5-da7c8ff1f9c2)
-    (at 190.03 61.68)
+    (at 28.325 89.405)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -2175,7 +2181,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 453500c4-eba3-4a87-bd8f-3c6ab02070cf)
-    (at 159.505 98.795)
+    (at -2.2 126.52)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -2226,7 +2232,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 47612e04-a158-4a3f-a9e2-7216a901d0e1)
-    (at 148.85 91.37)
+    (at -30.96 97.745)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -2263,7 +2269,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 4a47ac12-25e4-4d39-9bfc-7bf76a1ea8ec)
-    (at 196.67 56.63)
+    (at 34.965 84.355)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -2300,7 +2306,7 @@
 
   (footprint "CKC18C103JDGACAUTO:CAPC4732X220N" (layer "F.Cu")
     (tedit 0) (tstamp 4b6d7eb0-d80d-4bc8-b292-0281e6460675)
-    (at 188.095 30.97)
+    (at 217.34 30.33)
     (descr "1812_(H=2mm)")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-CKC18C103JDGACAUTOCT-ND")
@@ -2346,7 +2352,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp 506d5e42-ded1-4020-bb2b-e573985a59c2)
-    (at 207.975 77.86)
+    (at 46.27 105.585)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
@@ -2392,7 +2398,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 5224708b-c063-4736-8223-1685816118b8)
-    (at 206.375 82.46)
+    (at 44.67 110.185)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -2438,7 +2444,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 536e7514-a52e-4546-8bc8-f67c6370ac11)
-    (at 241.515 70.635)
+    (at 79.81 98.36)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -2489,7 +2495,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 539a92ef-38a7-48d5-b82a-41ab8d184eca)
-    (at 159.505 102.495)
+    (at -2.2 130.22)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -2540,7 +2546,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 55d379ba-a5a2-4a40-98f6-c252db74036e)
-    (at 218.825 46.905)
+    (at 57.12 74.63)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -2591,7 +2597,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 56a3f065-ccbc-460e-9a34-57f124425591)
-    (at 186.125 36.91)
+    (at 215.37 36.27)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -2637,7 +2643,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 56d01e81-078e-4e67-afcb-b790d4f55e2d)
-    (at 168.48 19.71)
+    (at 6.775 47.435)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Power_Subsystem/PowerSupply.kicad_sch")
@@ -2674,7 +2680,7 @@
 
   (footprint "PTS636_SL43_LFS:PTS636SL43LFS" (layer "F.Cu")
     (tedit 0) (tstamp 59d5d645-b9c1-4f66-9433-35582e08b2f7)
-    (at 206.925 72.085)
+    (at 45.22 99.81)
     (descr "PTS636 SL43 LFS-2")
     (tags "Switch")
     (property "Digikey Part Number" "CKN12301-ND")
@@ -2733,7 +2739,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 5d15cf84-abfe-4dc1-ba2d-557465b5cdfd)
-    (at 183.56 70.95)
+    (at 21.855 98.675)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -2770,7 +2776,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 5A19A427) (tstamp 5f677762-452f-462c-a2e4-14ac7a3cf69e)
-    (at 26.69 21.62)
+    (at 153.69 49.56)
     (descr "Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x10 2.54mm double row")
     (property "Sheetfile" "../MSP_Subsystem/MSP432E401Y.kicad_sch")
@@ -2855,7 +2861,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 60e43830-ae6d-4ba2-a2a3-a4e898bbd6ac)
-    (at 192.995 83.825)
+    (at 31.29 111.55)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -2906,7 +2912,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp 625727ae-b493-424c-aaa0-b8ffea60feb4)
-    (at 214.075 56.43)
+    (at 52.37 84.155)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -2951,7 +2957,7 @@
 
   (footprint "C1812X474K2RACAUTO:C1812_FT" (layer "F.Cu")
     (tedit 0) (tstamp 63e68ca2-03b0-43ec-a793-18a0baec29c7)
-    (at 180.59 31.66)
+    (at 209.835 31.02)
     (descr "C1812_FT")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1812X474K2RACAUTOCT-ND")
@@ -2997,7 +3003,7 @@
 
   (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR" (layer "F.Cu")
     (tedit 0) (tstamp 65c9cb9d-4827-479d-935a-8d0329ef7391)
-    (at 219.525 70.635)
+    (at 57.82 98.36)
     (descr "TPD1E10B06DPYR-2")
     (tags "TVS Diode (Bi-directional)")
     (property "Digikey Part Number" "296-30406-1-ND")
@@ -3048,7 +3054,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp 6631bdc6-98ba-47fa-a8ba-dd1ad9875b46)
-    (at 265.145 26.26)
+    (at 103.44 53.985)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
@@ -3094,7 +3100,7 @@
 
   (footprint "SRR1210-681M:SRR1210-681M" (layer "F.Cu")
     (tedit 0) (tstamp 675237e1-93c0-49bc-87a8-f49e479763f8)
-    (at 140.4403 29.4444)
+    (at -21.2647 57.1694)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/bourns-inc/SRR1210-681M/2562365")
     (property "Digikey Part Number" "SRR1210-681MCT-ND")
     (property "Manufacturers Part Number" "SRR1210-681M")
@@ -3196,7 +3202,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp 6f1db8ee-66d4-415d-b111-7aeada2c09e0)
-    (at 182.145 94.75)
+    (at 20.44 122.475)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
@@ -3242,7 +3248,7 @@
 
   (footprint "WSL2010R4000FEA:RESC5025X88N" (layer "F.Cu")
     (tedit 0) (tstamp 71255229-d2ac-4568-8066-f3fe3a0a56f9)
-    (at 179.8987 36.682)
+    (at 209.1437 36.042)
     (descr "RESC5025X88N")
     (tags "Resistor")
     (property "Digikey Part Number" "WSLE-.40CT-ND")
@@ -3281,7 +3287,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 73140f8e-ae63-4c62-88f8-2d588ded8190)
-    (at 207.11 19.71)
+    (at 236.355 19.07)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -3318,7 +3324,7 @@
 
   (footprint "WSL2010R4000FEA:RESC5025X88N" (layer "F.Cu")
     (tedit 0) (tstamp 767e620c-6a67-428d-b0a6-b57afb5d70c3)
-    (at 173.3087 56.002)
+    (at 11.6037 83.727)
     (descr "RESC5025X88N")
     (tags "Resistor")
     (property "Digikey Part Number" "WSLE-.40CT-ND")
@@ -3357,7 +3363,7 @@
 
   (footprint "OQ0212500000G:OQ0212500000G" (layer "F.Cu")
     (tedit 0) (tstamp 76fd6689-29c9-4531-baa4-0c52e2eb2dc1)
-    (at 207.575 51.005)
+    (at 45.87 78.73)
     (descr "OQ0212500000G-1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 2P 3.50MM HDR STR PLUGGABLE TERM BLK")
@@ -3410,7 +3416,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 78dcaf7d-de2d-42d3-a8ae-508577dd0dfd)
-    (at 199.05 34.03)
+    (at 228.295 33.39)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -3447,7 +3453,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 797719ef-2d40-47aa-bf36-6cd9a010762b)
-    (at 175.96 75.2)
+    (at 14.255 102.925)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -3484,7 +3490,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 79f481b0-cf54-4353-8104-acef70b7686d)
-    (at 178.51 70.15)
+    (at 16.805 97.875)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -3521,7 +3527,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp 825a827c-c8b9-439e-9cba-1b3c70d25e69)
-    (at 239.465 73.56)
+    (at 77.76 101.285)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -3566,7 +3572,7 @@
 
   (footprint "CKC18C103JDGACAUTO:CAPC4732X220N" (layer "F.Cu")
     (tedit 0) (tstamp 8592a716-b6ce-4b3c-8fee-39b47ead28c2)
-    (at 132.295 91.28)
+    (at -47.515 97.655)
     (descr "1812_(H=2mm)")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-CKC18C103JDGACAUTOCT-ND")
@@ -3612,7 +3618,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp 86f2284a-c52f-4dca-9430-9878e1f2c3fe)
-    (at 266.895 41.99)
+    (at 105.19 69.715)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -3657,7 +3663,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp 8ccddede-c4ac-439c-b3e9-52908cbd1364)
-    (at 200.41 24.09)
+    (at 229.655 23.45)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -3703,7 +3709,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp 8db021d5-af0b-4a5f-af33-e12b44708011)
-    (at 237.585 53.31)
+    (at 75.88 81.035)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -3748,7 +3754,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (layer "F.Cu")
     (tedit 5AE50EF1) (tstamp 8f196435-f70a-4da4-88dc-ed329b8eeceb)
-    (at 136.684646 42.24)
+    (at -25.020354 69.965)
     (descr "CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor")
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/cornell-dubilier-electronics-cde/SEK331M050ST/1627188")
@@ -3982,7 +3988,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 90dc90ab-abd3-4f32-8c52-4446c0e2de80)
-    (at 206.375 62.43)
+    (at 44.67 90.155)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -4028,7 +4034,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp 9348fa2a-f9e9-4734-90e0-3c1b923e1327)
-    (at 263.545 30.86)
+    (at 101.84 58.585)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -4074,7 +4080,7 @@
 
   (footprint "OQ0212500000G:OQ0212500000G" (layer "F.Cu")
     (tedit 0) (tstamp 96b7256e-67ce-46dd-9b4a-24a9ce4930db)
-    (at 181.745 87.925)
+    (at 20.04 115.65)
     (descr "OQ0212500000G-1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 2P 3.50MM HDR STR PLUGGABLE TERM BLK")
@@ -4127,7 +4133,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 973b95ec-f2fc-434e-98d3-169718963d3d)
-    (at 130.69 104.89)
+    (at -49.12 111.265)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -4164,7 +4170,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 9b381417-de52-495e-9615-7f781e273b42)
-    (at 191.45 38.28)
+    (at 220.695 37.64)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -4201,7 +4207,7 @@
 
   (footprint "TNPV08051M00BEEA:TNPV0805180KBEEA" (layer "F.Cu")
     (tedit 0) (tstamp 9b7bf007-d838-405a-a66d-ef2fb6ebb962)
-    (at 194.975 24.255)
+    (at 224.22 23.615)
     (descr "TNPV0805180KBEEA")
     (tags "Resistor")
     (property "Digikey Part Number" "541-TNPV08051M00BEEACT-ND")
@@ -4252,7 +4258,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 9cdda54f-6675-4e95-804c-0fb8ac6051ef)
-    (at 194 33.23)
+    (at 223.245 32.59)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -4289,7 +4295,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp a4c6326e-70ec-4ff0-9ce4-edac77f9e0b3)
-    (at 188.245 93.35)
+    (at 26.54 121.075)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -4334,7 +4340,7 @@
 
   (footprint "C1812X474K2RACAUTO:C1812_FT" (layer "F.Cu")
     (tedit 0) (tstamp a69dd656-2766-447d-9ff4-965731a01bdf)
-    (at 117.28 103.32)
+    (at -62.53 109.695)
     (descr "C1812_FT")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1812X474K2RACAUTOCT-ND")
@@ -4380,7 +4386,7 @@
 
   (footprint "CKC18C103JDGACAUTO:CAPC4732X220N" (layer "F.Cu")
     (tedit 0) (tstamp a796f912-c44c-414e-80db-88b439899fb2)
-    (at 188.745 23.41)
+    (at 217.99 22.77)
     (descr "1812_(H=2mm)")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-CKC18C103JDGACAUTOCT-ND")
@@ -4426,7 +4432,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp a85cc011-646f-41c5-9634-c2f52fd63ea0)
-    (at 229.965 77.86)
+    (at 68.26 105.585)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
@@ -4472,7 +4478,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp a8869997-c238-43cf-a489-a3ab03afecb5)
-    (at 122.43 48.19)
+    (at -39.275 75.915)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Power_Subsystem/PowerSupply.kicad_sch")
@@ -4509,7 +4515,7 @@
 
   (footprint "OQ0212500000G:OQ0212500000G" (layer "F.Cu")
     (tedit 0) (tstamp ae051c77-7a9c-449e-b289-d53b5dac0f4f)
-    (at 231.085 47.885)
+    (at 69.38 75.61)
     (descr "OQ0212500000G-1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 2P 3.50MM HDR STR PLUGGABLE TERM BLK")
@@ -4562,7 +4568,7 @@
 
   (footprint "LRTB_R48G:LRTB-R48G" (layer "F.Cu")
     (tedit 0) (tstamp b1c8ff9b-3df2-4b04-abfe-6a9fb5f3acc9)
-    (at 261.947 47.546)
+    (at 100.242 75.271)
     (descr "LRTB-R48G")
     (tags "LED")
     (property "Digikey Part Number" "475-3483-1-ND")
@@ -4603,7 +4609,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp b3900448-cc6e-4196-8926-870ccc03cef3)
-    (at 241.17 47.67)
+    (at 79.465 75.395)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -4649,7 +4655,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp b3e74d47-b680-4fa6-9007-aab6f864a507)
-    (at 130.965 100.24)
+    (at -48.845 106.615)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -4695,7 +4701,7 @@
 
   (footprint "CKC18C103JDGACAUTO:CAPC4732X220N" (layer "F.Cu")
     (tedit 0) (tstamp b714fa5e-5305-41d6-9ce9-c2a29f9772a9)
-    (at 124.785 102.63)
+    (at -55.025 109.005)
     (descr "1812_(H=2mm)")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-CKC18C103JDGACAUTOCT-ND")
@@ -4741,7 +4747,7 @@
 
   (footprint "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P" (layer "F.Cu")
     (tedit 0) (tstamp b90339fd-1e32-4b73-9371-54c5088f3846)
-    (at 239.39 30.71)
+    (at 77.685 58.435)
     (descr "OQ0432500000G1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 4P 3.81MM HDR STR PLUGGABLE TERM BLK")
@@ -4798,7 +4804,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp ba381667-a8bf-4a84-8aea-52e821af2dca)
-    (at 199.6 28.98)
+    (at 228.845 28.34)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -4835,7 +4841,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp bcf60f78-7ce8-4575-abf8-f319e327fb53)
-    (at 136.29 100.64)
+    (at -43.52 107.015)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -4872,7 +4878,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp bd16fff3-2c60-479d-a17e-4d28f44a0e51)
-    (at 127.48 48.19)
+    (at -34.225 75.915)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Power_Subsystem/PowerSupply.kicad_sch")
@@ -4909,7 +4915,7 @@
 
   (footprint "DRV8824QPWPRQ1:SOP65P640X120-28N" (layer "F.Cu")
     (tedit 0) (tstamp bd56ed62-cdfe-4808-ba75-9e57e7952548)
-    (at 117.605 94.52)
+    (at -62.205 100.895)
     (descr "tssop-28")
     (tags "Integrated Circuit")
     (property "Description" "Automotive 1.6A Bipolar Stepper Motor Driver with On-Chip 1/32 Microstepping Indexer (Step/Dir Ctrl)")
@@ -5017,7 +5023,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp c02a74ed-8ef6-446d-ba62-005929a1af16)
-    (at 170.635 73.83)
+    (at 8.93 101.555)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -5063,7 +5069,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp c2444d3f-d904-4543-ad75-50c0a5fd5f65)
-    (at 229.885 59.31)
+    (at 68.18 87.035)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -5109,7 +5115,7 @@
 
   (footprint "ERJ-PB6B3002V:RESC2012X70N" (layer "F.Cu")
     (tedit 0) (tstamp c3a24afe-4193-4460-92fa-9d9cd1ddecea)
-    (at 115.405 111.71)
+    (at -64.405 118.085)
     (descr "ERJ-PB6B3002V")
     (tags "Resistor")
     (property "Digikey Part Number" "P20760CT-ND")
@@ -5155,7 +5161,7 @@
 
   (footprint "DRV8824QPWPRQ1:SOP65P640X120-28N" (layer "F.Cu")
     (tedit 0) (tstamp c7aa57a7-f74a-4e31-bc45-9c9ce97fd3c4)
-    (at 165.425 59.78)
+    (at 3.72 87.505)
     (descr "tssop-28")
     (tags "Integrated Circuit")
     (property "Description" "Automotive 1.6A Bipolar Stepper Motor Driver with On-Chip 1/32 Microstepping Indexer (Step/Dir Ctrl)")
@@ -5263,7 +5269,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp c9339d99-4466-4acd-b21b-1c982e8bd981)
-    (at 122.815 108.57)
+    (at -56.995 114.945)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -5309,7 +5315,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp ca9d6cb7-f861-4bfa-8e94-4d3419869453)
-    (at 228.365 82.46)
+    (at 66.66 110.185)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -5355,7 +5361,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp cd831110-ca01-4bdc-8879-2e753091f242)
-    (at 128.14 109.94)
+    (at -51.67 116.315)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -5392,7 +5398,7 @@
 
   (footprint "WSL2010R4000FEA:RESC5025X88N" (layer "F.Cu")
     (tedit 0) (tstamp cfd33e29-4676-4883-80ba-9e73f2832e9c)
-    (at 164.4087 73.602)
+    (at 2.7037 101.327)
     (descr "RESC5025X88N")
     (tags "Resistor")
     (property "Digikey Part Number" "WSLE-.40CT-ND")
@@ -5431,7 +5437,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp d156c101-8828-4881-accf-f9c8efc21f10)
-    (at 186.295 56.23)
+    (at 24.59 83.955)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -5477,7 +5483,7 @@
 
   (footprint "TNPV08051M00BEEA:TNPV0805180KBEEA" (layer "F.Cu")
     (tedit 0) (tstamp d4267dca-96ea-4d27-b2b9-ab0c61b8aa2b)
-    (at 179.485 61.175)
+    (at 17.78 88.9)
     (descr "TNPV0805180KBEEA")
     (tags "Resistor")
     (property "Digikey Part Number" "541-TNPV08051M00BEEACT-ND")
@@ -5528,7 +5534,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp d4a82675-fb78-480e-a74e-b02555260033)
-    (at 262.445 44.94)
+    (at 100.74 72.665)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -5573,7 +5579,7 @@
 
   (footprint "KLDHCX-8-0202-A:KLDHCX80202A" (layer "F.Cu")
     (tedit 0) (tstamp d9868129-f8d6-4f39-9863-40b17f7f41f5)
-    (at 161.205 25.403)
+    (at -0.5 53.128)
     (descr "KLDHCX-8-0202-A-1")
     (tags "Connector")
     (property "Description" "CONN PWR JACK 2.1X5.5MM SOLDER")
@@ -5635,7 +5641,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 5A19A427) (tstamp da41d85f-2814-4fe2-b354-3c81ae53d5db)
-    (at 69.87 85.12)
+    (at 196.87 113.06)
     (descr "Through hole straight socket strip, 2x10, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x10 2.54mm double row")
     (property "Sheetfile" "../MSP_Subsystem/MSP432E401Y.kicad_sch")
@@ -5690,7 +5696,7 @@
     (pad "9" thru_hole oval (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 105 "/MSP432E401Y/PM_1") (pinfunction "Pin_9") (pintype "passive") (tstamp c2390f00-2ae9-4507-ae77-7593cbaca0e8))
     (pad "10" thru_hole oval (at -2.54 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      (net 38 "XYZ_MS1") (pinfunction "Pin_10") (pintype "passive") (tstamp 8c88e13b-34df-42b3-ba41-fb444649beb5))
+      (net 37 "XYZ_MS0") (pinfunction "Pin_10") (pintype "passive") (tstamp 8c88e13b-34df-42b3-ba41-fb444649beb5))
     (pad "11" thru_hole oval (at 0 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 106 "/MSP432E401Y/PM_2") (pinfunction "Pin_11") (pintype "passive") (tstamp d228acd0-25e1-42e1-ab0f-305edc72649c))
     (pad "12" thru_hole oval (at -2.54 12.7) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
@@ -5720,7 +5726,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp db9990fe-41d2-4240-90d7-535f54a330a3)
-    (at 272.13 25.82)
+    (at 110.425 53.545)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -5766,7 +5772,7 @@
 
   (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
     (tedit 5AE5139B) (tstamp dbc1f67e-798b-48d5-8a17-cd701a712adb)
-    (at 157.33 90.87)
+    (at -4.375 118.595)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (property "Sheetfile" "../Pi_Subsystem/PiConnector.kicad_sch")
@@ -5814,7 +5820,7 @@
 
   (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
     (tedit 0) (tstamp dfb9f212-9168-408c-8c30-7b6bc7f7453d)
-    (at 217.66 50.79)
+    (at 55.955 78.515)
     (descr "1210_(H=0.78mm)_2022")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-C1210C822K2RACAUTOCT-ND")
@@ -5860,7 +5866,7 @@
 
   (footprint "SDR10EZPJ271:RESC2012X65N" (layer "F.Cu")
     (tedit 0) (tstamp e0c3f9bc-d739-459f-a52f-1349262b3420)
-    (at 262.97 42.39)
+    (at 101.265 70.115)
     (descr "SDR10")
     (tags "Resistor")
     (property "Digikey Part Number" "511-SDR10EZPJ271CT-ND")
@@ -5906,7 +5912,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp e5f99f5e-06c4-4bcd-911b-175c28527e94)
-    (at 212.16 19.71)
+    (at 241.405 19.07)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -5943,7 +5949,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp eabc0a7a-5086-480f-b61b-d79676171a95)
-    (at 135.74 105.69)
+    (at -44.07 112.065)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -5980,7 +5986,7 @@
 
   (footprint "DRV8824QPWPRQ1:SOP65P640X120-28N" (layer "F.Cu")
     (tedit 0) (tstamp ecf16e00-0520-4eb2-8ac2-9e7358083c1a)
-    (at 180.915 22.86)
+    (at 180.34 53.34)
     (descr "tssop-28")
     (tags "Integrated Circuit")
     (property "Description" "Automotive 1.6A Bipolar Stepper Motor Driver with On-Chip 1/32 Microstepping Indexer (Step/Dir Ctrl)")
@@ -6088,7 +6094,7 @@
 
   (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
     (tedit 0) (tstamp ef00ec5a-1061-46f2-9374-8b755db6d247)
-    (at 217.475 73.56)
+    (at 55.77 101.285)
     (descr "CR0402")
     (tags "Resistor")
     (property "Digikey Part Number" "118-CR0402-FX-5620GLFCT-ND")
@@ -6133,7 +6139,7 @@
 
   (footprint "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P" (layer "F.Cu")
     (tedit 0) (tstamp ef190602-7651-429b-8662-91d4e5599698)
-    (at 239.39 22.16)
+    (at 180.095 33.72)
     (descr "OQ0432500000G1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 4P 3.81MM HDR STR PLUGGABLE TERM BLK")
@@ -6190,7 +6196,7 @@
 
   (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
     (tedit 0) (tstamp f03b1c26-8edf-41ea-abf9-43ab0d7ad182)
-    (at 207.975 57.83)
+    (at 46.27 85.555)
     (descr "2512-ren1")
     (tags "Resistor")
     (property "Digikey Part Number" "541-RCV2512100KFKEGATCT-ND")
@@ -6236,7 +6242,7 @@
 
   (footprint "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P" (layer "F.Cu")
     (tedit 0) (tstamp f67867ce-bccd-4570-8f82-911bfd664b3c)
-    (at 222.29 30.71)
+    (at 60.585 58.435)
     (descr "OQ0432500000G1")
     (tags "Connector")
     (property "Description" "Pluggable Terminal Blocks 4P 3.81MM HDR STR PLUGGABLE TERM BLK")
@@ -6293,7 +6299,7 @@
 
   (footprint "CRMA1210AF10K0DKEF:RESC3225X74N" (layer "F.Cu")
     (tedit 0) (tstamp f6817aa8-ce15-404c-848d-27fc0d9b5b41)
-    (at 194.275 28.58)
+    (at 223.52 27.94)
     (descr "CRMA1210")
     (tags "Resistor")
     (property "Digikey Part Number" "3579-CRMA1210AF10K0FKEFCT-ND")
@@ -6339,7 +6345,7 @@
 
   (footprint "CKC18C103JDGACAUTO:CAPC4732X220N" (layer "F.Cu")
     (tedit 0) (tstamp f69fdb12-73ef-42ec-bc6b-8ab104786305)
-    (at 195.605 19.62)
+    (at 224.85 18.98)
     (descr "1812_(H=2mm)")
     (tags "Capacitor")
     (property "Digikey Part Number" "399-CKC18C103JDGACAUTOCT-ND")
@@ -6385,7 +6391,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp f715cf6e-32ce-4354-b6f1-c6d875252b48)
-    (at 205.52 24.76)
+    (at 234.765 24.12)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Stepper_Subsystem/Stepper_Driver.kicad_sch")
@@ -6422,7 +6428,7 @@
 
   (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
     (tedit 5A0F774F) (tstamp f7d7e9a0-65e8-4b35-9328-1f94e2105fd0)
-    (at 150.18 36.14)
+    (at -11.525 63.865)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
     (tags "Through Hole Mount Test Points")
     (property "Sheetfile" "../Power_Subsystem/PowerSupply.kicad_sch")
@@ -6456,6 +6462,60 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (segment (start 193.885 49.115) (end 194.33 49.56) (width 0.25) (layer "F.Cu") (net 1) (tstamp 50e33011-ee9c-468d-84a8-b9616fcec443))
+  (segment (start 183.278 49.115) (end 193.885 49.115) (width 0.25) (layer "F.Cu") (net 1) (tstamp d636b69a-147d-452f-8d8f-09493ca16311))
+  (segment (start 186.594999 54.965) (end 187.509999 55.88) (width 0.25) (layer "F.Cu") (net 32) (tstamp c83a51e0-fd8a-4a2f-a5d5-bf397db4aa47))
+  (segment (start 187.509999 55.88) (end 187.509999 68.129999) (width 0.25) (layer "F.Cu") (net 32) (tstamp e8a45a65-6fbe-4ab9-b3fd-9988b1f17d53))
+  (segment (start 183.278 54.965) (end 186.594999 54.965) (width 0.25) (layer "F.Cu") (net 32) (tstamp edac25fc-0ce5-4bb2-a183-adfc236cb4a1))
+  (segment (start 187.509999 68.129999) (end 187.96 68.58) (width 0.25) (layer "F.Cu") (net 32) (tstamp f4be099e-0bd3-4f1b-a0fe-9fcc91409d92))
+  (segment (start 193.03 68.58) (end 194.33 69.88) (width 0.25) (layer "F.Cu") (net 32) (tstamp f66f44b3-84de-4f6f-94ee-4eb231bb3c45))
+  (segment (start 187.96 68.58) (end 193.03 68.58) (width 0.25) (layer "F.Cu") (net 32) (tstamp f84e2aab-52bb-4670-88bc-be5525a28d85))
+  (segment (start 189.664351 51.715) (end 190.429136 52.479785) (width 0.25) (layer "F.Cu") (net 37) (tstamp 51da13a5-5583-470c-a957-95ee14a4c9a1))
+  (segment (start 190.429136 58.612801) (end 191.536335 59.72) (width 0.25) (layer "F.Cu") (net 37) (tstamp 863a642c-4c77-40d4-be47-6bad82cecb64))
+  (segment (start 183.278 51.715) (end 189.664351 51.715) (width 0.25) (layer "F.Cu") (net 37) (tstamp acc525c2-ffca-4ecc-b762-0c518729635e))
+  (segment (start 191.536335 59.72) (end 194.33 59.72) (width 0.25) (layer "F.Cu") (net 37) (tstamp b4578071-f8ac-40df-87e6-702e5fe9967b))
+  (segment (start 190.429136 52.479785) (end 190.429136 58.612801) (width 0.25) (layer "F.Cu") (net 37) (tstamp bd1bf8dd-89dd-4e73-b83f-0079d613500c))
+  (segment (start 192.088283 57.18) (end 194.33 57.18) (width 0.25) (layer "F.Cu") (net 38) (tstamp 404ca04e-543e-4470-bfb8-092e6db7df3d))
+  (segment (start 191.328355 56.420072) (end 192.088283 57.18) (width 0.25) (layer "F.Cu") (net 38) (tstamp 5d6b09a3-ebaa-45fc-93fb-1db66ed74af9))
+  (segment (start 190.640747 51.065) (end 191.328355 51.752608) (width 0.25) (layer "F.Cu") (net 38) (tstamp 5d823e6a-8c21-4529-828e-2dfc690577c1))
+  (segment (start 191.328355 51.752608) (end 191.328355 56.420072) (width 0.25) (layer "F.Cu") (net 38) (tstamp 9d3a5758-3fda-4927-938d-d42176f5766d))
+  (segment (start 183.278 51.065) (end 190.640747 51.065) (width 0.25) (layer "F.Cu") (net 38) (tstamp f3451149-3ebf-4c4a-a144-c968f798d4a1))
+  (segment (start 191.504088 50.415) (end 192.14078 51.051692) (width 0.25) (layer "F.Cu") (net 39) (tstamp 18285dfa-a8d0-4d00-838c-121829f61ef8))
+  (segment (start 183.278 50.415) (end 191.504088 50.415) (width 0.25) (layer "F.Cu") (net 39) (tstamp 5d39c0ea-674b-48a2-a172-cfc03983ddc5))
+  (segment (start 192.14078 51.051692) (end 192.14078 54.142095) (width 0.25) (layer "F.Cu") (net 39) (tstamp cca7ae48-033c-4f84-8561-23e20bb14638))
+  (segment (start 192.638685 54.64) (end 194.33 54.64) (width 0.25) (layer "F.Cu") (net 39) (tstamp cde0176e-ee2a-405f-89fe-d6e9ce3b5ff3))
+  (segment (start 192.14078 54.142095) (end 192.638685 54.64) (width 0.25) (layer "F.Cu") (net 39) (tstamp f2064386-a10f-447c-bca5-f2c54ca88a73))
+  (segment (start 188.32803 72.43195) (end 189.076735 72.43195) (width 0.25) (layer "F.Cu") (net 61) (tstamp 187a28d4-313f-4763-aef5-c60fb1d85767))
+  (segment (start 187.053637 71.157557) (end 188.32803 72.43195) (width 0.25) (layer "F.Cu") (net 61) (tstamp 1eecb9b5-4238-4491-855a-8d4273719e63))
+  (segment (start 189.076735 72.43195) (end 189.088685 72.42) (width 0.25) (layer "F.Cu") (net 61) (tstamp 4b809907-5d0c-4ff9-854c-58da34a74a69))
+  (segment (start 189.088685 72.42) (end 194.33 72.42) (width 0.25) (layer "F.Cu") (net 61) (tstamp 85884c88-5ae4-4616-af50-7cf36bf8f55f))
+  (segment (start 186.608603 55.615) (end 187.053637 56.060034) (width 0.25) (layer "F.Cu") (net 61) (tstamp a72b270b-9340-4ac2-9129-e8641674bb78))
+  (segment (start 183.278 55.615) (end 186.608603 55.615) (width 0.25) (layer "F.Cu") (net 61) (tstamp b57d6d2a-d930-4756-95b1-7f48d0da03cf))
+  (segment (start 187.053637 56.060034) (end 187.053637 71.157557) (width 0.25) (layer "F.Cu") (net 61) (tstamp b8e6d3dd-8c23-4ec1-858b-895dc5ef5b5f))
+  (segment (start 183.278 54.315) (end 187.025873 54.315) (width 0.25) (layer "F.Cu") (net 62) (tstamp 15210cf2-06f3-4c47-aab9-611eb3574b9c))
+  (segment (start 189.071111 67.29448) (end 189.116631 67.34) (width 0.25) (layer "F.Cu") (net 62) (tstamp 5a5af607-9302-4f6f-b3de-93dee9201147))
+  (segment (start 189.116631 67.34) (end 194.33 67.34) (width 0.25) (layer "F.Cu") (net 62) (tstamp 7a530fb1-fcb2-45f9-97ae-0d5d10348ba2))
+  (segment (start 188.533476 67.29448) (end 189.071111 67.29448) (width 0.25) (layer "F.Cu") (net 62) (tstamp 7d3a2786-b77e-43a4-9465-443f1e262f4f))
+  (segment (start 187.025873 54.315) (end 187.959999 55.249126) (width 0.25) (layer "F.Cu") (net 62) (tstamp 813bc452-170e-4367-91f3-37e142b39527))
+  (segment (start 187.959999 55.249126) (end 187.959999 66.721003) (width 0.25) (layer "F.Cu") (net 62) (tstamp d24619b9-ec06-44c8-94b7-56f90733618c))
+  (segment (start 187.959999 66.721003) (end 188.533476 67.29448) (width 0.25) (layer "F.Cu") (net 62) (tstamp e85039f2-e35b-4633-b093-144d22514b12))
+  (segment (start 191.608743 64.8) (end 194.33 64.8) (width 0.25) (layer "F.Cu") (net 63) (tstamp 297ea793-b01c-4f36-bda6-058607c4e084))
+  (segment (start 187.642204 53.665) (end 188.660095 54.682891) (width 0.25) (layer "F.Cu") (net 63) (tstamp 68b868c5-3b49-458b-9fda-29e49c571652))
+  (segment (start 188.660095 54.682891) (end 188.660095 61.851352) (width 0.25) (layer "F.Cu") (net 63) (tstamp 70588b4f-601c-4046-80d3-f7b5519d5e5c))
+  (segment (start 183.178 53.565) (end 182.88 53.565) (width 0.25) (layer "F.Cu") (net 63) (tstamp 7b840c20-febd-4a57-bd7b-bac97622fb3f))
+  (segment (start 183.278 53.665) (end 183.178 53.565) (width 0.25) (layer "F.Cu") (net 63) (tstamp 8dc4fbb5-a5d8-41c1-9b10-0436ea204756))
+  (segment (start 182.88 53.565) (end 182.98 53.665) (width 0.25) (layer "F.Cu") (net 63) (tstamp a0c1b004-a242-43c9-b335-be543fabd4a1))
+  (segment (start 188.660095 61.851352) (end 191.608743 64.8) (width 0.25) (layer "F.Cu") (net 63) (tstamp bd1da728-af41-41e8-8d7e-3884edef5e49))
+  (segment (start 183.278 53.665) (end 187.642204 53.665) (width 0.25) (layer "F.Cu") (net 63) (tstamp d31cdfe1-0942-4425-b8c8-b2eaa1e5feab))
+  (segment (start 182.98 53.665) (end 183.278 53.665) (width 0.25) (layer "F.Cu") (net 63) (tstamp e29f47b7-f93b-4b90-96e0-336920a5ff95))
+  (segment (start 190.734337 62.26) (end 194.33 62.26) (width 0.25) (layer "F.Cu") (net 64) (tstamp 55dfaa6d-aec2-4136-a858-383e3fab719b))
+  (segment (start 189.551541 61.077204) (end 190.734337 62.26) (width 0.25) (layer "F.Cu") (net 64) (tstamp 61162abb-7f2f-4768-99b4-4413f770f158))
+  (segment (start 183.278 53.015) (end 188.550272 53.015) (width 0.25) (layer "F.Cu") (net 64) (tstamp a4fe5e73-a771-4dc6-a70d-fcd1a7668ff9))
+  (segment (start 189.551541 54.016269) (end 189.551541 61.077204) (width 0.25) (layer "F.Cu") (net 64) (tstamp cc058504-68be-474e-be3b-b79c3c9162e2))
+  (segment (start 188.550272 53.015) (end 189.551541 54.016269) (width 0.25) (layer "F.Cu") (net 64) (tstamp f4316468-f95e-4655-a0f4-c16cc685a942))
+  (segment (start 191.995 49.765) (end 194.33 52.1) (width 0.25) (layer "F.Cu") (net 66) (tstamp 545d387d-f95d-4f29-a0a2-0fe8005a0d0d))
+  (segment (start 183.278 49.765) (end 191.995 49.765) (width 0.25) (layer "F.Cu") (net 66) (tstamp 9331588f-fa14-4c80-b35a-7c4e680db098))
 
   (group "" (id 1a55d444-82c0-46e1-bc11-acd46efacd73)
     (members
