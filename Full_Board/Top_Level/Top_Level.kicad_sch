@@ -89,6 +89,11 @@
   )
 
 
+  (bus_entry (at 72.39 186.69) (size 2.54 2.54)
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 2e85a1f5-b898-48ea-84f7-fa85e330e362)
+  )
+
   (wire (pts (xy 68.58 95.25) (xy 68.58 105.41))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 003cda60-c901-4bb1-aac9-6c88080b5139)
