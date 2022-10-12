@@ -392,7 +392,6 @@
     )
   )
 
-
   (junction (at 173.99 95.25) (diameter 0) (color 0 0 0 0)
     (uuid 5f975558-74c6-4ad0-8dcc-97ec0c6853ae)
   )
@@ -570,7 +569,7 @@
     (uuid f9a4b522-3e4f-44f3-b503-6d9dde07f5e6)
   )
 
-  (symbol (lib_id "CRMA1210AF10K0DKEF:CRMA1210AF10K0DKEF") (at 152.4 81.28 90) (unit 1)
+  (symbol (lib_id "CRMA1210AF10K0DKEF:CRMA1210AF10K0DKEF") (at 152.4 81.28 90)
     (in_bom yes) (on_board yes)
     (uuid 0da51671-034a-41b2-9aac-9a6a372f27f3)
     (property "Reference" "R40" (id 0) (at 147.32 74.93 90)
@@ -604,7 +603,7 @@
     (pin "2" (uuid 592d478f-41e9-459b-b0aa-c8f3848e534f))
   )
 
-  (symbol (lib_id "C1210C822K2RACAUTO:C1210C822K2RACAUTO") (at 152.4 106.68 90) (unit 1)
+  (symbol (lib_id "C1210C822K2RACAUTO:C1210C822K2RACAUTO") (at 152.4 106.68 90)
     (in_bom yes) (on_board yes)
     (uuid 2da46fe0-505a-4e72-8144-5609ce56e92b)
     (property "Reference" "C23" (id 0) (at 147.32 102.87 90)
@@ -638,7 +637,7 @@
     (pin "2" (uuid 3fc561ee-8290-477a-992e-30f920c96057))
   )
 
-  (symbol (lib_id "TPD1E10B06DPYR:TPD1E10B06DPYR") (at 173.99 97.79 270) (unit 1)
+  (symbol (lib_id "TPD1E10B06DPYR:TPD1E10B06DPYR") (at 173.99 97.79 270)
     (in_bom yes) (on_board yes)
     (uuid 3739fc54-08ce-4b79-a65b-c9963626a227)
     (property "Reference" "D9" (id 0) (at 177.8 106.68 90)
@@ -672,7 +671,7 @@
     (pin "2" (uuid b43383e7-4e99-4f43-acbc-fb44de9b888f))
   )
 
-  (symbol (lib_id "CR0402-FX-5620GLF:CR0402-FX-5620GLF") (at 138.43 95.25 0) (unit 1)
+  (symbol (lib_id "CR0402-FX-5620GLF:CR0402-FX-5620GLF") (at 138.43 95.25 0)
     (in_bom yes) (on_board yes)
     (uuid 566b6471-8902-4a0c-b592-c0edf48165e6)
     (property "Reference" "R39" (id 0) (at 143.51 91.44 0))
@@ -707,7 +706,7 @@
     (pin "2" (uuid 97c1bd73-c477-4592-8634-7375ba176198))
   )
 
-  (symbol (lib_id "RCV2512100KFKEGAT:RCV2512100KFKEGAT") (at 161.29 95.25 0) (unit 1)
+  (symbol (lib_id "RCV2512100KFKEGAT:RCV2512100KFKEGAT") (at 161.29 95.25 0)
     (in_bom yes) (on_board yes)
     (uuid b1e6dc08-9fe9-414b-9fe5-f3397be7b7c0)
     (property "Reference" "R41" (id 0) (at 166.37 91.44 0))
@@ -739,7 +738,7 @@
     (pin "2" (uuid 2a035703-3376-4851-b62a-8266b1dc84dd))
   )
 
-  (symbol (lib_id "OQ0212500000G:OQ0212500000G") (at 128.27 97.79 180) (unit 1)
+  (symbol (lib_id "OQ0212500000G:OQ0212500000G") (at 128.27 97.79 180)
     (in_bom yes) (on_board yes)
     (uuid fbcfcd40-694f-4da3-b163-f8b3ec800065)
     (property "Reference" "J8" (id 0) (at 118.11 91.44 0))
