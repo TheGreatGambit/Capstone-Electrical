@@ -3115,6 +3115,12 @@
     (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275/5a6faaa0-bda8-414b-8c8a-7ac93216a73a"
       (reference "J12") (unit 1) (value "OQ0432500000G") (footprint "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P")
     )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/854f4387-3ca1-4ede-a296-fb94988ed5ae"
+      (reference "JP1") (unit 1) (value "3.3V Jumper") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/75909f96-9abb-485b-97aa-5bc5bb1bbb0e"
+      (reference "JP2") (unit 1) (value "5V Jumper") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
+    )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/8e575a13-eb08-41db-b5ab-de0d50d642ba"
       (reference "L1") (unit 1) (value "680 uH") (footprint "SRR1210-681M:SRR1210-681M")
     )
