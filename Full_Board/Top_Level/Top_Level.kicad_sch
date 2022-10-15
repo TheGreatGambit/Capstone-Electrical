@@ -2703,23 +2703,17 @@
     (path "/1ec4c6f7-71c0-4a08-8d49-0cb381dfc4aa" (page "8"))
     (path "/369b5ae9-4af3-455b-8453-a585234168a6" (page "11"))
     (path "/eed9ac13-0553-4be8-a87c-cf15a0799b3e" (page "12"))
-    (path "/0decb850-c73f-4a21-ac88-d022f064034a" (page "13"))
     (path "/e841011a-0d76-447f-b141-73da960fe0e4" (page "13"))
     (path "/6bee1ebb-ad97-4b5a-bd69-85886de2f795" (page "13"))
-    (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275" (page "14"))
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a" (page "13"))
     (path "/d502e42a-f07d-48a4-870f-6cc62b560384" (page "14"))
+    (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275" (page "14"))
     (path "/f059198e-ec55-48b1-bb71-d05bde55edab" (page "15"))
   )
 
   (symbol_instances
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/929b4240-50b6-4f69-8a91-96eb5dcec581"
       (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/0decb850-c73f-4a21-ac88-d022f064034a/9fd0bad0-af6b-4396-ba5d-f5d25b40fad1"
-      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/0decb850-c73f-4a21-ac88-d022f064034a/0f4d68cf-8836-4291-8f34-1d4233c6be7a"
-      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/700739d4-8a8f-4798-846a-8e70158e0d65"
       (reference "C1") (unit 1) (value "10000pF") (footprint "CKC18C103JDGACAUTO:CAPC4732X220N")
@@ -2779,16 +2773,22 @@
       (reference "C19") (unit 1) (value "10000pF") (footprint "CKC18C103JDGACAUTO:CAPC4732X220N")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/8960d509-c901-45c1-8770-1a51c2cc902a"
-      (reference "C20") (unit 1) (value "100 uF") (footprint "Capacitor_SMD:CP_Elec_3x5.3")
-    )
-    (path "/0decb850-c73f-4a21-ac88-d022f064034a/91a63d88-509f-4c53-a898-f6d161457d8f"
-      (reference "C21") (unit 1) (value "330 uF") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
+      (reference "C20") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
     )
     (path "/e841011a-0d76-447f-b141-73da960fe0e4/e8d909db-0da1-4c7d-b895-932e8d9baf84"
       (reference "C22") (unit 1) (value "8200pF") (footprint "C1210C822K2RACAUTO:CAPC3225X88N")
     )
     (path "/6bee1ebb-ad97-4b5a-bd69-85886de2f795/3b41ece3-4bf0-4039-ab0d-1175d6c7a30d"
       (reference "C23") (unit 1) (value "8200pF") (footprint "C1210C822K2RACAUTO:CAPC3225X88N")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/050c5cda-66b9-4037-847e-1cf26f1838cf"
+      (reference "C?") (unit 1) (value "470 uF") (footprint "")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/265c1f53-d743-43a2-ab11-1ad4d9ced937"
+      (reference "C?") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/f7015bf1-cfc8-493c-8a11-d6045aa210fb"
+      (reference "C?") (unit 1) (value "470 uF") (footprint "")
     )
     (path "/f355d1b6-bee3-4968-acb9-caad2ec6238b/c30df434-4dac-4e48-aa69-8591ddde1248"
       (reference "D1") (unit 1) (value "TPD1E10B06DPYR") (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR")
@@ -2808,14 +2808,17 @@
     (path "/1ec4c6f7-71c0-4a08-8d49-0cb381dfc4aa/e3845dab-4bcf-414c-baba-b3ad78633d77"
       (reference "D6") (unit 1) (value "TPD1E10B06DPYR") (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR")
     )
-    (path "/0decb850-c73f-4a21-ac88-d022f064034a/ed81c189-85f8-47ee-b42e-361e1d71f12d"
-      (reference "D7") (unit 1) (value "31DQ04") (footprint "Diode_THT:D_DO-201AD_P15.24mm_Horizontal")
-    )
     (path "/e841011a-0d76-447f-b141-73da960fe0e4/20854636-9b7d-4998-916c-7d8393928994"
       (reference "D8") (unit 1) (value "TPD1E10B06DPYR") (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR")
     )
     (path "/6bee1ebb-ad97-4b5a-bd69-85886de2f795/e3845dab-4bcf-414c-baba-b3ad78633d77"
       (reference "D9") (unit 1) (value "TPD1E10B06DPYR") (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/7b971bfa-c846-465d-a2ba-65d46f9b7dea"
+      (reference "D?") (unit 1) (value "CDBA540-HF") (footprint "DIOM5225X250N")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/c9193e8a-8271-425b-9342-2e6b836d62ab"
+      (reference "D?") (unit 1) (value "CDBA540-HF") (footprint "DIOM5225X250N")
     )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/e8ee8265-621b-4e66-bafa-8142b4b15ac6"
       (reference "IC1") (unit 1) (value "DRV8824QPWPRQ1") (footprint "DRV8824QPWPRQ1:SOP65P640X120-28N")
@@ -2825,6 +2828,9 @@
     )
     (path "/369b5ae9-4af3-455b-8453-a585234168a6/e8ee8265-621b-4e66-bafa-8142b4b15ac6"
       (reference "IC3") (unit 1) (value "DRV8824QPWPRQ1") (footprint "DRV8824QPWPRQ1:SOP65P640X120-28N")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/3a23a826-0cf8-488f-9f7a-19978825a106"
+      (reference "IC?") (unit 1) (value "LM2576HVS-5.0_NOPB") (footprint "LM2576HVS50NOPB")
     )
     (path "/16680bab-1e2c-4df7-a5c8-6e7e7ff292c2"
       (reference "J1") (unit 1) (value "OQ0432500000G") (footprint "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P")
@@ -2864,6 +2870,9 @@
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/8e575a13-eb08-41db-b5ab-de0d50d642ba"
       (reference "L1") (unit 1) (value "680 uH") (footprint "SRR1210-681M:SRR1210-681M")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/e7dc2381-438b-4ea5-b2db-5963f3ecb95d"
+      (reference "L?") (unit 1) (value "100 uF") (footprint "IND_44.104NLT_PUL")
     )
     (path "/d502e42a-f07d-48a4-870f-6cc62b560384/40bd96d2-fe92-4fd5-8ddd-a85489f6e858"
       (reference "LED1") (unit 1) (value "LRTB_R48G") (footprint "LRTB_R48G:LRTB-R48G")
@@ -3086,6 +3095,9 @@
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/cc29fcdd-5e93-4062-a79b-46f47f201116"
       (reference "TP26") (unit 1) (value "~") (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/88d2d514-255b-47ae-af73-8b5585d973ae"
+      (reference "TP?") (unit 1) (value "~") (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/f54639c7-0ede-488f-983e-49b4432b42f1"
       (reference "U1") (unit 1) (value "LM2576SX-3.3-NOPB") (footprint "LM2576SX-3.3-NOPB:LM2576SX-3.3-NOPB")

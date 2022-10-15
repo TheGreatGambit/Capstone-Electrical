@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CDBA540-HF
+D Schottky Diodes & Rectifiers 40V, 5A
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-12/228866.pdf
+$ENDCMP
+#
+#End Doc Library

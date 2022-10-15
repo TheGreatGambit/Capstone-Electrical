@@ -1,0 +1,9 @@
+Manufacturer=Comchip Technology
+PartNumber=CDBA540-HF
+PartCategory=Schottky Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=2.1
+Released=2018-12-20 10:43:48
+Downloaded=2022-10-15 03:14:39
+3D=Y

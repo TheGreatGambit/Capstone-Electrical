@@ -20,4 +20,8 @@
   (lib (name "SDR10EZPJ271")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/SDR10EZPJ271/KiCad/SDR10EZPJ271.kicad_sym")(options "")(descr ""))
   (lib (name "LM2576SX-3.3-NOPB")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/LM2576SX-3.3-NOPB/KiCAD/2022-10-04_20-56-27/LM2576SX-3.3-NOPB.kicad_sym")(options "")(descr ""))
   (lib (name "SSQ-110-03-T-D")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/SSQ-110-03-T-D/KiCAD/2022-10-09_23-41-57/2022-10-09_23-41-57.kicad_sym")(options "")(descr ""))
+  (lib (name "LM25766HVS-5.0_NOPB")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/LM2576HVS-5.0_NOPB/KiCad/LM2576HVS-5.0_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "EEE-FP1E471AP")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/EEE-FP1E471AP/KiCAD/2022-10-15_00-19-18/2022-10-15_00-19-18.kicad_sym")(options "")(descr ""))
+  (lib (name "PA4344-104NLT")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/PA4344-104NLT/KiCAD/2022-10-15_00-44-13/2022-10-15_00-44-13.kicad_sym")(options "")(descr ""))
+  (lib (name "CDBA540-HF")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CDBA540-HF/CDBA540-HF/KiCad/CDBA540-HF.kicad_sym")(options "")(descr ""))
 )

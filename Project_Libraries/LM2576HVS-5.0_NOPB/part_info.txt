@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM2576HVS-5.0/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=7
+Version=1.1
+Released=2021-06-10 09:21:50
+Downloaded=2022-10-14 22:48:43
+3D=N
