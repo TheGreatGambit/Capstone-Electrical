@@ -333,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Top_Level2.kicad_pro",
+    "filename": "Top_Level.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -452,16 +452,16 @@
       "MSP432E401Y"
     ],
     [
-      "0decb850-c73f-4a21-ac88-d022f064034a",
-      "PowerSupply1"
-    ],
-    [
       "e841011a-0d76-447f-b141-73da960fe0e4",
       "Button1"
     ],
     [
       "6bee1ebb-ad97-4b5a-bd69-85886de2f795",
       "LimitSwitch1"
+    ],
+    [
+      "0decb850-c73f-4a21-ac88-d022f064034a",
+      "PowerSupply1"
     ],
     [
       "d502e42a-f07d-48a4-870f-6cc62b560384",

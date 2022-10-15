@@ -27,4 +27,5 @@
   (lib (name "RMCF1206FT10K0")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/RMCF1206FT10K0/KiCad/RMCF1206FT10K0.kicad_sym")(options "")(descr ""))
   (lib (name "GRM033R61A103KA01D")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/GRM033R61A103KA01D/KiCad/GRM033R61A103KA01D.kicad_sym")(options "")(descr ""))
   (lib (name "CD74HC4051PWT")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CD74HC4051PWT/KiCad/CD74HC4051PWT.kicad_sym")(options "")(descr ""))
+  (lib (name "3588")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/3588/3588/KiCad/3588.kicad_sym")(options "")(descr ""))
 )
