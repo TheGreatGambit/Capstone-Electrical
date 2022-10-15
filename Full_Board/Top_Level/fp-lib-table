@@ -24,4 +24,5 @@
   (lib (name "EEE-FP1E471AP")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/EEE-FP1E471AP/KiCAD/2022-10-15_00-19-18/footprints.pretty")(options "")(descr ""))
   (lib (name "PA4344-104NLT")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/PA4344-104NLT/KiCAD/2022-10-15_00-44-13/footprints.pretty")(options "")(descr ""))
   (lib (name "CDBA540-HF")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CDBA540-HF/CDBA540-HF/KiCad")(options "")(descr ""))
+  (lib (name "CL05A104KP5NNNC")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CL05A104KP5NNNC/KiCAD/2022-10-15_02-42-30/footprints.pretty")(options "")(descr ""))
 )
