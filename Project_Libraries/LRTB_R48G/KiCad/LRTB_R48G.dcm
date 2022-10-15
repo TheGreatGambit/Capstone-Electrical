@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP LRTB_R48G
-D LED,Osram,LRTB R48G Osram Opto LRTB R48G, Multi CHIPLED Series 3 RGB LED, 476 / 538 / 627 nm 4-Pin, Square Lens SMD package
-K
-F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/b107022a49e08d561887719e6607199a.pdf
-$ENDCMP
-#
-#End Doc Library

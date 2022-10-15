@@ -568,8 +568,8 @@
     (uuid fe527de6-1039-4908-922d-79222ba10276)
   )
 
-  (text "General Notes:\n	This is the raw pinout of the MSP432E401Y (based on: https://energia.nu/pinmaps/msp-exp432e401y/)\n	Protection should be placed on the components to which each pin connects"
-    (at 15.24 22.86 0)
+  (text "Pins:\n	PLx - Switches (buttons + limit)\n	PFx - LEDs\n	PEx - steppers (shared)\n	PDx - sensor network\n	PKx - steppers (x on lower 4, y on upper 4)\n	PMx - steppers (y on low 4, x/y/z on upper 4)\n	PAx - UART\n	PPx - electromagnet?\n\nGeneral Notes:\n	This is the raw pinout of the MSP432E401Y (based on: https://energia.nu/pinmaps/msp-exp432e401y/)\n	Protection should be placed on the components to which each pin connects"
+    (at 16.51 44.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5e86a2af-1464-40e3-b3d4-a6849ab60275)
   )

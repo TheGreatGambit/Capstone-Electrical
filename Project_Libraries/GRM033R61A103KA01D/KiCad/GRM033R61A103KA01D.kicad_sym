@@ -34,11 +34,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "GRM033R61A103KA01D_0_0"
-      (pin passive line (at 0 0 0) (length 5.08)
+      (pin passive line (at 0 0 0) (length 2.45)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 12.7 0 180) (length 5.08)
+      (pin passive line (at 6.35 0 180) (length 2.45)
         (name "~" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -46,32 +46,16 @@
     (symbol "GRM033R61A103KA01D_0_1"
       (polyline
         (pts
-          (xy 5.08 0)
-          (xy 5.588 0)
+          (xy 2.54 1.27)
+          (xy 2.54 -1.27)
         )
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 5.588 2.54)
-          (xy 5.588 -2.54)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.112 0)
-          (xy 7.62 0)
-        )
-        (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.112 2.54)
-          (xy 7.112 -2.54)
+          (xy 3.81 1.27)
+          (xy 3.81 -1.27)
         )
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
         (fill (type none))
