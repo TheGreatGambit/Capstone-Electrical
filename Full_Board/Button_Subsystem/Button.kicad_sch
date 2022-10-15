@@ -684,7 +684,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 130.81 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 93b7a3cb-c080-4fe9-ae82-1b5ccf7ffd18)
-    (property "Reference" "JP4" (id 0) (at 135.89 64.77 0))
+    (property "Reference" "JP10" (id 0) (at 135.89 64.77 0))
     (property "Value" "3.3V Jumper" (id 1) (at 135.89 62.23 0))
     (property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (id 2) (at 130.81 66.04 0)
       (effects (font (size 1.27 1.27)) hide)

@@ -2919,9 +2919,6 @@
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/dcdd01de-7a14-43b6-a181-472d0f02b439"
       (reference "#FLG05") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/0decb850-c73f-4a21-ac88-d022f064034a/ac5a8c15-01b2-44e5-913d-3ecc69238d1a"
-      (reference "#FLG06") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/998f2e2c-4709-4dcc-b083-d0e910974906"
       (reference "C1") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
     )
@@ -3047,6 +3044,12 @@
     )
     (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275/2eee0e60-57ff-4ce0-a5ff-684dc98cebb4"
       (reference "D12") (unit 1) (value "TPD1E10B06DPYR") (footprint "TPD1E10B06DPYR:TPD1E10B06DPYR")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/3bd4c8cf-1d88-4ad9-82fa-57db0b984033"
+      (reference "D?") (unit 1) (value "EAST2012RA2") (footprint "EAST2012RA2:EAST2012RA2")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/478cfb47-ae6f-408e-b6e6-d0b8c640ff72"
+      (reference "D?") (unit 1) (value "EAST2012RA2") (footprint "EAST2012RA2:EAST2012RA2")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/32603a8f-6140-43ef-b890-20d4972a404f"
       (reference "F1") (unit 1) (value "Fuse Holder") (footprint "3588")
@@ -3365,6 +3368,12 @@
     )
     (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275/01ad89f0-0a03-4a6a-a633-6d985a416e93"
       (reference "R62") (unit 1) (value "10k") (footprint "RESC3225X74N")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/a6c0603b-bcb4-4a41-a963-e6926efd35c7"
+      (reference "R?") (unit 1) (value "150") (footprint "")
+    )
+    (path "/0decb850-c73f-4a21-ac88-d022f064034a/ffdcd349-e7c1-4501-a011-3d5afee2a01b"
+      (reference "R?") (unit 1) (value "47") (footprint "")
     )
     (path "/633acf2e-cb30-4033-99e2-4d89cfa67ef2/d2e57dfb-9ae6-417c-8ffb-14370f178314"
       (reference "S1") (unit 1) (value "PTS636_SL43_LFS") (footprint "PTS636_SL43_LFS:PTS636SL43LFS")

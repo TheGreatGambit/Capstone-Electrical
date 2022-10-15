@@ -28,4 +28,5 @@
   (lib (name "CD74HC4051PWT")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CD74HC4051PWT/KiCad/CD74HC4051PWT.kicad_sym")(options "")(descr ""))
   (lib (name "3588")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/3588/3588/KiCad/3588.kicad_sym")(options "")(descr ""))
   (lib (name "HV-5RGB25")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/HV-5RGB25/KiCad/HV-5RGB25.kicad_sym")(options "")(descr ""))
+  (lib (name "EAST2012RA2")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/EAST2012RA2/KiCAD/EAST2012RA2.kicad_sym")(options "")(descr ""))
 )
