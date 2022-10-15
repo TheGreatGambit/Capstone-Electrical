@@ -16,27 +16,38 @@ View this project on [CADLAB.io](https://cadlab.io/project/25988)
     - Name: `KICAD_CAPSTONE_LIBRARIES`, Path: `<LOCAL PATH TO GIT REPO>/Project_Libraries`
 
 # Installing External Libraries
-1. Download an external library
-    - Ex: A model for the [DRV8824QPWPRQ1](https://www.mouser.com/ProductDetail/Texas-Instruments/DRV8824QPWPRQ1?qs=MJut%252BdqOEgi82YN%2FoMkwBg%3D%3D&countryCode=US&currencyCode=USD) can be found under 'ECAD Model' 
-2. Unzip the download to get a `*.epw` file
-3. Download the [Library Loader](https://ms.componentsearchengine.com/pcb-libraries.php) tool from Mouser
-4. Register/login to the Library Loader tool
-5. Click `Open ECAD Model` and select the downloaded `*.epw` file.
-6. By default the output is in `~/Downloads/LIB_GET.zip`. Unzip it
-7. Copy the unzipped contents into: `<LOCAL PATH TO GIT REPO>/Project_Libraries/<LIBRARY_NAME>`
-8. In the KiCad Schematic Editor, go to: `Preferences`->`Manage Symbol Libraries`->`Project Specific Libraries`
-9. Add the following entry by clicking the `+` button:
-    - Nickname: `<LIBRARY_NAME>`, Library Path: `${KICAD_CAPSTONE_LIBRARIES}/<LIBRARY_NAME>/KiCad/<LIBRARY_NAME>.lib`
-10. Select `Migrate Libraries`
-11. To place the device in KiCad, go to `Place`->`Add Symbol` and search for `<LIBRARY_NAME>`
-12. When you first add the symbol to your schematic you need give values for the fields `Datasheet`, `Manufacturer's Part Number`, `Digikey Part Number`, `Mouser Part Number`, `Digikey link`, and `Mouser link` in that order. 
+1. **Install the library:**
+    1. Download an external library
+        - Ex: A model for the [DRV8824QPWPRQ1](https://www.mouser.com/ProductDetail/Texas-Instruments/DRV8824QPWPRQ1?qs=MJut%252BdqOEgi82YN%2FoMkwBg%3D%3D&countryCode=US&currencyCode=USD) can be found under 'ECAD Model' 
+    2. Unzip the download to get a `*.epw` file
+    3. Download the [Library Loader](https://ms.componentsearchengine.com/pcb-libraries.php) tool from Mouser
+    4. Register/login to the Library Loader tool
+    5. Click `Open ECAD Model` and select the downloaded `*.epw` file
+    6. By default the output is in `~/Downloads/LIB_GET.zip`. Unzip it
+    7. Copy the unzipped contents into: `<LOCAL PATH TO GIT REPO>/Project_Libraries/<LIBRARY_NAME>`
+2. **Import the symbol:**
+    1. In the KiCad Schematic Editor, go to: `Preferences`->`Manage Symbol Libraries`->`Project Specific Libraries`
+    2. Add the following entry by clicking the `+` button:
+        - Nickname: `<LIBRARY_NAME>`, Library Path: `${KICAD_CAPSTONE_LIBRARIES}/<LIBRARY_NAME>/KiCad/<LIBRARY_NAME>.lib`
+    3. Select `Migrate Libraries`
+    4. Place the device in KiCad by going to `Place`->`Add Symbol` and search for `<LIBRARY_NAME>`
+3. **Add the footprint:**
+    1. In the KiCad PCB Editor, go to: `Preferences`->`Manage Footprint Libraries`->`Project Specific Libraries`
+    2. Add the following entry by clicking the `+` button:
+        - Nickname: `<LIBRARY_NAME>`, Library Path: `${KICAD_CAPSTONE_LIBRARIES}/<LIBRARY_NAME>/KiCad`
+4. **Update the symbol field to make exporting the BOM easier:**
     1. Right click on the symbol and click `Properties`
-    2. Click `Edit Library Symbol`. This should open a symbol editing window. 
+    2. Click `Edit Library Symbol`. This should open a symbol editing window.
     3. Go to `File -> Symbol Properties`
-    4. Use the `+` button to add the appropriate fields. The `Datasheet` should be a URL to the datasheet, and the `Digikey link` and `Mouser link` fields should be links to the part's product page.
+    4. Use the `+` button to add the fields `Datasheet`, `Manufacturer's Part Number`, `Digikey Part Number`, `Mouser Part Number`, `Digikey link`, and `Mouser link` in that order
+        - The `Datasheet` should be a URL to the datasheet, and the `Digikey link` and `Mouser link` fields should be links to the part's product page
     5. Uncheck the `Show` field for everything except the `Reference` and `Value` fields
-    6. Click `Ok` and close the library editor
-    7. Delete and add the symbol from the library. The fields should now be included. 
+    6. If the part has a meaningful value (e.g., a 10k resistor), add that value in the `Value` field
+    7. In the `Footprint` field, select the folder icon and search for `<LIBRARY_NAME>` in the popup
+    8. Double click the result to associated the footprint you imported with the symbol you imported
+        - Note: The footprint field might show something like `<LIBRARY_NAME>:<RANDOM_STRING`, this is okay
+    7. Click `Ok` and close the library editor
+    8. Delete and re-add the symbol to the schematic. The fields should now be included
 
 # Adding a Subsheet
 1. Create a new directory: `<LOCAL PATH TO GIT REPO>/Full_Board/<SUBSHEET NAME>`

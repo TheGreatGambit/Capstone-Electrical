@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=CD74HC4051PWT
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=16
+Version=1.1
+Released=2020-05-08 16:21:43
+Downloaded=2022-10-15 02:07:41
+3D=Y
