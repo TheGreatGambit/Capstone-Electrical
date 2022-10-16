@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SDR03EZPF1500
+D 150 Ohms +/-1% 0.3W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film
+K
+F 
+$ENDCMP
+#
+#End Doc Library

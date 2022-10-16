@@ -31,4 +31,6 @@
   (lib (name "DRV8210DRLR")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/DRV8210DRLR/DRV8210DRLR/KiCad/DRV8210DRLR.kicad_sym")(options "")(descr ""))
   (lib (name "DRV8935PPWPR")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/DRV8935PPWPR/KiCAD/2022-10-16_01-22-27/2022-10-16_01-22-27.kicad_sym")(options "")(descr ""))
   (lib (name "CL10B104KB8NNC")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CL10B104KB8NNNC/KiCAD/2022-10-16_02-00-18/2022-10-16_02-00-18.kicad_sym")(options "")(descr ""))
+  (lib (name "SDR03EZPF1500")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/SDR03EZPF1500/KiCad/SDR03EZPF1500.kicad_sym")(options "")(descr ""))
+  (lib (name "CHP2512AFX-47R0ELF")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CHP2512AFX-47R0ELF/KiCad/CHP2512AFX-47R0ELF.kicad_sym")(options "")(descr ""))
 )

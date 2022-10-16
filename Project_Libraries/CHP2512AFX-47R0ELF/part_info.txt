@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=CHP2512AFX-47R0ELF
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2021-01-28 10:50:41
+Downloaded=2022-10-16 03:50:27
+3D=Y
