@@ -3711,8 +3711,5 @@
     (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275/82f2b9f9-f829-4df8-8d70-f0b6d43c08dc"
       (reference "U11") (unit 1) (value "UCLAMP3301H.TCT") (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT")
     )
-    (path "/f355d1b6-bee3-4968-acb9-caad2ec6238b/58303391-f02f-4504-b0cc-099d513f5d5f"
-      (reference "U12") (unit 1) (value "UCLAMP3301H.TCT") (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT")
-    )
   )
 )
