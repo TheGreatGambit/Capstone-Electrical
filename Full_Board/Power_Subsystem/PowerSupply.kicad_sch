@@ -739,16 +739,13 @@
       (property "Value" "PA4344.104NLT" (id 1) (at 6.985 -5.715 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Footprint" "IND_44.104NLT_PUL" (id 2) (at 6.985 -7.239 0)
+      (property "Footprint" "PA4344-104NLT:PA4344.104NLT" (id 2) (at 6.985 -7.239 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Datasheet" "" (id 3) (at 0 0 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "ki_locked" "" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_fp_filters" "IND_44.104NLT_PUL IND_44.104NLT_PUL-M IND_44.104NLT_PUL-L" (id 5) (at 0 0 0)
+      (property "ki_fp_filters" "IND_44.104NLT_PUL IND_44.104NLT_PUL-M IND_44.104NLT_PUL-L" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "PA4344.104NLT_1_1"
@@ -954,6 +951,7 @@
       )
     )
   )
+
 
   (junction (at 116.84 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 05409780-6f01-4758-983b-a3d8316f179e)
