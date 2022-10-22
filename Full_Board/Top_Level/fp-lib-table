@@ -35,4 +35,5 @@
   (lib (name "CHP2512AFX-47R0ELF")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CHP2512AFX-47R0ELF/KiCad")(options "")(descr ""))
   (lib (name "USB1130-15-A")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/USB1130-15-A/KiCAD/2022-10-21_18-05-02/footprints.pretty")(options "")(descr ""))
   (lib (name "UCLAMP3310H-TCT")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/UCLAMP3301H-TCT/KiCAD/2022-10-21_18-40-03/footprints.pretty")(options "")(descr ""))
+  (lib (name "JS102011SCQN")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/JS102011SCQN/KiCAD/footprints.pretty")(options "")(descr ""))
 )

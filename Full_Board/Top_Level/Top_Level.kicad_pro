@@ -393,7 +393,12 @@
     "meta": {
       "version": 2
     },
-    "net_colors": null
+    "net_colors": {
+      "+24V": "rgb(15, 255, 0)",
+      "+3.3V": "rgb(255, 81, 0)",
+      "+5V": "rgb(14, 136, 255)",
+      "Net-(JP6-Pad2)": "rgb(8, 255, 251)"
+    }
   },
   "pcbnew": {
     "last_paths": {
@@ -478,6 +483,14 @@
       "LimitSwitch3"
     ],
     [
+      "97d52992-a13e-49a0-99b8-64104681fc44",
+      "Switch1"
+    ],
+    [
+      "409366c6-ffcd-469f-960b-d56a9d6685b3",
+      "LimitSwitch4"
+    ],
+    [
       "369b5ae9-4af3-455b-8453-a585234168a6",
       "StepperDriver1"
     ],
@@ -486,16 +499,16 @@
       "MSP432E401Y"
     ],
     [
+      "0decb850-c73f-4a21-ac88-d022f064034a",
+      "PowerSupply1"
+    ],
+    [
       "e841011a-0d76-447f-b141-73da960fe0e4",
       "Button1"
     ],
     [
       "6bee1ebb-ad97-4b5a-bd69-85886de2f795",
       "LimitSwitch1"
-    ],
-    [
-      "0decb850-c73f-4a21-ac88-d022f064034a",
-      "PowerSupply1"
     ],
     [
       "d502e42a-f07d-48a4-870f-6cc62b560384",
@@ -508,6 +521,22 @@
     [
       "f059198e-ec55-48b1-bb71-d05bde55edab",
       "Electromagnet1"
+    ],
+    [
+      "113760ec-036e-4de5-bdf9-a26726332289",
+      "LimitSwitch5"
+    ],
+    [
+      "dfe71e11-a04c-4fd9-96ba-6a7aa87c4672",
+      "LimitSwitch8"
+    ],
+    [
+      "07cad15c-7a8f-4f19-b010-f610659ec73e",
+      "LimitSwitch6"
+    ],
+    [
+      "052c1802-f400-4007-8083-56d46632424e",
+      "LimitSwitch7"
     ]
   ],
   "text_variables": {}
