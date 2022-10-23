@@ -780,8 +780,8 @@
     (pin "2" (uuid 11853e4d-00b3-4593-9abf-f7322b4c7a18))
     (pin "3" (uuid d376fd68-1553-45b9-a7b6-7560e7b4068e))
     (pin "4" (uuid 17f2a4e6-4479-4812-91e5-996e13437fb8))
-    (pin "6" (uuid a8766f64-7272-4a38-80f2-d6aea7401a8b))
     (pin "5" (uuid 549d2e54-dbef-48cb-9a97-7cdce6c975e4))
+    (pin "6" (uuid a8766f64-7272-4a38-80f2-d6aea7401a8b))
   )
 
   (symbol (lib_id "UCLAMP3301H-TCT:UCLAMP3301H.TCT") (at 154.94 59.69 270) (unit 1)

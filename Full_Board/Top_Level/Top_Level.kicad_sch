@@ -198,26 +198,26 @@
 
   (no_connect (at 73.66 96.52) (uuid 2dcdf55e-ad73-4256-b0c5-ceb3b2d7f6bf))
   (no_connect (at 107.95 120.65) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0513))
-  (no_connect (at 107.95 115.57) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0513))
-  (no_connect (at 107.95 118.11) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0513))
-  (no_connect (at 107.95 125.73) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0513))
-  (no_connect (at 107.95 128.27) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0513))
-  (no_connect (at 107.95 133.35) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0513))
-  (no_connect (at 107.95 123.19) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0513))
-  (no_connect (at 107.95 130.81) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0513))
-  (no_connect (at 107.95 135.89) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0513))
-  (no_connect (at 107.95 146.05) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0513))
-  (no_connect (at 107.95 143.51) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0513))
+  (no_connect (at 107.95 115.57) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0514))
+  (no_connect (at 107.95 118.11) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0515))
+  (no_connect (at 107.95 125.73) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0516))
+  (no_connect (at 107.95 128.27) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0517))
+  (no_connect (at 107.95 133.35) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0518))
+  (no_connect (at 107.95 123.19) (uuid 3c701250-619c-4cf7-8ae0-6a52854d0519))
+  (no_connect (at 107.95 130.81) (uuid 3c701250-619c-4cf7-8ae0-6a52854d051a))
+  (no_connect (at 107.95 135.89) (uuid 3c701250-619c-4cf7-8ae0-6a52854d051b))
+  (no_connect (at 107.95 146.05) (uuid 3c701250-619c-4cf7-8ae0-6a52854d051c))
+  (no_connect (at 107.95 143.51) (uuid 3c701250-619c-4cf7-8ae0-6a52854d051d))
   (no_connect (at 71.12 96.52) (uuid 5da7cd41-6d36-4ba2-904d-156996efacdb))
   (no_connect (at 71.12 177.8) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3c))
-  (no_connect (at 86.36 177.8) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3c))
-  (no_connect (at 88.9 177.8) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3c))
-  (no_connect (at 107.95 158.75) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3c))
-  (no_connect (at 107.95 148.59) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3c))
-  (no_connect (at 107.95 163.83) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3c))
-  (no_connect (at 107.95 161.29) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3c))
-  (no_connect (at 107.95 156.21) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3c))
-  (no_connect (at 107.95 153.67) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3c))
+  (no_connect (at 86.36 177.8) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3d))
+  (no_connect (at 88.9 177.8) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3e))
+  (no_connect (at 107.95 158.75) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f3f))
+  (no_connect (at 107.95 148.59) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f40))
+  (no_connect (at 107.95 163.83) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f41))
+  (no_connect (at 107.95 161.29) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f42))
+  (no_connect (at 107.95 156.21) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f43))
+  (no_connect (at 107.95 153.67) (uuid 6a4e165d-3ca3-4884-8534-a1cc63f78f44))
   (no_connect (at 40.64 96.52) (uuid 831b5b40-5d02-407f-87f3-266dc948a993))
 
   (wire (pts (xy 63.5 96.52) (xy 63.5 106.68))
@@ -3680,9 +3680,6 @@
     (path "/61b0a90c-0888-4889-b915-b5a54dbc418f"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
-    (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/998f2e2c-4709-4dcc-b083-d0e910974906"
-      (reference "C1") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
-    )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/2be14dcd-e7d0-4d5f-b300-b3411d0721cb"
       (reference "C2") (unit 1) (value "0.47uF") (footprint "C1812X474K2RACAUTO:C1812_FT")
     )
@@ -3697,9 +3694,6 @@
     )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/dce7f77f-78ae-4366-95b8-47f1b891faae"
       (reference "C6") (unit 1) (value "0.01uF") (footprint "CAPC0603X33N")
-    )
-    (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/998f2e2c-4709-4dcc-b083-d0e910974906"
-      (reference "C7") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
     )
     (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/2be14dcd-e7d0-4d5f-b300-b3411d0721cb"
       (reference "C8") (unit 1) (value "0.47uF") (footprint "C1812X474K2RACAUTO:C1812_FT")
@@ -3733,9 +3727,6 @@
     )
     (path "/409366c6-ffcd-469f-960b-d56a9d6685b3/abeddf76-a6ea-4de3-9be4-31e964bf5d85"
       (reference "C18") (unit 1) (value "8200pF") (footprint "C1210C822K2RACAUTO:CAPC3225X88N")
-    )
-    (path "/369b5ae9-4af3-455b-8453-a585234168a6/998f2e2c-4709-4dcc-b083-d0e910974906"
-      (reference "C19") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
     )
     (path "/369b5ae9-4af3-455b-8453-a585234168a6/2be14dcd-e7d0-4d5f-b300-b3411d0721cb"
       (reference "C20") (unit 1) (value "0.47uF") (footprint "C1812X474K2RACAUTO:C1812_FT")
@@ -3793,6 +3784,15 @@
     )
     (path "/052c1802-f400-4007-8083-56d46632424e/abeddf76-a6ea-4de3-9be4-31e964bf5d85"
       (reference "C38") (unit 1) (value "8200pF") (footprint "C1210C822K2RACAUTO:CAPC3225X88N")
+    )
+    (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/8c133614-4038-4102-86b6-14eb1a71595f"
+      (reference "C?") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
+    )
+    (path "/369b5ae9-4af3-455b-8453-a585234168a6/8c133614-4038-4102-86b6-14eb1a71595f"
+      (reference "C?") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
+    )
+    (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/8c133614-4038-4102-86b6-14eb1a71595f"
+      (reference "C?") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/3bd4c8cf-1d88-4ad9-82fa-57db0b984033"
       (reference "D1") (unit 1) (value "EAST2012RA2") (footprint "EAST2012RA2:EAST2012RA2")

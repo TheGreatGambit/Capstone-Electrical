@@ -57,7 +57,7 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
-    (grid_origin 80.6069 104.902)
+    (grid_origin 54.4449 193.294)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -351,7 +351,7 @@
       (net 10 "Net-(C10-Pad2)") (pinfunction "B") (pintype "passive") (tstamp 588b8af5-6074-4777-872d-8de30b3dc3d5))
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 02ef6a9f-3277-488e-b153-ff463b99b582)
     (at 59.69 154.432)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -597,7 +597,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp 0933a07a-32e9-435a-8787-71b5379cf836)
     (at 121.2709 117.056)
     (descr "CRMA1210")
@@ -632,9 +632,9 @@
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp 46a9b1d7-93b2-449b-932f-ec859e9f6e0c))
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp 738a657d-5b03-4ee9-aa62-c6f42a9fa20f))
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp f9d6e1f2-b3c8-4998-bac4-a9127809ac8f))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 184 "Net-(J20-Pad1)") (pintype "passive") (tstamp e06c1b94-12f7-43c1-a2db-6b0e225d95c8))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 3e9ef4ef-7ddc-4e33-90c3-d3aabbfa5bfa))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -643,7 +643,7 @@
     )
   )
 
-  (footprint "SDR10EZPJ271:RESC2012X65N" (layer "F.Cu")
+  (footprint "SDR10EZPJ271:RESC2012X65N" locked (layer "F.Cu")
     (tedit 0) (tstamp 09be8940-0dff-4d9c-a745-5c2aaf57a834)
     (at 70.9549 31.496)
     (descr "SDR10")
@@ -735,7 +735,7 @@
     )
   )
 
-  (footprint "USB1130-15-A:USB1130-15-A" (layer "F.Cu")
+  (footprint "USB1130-15-A:USB1130-15-A" locked (layer "F.Cu")
     (tedit 0) (tstamp 0a4af3f4-5dbc-4fc3-9318-87bd5270f160)
     (at 127.23 150.417902 90)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/gct/USB1130-15-A/13545899")
@@ -1020,7 +1020,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp 0dcfacdd-24fc-4581-a0bb-6f3bcce85d5d)
     (at 77.0399 43.156 90)
     (descr "CRMA1210")
@@ -1055,9 +1055,9 @@
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp 660ba0e2-2969-407d-90d2-1bd5e967d91a))
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp af69841b-b929-49a5-abaa-f35d0ce90dad))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp c386f3cd-50f9-422b-b18b-559bded898a8))
-    (pad "1" smd rect (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 71 "Net-(C31-Pad2)") (pintype "passive") (tstamp f67c99d9-51ac-456b-a53c-c052a5bebe24))
-    (pad "2" smd rect (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 161 "Net-(JP12-Pad2)") (pintype "passive") (tstamp 095b610d-1679-433f-b63d-5d0a1eb45bb1))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -1066,7 +1066,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 0f45e009-7735-4bc3-8304-70f121d9936f)
     (at 129.8829 111.74 90)
     (descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
@@ -1310,7 +1310,7 @@
     )
   )
 
-  (footprint "HV-5RGB25:HV5RGB25" (layer "F.Cu")
+  (footprint "HV-5RGB25:HV5RGB25" locked (layer "F.Cu")
     (tedit 0) (tstamp 11bf1e21-2f53-41bf-a1ef-a37650563b3b)
     (at 60.0329 39.878 -90)
     (descr "HV-5RGB25-2")
@@ -1414,7 +1414,7 @@
     )
   )
 
-  (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm" (layer "F.Cu")
+  (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm" locked (layer "F.Cu")
     (tedit 5BC5C9B9) (tstamp 140d5aca-2fcb-4530-ad78-0d842b82fcda)
     (at 76.942 171.704 180)
     (descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=5mm, Non-Polar Electrolytic Capacitor")
@@ -1598,7 +1598,7 @@
       (net 92 "LS_X_OUT") (pinfunction "2") (pintype "passive") (tstamp 258c19de-c7a1-4d82-a672-1467f4abfab2))
   )
 
-  (footprint "CL10B104KB8NNNC:CL10B104KB8NNNC" (layer "F.Cu")
+  (footprint "CL10B104KB8NNNC:CL10B104KB8NNNC" locked (layer "F.Cu")
     (tedit 0) (tstamp 1c591655-5fd2-4e8f-9f23-af9b86f80d8e)
     (at 101.6889 44.45 180)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658")
@@ -1855,7 +1855,7 @@
       (net 199 "Net-(JP20-Pad2)") (pinfunction "B") (pintype "passive") (tstamp 7217ada9-a74c-4180-ad30-2b76c1afd237))
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp 2044ca2e-0865-48fa-a8ca-35207342caf0)
     (at 125.8129 117.056)
     (descr "CRMA1210")
@@ -1890,9 +1890,9 @@
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp abfbfcce-271a-4c16-b8f0-91b8148908a9))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp cfa5d93c-b882-4315-9dad-4196469c18a3))
     (fp_line (start 3.2 1.6) (end 0 1.6) (layer "F.Fab") (width 0.1) (tstamp f514e00e-cb13-4aa5-931f-70cb220b8799))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 182 "Net-(J19-Pad3)") (pintype "passive") (tstamp 057dcddd-470c-4b27-863a-a3d2be9929ab))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 4a75d74a-0a52-42d7-b785-278764a44579))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -1901,7 +1901,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp 21ab1215-f387-43e7-86e2-4ff7fbe942bf)
     (at 121.2709 114.516)
     (descr "CRMA1210")
@@ -1936,9 +1936,9 @@
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp 5e5111fd-eb3d-4ac8-9804-e5b0bfa4dbc0))
     (fp_line (start 3.2 1.6) (end 0 1.6) (layer "F.Fab") (width 0.1) (tstamp a3841e56-2a8e-49bc-b59e-3e193741de38))
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp d4d1317a-a9b6-4e5e-8608-45c3c1445753))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 180 "Net-(J19-Pad1)") (pintype "passive") (tstamp c58e8ff9-b204-42c6-8816-7859c713232d))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp d1808e53-0348-4d2d-8614-53325d1c83fe))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -1947,7 +1947,7 @@
     )
   )
 
-  (footprint "SDR10EZPJ271:RESC2012X65N" (layer "F.Cu")
+  (footprint "SDR10EZPJ271:RESC2012X65N" locked (layer "F.Cu")
     (tedit 0) (tstamp 21c529dc-695d-4284-af43-294916c1a9af)
     (at 122.7409 93.322)
     (descr "SDR10")
@@ -2053,7 +2053,7 @@
     )
   )
 
-  (footprint "SDR03EZPF1500:RESC1608X55N" (layer "F.Cu")
+  (footprint "SDR03EZPF1500:RESC1608X55N" locked (layer "F.Cu")
     (tedit 0) (tstamp 25df56ee-72b8-4197-8b8f-eec3446d9a84)
     (at 113.03 153.416)
     (descr "SDR03_2022_1")
@@ -2099,7 +2099,7 @@
     )
   )
 
-  (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
+  (footprint "RCV2512100KFKEGAT:RESC6332X70N" locked (layer "F.Cu")
     (tedit 0) (tstamp 263e5919-dd22-45be-a677-e53604ab1dbc)
     (at 93.0529 37.338)
     (descr "2512-ren1")
@@ -2298,7 +2298,7 @@
     )
   )
 
-  (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
+  (footprint "C1210C822K2RACAUTO:CAPC3225X88N" locked (layer "F.Cu")
     (tedit 0) (tstamp 2a97e179-c33f-4e86-a845-5ffed1807760)
     (at 82.2549 41.402)
     (descr "1210_(H=0.78mm)_2022")
@@ -2404,7 +2404,7 @@
     )
   )
 
-  (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
+  (footprint "C1210C822K2RACAUTO:CAPC3225X88N" locked (layer "F.Cu")
     (tedit 0) (tstamp 2d726b5f-41a0-4484-b02a-942ed554eae7)
     (at 94.5769 33.02)
     (descr "1210_(H=0.78mm)_2022")
@@ -2450,7 +2450,7 @@
     )
   )
 
-  (footprint "CD74HC4051PWT:SOP65P640X120-16N" (layer "F.Cu")
+  (footprint "CD74HC4051PWT:SOP65P640X120-16N" locked (layer "F.Cu")
     (tedit 0) (tstamp 2fa07fa5-646c-41c7-88c8-cc746e1643f7)
     (at 128.3589 103.124 90)
     (descr "PW0016A HEIGHT=1.2")
@@ -2581,7 +2581,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp 312db241-2c17-4b32-a10f-128999e5ec20)
     (at 89.2799 34.774 90)
     (descr "CRMA1210")
@@ -2616,9 +2616,9 @@
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp 82506a4b-1cc7-46dd-a3ae-c12458ecddb1))
     (fp_line (start 3.2 1.6) (end 0 1.6) (layer "F.Fab") (width 0.1) (tstamp cedd9d48-0112-4f4f-b9a0-2f9094b93f15))
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp f76728cc-dd01-427c-b899-5380aaecff92))
-    (pad "1" smd rect (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "Net-(C15-Pad2)") (pintype "passive") (tstamp 57847380-303f-4708-864f-a04f17c4b6e6))
-    (pad "2" smd rect (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 157 "Net-(JP5-Pad2)") (pintype "passive") (tstamp c670a396-6c4b-4f65-8430-4ef0ff3606e8))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -2627,7 +2627,7 @@
     )
   )
 
-  (footprint "CDBA540-HF:DIOM5225X250N" (layer "F.Cu")
+  (footprint "CDBA540-HF:DIOM5225X250N" locked (layer "F.Cu")
     (tedit 0) (tstamp 326806dc-2f8d-4f06-887e-1ec7da721733)
     (at 83.82 170.18)
     (descr "CDBA540-HF-1")
@@ -2679,7 +2679,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 33ae5549-1548-4353-8abc-f55fed158198)
     (at 57.2389 147.066 90)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -2721,7 +2721,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 350852c1-86ae-4068-8c58-d75b986fcee6)
     (at 81.849 153.162 180)
     (descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
@@ -2817,7 +2817,7 @@
       (net 173 "Net-(JP13-Pad2)") (pinfunction "B") (pintype "passive") (tstamp 408ed876-ba1f-496a-951c-5e5b69dc6343))
   )
 
-  (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
+  (footprint "C1210C822K2RACAUTO:CAPC3225X88N" locked (layer "F.Cu")
     (tedit 0) (tstamp 35376df8-2142-41ba-9ebc-7fda1d52a96c)
     (at 82.1309 32.766)
     (descr "1210_(H=0.78mm)_2022")
@@ -2909,7 +2909,7 @@
     )
   )
 
-  (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
+  (footprint "RCV2512100KFKEGAT:RESC6332X70N" locked (layer "F.Cu")
     (tedit 0) (tstamp 36405e86-7b09-4f43-8aff-b3c4147096b9)
     (at 78.0669 55.626 180)
     (descr "2512-ren1")
@@ -3001,7 +3001,7 @@
     )
   )
 
-  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (layer "F.Cu")
+  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" locked (layer "F.Cu")
     (tedit 0) (tstamp 39fabfd3-ae1f-4d0e-8294-aa53024173af)
     (at 74.9709 45.974 -90)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952")
@@ -3484,7 +3484,7 @@
     )
   )
 
-  (footprint "EAST2012RA2:EAST2012RA2" (layer "F.Cu")
+  (footprint "EAST2012RA2:EAST2012RA2" locked (layer "F.Cu")
     (tedit 0) (tstamp 40851326-10d7-4e83-83d1-deac661951bd)
     (at 65.95 153.162)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EAST2012RA2/11200793")
@@ -3803,7 +3803,7 @@
     )
   )
 
-  (footprint "LM2576HVS-5.0_NOPB:LM2576HVS50NOPB" (layer "F.Cu")
+  (footprint "LM2576HVS-5.0_NOPB:LM2576HVS50NOPB" locked (layer "F.Cu")
     (tedit 0) (tstamp 4a356928-063c-4d8a-8bf4-0f66c1b81cad)
     (at 101.137 161.798)
     (descr "KTT0005B_4.65H")
@@ -3919,7 +3919,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 4b82322e-d39e-4fcc-aa14-207232d857d9)
     (at 106.534 153.416)
     (descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
@@ -3963,7 +3963,7 @@
       (net 70 "Net-(C30-Pad1)") (pinfunction "B") (pintype "passive") (tstamp b8c1a312-8346-465b-8a04-7ce15176436d))
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp 4c97405f-ecbf-4bdc-8fd9-703f5dd98437)
     (at 69.4549 39.915)
     (descr "CRMA1210")
@@ -3998,9 +3998,9 @@
     (fp_line (start 3.2 1.6) (end 0 1.6) (layer "F.Fab") (width 0.1) (tstamp 7e55e650-09cb-4923-a380-c250e89beae6))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp c92da78f-6b8d-48b9-812a-c4d20157a734))
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp f3873f30-d8e7-410d-83de-58b8fe69dfe4))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 73 "Net-(C35-Pad2)") (pintype "passive") (tstamp d53fd1fc-3f90-4ded-a2ee-f2d0738935c4))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 196 "Net-(JP17-Pad2)") (pintype "passive") (tstamp 87f750fc-ffae-4912-83c0-5382b7dc51da))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -4009,7 +4009,7 @@
     )
   )
 
-  (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
+  (footprint "C1210C822K2RACAUTO:CAPC3225X88N" locked (layer "F.Cu")
     (tedit 0) (tstamp 4debd502-bacf-4bda-b9d5-5dbc8e5ce214)
     (at 70.9549 48.514 180)
     (descr "1210_(H=0.78mm)_2022")
@@ -4055,7 +4055,7 @@
     )
   )
 
-  (footprint "SDR10EZPJ271:RESC2012X65N" (layer "F.Cu")
+  (footprint "SDR10EZPJ271:RESC2012X65N" locked (layer "F.Cu")
     (tedit 0) (tstamp 4fdb142d-395d-449e-a0b9-cf586ef687f4)
     (at 71.0209 33.782)
     (descr "SDR10")
@@ -4101,7 +4101,7 @@
     )
   )
 
-  (footprint "EEE-FP1E471AP:EEE-FP1E471AP" (layer "F.Cu")
+  (footprint "EEE-FP1E471AP:EEE-FP1E471AP" locked (layer "F.Cu")
     (tedit 0) (tstamp 4ffed007-14fe-4a0b-a5da-5a80cafcd17a)
     (at 125.34265 180.594 180)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FP1E471AP/1245939")
@@ -4308,7 +4308,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 5269bc63-a96e-4609-a11b-776f576a2052)
     (at 111.0869 53.34 90)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -4350,7 +4350,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 53184090-a10d-4174-be8e-e7d6f89ff6ba)
     (at 97.3709 53.34 90)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -4392,7 +4392,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 542f3d54-461e-4090-b717-e0c73a03fc3f)
     (at 101.9429 53.34 90)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -4526,7 +4526,7 @@
     )
   )
 
-  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (layer "F.Cu")
+  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" locked (layer "F.Cu")
     (tedit 0) (tstamp 56e09c4b-0b6f-405e-8f7c-1982d9fedf14)
     (at 126.3269 115.062 -90)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952")
@@ -4670,7 +4670,7 @@
       (net 195 "Net-(JP16-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 52b134c8-d519-41cd-bb18-9c8a4962fc11))
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 586908e6-47fe-4cd3-85d7-e6f86e8a654f)
     (at 123.7869 133.858)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -4703,7 +4703,7 @@
     (fp_line (start 1.25 -0.4) (end 1.25 0.4) (layer "F.Fab") (width 0.15) (tstamp 5adc915c-afd5-4180-9cd5-7fdc6732dcc3))
     (fp_line (start 1.25 0.4) (end -1.25 0.4) (layer "F.Fab") (width 0.15) (tstamp a8c440a6-4ac7-4a0a-924d-e4655b0a11b0))
     (fp_circle (center 0 0) (end 1.6 0) (layer "F.Fab") (width 0.15) (fill none) (tstamp 87ccd403-9922-4a83-a025-e277fde284e3))
-    (pad "1" thru_hole circle (at 0 0) (size 2.8 2.8) (drill 1.6) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle locked (at 0 0) (size 2.8 2.8) (drill 1.6) (layers *.Cu *.Mask)
       (net 70 "Net-(C30-Pad1)") (pinfunction "1") (pintype "passive") (tstamp b9df35f1-6eb3-4260-8452-61e8b722c5c1))
     (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Keystone_5010-5014_Multipurpose.wrl"
       (offset (xyz 0 0 0))
@@ -4758,7 +4758,7 @@
     )
   )
 
-  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (layer "F.Cu")
+  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" locked (layer "F.Cu")
     (tedit 0) (tstamp 59bfc7f7-05fe-480f-9d21-171272a11a88)
     (at 72.136 116.84)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952")
@@ -4902,7 +4902,7 @@
       (net 148 "FP_3_OUT") (pinfunction "2") (pintype "passive") (tstamp 5ffdbcfb-348f-4c66-be84-a03b7bfaa28a))
   )
 
-  (footprint "JS102011SCQN:JS102011SCQN" (layer "F.Cu")
+  (footprint "JS102011SCQN:JS102011SCQN" locked (layer "F.Cu")
     (tedit 0) (tstamp 5b0528fa-e7f7-4316-b66e-855c50d4263a)
     (at 60.0329 31.75 90)
     (property "Digikey Part Number" "CKN10877CT-ND")
@@ -5080,7 +5080,7 @@
       (net 17 "+3.3V") (pinfunction "3") (pintype "unspecified") (tstamp 8568162f-ed5d-4bc4-9b36-2288b3e10690))
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp 5c2ca625-ac48-4d6e-8531-e92794b3225a)
     (at 121.2709 109.436)
     (descr "CRMA1210")
@@ -5115,9 +5115,9 @@
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp a2b75b02-66ee-430b-b155-88ea1f23ab84))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp f2a4e8a7-fb0c-4ee6-adc2-0f6d9354f7c3))
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp fdc7ceb4-4fbd-40da-822b-00cf0d83cf96))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 152 "Net-(J17-Pad2)") (pintype "passive") (tstamp 818220c1-5c15-43cc-b24d-6cae26e09bfe))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp cc6b6644-18dd-4991-8e7f-da3c9795519c))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -5126,7 +5126,7 @@
     )
   )
 
-  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (layer "F.Cu")
+  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" locked (layer "F.Cu")
     (tedit 0) (tstamp 5c86a5cb-e898-49d3-9b14-4311cdc6dd6f)
     (at 74.5109 37.592 90)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952")
@@ -5422,7 +5422,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp 605d669c-a5fc-46cd-8995-cd938eebb4e6)
     (at 128.0759 127.23 90)
     (descr "CRMA1210")
@@ -5457,9 +5457,9 @@
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp 260ede47-cfaf-473c-b59b-57e329c7f3ca))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp 6a256506-d41a-4505-bce6-cbf942b3b1e4))
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp 821f85d0-5982-4234-8f35-2cadcedba56b))
-    (pad "1" smd rect (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 187 "Net-(J20-Pad4)") (pintype "passive") (tstamp 7d31f255-6c5e-4d51-a125-33d7bbae80bb))
-    (pad "2" smd rect (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 4a065440-6eb5-4970-b787-c48c2a04debf))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -5578,7 +5578,7 @@
       (net 96 "Net-(D4-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 39298c81-313f-4c15-bfa4-6cbd66df81a8))
   )
 
-  (footprint "CL10B104KB8NNNC:CL10B104KB8NNNC" (layer "F.Cu")
+  (footprint "CL10B104KB8NNNC:CL10B104KB8NNNC" locked (layer "F.Cu")
     (tedit 0) (tstamp 60bef2ed-5d4e-425c-b475-f7aefc331c5e)
     (at 112.268 159.258 90)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658")
@@ -5681,7 +5681,7 @@
       (net 1 "GND") (pintype "passive") (tstamp 33032266-e4c7-44e5-a31a-6d3ef144dd16))
   )
 
-  (footprint "C1210C822K2RACAUTO:CAPC3225X88N" (layer "F.Cu")
+  (footprint "C1210C822K2RACAUTO:CAPC3225X88N" locked (layer "F.Cu")
     (tedit 0) (tstamp 61013597-95e5-4840-a185-6e7fc10e4648)
     (at 72.2249 55.626 -90)
     (descr "1210_(H=0.78mm)_2022")
@@ -5863,7 +5863,7 @@
     )
   )
 
-  (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
+  (footprint "CR0402-FX-5620GLF:RESC1005X40N" locked (layer "F.Cu")
     (tedit 0) (tstamp 62d220d5-08be-4c35-b43d-ee1b9967ae00)
     (at 86.9569 37.338 -90)
     (descr "CR0402")
@@ -5908,7 +5908,7 @@
     )
   )
 
-  (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
+  (footprint "RCV2512100KFKEGAT:RESC6332X70N" locked (layer "F.Cu")
     (tedit 0) (tstamp 64546e26-97b5-405f-a3a1-884737bcc0d0)
     (at 69.1769 44.45)
     (descr "2512-ren1")
@@ -6000,7 +6000,7 @@
     )
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" locked (layer "F.Cu")
     (tedit 5AE5139B) (tstamp 6bab9ee6-0f36-4bae-ab96-7fa7b011a3c5)
     (at 118.745 47.2313 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
@@ -6053,7 +6053,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp 6c0b1cb1-3e79-4e21-b2eb-ebd5d7f0982e)
     (at 79.1199 52.554 90)
     (descr "CRMA1210")
@@ -6088,9 +6088,9 @@
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp 8bb7aec5-b096-4911-bbf4-3126835b1df0))
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp b7b47ba0-2298-4d25-ad7a-1a0a09c0e1e7))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp d35527f2-965b-4699-a0ad-bc410fec2977))
-    (pad "1" smd rect (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 63 "Net-(C17-Pad2)") (pintype "passive") (tstamp 945d3fcd-a492-4400-8eed-98953d79c1db))
-    (pad "2" smd rect (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 192 "Net-(JP7-Pad2)") (pintype "passive") (tstamp d787b33d-5859-42ee-a4db-78672094a78a))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -6339,7 +6339,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 72d41cdd-84ea-4832-99d8-59dd0f6d3c20)
     (at 68.1809 27.432)
     (descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
@@ -6381,9 +6381,9 @@
     (fp_line (start -1.3 0.5) (end -0.65 1.15) (layer "F.CrtYd") (width 0.05) (tstamp 66a61ba6-8e4e-4569-9fe7-d390e4048f68))
     (fp_line (start 3.15 -1.15) (end -0.65 -1.15) (layer "F.CrtYd") (width 0.05) (tstamp d6f24ca6-63e4-4824-93d3-5e6ff04d35ff))
     (fp_line (start -0.65 -1.15) (end -1.3 -0.5) (layer "F.CrtYd") (width 0.05) (tstamp d9a5871f-3060-454f-896e-ab14cfa14cf0))
-    (pad "1" thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle locked (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
       (net 17 "+3.3V") (pinfunction "A") (pintype "passive") (tstamp 9db1533c-9735-4690-a600-04c9796d18ef))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle locked (at 2.54 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
       (net 161 "Net-(JP12-Pad2)") (pinfunction "B") (pintype "passive") (tstamp 160338f2-fc22-4bfa-bf56-00ecad7bed1e))
   )
 
@@ -6433,7 +6433,7 @@
     )
   )
 
-  (footprint "CHP2512AFX-47R0ELF:RESC6431X130N" (layer "F.Cu")
+  (footprint "CHP2512AFX-47R0ELF:RESC6431X130N" locked (layer "F.Cu")
     (tedit 0) (tstamp 731bbd6b-72f8-493a-966a-d99123f08c87)
     (at 72.644 153.162 180)
     (descr "CHP2512AFX-47R0ELF")
@@ -6525,7 +6525,7 @@
     )
   )
 
-  (footprint "PTS636_SL43_LFS:PTS636SL43LFS" (layer "F.Cu")
+  (footprint "PTS636_SL43_LFS:PTS636SL43LFS" locked (layer "F.Cu")
     (tedit 0) (tstamp 748b7230-9ddd-41c2-ad4e-40574d636093)
     (at 88.5249 22.606)
     (descr "PTS636 SL43 LFS-2")
@@ -6585,7 +6585,7 @@
     )
   )
 
-  (footprint "OQ0212500000G:OQ0212500000G" (layer "F.Cu")
+  (footprint "OQ0212500000G:OQ0212500000G" locked (layer "F.Cu")
     (tedit 0) (tstamp 75e65624-3a66-43b9-a47b-b9ba5784594f)
     (at 104.9909 23.622 180)
     (descr "OQ0212500000G-1")
@@ -6684,7 +6684,7 @@
     )
   )
 
-  (footprint "CL10B104KB8NNNC:CL10B104KB8NNNC" (layer "F.Cu")
+  (footprint "CL10B104KB8NNNC:CL10B104KB8NNNC" locked (layer "F.Cu")
     (tedit 0) (tstamp 79c9aa04-fc37-4bbb-a3f9-61a427c751c1)
     (at 75.692 159.258 -90)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KB8NNNC/3886658")
@@ -6787,7 +6787,7 @@
       (net 1 "GND") (pintype "passive") (tstamp be442d5c-8687-4f99-b80d-6a67e36ea78e))
   )
 
-  (footprint "PTS636_SL43_LFS:PTS636SL43LFS" (layer "F.Cu")
+  (footprint "PTS636_SL43_LFS:PTS636SL43LFS" locked (layer "F.Cu")
     (tedit 0) (tstamp 7a9d00b9-4fea-4d56-ac87-1bb52fb7dc1c)
     (at 76.0789 22.606)
     (descr "PTS636 SL43 LFS-2")
@@ -6847,7 +6847,7 @@
     )
   )
 
-  (footprint "SRR1210-681M:SRR1210-681M" (layer "F.Cu")
+  (footprint "SRR1210-681M:SRR1210-681M" locked (layer "F.Cu")
     (tedit 0) (tstamp 7b10a673-0a4d-4b82-87f4-cf093aac8fee)
     (at 64.516 164.592)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/bourns-inc/SRR1210-681M/2562365")
@@ -7051,7 +7051,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 81a94aa1-affe-4891-a961-54f3bee8e3a2)
     (at 78.0869 27.686)
     (descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
@@ -7093,9 +7093,9 @@
     (fp_line (start 3.15 -1.15) (end -0.65 -1.15) (layer "F.CrtYd") (width 0.05) (tstamp a8f3a341-ece2-4694-b499-4e1db64e2aac))
     (fp_line (start 3.15 1.15) (end 3.8 0.5) (layer "F.CrtYd") (width 0.05) (tstamp e3550f36-6134-4e93-a6fa-5c3568c8ebb0))
     (fp_line (start -1.3 -0.5) (end -1.3 0.5) (layer "F.CrtYd") (width 0.05) (tstamp fc54d52a-b1b3-4d74-9d8a-38f5aac3c95e))
-    (pad "1" thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle locked (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
       (net 17 "+3.3V") (pinfunction "A") (pintype "passive") (tstamp c6771aa4-d511-487f-a39e-7c440230f40f))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle locked (at 2.54 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
       (net 156 "Net-(JP4-Pad2)") (pinfunction "B") (pintype "passive") (tstamp e14a32eb-b16e-4aee-8ce8-9de3a507e250))
   )
 
@@ -7184,7 +7184,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 84a9c688-6067-43e9-9197-43d6f5c20c9e)
     (at 126.8349 111.72 90)
     (descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
@@ -7232,7 +7232,7 @@
       (net 195 "Net-(JP16-Pad2)") (pinfunction "B") (pintype "passive") (tstamp fa898290-3c4a-4ac0-8840-6a238bd53464))
   )
 
-  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 85d21f91-9689-447b-b4b3-c1bd28a03844)
     (at 90.0249 27.686)
     (descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
@@ -7274,13 +7274,13 @@
     (fp_line (start 3.8 0.5) (end 3.8 -0.5) (layer "F.CrtYd") (width 0.05) (tstamp 6cd3664f-50a1-4666-b440-c3c510851dec))
     (fp_line (start -1.3 0.5) (end -0.65 1.15) (layer "F.CrtYd") (width 0.05) (tstamp 85b0f74e-6006-4b26-a16c-ca3c182f0378))
     (fp_line (start -0.65 1.15) (end 3.15 1.15) (layer "F.CrtYd") (width 0.05) (tstamp e8df3d70-2056-48c8-8f28-cbe2a7cee853))
-    (pad "1" thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle locked (at 0 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
       (net 17 "+3.3V") (pinfunction "A") (pintype "passive") (tstamp 1bbeb272-258a-48cb-a13f-3e741b1e903e))
-    (pad "2" thru_hole circle (at 2.54 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle locked (at 2.54 0) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
       (net 157 "Net-(JP5-Pad2)") (pinfunction "B") (pintype "passive") (tstamp 0614be23-f48a-48fc-b7be-19f05b18a2b1))
   )
 
-  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 86127b5c-3b08-40ed-95be-6ebb7138e739)
     (at 67.1449 40.112 90)
     (descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
@@ -7328,7 +7328,7 @@
       (net 174 "Net-(JP14-Pad2)") (pinfunction "B") (pintype "passive") (tstamp 47da0b62-8871-42c9-94fa-be4d39286cd7))
   )
 
-  (footprint "SDR10EZPJ271:RESC2012X65N" (layer "F.Cu")
+  (footprint "SDR10EZPJ271:RESC2012X65N" locked (layer "F.Cu")
     (tedit 0) (tstamp 8acb37b9-d777-44a9-a121-7e13d18d3151)
     (at 71.0209 35.814)
     (descr "SDR10")
@@ -7434,7 +7434,7 @@
     )
   )
 
-  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (layer "F.Cu")
+  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" locked (layer "F.Cu")
     (tedit 0) (tstamp 90025347-f763-4606-a879-cdf6fb2c0e76)
     (at 131.1529 117.856 180)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952")
@@ -7578,7 +7578,7 @@
       (net 194 "Net-(JP15-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 14850247-6e2d-47fb-ae8c-cdb82329d33c))
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 9058fa04-66e9-42d2-b359-9e7a0e944d78)
     (at 115.9129 53.34 90)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -7620,7 +7620,7 @@
     )
   )
 
-  (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm" (layer "F.Cu")
+  (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm" locked (layer "F.Cu")
     (tedit 5BC5C9B9) (tstamp 92c349f0-29c4-4f27-b41c-f1c6d1d4bb50)
     (at 112.542 179.07)
     (descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=5mm, Non-Polar Electrolytic Capacitor")
@@ -7759,7 +7759,7 @@
       (net 64 "Net-(C19-Pad1)") (pinfunction "B") (pintype "passive") (tstamp ab8f8eda-bf52-43bc-8ee4-fa0e51112075))
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 970124d7-266a-4f1b-a3f9-f347e1593ce4)
     (at 124.968 188.468)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -7801,7 +7801,7 @@
     )
   )
 
-  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (layer "F.Cu")
+  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" locked (layer "F.Cu")
     (tedit 0) (tstamp 970f70d8-794d-4236-9b68-a9dc185120e5)
     (at 106.5149 47.752)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952")
@@ -7945,7 +7945,7 @@
       (net 76 "U3RX") (pinfunction "2") (pintype "passive") (tstamp f671dee8-6fad-42f7-9fc7-1db8d37de37c))
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp 9a0df7bb-12fe-421c-b35f-93aa8d2d9ef3)
     (at 121.2709 101.816)
     (descr "CRMA1210")
@@ -7980,9 +7980,9 @@
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp 2c8e457b-47a3-4a79-a170-7759bac0cf8a))
     (fp_line (start 3.2 1.6) (end 0 1.6) (layer "F.Fab") (width 0.1) (tstamp 32fd6ac7-6de8-4d01-813f-d2892e8f410b))
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp d3645945-19db-4bc4-a8bf-b4f36588ea49))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 183 "Net-(J19-Pad4)") (pintype "passive") (tstamp 89116b37-f9e7-4133-8984-f57f98124cf8))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 0ddb76fc-d360-452b-adf6-cf6e42708b7a))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -8087,7 +8087,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 9b859a35-d5ca-4dad-8ea9-aef1a911526c)
     (at 62.5729 147.066 90)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -8271,7 +8271,7 @@
     )
   )
 
-  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (layer "F.Cu")
+  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" locked (layer "F.Cu")
     (tedit 0) (tstamp 9d7d0fb7-641d-4b6c-9861-1a335e4786d2)
     (at 72.2249 52.07)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952")
@@ -8415,7 +8415,7 @@
       (net 159 "COLOR_OUT") (pinfunction "2") (pintype "passive") (tstamp 8e0b2a03-cfad-4a60-aff9-6d0bdeda626e))
   )
 
-  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp 9eef155d-f7ca-41f0-a511-c64202d6fa4b)
     (at 67.1449 31.496 -90)
     (descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
@@ -8457,13 +8457,13 @@
     (fp_line (start -0.65 -1.15) (end -1.3 -0.5) (layer "F.CrtYd") (width 0.05) (tstamp 8d29b2ef-b864-4ca5-96df-259ad74c3773))
     (fp_line (start 3.15 1.15) (end 3.8 0.5) (layer "F.CrtYd") (width 0.05) (tstamp 8e7df9c6-e4bb-4402-b255-60e4f5e212cf))
     (fp_line (start 3.8 -0.5) (end 3.15 -1.15) (layer "F.CrtYd") (width 0.05) (tstamp f10f27ae-82cc-4354-82d9-3ee43ba9bfa5))
-    (pad "1" thru_hole circle (at 0 0 270) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "1" thru_hole circle locked (at 0 0 270) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
       (net 17 "+3.3V") (pinfunction "A") (pintype "passive") (tstamp ebb349b7-f4f4-4734-ab4b-4f5aa71a14cd))
-    (pad "2" thru_hole circle (at 2.54 0 270) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle locked (at 2.54 0 270) (size 1.4 1.4) (drill 0.8) (layers *.Cu *.Mask)
       (net 192 "Net-(JP7-Pad2)") (pinfunction "B") (pintype "passive") (tstamp 300f8fbe-f338-4444-a72d-367e5ae39465))
   )
 
-  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (layer "F.Cu")
+  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" locked (layer "F.Cu")
     (tedit 0) (tstamp 9fb1ad0a-c555-4b4f-938a-e8ce26908632)
     (at 114.1349 48.006)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952")
@@ -8607,7 +8607,7 @@
       (net 78 "U3TX") (pinfunction "2") (pintype "passive") (tstamp aca80e11-26be-4a2f-9abd-4e7877421b87))
   )
 
-  (footprint "EEE-FP1E471AP:EEE-FP1E471AP" (layer "F.Cu")
+  (footprint "EEE-FP1E471AP:EEE-FP1E471AP" locked (layer "F.Cu")
     (tedit 634C5A9F) (tstamp a035e8ee-5be9-4c34-9e5b-1aab2f46dcf9)
     (at 64.516 177.8)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FP1E471AP/1245939")
@@ -8784,7 +8784,7 @@
     )
   )
 
-  (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
+  (footprint "CR0402-FX-5620GLF:RESC1005X40N" locked (layer "F.Cu")
     (tedit 0) (tstamp a2f293c5-e136-462f-bfa9-fc150443a5b6)
     (at 74.5109 32.512 -90)
     (descr "CR0402")
@@ -8829,7 +8829,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp a319eed4-7898-4c1c-b4b9-4abb98b6b04a)
     (at 118.501735 188.468)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -8871,7 +8871,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp a44f4315-6228-4e79-b990-36374aed4e5b)
     (at 130.6159 122.912 90)
     (descr "CRMA1210")
@@ -8906,9 +8906,9 @@
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp 505b75ef-d901-4032-aade-65ccf4b163b9))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp 8ac74173-a56e-4782-a060-9ce14c588dc2))
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp f8631e55-c74f-4ec6-a3c9-869ef71e634e))
-    (pad "1" smd rect (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 154 "Net-(J17-Pad4)") (pintype "passive") (tstamp 33887666-3206-4b07-8a3f-7a928f104b40))
-    (pad "2" smd rect (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 981116c1-53b0-43d9-be8b-0cdc39193e07))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -9013,7 +9013,7 @@
     )
   )
 
-  (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
+  (footprint "RCV2512100KFKEGAT:RESC6332X70N" locked (layer "F.Cu")
     (tedit 0) (tstamp a5832aac-35fa-4d99-b136-e157da5cb1aa)
     (at 80.6069 45.974)
     (descr "2512-ren1")
@@ -9098,7 +9098,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp a5e05ab2-deb4-4d18-b86e-bb97e529b97e)
     (at 112.466735 188.468)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -9273,7 +9273,7 @@
     )
   )
 
-  (footprint "RCV2512100KFKEGAT:RESC6332X70N" (layer "F.Cu")
+  (footprint "RCV2512100KFKEGAT:RESC6332X70N" locked (layer "F.Cu")
     (tedit 0) (tstamp a865bb00-da07-42ef-8f36-30f70de91c5b)
     (at 80.3529 37.084)
     (descr "2512-ren1")
@@ -9319,7 +9319,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp aabaadff-4c96-4f36-ad28-d3ffa8fcdd4c)
     (at 67.1449 147.066 90)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -9407,7 +9407,7 @@
     )
   )
 
-  (footprint "EEE-FP1E471AP:EEE-FP1E471AP" (layer "F.Cu")
+  (footprint "EEE-FP1E471AP:EEE-FP1E471AP" locked (layer "F.Cu")
     (tedit 634C5A9F) (tstamp af91a48f-3d9b-4a4a-81f3-e2e3fa61f9db)
     (at 110.0709 39.99865 90)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FP1E471AP/1245939")
@@ -9522,13 +9522,13 @@
     (fp_line (start -5.2451 -2.62255) (end -2.62255 -5.2451) (layer "F.Fab") (width 0.1) (tstamp 70082af3-7234-4535-9df3-1a2ba4dc3877))
     (fp_line (start -5.2451 2.62255) (end -2.62255 5.2451) (layer "F.Fab") (width 0.1) (tstamp e64fdf1d-1dba-49c1-bb83-4dc188975d44))
     (fp_line (start 5.2451 -5.2451) (end -5.2451 -5.2451) (layer "F.Fab") (width 0.1) (tstamp e7dc5319-98c0-4e3c-aec0-95d8ab5dccff))
-    (pad "1" smd rect (at -4.5466 0 90) (size 3.9116 1.4986) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at -4.5466 0 90) (size 3.9116 1.4986) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 85 "+5V") (pintype "passive") (tstamp 36fd3890-b88c-482d-8eef-48577da3bfdb))
-    (pad "2" smd rect (at 4.5466 0 90) (size 3.9116 1.4986) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 4.5466 0 90) (size 3.9116 1.4986) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 6c25b682-c1fc-4b1c-baa9-4f8f5298ca17))
   )
 
-  (footprint "EAST2012RA2:EAST2012RA2" (layer "F.Cu")
+  (footprint "EAST2012RA2:EAST2012RA2" locked (layer "F.Cu")
     (tedit 0) (tstamp afc92655-80cf-452b-a001-71ad8c79196b)
     (at 117.602 153.416)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/everlight-electronics-co-ltd/EAST2012RA2/11200793")
@@ -9605,7 +9605,7 @@
       (net 158 "Net-(JP6-Pad2)") (pinfunction "B") (pintype "passive") (tstamp ae7a6829-8bc3-411e-80d4-fc2e7dd9592e))
   )
 
-  (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (layer "F.Cu")
+  (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" locked (layer "F.Cu")
     (tedit 5AE5139B) (tstamp b1144d3c-9c37-4c69-8683-bac11b35e766)
     (at 101.6889 41.91 90)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
@@ -9658,7 +9658,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp b19a53a5-4115-42d5-902c-021bbbeb3f5c)
     (at 106.5149 53.34 90)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -9700,7 +9700,7 @@
     )
   )
 
-  (footprint "CD74HC4051PWT:SOP65P640X120-16N" (layer "F.Cu")
+  (footprint "CD74HC4051PWT:SOP65P640X120-16N" locked (layer "F.Cu")
     (tedit 0) (tstamp b2feed12-9829-4c16-8654-454e7146bfa8)
     (at 128.3589 94.234 90)
     (descr "PW0016A HEIGHT=1.2")
@@ -9874,7 +9874,7 @@
       (net 155 "Net-(JP3-Pad2)") (pinfunction "B") (pintype "passive") (tstamp ebea0b69-3752-4e51-9055-3550e13a5e45))
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp b7838a08-6604-4145-8a38-4f381332486c)
     (at 128.0759 122.912 90)
     (descr "CRMA1210")
@@ -9909,9 +9909,9 @@
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp c076e64a-e881-4f1b-b35b-cd6721b53f30))
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp efa65627-405d-43b6-9a11-e842139d2d32))
     (fp_line (start 3.2 1.6) (end 0 1.6) (layer "F.Fab") (width 0.1) (tstamp f078d205-838d-48bf-9b3c-b8f2618e4eb5))
-    (pad "1" smd rect (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 185 "Net-(J20-Pad2)") (pintype "passive") (tstamp ce5b0ed7-969d-493a-9112-d87446efc442))
-    (pad "2" smd rect (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp cff4c6b6-08bb-4e1f-b247-3f1437c80596))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -10062,7 +10062,7 @@
     )
   )
 
-  (footprint "CDBA540-HF:DIOM5225X250N" (layer "F.Cu")
+  (footprint "CDBA540-HF:DIOM5225X250N" locked (layer "F.Cu")
     (tedit 0) (tstamp b91c3c06-9d12-4656-839e-9446bd07fca7)
     (at 103.632 170.18 180)
     (descr "CDBA540-HF-1")
@@ -10160,7 +10160,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp bb92d44c-a463-4bc8-a88f-aaeccabac3b3)
     (at 121.2709 106.896)
     (descr "CRMA1210")
@@ -10195,9 +10195,9 @@
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp 9ea9df58-5756-48bf-b2d1-1277b14ba66a))
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp de3a9b26-a0bb-43a3-8400-ea1fb114b0e7))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp e2f2a8b8-a4ac-4c95-b19b-70000b51bc78))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 177 "Net-(J18-Pad2)") (pintype "passive") (tstamp b129db42-476b-41b0-9740-96c54bf11b5d))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp c10be9f0-e2f6-4523-a57e-2e289264146f))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -10257,7 +10257,7 @@
     )
   )
 
-  (footprint "OQ0212500000G:OQ0212500000G" (layer "F.Cu")
+  (footprint "OQ0212500000G:OQ0212500000G" locked (layer "F.Cu")
     (tedit 0) (tstamp bc63578b-4981-4fff-9710-b0ca8acc6b47)
     (at 116.1669 23.584 180)
     (descr "OQ0212500000G-1")
@@ -10310,7 +10310,7 @@
     )
   )
 
-  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (layer "F.Cu")
+  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" locked (layer "F.Cu")
     (tedit 0) (tstamp bea7eac5-347c-41a2-8f53-5e5f741456c8)
     (at 86.9569 32.766 -90)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952")
@@ -10454,7 +10454,7 @@
       (net 19 "HOME_OUT") (pinfunction "2") (pintype "passive") (tstamp 7f072187-0342-4165-8f6a-79a6d21d6216))
   )
 
-  (footprint "3588:3588" (layer "F.Cu")
+  (footprint "3588:3588" locked (layer "F.Cu")
     (tedit 0) (tstamp bf4c54e0-f998-499c-9556-03a90986d5f5)
     (at 86.1193 181.483 90)
     (descr "3588-3")
@@ -10547,7 +10547,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp c0a8b5f5-6db0-4341-b71b-7edf693f82dd)
     (at 121.2709 104.356)
     (descr "CRMA1210")
@@ -10582,9 +10582,9 @@
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp 3d1c6b40-a5ef-4f3b-aad2-53a5fc6cd6cc))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp 467b1610-f561-43aa-8022-dd5b787365ee))
     (fp_line (start 3.2 1.6) (end 0 1.6) (layer "F.Fab") (width 0.1) (tstamp 5b847698-47dd-4f3e-a1e7-deef64124f9b))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 178 "Net-(J18-Pad3)") (pintype "passive") (tstamp 156ab74d-ef73-4bb1-a02d-5d8b8281ae31))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp de958edb-b8f8-4cda-bb76-cdd6d3e4e074))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -10593,7 +10593,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp c0b1605e-f60d-415f-b5b4-b3ce2ef5bee8)
     (at 130.6159 127.23 90)
     (descr "CRMA1210")
@@ -10628,9 +10628,9 @@
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp c13064fc-6986-433b-9bdf-4e447f0d3e88))
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp c72cffa7-240a-4551-bf42-65b775cc8594))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp f48ca7ba-ec88-4ae9-b0aa-553adc6ddaff))
-    (pad "1" smd rect (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 186 "Net-(J20-Pad3)") (pintype "passive") (tstamp f5a14a03-1ce2-43b2-ab28-7a5ced6d3ad3))
-    (pad "2" smd rect (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 13b6cae4-865d-4f17-a5d4-04d61a474718))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -10678,7 +10678,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp c1cb0f49-0094-4579-993d-712f9ea68be6)
     (at 92.7989 53.34 90)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -10720,7 +10720,7 @@
     )
   )
 
-  (footprint "DRV8210DRLR:SOTFL50P160X60-6N" (layer "F.Cu")
+  (footprint "DRV8210DRLR:SOTFL50P160X60-6N" locked (layer "F.Cu")
     (tedit 0) (tstamp c3c8a8ea-87e4-4ffd-a897-a530ede87b30)
     (at 101.6889 46.99)
     (descr "DRL (R-PDSO-N6)-")
@@ -10947,7 +10947,7 @@
     )
   )
 
-  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (layer "F.Cu")
+  (footprint "UCLAMP3310H-TCT:UCLAMP3301H.TCT" locked (layer "F.Cu")
     (tedit 0) (tstamp c74764d4-0ba0-4b12-800b-59f907c7340e)
     (at 56.7309 140.97)
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952")
@@ -11193,7 +11193,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp c8be970a-7e6a-4354-ba5d-bad2545a240a)
     (at 121.2409 97.169)
     (descr "CRMA1210")
@@ -11228,9 +11228,9 @@
     (fp_line (start 3.2 1.6) (end 0 1.6) (layer "F.Fab") (width 0.1) (tstamp 885b80a4-5872-475f-9f80-fb7307d13b72))
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp b2394e78-4b13-4fe5-a1f6-350dcb944a1c))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp bcb53c2a-89ac-4b78-b074-46d5bf6794c7))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 151 "Net-(J17-Pad1)") (pintype "passive") (tstamp 5966578d-3197-4d1f-b6c5-1d6613155a5d))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp e93a7673-4ea0-4407-a9e5-1e91587ca81b))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -11539,7 +11539,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp cd58bab5-b63b-4b45-b345-b3658dea05dd)
     (at 121.2409 99.455)
     (descr "CRMA1210")
@@ -11574,9 +11574,9 @@
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp b1238493-dd60-4983-a873-6dbb2e8adbb5))
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp d8bbf916-5500-4ab0-b637-f78b51c7f695))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp f7530136-4467-4b67-8a9d-047357175176))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 179 "Net-(J18-Pad4)") (pintype "passive") (tstamp 5f9266dc-353e-46a9-9406-b593b6b7e5be))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp e0cc112e-47bf-43eb-bb60-25cc9f0e8410))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -11585,7 +11585,7 @@
     )
   )
 
-  (footprint "PTS636_SL43_LFS:PTS636SL43LFS" (layer "F.Cu")
+  (footprint "PTS636_SL43_LFS:PTS636SL43LFS" locked (layer "F.Cu")
     (tedit 0) (tstamp cd867ab4-a227-4116-8eb5-0ea88713d05d)
     (at 63.6329 22.606)
     (descr "PTS636 SL43 LFS-2")
@@ -11645,7 +11645,7 @@
     )
   )
 
-  (footprint "LM2576SX-3.3-NOPB:LM2576SX-3.3-NOPB" (layer "F.Cu")
+  (footprint "LM2576SX-3.3-NOPB:LM2576SX-3.3-NOPB" locked (layer "F.Cu")
     (tedit 0) (tstamp ce0590f6-8765-4541-88a6-01facaa26e4b)
     (at 87.122 161.798 -90)
     (property "Digikey Part Number" "LM2576SX-3.3/NOPBCT-ND")
@@ -11940,7 +11940,7 @@
       (net 91 "LS_Z_OUT") (pinfunction "2") (pintype "passive") (tstamp 2d24843f-23f4-4f22-86b4-7b59510b403a))
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp d2c40fd1-99de-4783-b06d-b606a0dd2be1)
     (at 121.1439 90.311)
     (descr "CRMA1210")
@@ -11975,9 +11975,9 @@
     (fp_line (start 3.2 1.6) (end 0 1.6) (layer "F.Fab") (width 0.1) (tstamp 899296a4-7d36-471a-9160-9ef187833af1))
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp 9393f36e-ff10-449d-93d6-184a98c94c02))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp e5a9c0c4-2bb3-4957-9483-c22623bdbbe1))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 176 "Net-(J18-Pad1)") (pintype "passive") (tstamp b4075310-2f58-42ad-ba54-dc4c992486ac))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 4c902a6c-72c9-4f6e-a89b-a711add24d9c))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -12142,7 +12142,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp d9d38bac-49e7-4667-8f0c-97eed61e8b1e)
     (at 76.5799 34.52 90)
     (descr "CRMA1210")
@@ -12177,9 +12177,9 @@
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp daa04426-3167-4fe7-81d9-26f486d9d8bb))
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp f8fc8e82-045c-46e5-bb6c-02035514ca18))
     (fp_line (start 3.2 1.6) (end 0 1.6) (layer "F.Fab") (width 0.1) (tstamp fe963c00-7c50-45da-9aef-8bc530117870))
-    (pad "1" smd rect (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 14 "Net-(C14-Pad2)") (pintype "passive") (tstamp 6d25abc4-0120-471d-b25c-74cd79033037))
-    (pad "2" smd rect (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8 90) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 156 "Net-(JP4-Pad2)") (pintype "passive") (tstamp b4e91490-bdc4-42c2-b945-d5a5b6b75421))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -12388,7 +12388,7 @@
     )
   )
 
-  (footprint "SDR10EZPJ271:RESC2012X65N" (layer "F.Cu")
+  (footprint "SDR10EZPJ271:RESC2012X65N" locked (layer "F.Cu")
     (tedit 0) (tstamp e0c5b3a5-1e33-4afc-a671-abdd6b317b55)
     (at 129.6289 115.316 180)
     (descr "SDR10")
@@ -12480,7 +12480,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp e4ffc458-d2b4-42d5-858a-e16e23a578ee)
     (at 121.2409 94.883)
     (descr "CRMA1210")
@@ -12515,9 +12515,9 @@
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp 3120bab9-2363-482d-ae1d-a8d43efb2c9a))
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp 60a57203-3c7e-4dc3-9d8c-4464366c20a8))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp 837b5051-6fc8-434a-9b70-8a9fe01fb1d3))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 153 "Net-(J17-Pad3)") (pintype "passive") (tstamp 32235735-53c5-4682-852d-c80d989f6bed))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 1834f25c-9027-442b-a9fa-ad9edbd218d0))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -13006,7 +13006,7 @@
     )
   )
 
-  (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
+  (footprint "CR0402-FX-5620GLF:RESC1005X40N" locked (layer "F.Cu")
     (tedit 0) (tstamp ee9524e7-c1e7-481e-be05-31adea05f60f)
     (at 76.2889 52.07 180)
     (descr "CR0402")
@@ -13051,7 +13051,7 @@
     )
   )
 
-  (footprint "CR0402-FX-5620GLF:RESC1005X40N" (layer "F.Cu")
+  (footprint "CR0402-FX-5620GLF:RESC1005X40N" locked (layer "F.Cu")
     (tedit 0) (tstamp efa0c185-d851-4a65-a3f7-7c497ff71e19)
     (at 74.9709 41.91 -90)
     (descr "CR0402")
@@ -13319,7 +13319,7 @@
     )
   )
 
-  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" (layer "F.Cu")
+  (footprint "RMCF1206FT10K0:RMCF1206FT10K0" locked (layer "F.Cu")
     (tedit 0) (tstamp f7404dcc-daee-4da0-90c8-21a4c30646ae)
     (at 121.2709 111.976)
     (descr "CRMA1210")
@@ -13354,9 +13354,9 @@
     (fp_line (start 0 0) (end 3.2 0) (layer "F.Fab") (width 0.1) (tstamp b563b8fe-b3e6-4ee8-8d8d-6ff74f0ac6d2))
     (fp_line (start 3.2 0) (end 3.2 1.6) (layer "F.Fab") (width 0.1) (tstamp c4ef7b4f-f4bf-4d5b-9b6e-6cfd54895d92))
     (fp_line (start 0 1.6) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp feec09f5-3711-4aef-90b6-06c18bc01daa))
-    (pad "1" smd rect (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "1" smd rect locked (at 0.4 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 181 "Net-(J19-Pad2)") (pintype "passive") (tstamp 2e9e6882-d2c6-4291-b7d7-188b349fd43f))
-    (pad "2" smd rect (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
+    (pad "2" smd rect locked (at 2.8 0.8) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 04e70d87-ccf3-4b90-833a-b9e29477a7ea))
     (model "CRMA1210AF10K0DKEF.stp"
       (offset (xyz 0 0 0))
@@ -13425,7 +13425,7 @@
     )
   )
 
-  (footprint "KLDHCX-8-0202-A:KLDHCX80202A" (layer "F.Cu")
+  (footprint "KLDHCX-8-0202-A:KLDHCX80202A" locked (layer "F.Cu")
     (tedit 0) (tstamp fc17de2c-a6e0-478b-9b70-dfad9fb4ed32)
     (at 101.346 177.464 90)
     (descr "KLDHCX-8-0202-A-1")
@@ -13487,7 +13487,7 @@
     )
   )
 
-  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" (layer "F.Cu")
+  (footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose" locked (layer "F.Cu")
     (tedit 5A0F774F) (tstamp fd4c19f6-ae35-4947-8c64-e342c915f769)
     (at 75.438 180.594)
     (descr "Keystone Miniature THM Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
@@ -13529,7 +13529,7 @@
     )
   )
 
-  (gr_rect (start 54.4449 19.304) (end 140.8049 193.294) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 39627695-c715-443d-9da3-99c8b47d60ac))
+  (gr_rect locked (start 54.4449 19.304) (end 140.8049 193.294) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 39627695-c715-443d-9da3-99c8b47d60ac))
 
   (segment (start 112.2358 158.398) (end 112.268 158.4302) (width 0.25) (layer "F.Cu") (net 1) (tstamp 0598899a-2b78-4130-af34-dd758912371e))
   (segment (start 101.482 170.18) (end 101.482 164.093) (width 0.25) (layer "F.Cu") (net 1) (tstamp 0666d4ba-b6de-421d-9e8a-849dd602d593))
@@ -13616,207 +13616,292 @@
   (segment (start 102.5269 73.406) (end 104.0892 73.406) (width 0.25) (layer "F.Cu") (net 1) (tstamp f5be0fc7-8eab-477b-8dff-ef7c1eee9b5d))
   (segment (start 96.7909 66.366) (end 99.458 66.366) (width 1) (layer "F.Cu") (net 1) (tstamp fe394ffa-6739-4f1e-b558-32f7e8b4b22b))
   (segment (start 96.6089 141.478) (end 96.5369 141.406) (width 1) (layer "F.Cu") (net 1) (tstamp fef85782-c2a3-4b8a-8540-0d0eea465b94))
-  (via (at 88.4809 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0015d5d8-cd64-445f-9630-811a37e2f0b5))
-  (via (at 91.0209 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 002a5007-d099-4efc-ae06-c5d70c0e8194))
-  (via (at 96.6089 70.358) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 003c6d8e-9ff2-46e5-99fb-f2c0727af6f1))
-  (via (at 99.1489 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 00ae1de6-d0af-4bee-a168-e66bfcd40ef6))
-  (via (at 84.6709 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 00dc35ec-6a8f-4af7-a6ba-eb3304c75ac8))
+  (via locked (at 88.4809 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0015d5d8-cd64-445f-9630-811a37e2f0b5))
+  (via locked (at 91.0209 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 002a5007-d099-4efc-ae06-c5d70c0e8194))
+  (via locked (at 96.6089 70.358) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 003c6d8e-9ff2-46e5-99fb-f2c0727af6f1))
+  (via locked (at 99.1489 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 00ae1de6-d0af-4bee-a168-e66bfcd40ef6))
+  (via locked (at 84.6709 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 00dc35ec-6a8f-4af7-a6ba-eb3304c75ac8))
   (via locked (at 96.6089 141.478) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 011de380-df69-43e2-a3a2-58ba709de1dc))
-  (via (at 96.6089 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 01c10123-7e27-4e6d-90f7-59fb392b9565))
-  (via (at 91.0209 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0348a8fa-0142-4ba5-925e-0634d27eb58e))
-  (via (at 84.6709 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 04a5dced-e307-4a5c-b7d3-0d4c804bd723))
-  (via (at 96.6089 74.168) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0515a6cc-6c10-4331-a610-06ae6303b93e))
-  (via (at 87.2109 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0599f634-5738-48ee-ba99-f7a833a1fb5d))
-  (via (at 104.2289 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 07b5b95d-8914-49c9-ac21-6a96667e06a6))
-  (via (at 100.4189 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 07fd1124-06ae-40ad-bca4-b51f32a8b846))
-  (via (at 101.6889 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 085eb9fb-9eb0-4822-84e7-d639177b4876))
-  (via (at 95.3389 107.442) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0aabb561-4acc-4e53-ac32-3b89ff7bb5fe))
-  (via (at 85.9409 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0fc3a5d0-f068-4f4d-8211-47414bb295dc))
-  (via (at 87.2109 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 10b19ff8-8a27-43fe-9656-e01960f1a50d))
-  (via (at 96.6089 106.172) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 10bdabdc-3403-48da-9a0e-519a9a31fbe5))
-  (via (at 99.1489 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 11487576-561c-4672-a0df-2e17515ba7b9))
+  (via locked (at 96.6089 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 01c10123-7e27-4e6d-90f7-59fb392b9565))
+  (via locked (at 91.0209 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0348a8fa-0142-4ba5-925e-0634d27eb58e))
+  (via locked (at 84.6709 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 04a5dced-e307-4a5c-b7d3-0d4c804bd723))
+  (via locked (at 96.6089 74.168) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0515a6cc-6c10-4331-a610-06ae6303b93e))
+  (via locked (at 87.2109 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0599f634-5738-48ee-ba99-f7a833a1fb5d))
+  (via locked (at 104.2289 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 07b5b95d-8914-49c9-ac21-6a96667e06a6))
+  (via locked (at 100.4189 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 07fd1124-06ae-40ad-bca4-b51f32a8b846))
+  (via locked (at 101.6889 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 085eb9fb-9eb0-4822-84e7-d639177b4876))
+  (via locked (at 95.3389 107.442) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0aabb561-4acc-4e53-ac32-3b89ff7bb5fe))
+  (via locked (at 85.9409 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 0fc3a5d0-f068-4f4d-8211-47414bb295dc))
+  (via locked (at 87.2109 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 10b19ff8-8a27-43fe-9656-e01960f1a50d))
+  (via locked (at 96.6089 106.172) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 10bdabdc-3403-48da-9a0e-519a9a31fbe5))
+  (via locked (at 99.1489 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 11487576-561c-4672-a0df-2e17515ba7b9))
   (via locked (at 97.8789 137.668) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 14ccc21d-4792-4808-a85a-ebc5b10d7849))
-  (via (at 83.4009 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 1587134f-d548-4756-8723-7fd453952be9))
-  (via (at 97.8789 102.362) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 15a73d3d-dbfa-452c-b508-d902379591f7))
-  (via (at 96.6089 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 1a6d6880-3cee-4827-b28d-9f1dc3923424))
-  (via (at 91.0209 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 1bca6b21-2dee-473e-889c-6548540fdf8d))
-  (via (at 96.6089 108.712) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 1d1ab5ae-0b84-4191-b85c-2dae79cc60bc))
-  (via (at 85.9409 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 2089f6dd-5232-41cb-a34f-9b3fca184fb1))
-  (via (at 97.8789 67.818) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 21d49c56-4f96-4845-b7da-1e303a986928))
-  (via (at 97.8789 101.092) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 23330985-d7cd-4af1-bf7a-218d3b951f2a))
-  (via (at 88.4809 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 2447f675-d7b6-4a0f-a21a-463a047a1691))
+  (via locked (at 83.4009 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 1587134f-d548-4756-8723-7fd453952be9))
+  (via locked (at 97.8789 102.362) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 15a73d3d-dbfa-452c-b508-d902379591f7))
+  (via locked (at 96.6089 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 1a6d6880-3cee-4827-b28d-9f1dc3923424))
+  (via locked (at 91.0209 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 1bca6b21-2dee-473e-889c-6548540fdf8d))
+  (via locked (at 96.6089 108.712) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 1d1ab5ae-0b84-4191-b85c-2dae79cc60bc))
+  (via locked (at 85.9409 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 2089f6dd-5232-41cb-a34f-9b3fca184fb1))
+  (via locked (at 97.8789 67.818) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 21d49c56-4f96-4845-b7da-1e303a986928))
+  (via locked (at 97.8789 101.092) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 23330985-d7cd-4af1-bf7a-218d3b951f2a))
+  (via locked (at 88.4809 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 2447f675-d7b6-4a0f-a21a-463a047a1691))
   (via locked (at 97.8789 136.398) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 29cae8a6-43d3-412f-a203-7716713cea78))
-  (via (at 96.6089 69.088) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 2aea1795-0a24-4994-8e38-16219af6d40d))
-  (via (at 95.3389 69.088) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 30dd016c-782d-4baf-bcbd-85fd01d65a1c))
-  (via (at 97.8789 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 32179ba5-4c34-491d-88b3-c78bbebf13de))
-  (via (at 95.3389 102.362) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 329b7560-edad-49eb-8bb9-a97d1c0834ef))
+  (via locked (at 96.6089 69.088) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 2aea1795-0a24-4994-8e38-16219af6d40d))
+  (via locked (at 95.3389 69.088) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 30dd016c-782d-4baf-bcbd-85fd01d65a1c))
+  (via locked (at 97.8789 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 32179ba5-4c34-491d-88b3-c78bbebf13de))
+  (via locked (at 95.3389 102.362) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 329b7560-edad-49eb-8bb9-a97d1c0834ef))
   (via locked (at 97.8789 140.208) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 384e086f-20df-4d53-bc1e-eb3c4d63340f))
-  (via (at 89.7509 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3882f590-8476-4eb0-ab48-ad99350a1c2c))
-  (via (at 99.1489 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 389463c4-80b1-4b3a-8666-5c93f9b42a0b))
+  (via locked (at 89.7509 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3882f590-8476-4eb0-ab48-ad99350a1c2c))
+  (via locked (at 99.1489 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 389463c4-80b1-4b3a-8666-5c93f9b42a0b))
   (via locked (at 95.3389 138.938) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3907b224-a024-4cc2-bd92-96854bb4f100))
   (via locked (at 96.6089 133.858) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 392ce2a9-5840-46c3-9690-1423f31a7126))
-  (via (at 89.7509 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 39a32004-7583-49ef-a14f-bffb461c9fba))
-  (via (at 97.8789 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3a2343ca-3b43-4ad7-8dde-93763048f49a))
-  (via (at 97.8789 69.088) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3a898618-8b71-4e14-b149-1db1e6300201))
-  (via (at 96.6089 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3f32b464-0f30-46c5-aca3-cea69a765a0f))
-  (via (at 96.6089 99.822) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3f4b184d-7338-48fb-bf3e-d21772ce5d2f))
-  (via (at 85.9409 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3fdef7f1-89cc-41ce-8843-188671a8d42b))
+  (via locked (at 89.7509 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 39a32004-7583-49ef-a14f-bffb461c9fba))
+  (via locked (at 97.8789 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3a2343ca-3b43-4ad7-8dde-93763048f49a))
+  (via locked (at 97.8789 69.088) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3a898618-8b71-4e14-b149-1db1e6300201))
+  (via locked (at 96.6089 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3f32b464-0f30-46c5-aca3-cea69a765a0f))
+  (via locked (at 96.6089 99.822) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3f4b184d-7338-48fb-bf3e-d21772ce5d2f))
+  (via locked (at 85.9409 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 3fdef7f1-89cc-41ce-8843-188671a8d42b))
   (via locked (at 97.8789 133.858) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 40f27c02-9f57-4513-8714-5f00082d69c8))
-  (via (at 96.6089 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 48afe44d-15e4-496d-96f4-75c6e5e7b152))
-  (via (at 97.8789 72.898) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 48be331e-568d-4814-b893-4df76156a4d5))
-  (via (at 95.3389 106.172) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 4963de56-82a3-4d3a-94fe-21e7f384fb1d))
-  (via (at 95.3389 101.092) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 4b5ab282-58dc-47a5-9f5b-2652a1d1285b))
-  (via (at 84.6709 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 4eb76834-f6e3-49cc-a3ae-dc7035037197))
-  (via (at 97.8789 74.168) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 52584efb-b338-4fb7-8e44-0129fd4fda20))
-  (via (at 85.9409 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 52f62ad6-86eb-48b3-baa9-7c9be84efb25))
-  (via (at 89.7509 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 55420678-109c-4241-9a81-cb58c46a8b3b))
-  (via (at 97.8789 106.172) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 55694cfb-2331-4c51-84e8-47d275d85cc6))
-  (via (at 96.6089 102.362) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 557ef09a-f47b-42a5-91c6-a8e5e5f7809d))
-  (via (at 104.2289 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 55928cf2-01ea-45ee-877e-8c8725fc0937))
+  (via locked (at 96.6089 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 48afe44d-15e4-496d-96f4-75c6e5e7b152))
+  (via locked (at 97.8789 72.898) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 48be331e-568d-4814-b893-4df76156a4d5))
+  (via locked (at 95.3389 106.172) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 4963de56-82a3-4d3a-94fe-21e7f384fb1d))
+  (via locked (at 95.3389 101.092) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 4b5ab282-58dc-47a5-9f5b-2652a1d1285b))
+  (via locked (at 84.6709 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 4eb76834-f6e3-49cc-a3ae-dc7035037197))
+  (via locked (at 97.8789 74.168) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 52584efb-b338-4fb7-8e44-0129fd4fda20))
+  (via locked (at 85.9409 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 52f62ad6-86eb-48b3-baa9-7c9be84efb25))
+  (via locked (at 89.7509 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 55420678-109c-4241-9a81-cb58c46a8b3b))
+  (via locked (at 97.8789 106.172) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 55694cfb-2331-4c51-84e8-47d275d85cc6))
+  (via locked (at 96.6089 102.362) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 557ef09a-f47b-42a5-91c6-a8e5e5f7809d))
+  (via locked (at 104.2289 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 55928cf2-01ea-45ee-877e-8c8725fc0937))
   (via locked (at 96.6089 137.668) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 5a9bf309-c05b-49ab-82a8-4e7aab875a12))
-  (via (at 101.6889 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 5d84643c-d86b-4bcc-bd60-4700ee2c1b5b))
-  (via (at 96.6089 103.632) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 5fb006b3-3f9d-4a0d-b181-02b28d9a84ad))
-  (via (at 101.6889 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6108b6b0-f659-43e0-9cc9-84bfef403435))
-  (via (at 99.1489 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6227a67b-c7ab-427d-99cb-aa77edbaf73e))
-  (via (at 95.3389 70.358) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6323e70d-648a-43b2-9a75-b2bfa0119a15))
-  (via (at 99.1489 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6361f768-6c70-42b3-a056-447c4d6c4957))
-  (via (at 97.8789 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6371de70-b450-4ebd-8940-6f6c09fe5d92))
+  (via locked (at 101.6889 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 5d84643c-d86b-4bcc-bd60-4700ee2c1b5b))
+  (via locked (at 96.6089 103.632) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 5fb006b3-3f9d-4a0d-b181-02b28d9a84ad))
+  (via locked (at 101.6889 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6108b6b0-f659-43e0-9cc9-84bfef403435))
+  (via locked (at 99.1489 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6227a67b-c7ab-427d-99cb-aa77edbaf73e))
+  (via locked (at 95.3389 70.358) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6323e70d-648a-43b2-9a75-b2bfa0119a15))
+  (via locked (at 99.1489 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6361f768-6c70-42b3-a056-447c4d6c4957))
+  (via locked (at 97.8789 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6371de70-b450-4ebd-8940-6f6c09fe5d92))
   (via locked (at 96.6089 135.128) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 64b238ea-6cb6-49b0-a141-e4d7ec2b2810))
-  (via (at 96.6089 104.902) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 67d66e24-6e25-4b8b-8c82-78f9d2850108))
-  (via (at 101.6889 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6a755d55-fffa-4edb-b8b7-581ad238de7c))
-  (via (at 95.3389 103.632) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6be19c2f-b211-4691-adf0-21bc6e498601))
-  (via (at 97.8789 104.902) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6d5128ef-b85c-455a-bfa3-8063c90856be))
-  (via (at 101.6889 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6d78abec-fdfc-47b1-bf46-c8be51141dcc))
-  (via (at 84.6709 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6d8faccb-97dc-4e60-b760-45a8a74b432a))
+  (via locked (at 96.6089 104.902) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 67d66e24-6e25-4b8b-8c82-78f9d2850108))
+  (via locked (at 101.6889 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6a755d55-fffa-4edb-b8b7-581ad238de7c))
+  (via locked (at 95.3389 103.632) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6be19c2f-b211-4691-adf0-21bc6e498601))
+  (via locked (at 97.8789 104.902) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6d5128ef-b85c-455a-bfa3-8063c90856be))
+  (via locked (at 101.6889 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6d78abec-fdfc-47b1-bf46-c8be51141dcc))
+  (via locked (at 84.6709 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6d8faccb-97dc-4e60-b760-45a8a74b432a))
   (via locked (at 95.3389 137.668) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 6f483007-a7a8-49a1-be61-6d4f2f76505e))
-  (via (at 102.9589 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 700cf0f2-4f0f-43b9-8ccd-4211f035ec12))
-  (via (at 100.4189 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7069e0b4-09ae-4907-9cee-26362473cd3d))
-  (via (at 102.9589 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 70ff6f55-bd7d-4cbd-b972-4bede363f31e))
-  (via (at 100.4189 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 71e75c88-20ee-4e5a-9620-001fdc3029e3))
-  (via (at 102.9589 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 746b2770-30c0-48c9-960b-995b54e0c699))
-  (via (at 87.2109 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 74a6dd0f-21de-41fc-9cf8-78dd36787f2f))
-  (via (at 97.8789 107.442) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7636d738-7953-45db-8e7e-0527a594415a))
-  (via (at 104.2289 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7a88c5eb-fedd-45d0-9c09-0321dabd32ee))
-  (via (at 97.8789 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7b72056f-3420-4d85-bf93-f521080ad4ac))
-  (via (at 83.4009 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7c91b09d-a36b-4822-bf5c-7a8516ba3445))
-  (via (at 96.6089 75.438) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7d1a659f-9d95-4ce0-aa15-ae4955bdd12e))
-  (via (at 95.3389 74.168) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7e3e183b-ce79-4f8a-bc98-55a5080862ff))
+  (via locked (at 102.9589 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 700cf0f2-4f0f-43b9-8ccd-4211f035ec12))
+  (via locked (at 100.4189 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7069e0b4-09ae-4907-9cee-26362473cd3d))
+  (via locked (at 102.9589 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 70ff6f55-bd7d-4cbd-b972-4bede363f31e))
+  (via locked (at 100.4189 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 71e75c88-20ee-4e5a-9620-001fdc3029e3))
+  (via locked (at 102.9589 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 746b2770-30c0-48c9-960b-995b54e0c699))
+  (via locked (at 87.2109 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 74a6dd0f-21de-41fc-9cf8-78dd36787f2f))
+  (via locked (at 97.8789 107.442) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7636d738-7953-45db-8e7e-0527a594415a))
+  (via locked (at 104.2289 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7a88c5eb-fedd-45d0-9c09-0321dabd32ee))
+  (via locked (at 97.8789 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7b72056f-3420-4d85-bf93-f521080ad4ac))
+  (via locked (at 83.4009 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7c91b09d-a36b-4822-bf5c-7a8516ba3445))
+  (via locked (at 96.6089 75.438) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7d1a659f-9d95-4ce0-aa15-ae4955bdd12e))
+  (via locked (at 95.3389 74.168) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7e3e183b-ce79-4f8a-bc98-55a5080862ff))
   (via locked (at 96.6089 136.398) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 7efd43cc-afeb-4e1c-969a-a67d1a2cf263))
-  (via (at 96.6089 101.092) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 813dccba-97c7-4220-be96-004f03092466))
+  (via locked (at 96.6089 101.092) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 813dccba-97c7-4220-be96-004f03092466))
   (via locked (at 95.3389 133.858) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 83376b95-0819-49dc-b481-c553507a4fe9))
-  (via (at 97.8789 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 83392297-a105-4716-8d87-4c0b127f7d19))
+  (via locked (at 97.8789 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 83392297-a105-4716-8d87-4c0b127f7d19))
   (via locked (at 97.8789 138.938) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 8647c490-eeef-498a-807b-392e8126ce7a))
-  (via (at 88.4809 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 88f9dc9e-212a-4efd-b19e-100ac317064e))
-  (via (at 97.8789 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 89c3f04c-32bc-440f-8432-28790f4b9721))
+  (via locked (at 88.4809 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 88f9dc9e-212a-4efd-b19e-100ac317064e))
+  (via locked (at 97.8789 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 89c3f04c-32bc-440f-8432-28790f4b9721))
   (via locked (at 95.3389 140.208) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 8ef2730a-0bc6-4b09-acd6-ea8df47ed243))
-  (via (at 83.4009 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 90b86657-4d95-4213-b8a4-3d80e8d69253))
-  (via (at 104.2289 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 9114419d-e197-44e9-aa43-c5a2ffbe1399))
+  (via locked (at 83.4009 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 90b86657-4d95-4213-b8a4-3d80e8d69253))
+  (via locked (at 104.2289 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 9114419d-e197-44e9-aa43-c5a2ffbe1399))
   (via locked (at 96.6089 132.588) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 924c16ea-c3ef-4fe9-9718-66eb4411b375))
-  (via (at 87.2109 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 94add7b4-e85c-4d3b-a7ca-7a548b804638))
-  (via (at 100.4189 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 94fd0fce-d0d1-417a-986e-5ea5fafdbbb4))
-  (via (at 85.9409 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 974f57cd-14d2-4fb7-9daf-5f154ac803b5))
-  (via (at 95.3389 71.628) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 97a595e2-ddd8-4093-961c-7c750ae18a3f))
-  (via (at 100.4189 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 97e94f37-3ccf-45c8-bed1-a015806c01c0))
+  (via locked (at 87.2109 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 94add7b4-e85c-4d3b-a7ca-7a548b804638))
+  (via locked (at 100.4189 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 94fd0fce-d0d1-417a-986e-5ea5fafdbbb4))
+  (via locked (at 85.9409 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 974f57cd-14d2-4fb7-9daf-5f154ac803b5))
+  (via locked (at 95.3389 71.628) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 97a595e2-ddd8-4093-961c-7c750ae18a3f))
+  (via locked (at 100.4189 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 97e94f37-3ccf-45c8-bed1-a015806c01c0))
   (via locked (at 96.6089 138.938) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 998f5336-3a2c-4b03-a5a0-d2f9cd78cbb3))
-  (via (at 83.4009 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 9b784e10-0419-409d-ac9e-e399e54a95db))
-  (via (at 91.0209 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp a10bc3b5-8817-4a2d-a8ba-6505a3475dbb))
-  (via (at 84.6709 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp a14a7c4b-9e59-472c-9a99-02fbdfee0d05))
-  (via (at 96.6089 72.898) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp a2b2900f-0c79-413c-9302-9a9791c5c3bf))
-  (via (at 96.6089 66.548) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp a4a5641d-3509-49af-b12f-300f9ffc751d))
-  (via (at 96.6089 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp aa447ce4-ad50-4e5f-88bc-bdbcaf26edf0))
-  (via (at 102.9589 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp accefda5-dcc1-4e99-b2be-a27529b44319))
-  (via (at 97.8789 70.358) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp acde1903-0816-4a2e-8c77-e250dacf135a))
+  (via locked (at 83.4009 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp 9b784e10-0419-409d-ac9e-e399e54a95db))
+  (via locked (at 91.0209 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp a10bc3b5-8817-4a2d-a8ba-6505a3475dbb))
+  (via locked (at 84.6709 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp a14a7c4b-9e59-472c-9a99-02fbdfee0d05))
+  (via locked (at 96.6089 72.898) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp a2b2900f-0c79-413c-9302-9a9791c5c3bf))
+  (via locked (at 96.6089 66.548) (size 1) (drill 0.5) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp a4a5641d-3509-49af-b12f-300f9ffc751d))
+  (via locked (at 96.6089 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp aa447ce4-ad50-4e5f-88bc-bdbcaf26edf0))
+  (via locked (at 102.9589 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp accefda5-dcc1-4e99-b2be-a27529b44319))
+  (via locked (at 97.8789 70.358) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp acde1903-0816-4a2e-8c77-e250dacf135a))
   (via locked (at 95.3389 136.398) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp af73fdb2-4dc8-46ad-bba9-2c214375d70c))
-  (via (at 89.7509 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp afb18fd1-5a39-4f94-86cf-16d956e3fefe))
-  (via (at 102.9589 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b034cf8f-db8b-4eee-b875-cfc602168ab7))
-  (via (at 95.3389 104.902) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b36def6c-d733-47af-9bd7-042456c341d2))
+  (via locked (at 89.7509 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp afb18fd1-5a39-4f94-86cf-16d956e3fefe))
+  (via locked (at 102.9589 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b034cf8f-db8b-4eee-b875-cfc602168ab7))
+  (via locked (at 95.3389 104.902) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b36def6c-d733-47af-9bd7-042456c341d2))
   (via locked (at 95.3389 135.128) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b4366446-9aef-4358-a551-d157751d2228))
-  (via (at 104.2289 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b7711db5-1be6-4c97-8c73-0000934063f4))
-  (via (at 88.4809 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b7926c33-aff9-4fd6-8029-793c378e5871))
-  (via (at 88.4809 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b837e3c5-a8fb-41eb-8e7a-a39988b50a73))
-  (via (at 87.2109 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b840632d-71d0-4bda-987c-8f502ce27f41))
-  (via (at 85.9409 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b858b95a-0833-4067-a74c-625e9fd217d2))
-  (via (at 99.1489 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp bfa71506-a957-4349-a0c8-1af0ed9fc56f))
-  (via (at 96.6089 67.818) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp c00e95aa-cc5f-4f64-aa90-676bf836e76f))
-  (via (at 96.6089 71.628) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp c6216d59-606a-4e59-8d81-3aa60a086044))
+  (via locked (at 104.2289 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b7711db5-1be6-4c97-8c73-0000934063f4))
+  (via locked (at 88.4809 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b7926c33-aff9-4fd6-8029-793c378e5871))
+  (via locked (at 88.4809 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b837e3c5-a8fb-41eb-8e7a-a39988b50a73))
+  (via locked (at 87.2109 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b840632d-71d0-4bda-987c-8f502ce27f41))
+  (via locked (at 85.9409 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp b858b95a-0833-4067-a74c-625e9fd217d2))
+  (via locked (at 99.1489 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp bfa71506-a957-4349-a0c8-1af0ed9fc56f))
+  (via locked (at 96.6089 67.818) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp c00e95aa-cc5f-4f64-aa90-676bf836e76f))
+  (via locked (at 96.6089 71.628) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp c6216d59-606a-4e59-8d81-3aa60a086044))
   (via locked (at 97.8789 135.128) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp cb208bfe-5fd4-4fb6-946a-1544c0dd2663))
-  (via (at 101.6889 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp cec6892e-11c3-4df4-ac7f-45bf4ddd3236))
-  (via (at 84.6709 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp cfc0b6e3-7eeb-4f9c-84c3-a5c211874a51))
-  (via (at 89.7509 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp d891d914-17e0-4812-a31d-aa66e2faee08))
-  (via (at 100.4189 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp d9947cc4-c704-4597-891d-6a009ff40599))
-  (via (at 91.0209 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp dafcaeb9-72ae-411b-a947-c5b5cb42b919))
-  (via (at 96.6089 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp db39ae11-31fb-40a1-9b84-9f4bb8641a07))
-  (via (at 88.4809 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp dde6f875-4fee-4b5a-9055-d09d6d75683f))
-  (via (at 97.8789 103.632) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp e71e50f9-b930-4434-97e0-2b3c028e9ff9))
-  (via (at 95.3389 67.818) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp e8b57d0c-3f41-411b-9775-f442ae0e501c))
-  (via (at 91.0209 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp eab1b4dd-9fc3-45e6-9265-74b41821e415))
-  (via (at 102.9589 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp ecd9c1a1-91af-48f9-8171-9fcc87662fe9))
-  (via (at 89.7509 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp ed2bace2-d14b-4fdd-b68c-c552fc9a3696))
-  (via (at 96.6089 107.442) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp ee44ed2d-6af4-41d7-8e2a-083d6399b015))
-  (via (at 97.8789 71.628) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp efa11eb2-f6ef-41cd-9dc1-7559eec1a247))
+  (via locked (at 101.6889 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp cec6892e-11c3-4df4-ac7f-45bf4ddd3236))
+  (via locked (at 84.6709 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp cfc0b6e3-7eeb-4f9c-84c3-a5c211874a51))
+  (via locked (at 89.7509 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp d891d914-17e0-4812-a31d-aa66e2faee08))
+  (via locked (at 100.4189 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp d9947cc4-c704-4597-891d-6a009ff40599))
+  (via locked (at 91.0209 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp dafcaeb9-72ae-411b-a947-c5b5cb42b919))
+  (via locked (at 96.6089 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp db39ae11-31fb-40a1-9b84-9f4bb8641a07))
+  (via locked (at 88.4809 164.846) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp dde6f875-4fee-4b5a-9055-d09d6d75683f))
+  (via locked (at 97.8789 103.632) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp e71e50f9-b930-4434-97e0-2b3c028e9ff9))
+  (via locked (at 95.3389 67.818) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp e8b57d0c-3f41-411b-9775-f442ae0e501c))
+  (via locked (at 91.0209 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp eab1b4dd-9fc3-45e6-9265-74b41821e415))
+  (via locked (at 102.9589 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp ecd9c1a1-91af-48f9-8171-9fcc87662fe9))
+  (via locked (at 89.7509 158.496) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp ed2bace2-d14b-4fdd-b68c-c552fc9a3696))
+  (via locked (at 96.6089 107.442) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp ee44ed2d-6af4-41d7-8e2a-083d6399b015))
+  (via locked (at 97.8789 71.628) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp efa11eb2-f6ef-41cd-9dc1-7559eec1a247))
   (via locked (at 96.6089 140.208) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp f408a5eb-81ef-4f7b-9166-428926e2d185))
-  (via (at 83.4009 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp f6b12734-5e8d-4a73-8996-df181d4196b1))
-  (via (at 83.4009 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp fb3e5adb-5ed5-4178-9f5d-9843f55817a3))
-  (via (at 87.2109 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp fc2ae530-67e0-4b1a-9247-e02302c57cf2))
-  (via (at 104.2289 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp fcddc4c3-c4ef-46b2-a2e8-efc8a827c82d))
-  (via (at 95.3389 72.898) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp fe73f345-7db9-43d4-8afe-d7589cdef124))
+  (via locked (at 83.4009 163.576) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp f6b12734-5e8d-4a73-8996-df181d4196b1))
+  (via locked (at 83.4009 162.306) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp fb3e5adb-5ed5-4178-9f5d-9843f55817a3))
+  (via locked (at 87.2109 159.766) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp fc2ae530-67e0-4b1a-9247-e02302c57cf2))
+  (via locked (at 104.2289 161.036) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp fcddc4c3-c4ef-46b2-a2e8-efc8a827c82d))
+  (via locked (at 95.3389 72.898) (size 0.8) (drill 0.3) (layers "F.Cu" "B.Cu") (remove_unused_layers) (keep_end_layers) (net 1) (tstamp fe73f345-7db9-43d4-8afe-d7589cdef124))
   (segment locked (start 98.049 146.1339) (end 98.1329 146.05) (width 1) (layer "F.Cu") (net 64) (tstamp 848994ce-0869-49c4-8a49-5ea66ffb27d1))
   (segment locked (start 98.049 146.304) (end 98.049 146.1339) (width 1) (layer "F.Cu") (net 64) (tstamp ab52265d-9de3-495e-ae81-1f93b8de3416))
   (segment (start 77.3811 163.4998) (end 78.8416 163.4998) (width 0.25) (layer "F.Cu") (net 93) (tstamp 8a2f5f3e-59f9-43a0-910f-6b42cef6c4fa))
   (segment (start 81.67 170.18) (end 80.8609 170.18) (width 0.25) (layer "F.Cu") (net 93) (tstamp eff76fcf-17f3-4c11-9efd-4c3081903387))
 
-  (zone (net 1) (net_name "GND") (layer "B.Cu") (tstamp 5a5fb77d-043c-4178-a187-a5629b59db0a) (name "GND PLANE") (hatch edge 0.508)
+  (zone locked (net 1) (net_name "GND") (layer "B.Cu") (tstamp fef10129-e449-4fe9-ab5f-a4238ada8538) (name "GND PLANE") (hatch edge 0.508)
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254) (filled_areas_thickness no)
-    (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508) (island_removal_mode 1) (island_area_min 0))
     (polygon
       (pts
-        (xy 132.8293 191.262)
+        (xy 134.6327 28.8798)
+        (xy 134.6327 191.262)
         (xy 55.4863 191.262)
-        (xy 55.4863 150.9014)
-        (xy 132.8293 150.9014)
+        (xy 55.4863 28.8798)
+      )
+    )
+    (polygon
+      (pts
+        (xy 120.6373 56.6166)
+        (xy 109.5629 56.6166)
+        (xy 109.5629 150.9014)
+        (xy 120.6373 150.9014)
+      )
+    )
+    (polygon
+      (pts
+        (xy 87.3633 56.5912)
+        (xy 76.8477 56.5912)
+        (xy 76.8477 150.9014)
+        (xy 87.3633 150.9014)
       )
     )
     (filled_polygon
       (layer "B.Cu")
       (pts
-        (xy 126.167348 151.025094)
-        (xy 126.167351 151.025099)
-        (xy 126.169674 151.030081)
-        (xy 126.292087 151.204905)
-        (xy 126.442997 151.355815)
-        (xy 126.61782 151.478228)
-        (xy 126.622802 151.480551)
-        (xy 126.622807 151.480554)
-        (xy 126.806263 151.5661)
-        (xy 126.811245 151.568423)
-        (xy 126.816553 151.569845)
-        (xy 126.816555 151.569846)
-        (xy 127.012077 151.622236)
-        (xy 127.012079 151.622236)
-        (xy 127.017392 151.62366)
-        (xy 127.23 151.642261)
-        (xy 127.442608 151.62366)
-        (xy 127.447921 151.622236)
-        (xy 127.447923 151.622236)
-        (xy 127.643445 151.569846)
-        (xy 127.643447 151.569845)
-        (xy 127.648755 151.568423)
-        (xy 127.653737 151.5661)
-        (xy 127.837193 151.480554)
-        (xy 127.837198 151.480551)
-        (xy 127.84218 151.478228)
-        (xy 128.017003 151.355815)
-        (xy 128.167913 151.204905)
-        (xy 128.290326 151.030081)
-        (xy 128.292649 151.025099)
-        (xy 128.292652 151.025094)
-        (xy 128.350331 150.9014)
-        (xy 132.8293 150.9014)
-        (xy 132.8293 191.136)
-        (xy 132.809298 191.204121)
-        (xy 132.755642 191.250614)
-        (xy 132.7033 191.262)
+        (xy 77.876221 28.880961)
+        (xy 77.876245 28.880686)
+        (xy 78.0869 28.899116)
+        (xy 78.297555 28.880686)
+        (xy 78.297579 28.880961)
+        (xy 78.310845 28.8798)
+        (xy 80.402955 28.8798)
+        (xy 80.416221 28.880961)
+        (xy 80.416245 28.880686)
+        (xy 80.6269 28.899116)
+        (xy 80.837555 28.880686)
+        (xy 80.837579 28.880961)
+        (xy 80.850845 28.8798)
+        (xy 89.800955 28.8798)
+        (xy 89.814221 28.880961)
+        (xy 89.814245 28.880686)
+        (xy 90.0249 28.899116)
+        (xy 90.235555 28.880686)
+        (xy 90.235579 28.880961)
+        (xy 90.248845 28.8798)
+        (xy 92.340955 28.8798)
+        (xy 92.354221 28.880961)
+        (xy 92.354245 28.880686)
+        (xy 92.5649 28.899116)
+        (xy 92.775555 28.880686)
+        (xy 92.775579 28.880961)
+        (xy 92.788845 28.8798)
+        (xy 127.059571 28.8798)
+        (xy 127.127692 28.899802)
+        (xy 127.174185 28.953458)
+        (xy 127.184289 29.023732)
+        (xy 127.154795 29.088312)
+        (xy 127.141401 29.101611)
+        (xy 127.091826 29.143952)
+        (xy 127.091821 29.143957)
+        (xy 127.088065 29.147165)
+        (xy 126.93258 29.329214)
+        (xy 126.807489 29.533345)
+        (xy 126.71587 29.754532)
+        (xy 126.659981 29.987327)
+        (xy 126.641197 30.226)
+        (xy 126.659981 30.464673)
+        (xy 126.661135 30.46948)
+        (xy 126.661136 30.469486)
+        (xy 126.672235 30.515716)
+        (xy 126.71587 30.697468)
+        (xy 126.717763 30.702039)
+        (xy 126.717764 30.702041)
+        (xy 126.802123 30.9057)
+        (xy 126.807489 30.918655)
+        (xy 126.93258 31.122786)
+        (xy 127.088065 31.304835)
+        (xy 127.270114 31.46032)
+        (xy 127.474245 31.585411)
+        (xy 127.478815 31.587304)
+        (xy 127.478819 31.587306)
+        (xy 127.690859 31.675136)
+        (xy 127.695432 31.67703)
+        (xy 127.776228 31.696427)
+        (xy 127.923414 31.731764)
+        (xy 127.92342 31.731765)
+        (xy 127.928227 31.732919)
+        (xy 128.1669 31.751703)
+        (xy 128.405573 31.732919)
+        (xy 128.41038 31.731765)
+        (xy 128.410386 31.731764)
+        (xy 128.557572 31.696427)
+        (xy 128.638368 31.67703)
+        (xy 128.642941 31.675136)
+        (xy 128.854981 31.587306)
+        (xy 128.854985 31.587304)
+        (xy 128.859555 31.585411)
+        (xy 129.063686 31.46032)
+        (xy 129.245735 31.304835)
+        (xy 129.40122 31.122786)
+        (xy 129.526311 30.918655)
+        (xy 129.531678 30.9057)
+        (xy 129.616036 30.702041)
+        (xy 129.616037 30.702039)
+        (xy 129.61793 30.697468)
+        (xy 129.661565 30.515716)
+        (xy 129.672664 30.469486)
+        (xy 129.672665 30.46948)
+        (xy 129.673819 30.464673)
+        (xy 129.692603 30.226)
+        (xy 129.673819 29.987327)
+        (xy 129.61793 29.754532)
+        (xy 129.526311 29.533345)
+        (xy 129.40122 29.329214)
+        (xy 129.245735 29.147165)
+        (xy 129.241979 29.143957)
+        (xy 129.241974 29.143952)
+        (xy 129.192399 29.101611)
+        (xy 129.153589 29.042161)
+        (xy 129.153082 28.971166)
+        (xy 129.191039 28.911167)
+        (xy 129.255407 28.881214)
+        (xy 129.274229 28.8798)
+        (xy 134.5067 28.8798)
+        (xy 134.574821 28.899802)
+        (xy 134.621314 28.953458)
+        (xy 134.6327 29.0058)
+        (xy 134.6327 191.136)
+        (xy 134.612698 191.204121)
+        (xy 134.559042 191.250614)
+        (xy 134.5067 191.262)
         (xy 55.6123 191.262)
         (xy 55.544179 191.241998)
         (xy 55.497686 191.188342)
@@ -15155,137 +15240,47 @@
         (xy 57.777569 154.371899)
         (xy 55.4863 154.371899)
         (xy 55.4863 150.9014)
-        (xy 126.109669 150.9014)
-      )
-    )
-  )
-  (zone (net 1) (net_name "GND") (layer "B.Cu") (tstamp fef10129-e449-4fe9-ab5f-a4238ada8538) (name "GND PLANE") (hatch edge 0.508)
-    (connect_pads yes (clearance 0.508))
-    (min_thickness 0.254) (filled_areas_thickness no)
-    (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508) (island_removal_mode 1) (island_area_min 0))
-    (polygon
-      (pts
-        (xy 132.8293 150.9014)
-        (xy 120.6373 150.9014)
-        (xy 120.6373 56.6166)
-        (xy 109.5629 56.6166)
-        (xy 109.5629 150.9014)
-        (xy 87.3633 150.9014)
-        (xy 87.3633 56.5912)
-        (xy 76.8477 56.5912)
         (xy 76.8477 150.9014)
-        (xy 55.4863 150.9014)
-        (xy 55.4863 28.8798)
-        (xy 132.8293 28.8798)
-      )
-    )
-    (filled_polygon
-      (layer "B.Cu")
-      (pts
-        (xy 77.876221 28.880961)
-        (xy 77.876245 28.880686)
-        (xy 78.0869 28.899116)
-        (xy 78.297555 28.880686)
-        (xy 78.297579 28.880961)
-        (xy 78.310845 28.8798)
-        (xy 80.402955 28.8798)
-        (xy 80.416221 28.880961)
-        (xy 80.416245 28.880686)
-        (xy 80.6269 28.899116)
-        (xy 80.837555 28.880686)
-        (xy 80.837579 28.880961)
-        (xy 80.850845 28.8798)
-        (xy 89.800955 28.8798)
-        (xy 89.814221 28.880961)
-        (xy 89.814245 28.880686)
-        (xy 90.0249 28.899116)
-        (xy 90.235555 28.880686)
-        (xy 90.235579 28.880961)
-        (xy 90.248845 28.8798)
-        (xy 92.340955 28.8798)
-        (xy 92.354221 28.880961)
-        (xy 92.354245 28.880686)
-        (xy 92.5649 28.899116)
-        (xy 92.775555 28.880686)
-        (xy 92.775579 28.880961)
-        (xy 92.788845 28.8798)
-        (xy 127.059571 28.8798)
-        (xy 127.127692 28.899802)
-        (xy 127.174185 28.953458)
-        (xy 127.184289 29.023732)
-        (xy 127.154795 29.088312)
-        (xy 127.141401 29.101611)
-        (xy 127.091826 29.143952)
-        (xy 127.091821 29.143957)
-        (xy 127.088065 29.147165)
-        (xy 126.93258 29.329214)
-        (xy 126.807489 29.533345)
-        (xy 126.71587 29.754532)
-        (xy 126.659981 29.987327)
-        (xy 126.641197 30.226)
-        (xy 126.659981 30.464673)
-        (xy 126.661135 30.46948)
-        (xy 126.661136 30.469486)
-        (xy 126.672235 30.515716)
-        (xy 126.71587 30.697468)
-        (xy 126.717763 30.702039)
-        (xy 126.717764 30.702041)
-        (xy 126.802123 30.9057)
-        (xy 126.807489 30.918655)
-        (xy 126.93258 31.122786)
-        (xy 127.088065 31.304835)
-        (xy 127.270114 31.46032)
-        (xy 127.474245 31.585411)
-        (xy 127.478815 31.587304)
-        (xy 127.478819 31.587306)
-        (xy 127.690859 31.675136)
-        (xy 127.695432 31.67703)
-        (xy 127.776228 31.696427)
-        (xy 127.923414 31.731764)
-        (xy 127.92342 31.731765)
-        (xy 127.928227 31.732919)
-        (xy 128.1669 31.751703)
-        (xy 128.405573 31.732919)
-        (xy 128.41038 31.731765)
-        (xy 128.410386 31.731764)
-        (xy 128.557572 31.696427)
-        (xy 128.638368 31.67703)
-        (xy 128.642941 31.675136)
-        (xy 128.854981 31.587306)
-        (xy 128.854985 31.587304)
-        (xy 128.859555 31.585411)
-        (xy 129.063686 31.46032)
-        (xy 129.245735 31.304835)
-        (xy 129.40122 31.122786)
-        (xy 129.526311 30.918655)
-        (xy 129.531678 30.9057)
-        (xy 129.616036 30.702041)
-        (xy 129.616037 30.702039)
-        (xy 129.61793 30.697468)
-        (xy 129.661565 30.515716)
-        (xy 129.672664 30.469486)
-        (xy 129.672665 30.46948)
-        (xy 129.673819 30.464673)
-        (xy 129.692603 30.226)
-        (xy 129.673819 29.987327)
-        (xy 129.61793 29.754532)
-        (xy 129.526311 29.533345)
-        (xy 129.40122 29.329214)
-        (xy 129.245735 29.147165)
-        (xy 129.241979 29.143957)
-        (xy 129.241974 29.143952)
-        (xy 129.192399 29.101611)
-        (xy 129.153589 29.042161)
-        (xy 129.153082 28.971166)
-        (xy 129.191039 28.911167)
-        (xy 129.255407 28.881214)
-        (xy 129.274229 28.8798)
-        (xy 132.7033 28.8798)
-        (xy 132.771421 28.899802)
-        (xy 132.817914 28.953458)
-        (xy 132.8293 29.0058)
-        (xy 132.8293 150.9014)
-        (xy 128.350331 150.9014)
+        (xy 87.3633 150.9014)
+        (xy 109.5629 150.9014)
+        (xy 120.6373 150.9014)
+        (xy 120.6373 150.417902)
+        (xy 126.005641 150.417902)
+        (xy 126.024242 150.63051)
+        (xy 126.079479 150.836657)
+        (xy 126.081801 150.841638)
+        (xy 126.081802 150.841639)
+        (xy 126.167348 151.025094)
+        (xy 126.167351 151.025099)
+        (xy 126.169674 151.030081)
+        (xy 126.292087 151.204905)
+        (xy 126.442997 151.355815)
+        (xy 126.61782 151.478228)
+        (xy 126.622802 151.480551)
+        (xy 126.622807 151.480554)
+        (xy 126.806263 151.5661)
+        (xy 126.811245 151.568423)
+        (xy 126.816553 151.569845)
+        (xy 126.816555 151.569846)
+        (xy 127.012077 151.622236)
+        (xy 127.012079 151.622236)
+        (xy 127.017392 151.62366)
+        (xy 127.23 151.642261)
+        (xy 127.442608 151.62366)
+        (xy 127.447921 151.622236)
+        (xy 127.447923 151.622236)
+        (xy 127.643445 151.569846)
+        (xy 127.643447 151.569845)
+        (xy 127.648755 151.568423)
+        (xy 127.653737 151.5661)
+        (xy 127.837193 151.480554)
+        (xy 127.837198 151.480551)
+        (xy 127.84218 151.478228)
+        (xy 128.017003 151.355815)
+        (xy 128.167913 151.204905)
+        (xy 128.290326 151.030081)
+        (xy 128.292649 151.025099)
+        (xy 128.292652 151.025094)
         (xy 128.378198 150.841639)
         (xy 128.378199 150.841638)
         (xy 128.380521 150.836657)
@@ -15493,12 +15488,7 @@
         (xy 126.079479 149.999147)
         (xy 126.024242 150.205294)
         (xy 126.005641 150.417902)
-        (xy 126.024242 150.63051)
-        (xy 126.079479 150.836657)
-        (xy 126.081801 150.841638)
-        (xy 126.081802 150.841639)
-        (xy 126.109669 150.9014)
-        (xy 120.6373 150.9014)
+        (xy 120.6373 150.417902)
         (xy 120.6373 140.288296)
         (xy 128.043301 140.288296)
         (xy 128.046154 140.360909)
@@ -24446,7 +24436,7 @@
       cc79f640-b877-4332-bfc3-9a6b31e73987
     )
   )
-  (group "" (id 03a9aba5-5b96-4296-8b04-c7aa2565f112)
+  (group "" locked (id 03a9aba5-5b96-4296-8b04-c7aa2565f112)
     (members
       23330985-d7cd-4af1-bf7a-218d3b951f2a
       4b5ab282-58dc-47a5-9f5b-2652a1d1285b
@@ -24463,21 +24453,21 @@
       bb14e70d-33f7-484a-a0c5-534776d812ec
     )
   )
-  (group "" (id 08bebad7-0578-4436-a357-3d3db6154177)
+  (group "" locked (id 08bebad7-0578-4436-a357-3d3db6154177)
     (members
       10bdabdc-3403-48da-9a0e-519a9a31fbe5
       4963de56-82a3-4d3a-94fe-21e7f384fb1d
       55694cfb-2331-4c51-84e8-47d275d85cc6
     )
   )
-  (group "" (id 0d6e6754-cc6e-41c5-93cf-075dfc7201ae)
+  (group "" locked (id 0d6e6754-cc6e-41c5-93cf-075dfc7201ae)
     (members
       0515a6cc-6c10-4331-a610-06ae6303b93e
       52584efb-b338-4fb7-8e44-0129fd4fda20
       7e3e183b-ce79-4f8a-bc98-55a5080862ff
     )
   )
-  (group "" (id 1516cdb4-951f-470b-8100-a83f16477085)
+  (group "" locked (id 1516cdb4-951f-470b-8100-a83f16477085)
     (members
       4eb76834-f6e3-49cc-a3ae-dc7035037197
       f6b12734-5e8d-4a73-8996-df181d4196b1
@@ -24490,20 +24480,20 @@
       f408a5eb-81ef-4f7b-9166-428926e2d185
     )
   )
-  (group "" (id 19cbe776-5d8b-484d-a716-b9dd03f30721)
+  (group "" locked (id 19cbe776-5d8b-484d-a716-b9dd03f30721)
     (members
       389463c4-80b1-4b3a-8666-5c93f9b42a0b
       6d78abec-fdfc-47b1-bf46-c8be51141dcc
       7069e0b4-09ae-4907-9cee-26362473cd3d
     )
   )
-  (group "" (id 1d1dd4c3-ff75-4619-a7c6-22801c7c9e34)
+  (group "" locked (id 1d1dd4c3-ff75-4619-a7c6-22801c7c9e34)
     (members
       1bca6b21-2dee-473e-889c-6548540fdf8d
       3882f590-8476-4eb0-ab48-ad99350a1c2c
     )
   )
-  (group "" (id 1d4b41c1-095d-4104-ab74-cd13d7d56660)
+  (group "" locked (id 1d4b41c1-095d-4104-ab74-cd13d7d56660)
     (members
       03a9aba5-5b96-4296-8b04-c7aa2565f112
       08bebad7-0578-4436-a357-3d3db6154177
@@ -24515,20 +24505,20 @@
       f4e7da19-74a8-4405-8833-63b209fd9fee
     )
   )
-  (group "" (id 20aa2498-c88d-4e89-af91-3f372c2f6c50)
+  (group "" locked (id 20aa2498-c88d-4e89-af91-3f372c2f6c50)
     (members
       07b5b95d-8914-49c9-ac21-6a96667e06a6
       b034cf8f-db8b-4eee-b875-cfc602168ab7
     )
   )
-  (group "" (id 2173d060-8f4e-4eeb-a246-a6d67d69a0ed)
+  (group "" locked (id 2173d060-8f4e-4eeb-a246-a6d67d69a0ed)
     (members
       07fd1124-06ae-40ad-bca4-b51f32a8b846
       085eb9fb-9eb0-4822-84e7-d639177b4876
       bfa71506-a957-4349-a0c8-1af0ed9fc56f
     )
   )
-  (group "" (id 226df377-3565-427a-ad86-c51f4f519b91)
+  (group "" locked (id 226df377-3565-427a-ad86-c51f4f519b91)
     (members
       35376df8-2142-41ba-9ebc-7fda1d52a96c
       7a9d00b9-4fea-4d56-ac87-1bb52fb7dc1c
@@ -24550,14 +24540,14 @@
       d8e444a7-74c1-4dbf-84c6-e7efd5029495
     )
   )
-  (group "" (id 2ee88c84-c047-4ab8-aed6-d6f64408584d)
+  (group "" locked (id 2ee88c84-c047-4ab8-aed6-d6f64408584d)
     (members
       15a73d3d-dbfa-452c-b508-d902379591f7
       329b7560-edad-49eb-8bb9-a97d1c0834ef
       557ef09a-f47b-42a5-91c6-a8e5e5f7809d
     )
   )
-  (group "" (id 329539b1-4c43-4157-b9d3-17a8488debd8)
+  (group "" locked (id 329539b1-4c43-4157-b9d3-17a8488debd8)
     (members
       0d6e6754-cc6e-41c5-93cf-075dfc7201ae
       35f94f32-7c23-4454-886d-94ebdfd1d66d
@@ -24569,27 +24559,27 @@
       f8ebe1ca-aa7d-4de3-b8c0-63b9239b1526
     )
   )
-  (group "" (id 35f94f32-7c23-4454-886d-94ebdfd1d66d)
+  (group "" locked (id 35f94f32-7c23-4454-886d-94ebdfd1d66d)
     (members
       2aea1795-0a24-4994-8e38-16219af6d40d
       30dd016c-782d-4baf-bcbd-85fd01d65a1c
       3a898618-8b71-4e14-b149-1db1e6300201
     )
   )
-  (group "" (id 39d6a5fb-9fbf-4456-a9f7-bb7ba38f32b6)
+  (group "" locked (id 39d6a5fb-9fbf-4456-a9f7-bb7ba38f32b6)
     (members
       3f32b464-0f30-46c5-aca3-cea69a765a0f
       83392297-a105-4716-8d87-4c0b127f7d19
     )
   )
-  (group "" (id 4127749e-68a4-4d56-a7e8-6d1e2e9e5b03)
+  (group "" locked (id 4127749e-68a4-4d56-a7e8-6d1e2e9e5b03)
     (members
       67d66e24-6e25-4b8b-8c82-78f9d2850108
       6d5128ef-b85c-455a-bfa3-8063c90856be
       b36def6c-d733-47af-9bd7-042456c341d2
     )
   )
-  (group "" (id 4a41e622-16f2-4860-9de2-d8adda5efd04)
+  (group "" locked (id 4a41e622-16f2-4860-9de2-d8adda5efd04)
     (members
       1085bc1e-278e-4a0e-bf60-16ff9dcb11f1
       37f25ff8-d631-4319-9ac3-540e74b4c168
@@ -24599,7 +24589,7 @@
       dbc0231b-4ffb-4bc7-9bcf-9de99ede65c7
     )
   )
-  (group "" (id 4d53990c-a6b1-4b5b-9573-d0afe9ae2095)
+  (group "" locked (id 4d53990c-a6b1-4b5b-9573-d0afe9ae2095)
     (members
       36405e86-7b09-4f43-8aff-b3c4147096b9
       5b0528fa-e7f7-4316-b66e-855c50d4263a
@@ -24610,26 +24600,26 @@
       ee9524e7-c1e7-481e-be05-31adea05f60f
     )
   )
-  (group "" (id 4d706107-8adf-4e5b-8534-8c392d2bbda1)
+  (group "" locked (id 4d706107-8adf-4e5b-8534-8c392d2bbda1)
     (members
       746b2770-30c0-48c9-960b-995b54e0c699
       b7711db5-1be6-4c97-8c73-0000934063f4
     )
   )
-  (group "" (id 53ca7564-74d7-4ae3-b3dc-0caa8e4e1aa3)
+  (group "" locked (id 53ca7564-74d7-4ae3-b3dc-0caa8e4e1aa3)
     (members
       1587134f-d548-4756-8723-7fd453952be9
       cfc0b6e3-7eeb-4f9c-84c3-a5c211874a51
     )
   )
-  (group "" (id 58871ac5-1c7e-46b7-b4db-9686d8d10770)
+  (group "" locked (id 58871ac5-1c7e-46b7-b4db-9686d8d10770)
     (members
       0fc3a5d0-f068-4f4d-8211-47414bb295dc
       88f9dc9e-212a-4efd-b19e-100ac317064e
       94add7b4-e85c-4d3b-a7ca-7a548b804638
     )
   )
-  (group "" (id 6522ecb6-627b-40b0-bdbf-b5812833b939)
+  (group "" locked (id 6522ecb6-627b-40b0-bdbf-b5812833b939)
     (members
       a10bc3b5-8817-4a2d-a8ba-6505a3475dbb
       d891d914-17e0-4812-a31d-aa66e2faee08
@@ -24660,7 +24650,7 @@
       998f5336-3a2c-4b03-a5a0-d2f9cd78cbb3
     )
   )
-  (group "" (id 69d8c336-bac3-41b6-885f-7f59d79564ce)
+  (group "" locked (id 69d8c336-bac3-41b6-885f-7f59d79564ce)
     (members
       0933a07a-32e9-435a-8787-71b5379cf836
       0f45e009-7735-4bc3-8304-70f121d9936f
@@ -24688,13 +24678,13 @@
       f7404dcc-daee-4da0-90c8-21a4c30646ae
     )
   )
-  (group "" (id 6bf7e095-fc9d-4d50-85ba-ece75c008915)
+  (group "" locked (id 6bf7e095-fc9d-4d50-85ba-ece75c008915)
     (members
       55420678-109c-4241-9a81-cb58c46a8b3b
       dafcaeb9-72ae-411b-a947-c5b5cb42b919
     )
   )
-  (group "" (id 6fffbc17-d5a6-4dd9-a671-eccdf0184f48)
+  (group "" locked (id 6fffbc17-d5a6-4dd9-a671-eccdf0184f48)
     (members
       6227a67b-c7ab-427d-99cb-aa77edbaf73e
       6a755d55-fffa-4edb-b8b7-581ad238de7c
@@ -24708,26 +24698,26 @@
       6f483007-a7a8-49a1-be61-6d4f2f76505e
     )
   )
-  (group "" (id 7238802f-f600-451d-8088-0b8fa9042f20)
+  (group "" locked (id 7238802f-f600-451d-8088-0b8fa9042f20)
     (members
       0aabb561-4acc-4e53-ac32-3b89ff7bb5fe
       7636d738-7953-45db-8e7e-0527a594415a
       ee44ed2d-6af4-41d7-8e2a-083d6399b015
     )
   )
-  (group "" (id 73b2e60a-eff0-470a-805d-87c22f66ed4e)
+  (group "" locked (id 73b2e60a-eff0-470a-805d-87c22f66ed4e)
     (members
       7a88c5eb-fedd-45d0-9c09-0321dabd32ee
       accefda5-dcc1-4e99-b2be-a27529b44319
     )
   )
-  (group "" (id 77b2ce04-88b1-4910-b707-a47a93d42d0e)
+  (group "" locked (id 77b2ce04-88b1-4910-b707-a47a93d42d0e)
     (members
       3a2343ca-3b43-4ad7-8dde-93763048f49a
       db39ae11-31fb-40a1-9b84-9f4bb8641a07
     )
   )
-  (group "" (id 7aead651-dea4-425d-8cf4-c8abc1247b4c)
+  (group "" locked (id 7aead651-dea4-425d-8cf4-c8abc1247b4c)
     (members
       28cd5c15-cebc-4bad-8bf8-3f604cad41a4
       3dc4c8f0-19db-476c-99f2-390dc488c231
@@ -24738,7 +24728,7 @@
       f548079a-418c-47da-b2b0-c81840862449
     )
   )
-  (group "" (id 7dd680d5-a93a-407c-aaef-104ed57275e1)
+  (group "" locked (id 7dd680d5-a93a-407c-aaef-104ed57275e1)
     (members
       263e5919-dd22-45be-a677-e53604ab1dbc
       2d726b5f-41a0-4484-b02a-942ed554eae7
@@ -24755,46 +24745,46 @@
       83376b95-0819-49dc-b481-c553507a4fe9
     )
   )
-  (group "" (id 84c304f9-b416-4b58-b7d8-e4f5ff60dcb5)
+  (group "" locked (id 84c304f9-b416-4b58-b7d8-e4f5ff60dcb5)
     (members
       6c876de9-1a25-412d-8680-e11da6d66dc7
       a4a68aa5-8a3a-40d3-8aa0-49bbde70f496
     )
   )
-  (group "" (id 8596a6ec-a0c9-4dac-bf55-ed2a90bdfa6b)
+  (group "" locked (id 8596a6ec-a0c9-4dac-bf55-ed2a90bdfa6b)
     (members
       39a32004-7583-49ef-a14f-bffb461c9fba
       eab1b4dd-9fc3-45e6-9265-74b41821e415
     )
   )
-  (group "" (id 875a86bc-5987-407c-83dd-8373b9aa4b75)
+  (group "" locked (id 875a86bc-5987-407c-83dd-8373b9aa4b75)
     (members
       003c6d8e-9ff2-46e5-99fb-f2c0727af6f1
       6323e70d-648a-43b2-9a75-b2bfa0119a15
       acde1903-0816-4a2e-8c77-e250dacf135a
     )
   )
-  (group "" (id 8c3e092c-36c3-4d56-ae53-eefb8148f862)
+  (group "" locked (id 8c3e092c-36c3-4d56-ae53-eefb8148f862)
     (members
       3fdef7f1-89cc-41ce-8843-188671a8d42b
       b837e3c5-a8fb-41eb-8e7a-a39988b50a73
       fc2ae530-67e0-4b1a-9247-e02302c57cf2
     )
   )
-  (group "" (id 8c595853-d504-4471-a4ae-b04a4190436b)
+  (group "" locked (id 8c595853-d504-4471-a4ae-b04a4190436b)
     (members
       32179ba5-4c34-491d-88b3-c78bbebf13de
       48afe44d-15e4-496d-96f4-75c6e5e7b152
     )
   )
-  (group "" (id 8e7802e3-9b0b-4d0a-9e97-bc8d44fa247e)
+  (group "" locked (id 8e7802e3-9b0b-4d0a-9e97-bc8d44fa247e)
     (members
       5d84643c-d86b-4bcc-bd60-4700ee2c1b5b
       6361f768-6c70-42b3-a056-447c4d6c4957
       97e94f37-3ccf-45c8-bed1-a015806c01c0
     )
   )
-  (group "" (id 90868ea1-ed7b-4ea5-a9ad-61622c7e6bc9)
+  (group "" locked (id 90868ea1-ed7b-4ea5-a9ad-61622c7e6bc9)
     (members
       19cbe776-5d8b-484d-a716-b9dd03f30721
       20aa2498-c88d-4e89-af91-3f372c2f6c50
@@ -24816,7 +24806,7 @@
       fc8891b7-1607-4cf4-ba50-9af68f3a7147
     )
   )
-  (group "" (id 9424b4a4-df46-4431-96cb-288f0d00ea34)
+  (group "" locked (id 9424b4a4-df46-4431-96cb-288f0d00ea34)
     (members
       5269bc63-a96e-4609-a11b-776f576a2052
       53184090-a10d-4174-be8e-e7d6f89ff6ba
@@ -24826,19 +24816,19 @@
       c1cb0f49-0094-4579-993d-712f9ea68be6
     )
   )
-  (group "" (id 9802314e-aa87-4065-8913-62191300b927)
+  (group "" locked (id 9802314e-aa87-4065-8913-62191300b927)
     (members
       01c10123-7e27-4e6d-90f7-59fb392b9565
       89c3f04c-32bc-440f-8432-28790f4b9721
     )
   )
-  (group "" (id 9879da90-bbd8-4b30-8c72-952fe79aabaa)
+  (group "" locked (id 9879da90-bbd8-4b30-8c72-952fe79aabaa)
     (members
       04a5dced-e307-4a5c-b7d3-0d4c804bd723
       fb3e5adb-5ed5-4178-9f5d-9843f55817a3
     )
   )
-  (group "" (id 997e5a8c-fb25-4b5e-9acc-0c65c691f0b0)
+  (group "" locked (id 997e5a8c-fb25-4b5e-9acc-0c65c691f0b0)
     (members
       33ae5549-1548-4353-8abc-f55fed158198
       9b859a35-d5ca-4dad-8ea9-aef1a911526c
@@ -24864,19 +24854,19 @@
       d775e2fe-3536-4de3-be56-77db17f720c6
     )
   )
-  (group "" (id a1880a62-1524-4193-bcb5-0cdbf1664640)
+  (group "" locked (id a1880a62-1524-4193-bcb5-0cdbf1664640)
     (members
       6d8faccb-97dc-4e60-b760-45a8a74b432a
       7c91b09d-a36b-4822-bf5c-7a8516ba3445
     )
   )
-  (group "" (id a3674c69-7a7f-4428-968e-ce38849f347a)
+  (group "" locked (id a3674c69-7a7f-4428-968e-ce38849f347a)
     (members
       9b784e10-0419-409d-ac9e-e399e54a95db
       a14a7c4b-9e59-472c-9a99-02fbdfee0d05
     )
   )
-  (group "" (id a4a68aa5-8a3a-40d3-8aa0-49bbde70f496)
+  (group "" locked (id a4a68aa5-8a3a-40d3-8aa0-49bbde70f496)
     (members
       05d8cd12-0ab3-4411-a75b-560af41de024
       05e4ef4d-202c-4182-9d06-d5b3b670ec6f
@@ -24886,21 +24876,21 @@
       e78214d6-a188-40a6-8099-6ca0046414f8
     )
   )
-  (group "" (id a684a2ad-dd70-492a-9076-f2fd0ee1b8f9)
+  (group "" locked (id a684a2ad-dd70-492a-9076-f2fd0ee1b8f9)
     (members
       0015d5d8-cd64-445f-9630-811a37e2f0b5
       2089f6dd-5232-41cb-a34f-9b3fca184fb1
       74a6dd0f-21de-41fc-9cf8-78dd36787f2f
     )
   )
-  (group "" (id a6d3cf67-867c-43fa-b255-008ddc912d9b)
+  (group "" locked (id a6d3cf67-867c-43fa-b255-008ddc912d9b)
     (members
       97a595e2-ddd8-4093-961c-7c750ae18a3f
       c6216d59-606a-4e59-8d81-3aa60a086044
       efa11eb2-f6ef-41cd-9dc1-7559eec1a247
     )
   )
-  (group "" (id a6d7199d-39d8-4325-8643-eb92ebcf18a3)
+  (group "" locked (id a6d7199d-39d8-4325-8643-eb92ebcf18a3)
     (members
       0dcfacdd-24fc-4581-a0bb-6f3bcce85d5d
       2a97e179-c33f-4e86-a845-5ffed1807760
@@ -24911,26 +24901,26 @@
       efa0c185-d851-4a65-a3f7-7c497ff71e19
     )
   )
-  (group "" (id a8b52019-236b-4f87-87c7-986591398327)
+  (group "" locked (id a8b52019-236b-4f87-87c7-986591398327)
     (members
       002a5007-d099-4efc-ae06-c5d70c0e8194
       afb18fd1-5a39-4f94-86cf-16d956e3fefe
     )
   )
-  (group "" (id b206fdf0-0f77-489f-9234-a41ad6b24125)
+  (group "" locked (id b206fdf0-0f77-489f-9234-a41ad6b24125)
     (members
       11487576-561c-4672-a0df-2e17515ba7b9
       6108b6b0-f659-43e0-9cc9-84bfef403435
       94fd0fce-d0d1-417a-986e-5ea5fafdbbb4
     )
   )
-  (group "" (id c0732eab-ee29-4b46-957b-4ab7c45f7efd)
+  (group "" locked (id c0732eab-ee29-4b46-957b-4ab7c45f7efd)
     (members
       0348a8fa-0142-4ba5-925e-0634d27eb58e
       ed2bace2-d14b-4fdd-b68c-c552fc9a3696
     )
   )
-  (group "" (id c1d66845-eda0-4f42-b88d-d0340e501085)
+  (group "" locked (id c1d66845-eda0-4f42-b88d-d0340e501085)
     (members
       10b19ff8-8a27-43fe-9656-e01960f1a50d
       b858b95a-0833-4067-a74c-625e9fd217d2
@@ -24949,13 +24939,13 @@
       f8e5987a-862a-49bf-bc4c-43bcfd977776
     )
   )
-  (group "" (id c4ff8ed5-3980-4289-b380-f944bfe6f79a)
+  (group "" locked (id c4ff8ed5-3980-4289-b380-f944bfe6f79a)
     (members
       00dc35ec-6a8f-4af7-a6ba-eb3304c75ac8
       90b86657-4d95-4213-b8a4-3d80e8d69253
     )
   )
-  (group "" (id c5cec0dc-e4cb-4e5d-ab1b-831c879cedcb)
+  (group "" locked (id c5cec0dc-e4cb-4e5d-ab1b-831c879cedcb)
     (members
       09be8940-0dff-4d9c-a745-5c2aaf57a834
       11bf1e21-2f53-41bf-a1ef-a37650563b3b
@@ -24964,7 +24954,7 @@
       8acb37b9-d777-44a9-a121-7e13d18d3151
     )
   )
-  (group "" (id c5ea4fea-07a6-4a6d-afb8-f4a5e9f86e1e)
+  (group "" locked (id c5ea4fea-07a6-4a6d-afb8-f4a5e9f86e1e)
     (members
       48213603-f770-4d18-8043-fa332516376f
       4c97405f-ecbf-4bdc-8fd9-703f5dd98437
@@ -24982,14 +24972,14 @@
       0d6cbd70-7c51-43cf-96a6-4eabd6756cfe
     )
   )
-  (group "" (id cf323d27-afca-44ef-bf07-2ddcbefa60cf)
+  (group "" locked (id cf323d27-afca-44ef-bf07-2ddcbefa60cf)
     (members
       00ae1de6-d0af-4bee-a168-e66bfcd40ef6
       71e75c88-20ee-4e5a-9620-001fdc3029e3
       cec6892e-11c3-4df4-ac7f-45bf4ddd3236
     )
   )
-  (group "" (id cf48f87b-548f-4e68-bb07-d1f0f08dfefa)
+  (group "" locked (id cf48f87b-548f-4e68-bb07-d1f0f08dfefa)
     (members
       48be331e-568d-4814-b893-4df76156a4d5
       a2b2900f-0c79-413c-9302-9a9791c5c3bf
@@ -25003,7 +24993,7 @@
       cb208bfe-5fd4-4fb6-946a-1544c0dd2663
     )
   )
-  (group "" (id d83d3b43-f833-4053-8266-2f7a8e3b28b9)
+  (group "" locked (id d83d3b43-f833-4053-8266-2f7a8e3b28b9)
     (members
       7b72056f-3420-4d85-bf93-f521080ad4ac
       aa447ce4-ad50-4e5f-88bc-bdbcaf26edf0
@@ -25016,13 +25006,13 @@
       af73fdb2-4dc8-46ad-bba9-2c214375d70c
     )
   )
-  (group "" (id dfb77468-ae53-493e-82dc-36bfb8a6c7ec)
+  (group "" locked (id dfb77468-ae53-493e-82dc-36bfb8a6c7ec)
     (members
       55928cf2-01ea-45ee-877e-8c8725fc0937
       70ff6f55-bd7d-4cbd-b972-4bede363f31e
     )
   )
-  (group "" (id e03e55bf-e7a1-4540-b0df-1a6cd9a74ddd)
+  (group "" locked (id e03e55bf-e7a1-4540-b0df-1a6cd9a74ddd)
     (members
       1ece4cfb-51d4-4000-b4dd-62ba1a7a82d5
       3b89ea37-2be9-4f2b-a76a-3de8218b7fb5
@@ -25033,7 +25023,7 @@
       cbe1d8c9-7802-4490-aa77-da7c204c93ae
     )
   )
-  (group "" (id e45714b2-2401-4dda-b273-ea22f7869994)
+  (group "" locked (id e45714b2-2401-4dda-b273-ea22f7869994)
     (members
       0a36ee82-75f1-43a0-99fc-2cdeea7d1c1c
       1e7a9571-f5a5-4d76-bd23-11b24d8ab947
@@ -25044,20 +25034,20 @@
       e7e959d0-cc10-4124-bfc4-2bc92fd34336
     )
   )
-  (group "" (id eb95e9d9-a684-4191-a308-ab17ada047e0)
+  (group "" locked (id eb95e9d9-a684-4191-a308-ab17ada047e0)
     (members
       52f62ad6-86eb-48b3-baa9-7c9be84efb25
       b7926c33-aff9-4fd6-8029-793c378e5871
       b840632d-71d0-4bda-987c-8f502ce27f41
     )
   )
-  (group "" (id ec26ecc5-4515-4963-891a-2664d248215a)
+  (group "" locked (id ec26ecc5-4515-4963-891a-2664d248215a)
     (members
       ecd9c1a1-91af-48f9-8171-9fcc87662fe9
       fcddc4c3-c4ef-46b2-a2e8-efc8a827c82d
     )
   )
-  (group "" (id f082ca6e-bc8b-4bad-806c-dc5e01ff8b23)
+  (group "" locked (id f082ca6e-bc8b-4bad-806c-dc5e01ff8b23)
     (members
       1027cfef-2e40-45de-8ad0-84e00e74364f
       473340f3-e16b-435e-a8ad-03c9f5ca7719
@@ -25065,21 +25055,21 @@
       f4c18216-e31e-4e98-ae8e-3d7eb8b01cf7
     )
   )
-  (group "" (id f1d87707-ac12-4c1f-babb-9c75afa6b00e)
+  (group "" locked (id f1d87707-ac12-4c1f-babb-9c75afa6b00e)
     (members
       0599f634-5738-48ee-ba99-f7a833a1fb5d
       2447f675-d7b6-4a0f-a21a-463a047a1691
       974f57cd-14d2-4fb7-9daf-5f154ac803b5
     )
   )
-  (group "" (id f4e7da19-74a8-4405-8833-63b209fd9fee)
+  (group "" locked (id f4e7da19-74a8-4405-8833-63b209fd9fee)
     (members
       5fb006b3-3f9d-4a0d-b181-02b28d9a84ad
       6be19c2f-b211-4691-adf0-21bc6e498601
       e71e50f9-b930-4434-97e0-2b3c028e9ff9
     )
   )
-  (group "" (id f56911df-2471-4a43-91ce-a318bd6c6a25)
+  (group "" locked (id f56911df-2471-4a43-91ce-a318bd6c6a25)
     (members
       1b859f76-f6f9-49c1-b8d4-428d1268584b
       35171fe4-0eac-42c8-8db8-4e8f5046b409
@@ -25090,20 +25080,20 @@
       c8317a99-5287-498c-86e5-493af85ec8f4
     )
   )
-  (group "" (id f673dcc3-d9e3-468e-a4c9-5eb4827afe88)
+  (group "" locked (id f673dcc3-d9e3-468e-a4c9-5eb4827afe88)
     (members
       1a6d6880-3cee-4827-b28d-9f1dc3923424
       6371de70-b450-4ebd-8940-6f6c09fe5d92
     )
   )
-  (group "" (id f8ebe1ca-aa7d-4de3-b8c0-63b9239b1526)
+  (group "" locked (id f8ebe1ca-aa7d-4de3-b8c0-63b9239b1526)
     (members
       21d49c56-4f96-4845-b7da-1e303a986928
       c00e95aa-cc5f-4f64-aa90-676bf836e76f
       e8b57d0c-3f41-411b-9775-f442ae0e501c
     )
   )
-  (group "" (id fc8891b7-1607-4cf4-ba50-9af68f3a7147)
+  (group "" locked (id fc8891b7-1607-4cf4-ba50-9af68f3a7147)
     (members
       700cf0f2-4f0f-43b9-8ccd-4211f035ec12
       9114419d-e197-44e9-aa43-c5a2ffbe1399
