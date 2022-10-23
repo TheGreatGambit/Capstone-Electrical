@@ -1,24 +1,22 @@
-# The Great Gambit -- Electrical
+# The Great Gambit &mdash; Electrical
 
 <!-- Buttons that link to the associated repos, uncomment all but this repo -->
 <center>
     <img src="./Images/logo_large.png" alt="The Great Gambit Logo" style="height:200px;width:880px">
-    <br>
     <a href="https://cadlab.io/project/25988/main/files">
-        <img src="./Images/logo_cadlab_small.png" alt="CadLab Logo" style="height:45px;width:220px">
+        <img src="./Images/logo_cadlab_small.png" alt="CadLab Logo" style="height:40px;width:200px">
     </a>
     <!-- <a href="https://github.com/TheGreatGambit/Capstone-Electrical">
-        <img src="./Images/logo_electrical_small.png" alt="Electrical Logo - Small" style="height:45px;width:220px">
+        <img src="./Images/logo_electrical_small.png" alt="Electrical Logo - Small" style="height:40px;width:200px">
     </a> -->
     <a href="https://github.com/TheGreatGambit/Capstone-Software">
-        <img src="./Images/logo_software_small.png" alt="Software Logo - Small" style="height:45px;width:220px">
+        <img src="./Images/logo_software_small.png" alt="Software Logo - Small" style="height:40px;width:200px">
     </a>
     <a href="https://github.com/TheGreatGambit/Capstone-Mechanical-CAD">
-        <img src="./Images/logo_mechanical_small.png" alt="Mechanical Logo - Small" style="height:45px;width:220px">
+        <img src="./Images/logo_mechanical_small.png" alt="Mechanical Logo - Small" style="height:40px;width:200px">
     </a>
     <a href="https://github.com/TheGreatGambit/Capstone-PyChess">
-        <img src="./Images/logo_pychess_small.png" alt="PyChess Logo - Small" style="height:45px;width:220px">
-    </a>
+        <img src="./Images/logo_pychess_small.png" alt="PyChess Logo - Small" style="height:40px;width:200px">
     </a>
 </center>
 
