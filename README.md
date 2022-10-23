@@ -1,7 +1,7 @@
 # The Great Gambit &mdash; Electrical
 
 <!-- Buttons that link to the associated repos, uncomment all but this repo -->
-<center>
+<div align="center">
     <img src="https://github.com/TheGreatGambit/Capstone-Electrical/blob/main/Images/logo_large.png" alt="The Great Gambit Logo" style="height:200px;width:880px">
     <a href="https://cadlab.io/project/25988/main/files">
         <img src="https://github.com/TheGreatGambit/Capstone-Electrical/blob/main/Images/logo_cadlab_small.png" alt="CadLab Logo" style="height:40px;width:200px">
@@ -18,7 +18,7 @@
     <a href="https://github.com/TheGreatGambit/Capstone-PyChess">
         <img src="https://github.com/TheGreatGambit/Capstone-Electrical/blob/main/Images/logo_pychess_small.png" alt="PyChess Logo - Small" style="height:40px;width:200px">
     </a>
-</center>
+</div>
 
 <!-- Brief overview of this repo -->
 ## Overview
