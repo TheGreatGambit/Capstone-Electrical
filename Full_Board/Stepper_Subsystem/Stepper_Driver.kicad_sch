@@ -1667,7 +1667,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 80.01 118.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8c133614-4038-4102-86b6-14eb1a71595f)
-    (property "Reference" "C?" (id 0) (at 83.82 116.84 0)
+    (property "Reference" "C19" (id 0) (at 83.82 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100 uF" (id 1) (at 83.82 119.38 0)
