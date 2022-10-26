@@ -3833,8 +3833,8 @@
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/339bb850-9a67-4c07-858d-6ef9bc1c3ed0"
       (reference "C4") (unit 1) (value "0.01uF") (footprint "CAPC0603X33N")
     )
-    (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/81ce1550-f94a-4eed-b0ea-8efd799aae77"
-      (reference "C5") (unit 1) (value "8200pF") (footprint "C1210C822K2RACAUTO:CAPC3225X88N")
+    (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/c76ca1cb-4467-46f6-8450-43e7d840f963"
+      (reference "C5") (unit 1) (value "0.1 uF") (footprint "CL10B104KB8NNNC:CL10B104KB8NNNC")
     )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/dce7f77f-78ae-4366-95b8-47f1b891faae"
       (reference "C6") (unit 1) (value "0.01uF") (footprint "CAPC0603X33N")
@@ -3851,8 +3851,8 @@
     (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/339bb850-9a67-4c07-858d-6ef9bc1c3ed0"
       (reference "C10") (unit 1) (value "0.01uF") (footprint "CAPC0603X33N")
     )
-    (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/81ce1550-f94a-4eed-b0ea-8efd799aae77"
-      (reference "C11") (unit 1) (value "8200pF") (footprint "C1210C822K2RACAUTO:CAPC3225X88N")
+    (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/c76ca1cb-4467-46f6-8450-43e7d840f963"
+      (reference "C11") (unit 1) (value "0.1 uF") (footprint "CL10B104KB8NNNC:CL10B104KB8NNNC")
     )
     (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/dce7f77f-78ae-4366-95b8-47f1b891faae"
       (reference "C12") (unit 1) (value "0.01uF") (footprint "CAPC0603X33N")
@@ -3887,8 +3887,8 @@
     (path "/369b5ae9-4af3-455b-8453-a585234168a6/339bb850-9a67-4c07-858d-6ef9bc1c3ed0"
       (reference "C22") (unit 1) (value "0.01uF") (footprint "CAPC0603X33N")
     )
-    (path "/369b5ae9-4af3-455b-8453-a585234168a6/81ce1550-f94a-4eed-b0ea-8efd799aae77"
-      (reference "C23") (unit 1) (value "8200pF") (footprint "C1210C822K2RACAUTO:CAPC3225X88N")
+    (path "/369b5ae9-4af3-455b-8453-a585234168a6/c76ca1cb-4467-46f6-8450-43e7d840f963"
+      (reference "C23") (unit 1) (value "0.1 uF") (footprint "CL10B104KB8NNNC:CL10B104KB8NNNC")
     )
     (path "/369b5ae9-4af3-455b-8453-a585234168a6/dce7f77f-78ae-4366-95b8-47f1b891faae"
       (reference "C24") (unit 1) (value "0.01uF") (footprint "CAPC0603X33N")
