@@ -3680,6 +3680,9 @@
     (path "/61b0a90c-0888-4889-b915-b5a54dbc418f"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/8c133614-4038-4102-86b6-14eb1a71595f"
+      (reference "C1") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
+    )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/2be14dcd-e7d0-4d5f-b300-b3411d0721cb"
       (reference "C2") (unit 1) (value "0.47uF") (footprint "C1812X474K2RACAUTO:C1812_FT")
     )
@@ -3694,6 +3697,9 @@
     )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/dce7f77f-78ae-4366-95b8-47f1b891faae"
       (reference "C6") (unit 1) (value "0.01uF") (footprint "CAPC0603X33N")
+    )
+    (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/8c133614-4038-4102-86b6-14eb1a71595f"
+      (reference "C7") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
     )
     (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/2be14dcd-e7d0-4d5f-b300-b3411d0721cb"
       (reference "C8") (unit 1) (value "0.47uF") (footprint "C1812X474K2RACAUTO:C1812_FT")
@@ -3788,12 +3794,6 @@
     (path "/052c1802-f400-4007-8083-56d46632424e/abeddf76-a6ea-4de3-9be4-31e964bf5d85"
       (reference "C38") (unit 1) (value "8200pF") (footprint "C1210C822K2RACAUTO:CAPC3225X88N")
     )
-    (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/8c133614-4038-4102-86b6-14eb1a71595f"
-      (reference "C?") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
-    )
-    (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/8c133614-4038-4102-86b6-14eb1a71595f"
-      (reference "C?") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
-    )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/3bd4c8cf-1d88-4ad9-82fa-57db0b984033"
       (reference "D1") (unit 1) (value "EAST2012RA2") (footprint "EAST2012RA2:EAST2012RA2")
     )
@@ -3834,7 +3834,7 @@
       (reference "J1") (unit 1) (value "OQ0212500000G") (footprint "OQ0212500000G:OQ0212500000G")
     )
     (path "/eed9ac13-0553-4be8-a87c-cf15a0799b3e/e6ba01e7-fe50-4df3-8c33-307516bbd642"
-      (reference "J1-J1") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
+      (reference "J1-J3") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
     )
     (path "/a902aa93-7d95-43a4-b524-d74c9b931780"
       (reference "J2") (unit 1) (value "OQ0212500000G") (footprint "OQ0212500000G:OQ0212500000G")
@@ -3846,13 +3846,13 @@
       (reference "J4") (unit 1) (value "OQ0432500000G") (footprint "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P")
     )
     (path "/eed9ac13-0553-4be8-a87c-cf15a0799b3e/6cd136bd-0afc-45c7-bfb2-24a9992d176d"
-      (reference "J4-J1") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
+      (reference "J4-J2") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
     )
     (path "/33225b2d-ebb3-4877-b105-4e2773c8d2c7"
       (reference "J5") (unit 1) (value "OQ0432500000G") (footprint "OQ0432500000G:RHDR4W80P0X381_1X4_1540X700X920P")
     )
     (path "/eed9ac13-0553-4be8-a87c-cf15a0799b3e/7930d787-5828-4f35-b7af-f3e8bfeeace1"
-      (reference "J5-J1") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
+      (reference "J5-J7") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
     )
     (path "/f355d1b6-bee3-4968-acb9-caad2ec6238b/4aededf4-997e-4812-b834-828d3896e07a"
       (reference "J6") (unit 1) (value "USB_A") (footprint "USB1130-15-A:USB1130-15-A")
@@ -3864,7 +3864,7 @@
       (reference "J8") (unit 1) (value "OQ0212500000G") (footprint "OQ0212500000G:OQ0212500000G")
     )
     (path "/eed9ac13-0553-4be8-a87c-cf15a0799b3e/ac4bb516-e492-477c-a38c-647438db058c"
-      (reference "J8-J1") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
+      (reference "J8-J6") (unit 1) (value "Conn_01x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
     )
     (path "/409366c6-ffcd-469f-960b-d56a9d6685b3/34311b9f-dce3-4cb6-80ad-ff6d71a14f19"
       (reference "J9") (unit 1) (value "OQ0212500000G") (footprint "OQ0212500000G:OQ0212500000G")
