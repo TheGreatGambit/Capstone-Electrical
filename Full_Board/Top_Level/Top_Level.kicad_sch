@@ -3962,13 +3962,13 @@
       (reference "HS2") (unit 1) (value "Heatsink") (footprint "ATS-52150P-C1-R0:ATS-52150P-C1-R0")
     )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/6136dc38-f08a-4d0d-8996-e18ec25aa206"
-      (reference "IC1") (unit 1) (value "DRV8824QPWPRQ1") (footprint "DRV8824QPWPRQ1:SOP65P640X120-28N")
+      (reference "IC1") (unit 1) (value "DRV8824QPWPRQ1") (footprint "DRV8824QPWPRQ1:DRV8824QPWPRQ1")
     )
     (path "/7101bf6d-80ed-4df7-ac71-dd96de028069/6136dc38-f08a-4d0d-8996-e18ec25aa206"
-      (reference "IC2") (unit 1) (value "DRV8824QPWPRQ1") (footprint "DRV8824QPWPRQ1:SOP65P640X120-28N")
+      (reference "IC2") (unit 1) (value "DRV8824QPWPRQ1") (footprint "DRV8824QPWPRQ1:DRV8824QPWPRQ1")
     )
     (path "/369b5ae9-4af3-455b-8453-a585234168a6/6136dc38-f08a-4d0d-8996-e18ec25aa206"
-      (reference "IC3") (unit 1) (value "DRV8824QPWPRQ1") (footprint "DRV8824QPWPRQ1:SOP65P640X120-28N")
+      (reference "IC3") (unit 1) (value "DRV8824QPWPRQ1") (footprint "DRV8824QPWPRQ1:DRV8824QPWPRQ1")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/3a23a826-0cf8-488f-9f7a-19978825a106"
       (reference "IC4") (unit 1) (value "LM2576HVS-5.0_NOPB") (footprint "LM2576HVS50NOPB")

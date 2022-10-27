@@ -3,7 +3,7 @@
   (lib (name "C1812X474K2RACAUTO")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/C1812X474K2RACAUTO/KiCad")(options "")(descr ""))
   (lib (name "CKC18C103JDGACAUTO")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CKC18C103JDGACAUTO/KiCad")(options "")(descr ""))
   (lib (name "CR0402-FX-5620GLF")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CR0402-FX-5620GLF/KiCad")(options "")(descr ""))
-  (lib (name "DRV8824QPWPRQ1")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/DRV8824QPWPRQ1/KiCad")(options "")(descr ""))
+  (lib (name "DRV8824QPWPRQ1")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/DRV8824QPWPRQ1/KiCad/footprints.pretty")(options "")(descr ""))
   (lib (name "ERJ-PB6B3002V")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/ERJ-PB6B3002V/KiCad")(options "")(descr ""))
   (lib (name "KLDHCX-8-0202-A")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/KLDHCX-8-0202-A/KiCad")(options "")(descr ""))
   (lib (name "PTS636_SL43_LFS")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/PTS636_SL43_LFS/KiCad")(options "")(descr ""))
