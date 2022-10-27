@@ -669,7 +669,6 @@
     )
   )
 
-
   (junction (at 165.1 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 57c8e27a-5273-4c7a-953f-34e00aa29142)
   )
@@ -855,7 +854,7 @@
   (symbol (lib_id "OQ0212500000G:OQ0212500000G") (at 119.38 92.71 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 34311b9f-dce3-4cb6-80ad-ff6d71a14f19)
-    (property "Reference" "J21" (id 0) (at 109.22 86.36 0))
+    (property "Reference" "J20" (id 0) (at 109.22 86.36 0))
     (property "Value" "OQ0212500000G" (id 1) (at 109.22 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1005,7 +1004,7 @@
   (symbol (lib_id "C1210C822K2RACAUTO:C1210C822K2RACAUTO") (at 143.51 101.6 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid abeddf76-a6ea-4de3-9be4-31e964bf5d85)
-    (property "Reference" "C35" (id 0) (at 135.89 96.52 90)
+    (property "Reference" "C37" (id 0) (at 135.89 96.52 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "8200pF" (id 1) (at 133.35 99.06 90)

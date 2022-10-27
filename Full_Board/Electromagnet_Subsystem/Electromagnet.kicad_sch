@@ -200,7 +200,6 @@
     )
   )
 
-
   (junction (at 170.18 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 077939e7-6391-4dbd-a184-3203434029e7)
   )
@@ -338,7 +337,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 177.8 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2fc1285a-17b7-4c00-b501-c15fc6905cfa)
-    (property "Reference" "C34" (id 0) (at 181.61 92.0749 0)
+    (property "Reference" "C36" (id 0) (at 181.61 92.0749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470 uF" (id 1) (at 181.61 94.6149 0)
@@ -421,7 +420,7 @@
   (symbol (lib_id "Device:C") (at 170.18 93.98 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f52323bd-bd8f-4034-a8c0-163501999e2a)
-    (property "Reference" "C33" (id 0) (at 162.56 93.98 0)
+    (property "Reference" "C35" (id 0) (at 162.56 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1 uF" (id 1) (at 162.56 96.52 0)
