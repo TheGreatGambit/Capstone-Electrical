@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(6.0.7)"
+      "Version": "(6.0.0)"
     },
-    "CreationDate": "2022-10-28T04:49:56-04:00"
+    "CreationDate": "2022-10-28T18:20:09-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.01,
-      "PadToTrack": 0.01,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.01,
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.508,
