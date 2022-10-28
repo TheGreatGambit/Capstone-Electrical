@@ -713,6 +713,8 @@
     (uuid 3786badf-b4c8-4369-bd5c-2ba2a16e2406)
   )
 
+  (no_connect (at 97.79 92.71) (uuid a2ec43da-6aad-40d1-a0dd-3d6750d8bc5c))
+
   (polyline (pts (xy 118.11 101.6) (xy 118.11 85.09))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 02c687f9-27eb-48b2-8f55-2ff94094781e)
@@ -868,10 +870,6 @@
     (uuid d380509c-e64b-4eb5-9eef-6e3d5a0c1c3e)
   )
 
-  (hierarchical_label "+3.3V" (shape input) (at 97.79 92.71 180)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 19cba89b-d43c-48f1-a79f-204e214908c8)
-  )
   (hierarchical_label "GND" (shape input) (at 97.79 95.25 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1cfd1648-d109-4006-996d-db4e56d57bcd)
