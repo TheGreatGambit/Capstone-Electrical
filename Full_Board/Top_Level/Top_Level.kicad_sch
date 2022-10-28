@@ -3696,6 +3696,10 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 8b27c1cf-c56f-4174-a0dc-e4dbd66fc9fa)
     )
+    (pin "+5V_J5" input (at 101.6 171.45 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 385073c7-409a-454e-987d-d852c2a18df2)
+    )
   )
 
   (sheet (at 151.13 156.21) (size 19.05 10.16) (fields_autoplaced)
