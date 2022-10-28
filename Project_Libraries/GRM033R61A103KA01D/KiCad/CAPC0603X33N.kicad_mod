@@ -4,8 +4,8 @@
   (descr "GRM03_0.03 L=0.6mm W=0.3mm T=0.3mm")
   (tags "Capacitor")
   (attr smd)
-  (fp_text reference "C**" (at 0 0) (layer "F.SilkS")
-    (effects (font (size 0.6 0.6) (thickness 0.15)))
+  (fp_text reference "C**" (at 0 1.524) (layer "F.SilkS")
+    (effects (font (size 1.5 1.27) (thickness 0.254)))
     (tstamp 41ee9502-00b6-4c21-99dc-fb45bc8bcbac)
   )
   (fp_text value "CAPC0603X33N" (at 0 0) (layer "F.SilkS") hide
