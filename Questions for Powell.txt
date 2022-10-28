@@ -1,0 +1,2 @@
+How is the via density calculated? Are our double vias on the stepper outputs OK?
+Do we need to split the ground plane?
