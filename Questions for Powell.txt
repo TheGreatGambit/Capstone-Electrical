@@ -1,2 +1,3 @@
 How is the via density calculated? Are our double vias on the stepper outputs OK?
 Do we need to split the ground plane?
+Does he know why KiCad would undo manual changes to silkscreen sizing? (It seems to be when importing from schematic. Probably overrides the footprints)
