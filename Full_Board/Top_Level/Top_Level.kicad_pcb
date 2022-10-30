@@ -6098,7 +6098,7 @@
     (pad "" np_thru_hole circle (at -9 0 180) (size 1.7 1.7) (drill 1.7) (layers F&B.Cu *.Mask) (tstamp 3a1a998f-e10a-4cb7-9c72-c80ff3d41066))
     (pad "1" thru_hole circle (at 0 0 180) (size 5.04 5.04) (drill 3.36) (layers *.Cu *.Mask)
       (net 90 "Net-(F1-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 0047aa48-e677-464a-ba5c-0b3f18a79bad))
-    (pad "2" thru_hole circle (at -6 0 180) (size 4.065 4.065) (drill 2.71) (layers *.Cu *.Mask)
+    (pad "2" thru_hole circle (at -6 0 180) (size 3.4412 3.4412) (drill 2.71) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "2") (pintype "passive") (tstamp 0aeab898-0276-4c0e-b03d-55db231a1fe5))
     (pad "3" thru_hole circle (at -7 4.5 180) (size 4.335 4.335) (drill 2.89) (layers *.Cu *.Mask)
       (net 146 "unconnected-(J10-Pad3)") (pinfunction "3") (pintype "passive+no_connect") (tstamp abd3e07d-bce6-477a-b5f8-9fb85f57d6ba))
