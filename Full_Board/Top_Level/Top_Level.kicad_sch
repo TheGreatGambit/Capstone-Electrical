@@ -3656,7 +3656,7 @@
     (property "Sheet file" "../Electromagnet_Subsystem/Electromagnet.kicad_sch" (id 1) (at 149.86 166.9546 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "5v" input (at 149.86 157.48 180)
+    (pin "5V" input (at 149.86 157.48 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6c856dd3-467c-45ba-bbd7-069205a0b3b5)
     )
@@ -3746,9 +3746,6 @@
   (symbol_instances
     (path "/f355d1b6-bee3-4968-acb9-caad2ec6238b/acf43417-ef2e-4553-9b28-14f78058bc48"
       (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/0decb850-c73f-4a21-ac88-d022f064034a/a6182c0c-ac44-480a-886b-3756d6aea4ad"
-      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/b5a36b01-67ad-476e-afbb-ad9d9f6fe4dc"
       (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
