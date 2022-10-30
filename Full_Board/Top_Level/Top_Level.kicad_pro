@@ -134,6 +134,211 @@
   "cvpcb": {
     "equivalence_files": []
   },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -179,9 +384,123 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
     "legacy_lib_dir": "",
-    "legacy_lib_list": []
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "724c0081-39e8-4eb2-8821-50e5b8b14ba5",
+      ""
+    ],
+    [
+      "a91d8bd8-894f-452b-99c8-57023ebaf362",
+      "StepperDriver2"
+    ],
+    [
+      "7101bf6d-80ed-4df7-ac71-dd96de028069",
+      "StepperDriver3"
+    ],
+    [
+      "f355d1b6-bee3-4968-acb9-caad2ec6238b",
+      "PiConnector1"
+    ],
+    [
+      "d35f0d14-4c72-441d-bd1f-1d5bdf287729",
+      "LimitSwitch2"
+    ],
+    [
+      "633acf2e-cb30-4033-99e2-4d89cfa67ef2",
+      "Button2"
+    ],
+    [
+      "c2f302c5-c68a-44e0-84f5-58094c026476",
+      "Button3"
+    ],
+    [
+      "1ec4c6f7-71c0-4a08-8d49-0cb381dfc4aa",
+      "LimitSwitch3"
+    ],
+    [
+      "97d52992-a13e-49a0-99b8-64104681fc44",
+      "Switch1"
+    ],
+    [
+      "409366c6-ffcd-469f-960b-d56a9d6685b3",
+      "LimitSwitch4"
+    ],
+    [
+      "369b5ae9-4af3-455b-8453-a585234168a6",
+      "StepperDriver1"
+    ],
+    [
+      "eed9ac13-0553-4be8-a87c-cf15a0799b3e",
+      "MSP432E401Y"
+    ],
+    [
+      "0decb850-c73f-4a21-ac88-d022f064034a",
+      "PowerSupply1"
+    ],
+    [
+      "e841011a-0d76-447f-b141-73da960fe0e4",
+      "Button1"
+    ],
+    [
+      "6bee1ebb-ad97-4b5a-bd69-85886de2f795",
+      "LimitSwitch1"
+    ],
+    [
+      "d502e42a-f07d-48a4-870f-6cc62b560384",
+      "LED1"
+    ],
+    [
+      "b2aa64e3-6d16-4ba0-adea-08cdcba55275",
+      "SensorNetwork1"
+    ],
+    [
+      "f059198e-ec55-48b1-bb71-d05bde55edab",
+      "Electromagnet1"
+    ],
+    [
+      "113760ec-036e-4de5-bdf9-a26726332289",
+      "LimitSwitch5"
+    ],
+    [
+      "dfe71e11-a04c-4fd9-96ba-6a7aa87c4672",
+      "LimitSwitch8"
+    ],
+    [
+      "07cad15c-7a8f-4f19-b010-f610659ec73e",
+      "LimitSwitch6"
+    ],
+    [
+      "052c1802-f400-4007-8083-56d46632424e",
+      "LimitSwitch7"
+    ]
+  ],
   "text_variables": {}
 }
