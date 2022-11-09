@@ -1,3 +1,17 @@
-How is the via density calculated? Are our double vias on the stepper outputs OK?
-Do we need to split the ground plane?
-Does he know why KiCad would undo manual changes to silkscreen sizing? (It seems to be when importing from schematic. Probably overrides the footprints)
+Big light
+Replace fuse holder with a switch
+Pi connectors - what is an isn't acceptable
+pull up resistors for stepper enable (how does this work)
+
+
+TO FIX:
+Check all power traces (they are too small)
+Replace fuse with switch?
+Pi connector - recommended using a full 40pin ribbon cable an connect some Pi's gpio to the msp
+Add a connector + cirucitry for the big light
+pull up resistors for stepper enable (how does this work)
+Space out traces
+Find test points better homes (not all GND at one end)
+Use more through hole? 
+Update DRC to use much larger clearances
+Make board larger
