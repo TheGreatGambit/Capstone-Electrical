@@ -3732,6 +3732,18 @@
     )
   )
 
+  (sheet (at 114.3 176.53) (size 17.78 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid ff9e0524-8334-47df-91dd-f4ed6e05afe2)
+    (property "Sheet name" "Signal Light" (id 0) (at 114.3 175.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Status_Light_Subsystem/signal_light.kicad_sch" (id 1) (at 114.3 192.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362" (page "2"))
@@ -3755,6 +3767,7 @@
     (path "/dfe71e11-a04c-4fd9-96ba-6a7aa87c4672" (page "17"))
     (path "/07cad15c-7a8f-4f19-b010-f610659ec73e" (page "18"))
     (path "/052c1802-f400-4007-8083-56d46632424e" (page "19"))
+    (path "/ff9e0524-8334-47df-91dd-f4ed6e05afe2" (page "23"))
   )
 
   (symbol_instances
