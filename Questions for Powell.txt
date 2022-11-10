@@ -14,4 +14,5 @@ Space out traces
 Find test points better homes (not all GND at one end)
 Use more through hole? 
 Update DRC to use much larger clearances
+expand the pads on the inductors 
 Make board larger
