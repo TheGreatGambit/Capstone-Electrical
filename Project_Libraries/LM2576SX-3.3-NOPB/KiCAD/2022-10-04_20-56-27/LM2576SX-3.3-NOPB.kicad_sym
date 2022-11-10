@@ -67,7 +67,7 @@
         (name "VIN" (effects (font (size 1.4986 1.4986))))
         (number "1" (effects (font (size 1.4986 1.4986))))
       )
-      (pin power_in line (at 0 -2.54 0) (length 7.62)
+      (pin power_out line (at 0 -2.54 0) (length 7.62)
         (name "OUT" (effects (font (size 1.4986 1.4986))))
         (number "2" (effects (font (size 1.4986 1.4986))))
       )

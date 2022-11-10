@@ -2,7 +2,7 @@
   "board": {
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.09999999999999999,
+        "board_outline_line_width": 0.049999999999999996,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
@@ -26,18 +26,18 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.09999999999999999,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 2.71,
+          "height": 3.4412,
+          "width": 3.4412
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.12,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
@@ -104,7 +104,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.01,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -114,13 +114,10 @@
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0,
-        1.0
+        0.0
       ],
       "via_dimensions": [
         {
@@ -371,71 +368,35 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.5,
+        "clearance": 0.254,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "7A",
+        "name": "High power",
         "nets": [
-          "Net-(F1-Pad1)"
+          "+24V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Stepper Power",
-        "nets": [
-          "/StepperDriver1/1A",
-          "/StepperDriver1/1B",
-          "/StepperDriver1/2A",
-          "/StepperDriver1/2B",
-          "/StepperDriver2/1A",
-          "/StepperDriver2/1B",
-          "/StepperDriver2/2A",
-          "/StepperDriver2/2B",
-          "/StepperDriver3/1A",
-          "/StepperDriver3/1B",
-          "/StepperDriver3/2A",
-          "/StepperDriver3/2B"
-        ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 2.286,
+        "via_diameter": 1.27,
+        "via_drill": 0.635,
         "wire_width": 6.0
       }
     ],
     "meta": {
       "version": 2
     },
-    "net_colors": {
-      "+24V": "rgb(15, 255, 0)",
-      "+3.3V": "rgb(255, 81, 0)",
-      "+5V": "rgb(14, 136, 255)",
-      "GND": "rgb(6, 166, 22)"
-    }
+    "net_colors": null
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "Top_Level.net",
+      "netlist": "",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -463,7 +424,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "KiCad",
+    "net_format_name": "",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,

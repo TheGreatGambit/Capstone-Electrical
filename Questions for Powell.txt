@@ -1,0 +1,18 @@
+Big light
+Replace fuse holder with a switch
+Pi connectors - what is an isn't acceptable
+pull up resistors for stepper enable (how does this work)
+
+
+TO FIX:
+Check all power traces (they are too small)
+Replace fuse with switch?
+Pi connector - recommended using a full 40pin ribbon cable an connect some Pi's gpio to the msp
+Add a connector + cirucitry for the big light
+pull up resistors for stepper enable (how does this work)
+Space out traces
+Find test points better homes (not all GND at one end)
+Use more through hole? 
+Update DRC to use much larger clearances
+expand the pads on the inductors 
+Make board larger
