@@ -37,4 +37,5 @@
   (lib (name "UCLAMP3310H-TCT")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/UCLAMP3301H-TCT/KiCAD/2022-10-21_18-40-03/footprints.pretty")(options "")(descr ""))
   (lib (name "JS102011SCQN")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/JS102011SCQN/KiCAD/footprints.pretty")(options "")(descr ""))
   (lib (name "ATS-52150P-C1-R0")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/ATS-52150P-C1-R0/footprint.pretty")(options "")(descr ""))
+  (lib (name "RUC002N05116")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/RUC002N05T116/KiCAD/2022-11-10_22-10-14/footprints.pretty")(options "")(descr ""))
 )
