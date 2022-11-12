@@ -317,6 +317,7 @@
     )
   )
 
+
   (junction (at 151.13 185.42) (diameter 0) (color 0 0 0 0)
     (uuid d679acc1-88a6-4f0c-9d7b-9a0c0d5b911f)
   )
@@ -3840,14 +3841,6 @@
     (property "Sheet file" "../Pi_Subsystem/PiConnector.kicad_sch" (id 1) (at 149.86 147.9046 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "Rx_Pi" input (at 171.45 138.43 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid fcea862e-cce1-4131-b07e-fda7987cca0d)
-    )
-    (pin "Tx_Pi" input (at 171.45 140.97 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b51f157a-01ea-43a5-901d-322ff33c9718)
-    )
     (pin "Tx_MSP" input (at 149.86 138.43 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid b156e477-82a2-4ccf-bb61-4459d9641777)
@@ -4218,7 +4211,7 @@
       (reference "JP20") (unit 1) (value "3.3V Jumper") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
     )
     (path "/f355d1b6-bee3-4968-acb9-caad2ec6238b/eef6a18c-ca7e-4e66-8a10-57f0632619ae"
-      (reference "JP?") (unit 1) (value "5V Jumper") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
+      (reference "JP21") (unit 1) (value "5V Jumper") (footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm")
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/8e575a13-eb08-41db-b5ab-de0d50d642ba"
       (reference "L1") (unit 1) (value "680 uH") (footprint "SRR1210-681M:SRR1210-681M")
