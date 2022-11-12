@@ -37,4 +37,5 @@
   (lib (name "UCLAMP3301H-TCT")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/UCLAMP3301H-TCT/KiCAD/2022-10-21_18-40-03/2022-10-21_18-40-03.kicad_sym")(options "")(descr ""))
   (lib (name "JS102011SCQN")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/JS102011SCQN/KiCAD/JS102011SCQN.kicad_sym")(options "")(descr ""))
   (lib (name "RUC002N05T116")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/RUC002N05T116/KiCAD/2022-11-10_22-10-14/2022-11-10_22-10-14.kicad_sym")(options "")(descr ""))
+  (lib (name "CK05BX103K")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CK05BX103K/KiCAD/CK05BX103K.kicad_sym")(options "")(descr ""))
 )
