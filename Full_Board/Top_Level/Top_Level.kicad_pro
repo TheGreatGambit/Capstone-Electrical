@@ -418,7 +418,8 @@
         "name": "Medium Power",
         "nets": [
           "+5V",
-          "Net-(C30-Pad1)"
+          "Net-(C30-Pad1)",
+          "Net-(J1-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
