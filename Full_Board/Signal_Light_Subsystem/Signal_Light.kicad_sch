@@ -283,7 +283,7 @@
   (symbol (lib_id "RUC002N05T116:RUC002N05T116") (at 116.84 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7cba4660-22c7-4a0f-9058-cb47ebed8fb2)
-    (property "Reference" "U19" (id 0) (at 139.7 86.36 0)
+    (property "Reference" "U21" (id 0) (at 139.7 86.36 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "RUC002N05T116" (id 1) (at 139.7 90.17 0)

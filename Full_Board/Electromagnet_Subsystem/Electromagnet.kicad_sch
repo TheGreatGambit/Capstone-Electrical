@@ -371,7 +371,7 @@
   (symbol (lib_id "DRV8210DRLR:DRV8210DRLR") (at 123.19 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d3b563d6-69a8-4f35-9b31-a733b771995f)
-    (property "Reference" "IC7" (id 0) (at 137.16 77.47 0))
+    (property "Reference" "IC5" (id 0) (at 137.16 77.47 0))
     (property "Value" "DRV8210DRLR" (id 1) (at 137.16 80.01 0))
     (property "Footprint" "SOTFL50P160X60-6N" (id 2) (at 147.32 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)

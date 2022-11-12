@@ -1068,7 +1068,7 @@
   (symbol (lib_id "UCLAMP3301H-TCT:UCLAMP3301H.TCT") (at 165.1 127 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid deeebe70-2327-4b83-9a7a-fe42dab30616)
-    (property "Reference" "U15" (id 0) (at 171.45 105.41 90)
+    (property "Reference" "U17" (id 0) (at 171.45 105.41 90)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Value" "UCLAMP3301H.TCT" (id 1) (at 171.45 109.22 90)
