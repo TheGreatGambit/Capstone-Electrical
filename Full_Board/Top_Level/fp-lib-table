@@ -40,4 +40,5 @@
   (lib (name "RUC002N05116")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/RUC002N05T116/KiCAD/2022-11-10_22-10-14/footprints.pretty")(options "")(descr ""))
   (lib (name "CK05BX103K")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/CK05BX103K/KiCAD/footprints.pretty")(options "")(descr ""))
   (lib (name "SN74LV4051ATPWRQ1")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/SN74LV4051ATPWRQ1/KiCAD/footprints.pretty")(options "")(descr ""))
+  (lib (name "BD62130AEFJ-E2")(type "KiCad")(uri "${KICAD_CAPSTONE_LIBRARIES}/BD62130AEFJ-E2/BD62130AEFJ-E2/KiCad")(options "")(descr ""))
 )

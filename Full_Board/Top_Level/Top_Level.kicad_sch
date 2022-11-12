@@ -1679,6 +1679,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "+24V" (shape bidirectional) (at 142.24 160.02 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4f778f64-f2de-4da8-8989-83b6617e7c6a)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 134.7469 160.0994 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "Y_STEP" (shape output) (at 55.88 96.52 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5052a1ff-a906-4096-8ac6-0583ea2320aa)
@@ -2271,13 +2278,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e1b26bd7-e897-4c5a-a9a1-450b27ed21f9)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 217.2364 130.8894 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "+5V" (shape bidirectional) (at 142.24 160.02 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e4b5207b-3e09-49ed-a80b-f8d90dc89e78)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 135.9564 160.0994 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2984,10 +2984,6 @@
     (pin "+24V" input (at 228.6 21.59 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid d4417e11-5da4-40c3-8923-206717488c2a)
-    )
-    (pin "+3.3V" input (at 251.46 29.21 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 85f8720c-8075-4f24-a041-2826a4640a7c)
     )
   )
 
@@ -3737,10 +3733,6 @@
     (property "Sheet file" "../Electromagnet_Subsystem/Electromagnet.kicad_sch" (id 1) (at 149.86 169.4946 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "5V" input (at 149.86 160.02 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6c856dd3-467c-45ba-bbd7-069205a0b3b5)
-    )
     (pin "OUT2" output (at 168.91 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b9b5e639-4992-4306-9dff-dfe3857059f6)
@@ -3760,6 +3752,10 @@
     (pin "IN1" input (at 149.86 162.56 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid f2f8c6e3-6f92-4f90-8b18-ce73163a8af0)
+    )
+    (pin "24V" input (at 149.86 160.02 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 518bb059-d97d-4da5-9ea2-7cc9a2f31471)
     )
   )
 
@@ -3843,6 +3839,12 @@
     )
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/f5cf8e0c-3e72-4c39-8eb9-1cc7e9fe6998"
       (reference "#FLG06") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275/2cdca297-89d2-4945-b79e-3756b5d25bbb"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/b2aa64e3-6d16-4ba0-adea-08cdcba55275/a39d3bb3-367b-459b-90b7-753632cfa817"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/a91d8bd8-894f-452b-99c8-57023ebaf362/8c133614-4038-4102-86b6-14eb1a71595f"
       (reference "C1") (unit 1) (value "100 uF") (footprint "Capacitor_THT:C_Radial_D6.3mm_H5.0mm_P2.50mm")
@@ -3997,8 +3999,8 @@
     (path "/0decb850-c73f-4a21-ac88-d022f064034a/3a23a826-0cf8-488f-9f7a-19978825a106"
       (reference "IC4") (unit 1) (value "LM2576HVS-5.0_NOPB") (footprint "LM2576HVS50NOPB")
     )
-    (path "/f059198e-ec55-48b1-bb71-d05bde55edab/d3b563d6-69a8-4f35-9b31-a733b771995f"
-      (reference "IC5") (unit 1) (value "DRV8210DRLR") (footprint "SOTFL50P160X60-6N")
+    (path "/f059198e-ec55-48b1-bb71-d05bde55edab/c9b392ca-4c7a-4289-94e7-3f89c24e8fe4"
+      (reference "IC5") (unit 1) (value "BD62130AEFJ-E2") (footprint "SOIC127P600X100-9N")
     )
     (path "/c49c40d9-3b05-4cae-a1f5-15f0abbbf620"
       (reference "J1") (unit 1) (value "OQ0212500000G") (footprint "OQ0212500000G:OQ0212500000G")
