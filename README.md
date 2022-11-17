@@ -31,13 +31,7 @@ This repository contains all schematic and PCB files for the system, generated i
 1. Clone this repo onto your local machine.
 2. Open `Full_Board/Top_Level/Top_Level.kicad_pro` with KiCad to view the full project.
 3. In KiCad, open `Top_Level.kicad_sch` to view the schematic, or `Top_Level.kicad_pcb` to view the PCB.
-4. Add a custom path for our team (see below)
-
-## Adding a Custom Path
-1. Open the KiCad Schematic Editor
-2. Go to `Preferences`->`Confgure Paths`
-3. Add the following entries to the `Environment Variables` table by clicking the `+` button
-    - Name: `KICAD_CAPSTONE_LIBRARIES`, Path: `<LOCAL PATH TO GIT REPO>/Project_Libraries`
+4. Note: We no longer use a custom path per Powell's suggestion. We instead use relattive paths to `${KIPRJMOD}`
 
 ## Installing External Libraries
 1. **Install the library:**
@@ -52,18 +46,18 @@ This repository contains all schematic and PCB files for the system, generated i
 2. **Import the symbol:**
     1. In the KiCad Schematic Editor, go to: `Preferences`->`Manage Symbol Libraries`->`Project Specific Libraries`
     2. Add the following entry by clicking the `+` button:
-        - Nickname: `<LIBRARY_NAME>`, Library Path: `${KICAD_CAPSTONE_LIBRARIES}/<LIBRARY_NAME>/KiCad/<LIBRARY_NAME>.lib`
+        - Nickname: `<LIBRARY_NAME>`, Library Path: `${KIPRJMOD}/../../Project_Libraries/<LIBRARY_NAME>/KiCad/<LIBRARY_NAME>.lib`
     3. Select `Migrate Libraries`
     4. Place the device in KiCad by going to `Place`->`Add Symbol` and search for `<LIBRARY_NAME>`
 3. **Add the footprint:**
     1. In the KiCad PCB Editor, go to: `Preferences`->`Manage Footprint Libraries`->`Project Specific Libraries`
     2. Add the following entry by clicking the `+` button:
-        - Nickname: `<LIBRARY_NAME>`, Library Path: `${KICAD_CAPSTONE_LIBRARIES}/<LIBRARY_NAME>/KiCad`
+        - Nickname: `<LIBRARY_NAME>`, Library Path: `${KIPRJMOD}/../../Project_Libraries/<LIBRARY_NAME>/KiCad`
 4. **Update the symbol field to make exporting the BOM easier:**
     1. Right click on the symbol and click `Properties`
     2. Click `Edit Library Symbol`. This should open a symbol editing window.
     3. Go to `File -> Symbol Properties`
-    4. Use the `+` button to add the fields `Datasheet`, `Manufacturer's Part Number`, `Digikey Part Number`, `Mouser Part Number`, `Digikey link`, and `Mouser link` in that order
+    4. Use the `+` button to add the fields `Datasheet`, `Manufacturer's Part Number`, `Digikey Part Number`, `Mouser Part Number`, `Digikey Link`, and `Mouser Link` in that order (with that exact spelling/capitalization)
         - The `Datasheet` should be a URL to the datasheet, and the `Digikey link` and `Mouser link` fields should be links to the part's product page
     5. Uncheck the `Show` field for everything except the `Reference` and `Value` fields
     6. If the part has a meaningful value (e.g., a 10k resistor), add that value in the `Value` field

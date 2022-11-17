@@ -1,0 +1,6 @@
+Need to Order:
+- 4 pin male connectors at a sane price
+
+TODO:
+- Clean up datasheets (delete old, download any needed)
+- Update `Images` directory
