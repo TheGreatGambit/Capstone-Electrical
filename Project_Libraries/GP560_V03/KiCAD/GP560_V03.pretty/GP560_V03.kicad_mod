@@ -1,0 +1,33 @@
+(footprint "GP560_V03" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr through_hole)
+  (fp_text reference "REF**" (at 12.96583 -8.08977 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6121507c-4ecd-4bd4-a3d5-ac1b7ebd18e8)
+  )
+  (fp_text value "GP560_V03" (at 12.86423 -6.15937 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8ac1eb77-43bc-4873-834a-7d881e3cfafc)
+  )
+  (fp_text user "${REFERENCE}" (at 12.96583 -8.08977 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0e875545-b08f-4f7d-aaf9-e9bade571b07)
+  )
+  (fp_line (start 7.5851 -9.2107) (end 17.626 -19.2516) (layer "F.Fab") (width 0.12) (tstamp 1ecdc87e-0d01-441d-8bde-136916bb8406))
+  (fp_line (start 7.5851 -9.2107) (end 9.21144 -7.58436) (layer "F.Fab") (width 0.12) (tstamp 26553df7-9978-4d18-8086-28a1bb48a11d))
+  (fp_line (start 17.626 -19.2516) (end 19.25234 -17.62526) (layer "F.Fab") (width 0.12) (tstamp 588adfd5-048f-45f0-8457-fc7372eca44e))
+  (fp_line (start 26.8462 -26.8462) (end 18.4388 -18.4388) (layer "F.Fab") (width 0.12) (tstamp 70808e92-a5e9-4712-8d43-9a9e3d8e9b67))
+  (fp_line (start 9.21144 -7.58436) (end 19.25234 -17.62526) (layer "F.Fab") (width 0.12) (tstamp ab23cb5f-de03-4ffa-9c9d-9d63ba884220))
+  (fp_line (start 8.4074 -8.4074) (end 0 0) (layer "F.Fab") (width 0.12) (tstamp ba89f802-c4d1-4136-87e4-217a2b14f8e8))
+  (pad "1" thru_hole circle (at 26.87 -26.87) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask) (tstamp 9a7b2133-83b1-4a0a-90cd-98b67f793545))
+  (pad "2" thru_hole circle (at 0 0) (size 2.1 2.1) (drill 1.4) (layers *.Cu *.Mask) (tstamp 170e7c62-9fe3-4b1f-b902-1d6f86999f2f))
+  (group "" (id edbd01f9-cd8e-4783-ae77-d89df2c480ce)
+    (members
+      1ecdc87e-0d01-441d-8bde-136916bb8406
+      26553df7-9978-4d18-8086-28a1bb48a11d
+      588adfd5-048f-45f0-8457-fc7372eca44e
+      ab23cb5f-de03-4ffa-9c9d-9d63ba884220
+    )
+  )
+)

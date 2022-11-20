@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "OQ0212500000G")(type "KiCad")(uri "${KIPRJMOD}/../../../Project_Libraries/OQ0212500000G/KiCad")(options "")(descr ""))
+  (lib (name "GP560_V03")(type "KiCad")(uri "${KIPRJMOD}/../../../Project_Libraries/GP560_V03/KiCAD/GP560_V03.pretty")(options "")(descr ""))
+)
