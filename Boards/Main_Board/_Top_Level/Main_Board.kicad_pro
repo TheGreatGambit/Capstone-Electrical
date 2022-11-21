@@ -345,7 +345,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Top_Level.kicad_pro",
+    "filename": "Main_Board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -574,7 +574,7 @@
     ],
     [
       "08bfbb0d-e1cb-4527-af3c-ba3870cf9089",
-      "Signal Light"
+      "SignalLight1"
     ],
     [
       "ba1d9139-8d03-4c86-942f-9cb29eaae3e8",

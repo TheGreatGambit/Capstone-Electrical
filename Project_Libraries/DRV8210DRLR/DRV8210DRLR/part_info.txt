@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=DRV8210DRLR
-PartCategory=Integrated Circuit
-PackageCategory=SO Transistor Flat Lead
-PinCount=6
-Version=2.1
-Released=2022-01-04 04:30:43
-Downloaded=2022-10-16 02:11:34
-3D=Y

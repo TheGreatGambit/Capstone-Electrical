@@ -221,11 +221,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 06d0944d-059e-4480-bd1b-7068af15d363)
   )
-  (polyline (pts (xy 109.22 55.88) (xy 109.22 54.61))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 0745803e-ea48-4316-b924-1dac5072e331)
-  )
-
   (wire (pts (xy 162.56 121.92) (xy 160.02 121.92))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 09e22f02-d8c4-4131-8b67-e2075be5d295)

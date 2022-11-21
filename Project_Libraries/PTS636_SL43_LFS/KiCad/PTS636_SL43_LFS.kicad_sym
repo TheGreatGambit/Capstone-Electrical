@@ -9,7 +9,7 @@
     (property "Footprint" "PTS636_SL43_LFS:PTS636SL43LFS" (id 2) (at 19.05 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/PTS636 SL43 LFS.pdf" (id 3) (at 19.05 0 0)
+    (property "Datasheet" "https://www.ckswitches.com/media/2779/pts636.pdf" (id 3) (at 19.05 0 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Manufacturer's Part Number" "PTS636 SL43 LFS" (id 4) (at 19.05 -15.24 0)

@@ -204,7 +204,7 @@
       (property "Value" "UCLAMP3301H.TCT" (id 1) (at 20.32 7.62 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Footprint" "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (id 2) (at 22.86 15.24 0)
+      (property "Footprint" "UCLAMP3301H-TCT:UCLAMP3301H.TCT" (id 2) (at 22.86 15.24 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MDWf/s0KJxyOHQyYOcvBXVBK9X3X8Cxj1gNltZ2vd2k1S0Wo" (id 3) (at 1.27 -8.89 0)
@@ -255,6 +255,322 @@
         )
       )
       (symbol "UCLAMP3301H.TCT_1_1"
+        (polyline
+          (pts
+            (xy 12.7 -5.08)
+            (xy 27.94 -5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 5.08)
+            (xy 12.7 -5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 13.97 0)
+            (xy 13.97 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 13.97 0)
+            (xy 13.97 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 13.97 2.54)
+            (xy 17.78 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 15.24 -2.54)
+            (xy 15.24 -3.81)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 15.24 -2.54)
+            (xy 15.24 -1.27)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 15.24 -2.54)
+            (xy 17.78 -1.27)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 -3.81)
+            (xy 15.24 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 -2.54)
+            (xy 20.32 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 -1.27)
+            (xy 17.78 -3.81)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 1.27)
+            (xy 20.32 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 2.54)
+            (xy 17.78 1.27)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 2.54)
+            (xy 17.78 3.81)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 3.81)
+            (xy 20.32 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 -4.445)
+            (xy 24.765 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 -2.54)
+            (xy 20.32 -4.445)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 -2.54)
+            (xy 20.32 -0.635)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 -0.635)
+            (xy 24.765 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 2.54)
+            (xy 20.32 1.27)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 2.54)
+            (xy 20.32 3.81)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 2.54)
+            (xy 22.86 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 24.765 -4.445)
+            (xy 24.765 -0.635)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 24.765 -4.445)
+            (xy 25.146 -4.826)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 24.765 -2.54)
+            (xy 26.67 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 24.765 -0.635)
+            (xy 24.384 -0.254)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 26.67 0)
+            (xy 26.67 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 26.67 0)
+            (xy 26.67 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 26.67 2.54)
+            (xy 22.86 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 27.94 -5.08)
+            (xy 27.94 5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 27.94 5.08)
+            (xy 12.7 5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin passive line (at 8.89 0 0) (length 3.8)
+          (name "1" (effects (font (size 1.4986 1.4986))))
+          (number "1" (effects (font (size 1.4986 1.4986))))
+        )
+        (pin passive line (at 31.75 0 180) (length 3.8)
+          (name "2" (effects (font (size 1.4986 1.4986))))
+          (number "2" (effects (font (size 1.4986 1.4986))))
+        )
+      )
+    )
+    (symbol "UCLAMP3301H.TCT_1" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (id 0) (at 20.32 10.16 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "UCLAMP3301H.TCT_1" (id 1) (at 20.32 7.62 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "UCLAMP3301H-TCT:UCLAMP3301H.TCT" (id 2) (at 22.86 15.24 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MDWf/s0KJxyOHQyYOcvBXVBK9X3X8Cxj1gNltZ2vd2k1S0Wo" (id 3) (at 1.27 -8.89 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Manufacturer's Part Number" "UCLAMP3301H.TCT" (id 4) (at 3.81 13.97 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Digikey Part Number" "UCLAMP3301HDKR-ND" (id 5) (at 2.54 11.43 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Mouser Part Number" " 947-UCLAMP3301H.TCT " (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952" (id 7) (at 1.27 -8.89 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Mouser Link" "https://www.mouser.com/ProductDetail/Semtech/UCLAMP3301H.TCT?qs=rBWM4%252BvDhIeimYmappCp5Q%3D%3D" (id 8) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SOD_01H.TCT_SEM SOD_01H.TCT_SEM-M SOD_01H.TCT_SEM-L" (id 9) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "UCLAMP3301H.TCT_1_0_1"
+        (polyline
+          (pts
+            (xy 12.7 0)
+            (xy 13.97 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 13.97 -2.54)
+            (xy 15.24 -2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 27.94 0)
+            (xy 26.67 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "UCLAMP3301H.TCT_1_1_1"
         (polyline
           (pts
             (xy 12.7 -5.08)
@@ -961,7 +1277,7 @@
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT2K20/1741321" (id 8) (at 139.7 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser Link" "" (id 8) (at 139.7 104.14 0)
+    (property "Mouser Link" "" (id 9) (at 139.7 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7267d54c-0f2b-40d5-b61f-8b624f7a4412))
@@ -1046,7 +1362,7 @@
     (pin "9" (uuid a39452aa-6590-4288-bd36-1ac043a5d8de))
   )
 
-  (symbol (lib_id "UCLAMP3301H-TCT:UCLAMP3301H.TCT") (at 129.54 66.04 270) (unit 1)
+  (symbol (lib_name "UCLAMP3301H.TCT_1") (lib_id "UCLAMP3301H-TCT:UCLAMP3301H.TCT") (at 129.54 66.04 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 51b51704-6420-43a3-8572-c2e2ef1291bf)
     (property "Reference" "U1" (id 0) (at 135.89 85.09 90)
@@ -1137,7 +1453,7 @@
     (property "Digikey Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT2K20/1741321" (id 8) (at 139.7 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser Link" "" (id 8) (at 139.7 109.22 0)
+    (property "Mouser Link" "" (id 9) (at 139.7 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 59e77037-695e-479a-8dba-411ab467de45))

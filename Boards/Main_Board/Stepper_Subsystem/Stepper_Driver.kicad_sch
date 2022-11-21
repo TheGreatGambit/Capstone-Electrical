@@ -76,7 +76,7 @@
       (property "Digikey Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/860020573008/5727177?s=N4IgTCBcDaIOwGYwFoAcBOALCgjMgcgCIgC6AvkA" (id 7) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Mouser Link" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/860020573008?qs=0KOYDY2FL2%2FoGR9eInsheg%3D%3Dhttps://www.mouser.com/ProductDetail/Wurth-Elektronik/860020573008?qs=0KOYDY2FL2%2FoGR9eInsheg%3D%3D" (id 8) (at 0 0 0)
+      (property "Mouser Link" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/860020573008?qs=0KOYDY2FL2%2FoGR9eInsheg%3D%3D" (id 8) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "860020573008860020573008_0_1"
@@ -238,7 +238,7 @@
         )
       )
     )
-    (symbol "CL10B104KB8NNC:CL10B104KB8NNNC" (pin_numbers hide) (pin_names (offset 1.651) hide) (in_bom yes) (on_board yes)
+    (symbol "CL10B104KB8NNNC:CL10B104KB8NNNC" (pin_numbers hide) (pin_names (offset 1.651) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 3.81 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -1899,7 +1899,7 @@
     (pin "2" (uuid 657b5510-df6b-4c1d-8f85-cb20011821e6))
   )
 
-  (symbol (lib_id "CL10B104KB8NNC:CL10B104KB8NNNC") (at 110.49 99.06 90) (unit 1)
+  (symbol (lib_id "CL10B104KB8NNNC:CL10B104KB8NNNC") (at 110.49 99.06 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c76ca1cb-4467-46f6-8450-43e7d840f963)
     (property "Reference" "C23" (id 0) (at 115.57 93.98 90)

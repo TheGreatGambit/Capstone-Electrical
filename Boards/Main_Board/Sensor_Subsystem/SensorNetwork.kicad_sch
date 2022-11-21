@@ -10,7 +10,7 @@
   )
 
   (lib_symbols
-    (symbol "CL10B104KB8NNC:CL10B104KB8NNNC" (pin_numbers hide) (pin_names (offset 1.651) hide) (in_bom yes) (on_board yes)
+    (symbol "CL10B104KB8NNNC:CL10B104KB8NNNC" (pin_numbers hide) (pin_names (offset 1.651) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 3.81 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -68,7 +68,7 @@
         )
       )
     )
-    (symbol "OQ04325500000G:OQ0432500000G" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+    (symbol "OQ0432500000G:OQ0432500000G" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 16.51 7.62 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -433,7 +433,7 @@
       (property "Value" "UCLAMP3301H.TCT" (id 1) (at 20.32 7.62 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Footprint" "UCLAMP3310H-TCT:UCLAMP3301H.TCT" (id 2) (at 22.86 15.24 0)
+      (property "Footprint" "UCLAMP3301H-TCT:UCLAMP3301H.TCT" (id 2) (at 22.86 15.24 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MDWf/s0KJxyOHQyYOcvBXVBK9X3X8Cxj1gNltZ2vd2k1S0Wo" (id 3) (at 1.27 -8.89 0)
@@ -484,6 +484,322 @@
         )
       )
       (symbol "UCLAMP3301H.TCT_1_1"
+        (polyline
+          (pts
+            (xy 12.7 -5.08)
+            (xy 27.94 -5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 12.7 5.08)
+            (xy 12.7 -5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 13.97 0)
+            (xy 13.97 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 13.97 0)
+            (xy 13.97 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 13.97 2.54)
+            (xy 17.78 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 15.24 -2.54)
+            (xy 15.24 -3.81)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 15.24 -2.54)
+            (xy 15.24 -1.27)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 15.24 -2.54)
+            (xy 17.78 -1.27)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 -3.81)
+            (xy 15.24 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 -2.54)
+            (xy 20.32 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 -1.27)
+            (xy 17.78 -3.81)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 1.27)
+            (xy 20.32 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 2.54)
+            (xy 17.78 1.27)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 2.54)
+            (xy 17.78 3.81)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 17.78 3.81)
+            (xy 20.32 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 -4.445)
+            (xy 24.765 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 -2.54)
+            (xy 20.32 -4.445)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 -2.54)
+            (xy 20.32 -0.635)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 -0.635)
+            (xy 24.765 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 2.54)
+            (xy 20.32 1.27)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 2.54)
+            (xy 20.32 3.81)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 20.32 2.54)
+            (xy 22.86 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 24.765 -4.445)
+            (xy 24.765 -0.635)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 24.765 -4.445)
+            (xy 25.146 -4.826)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 24.765 -2.54)
+            (xy 26.67 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 24.765 -0.635)
+            (xy 24.384 -0.254)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 26.67 0)
+            (xy 26.67 -2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 26.67 0)
+            (xy 26.67 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 26.67 2.54)
+            (xy 22.86 2.54)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 27.94 -5.08)
+            (xy 27.94 5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 27.94 5.08)
+            (xy 12.7 5.08)
+          )
+          (stroke (width 0.127) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin passive line (at 8.89 0 0) (length 3.8)
+          (name "1" (effects (font (size 1.4986 1.4986))))
+          (number "1" (effects (font (size 1.4986 1.4986))))
+        )
+        (pin passive line (at 31.75 0 180) (length 3.8)
+          (name "2" (effects (font (size 1.4986 1.4986))))
+          (number "2" (effects (font (size 1.4986 1.4986))))
+        )
+      )
+    )
+    (symbol "UCLAMP3301H.TCT_1" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (id 0) (at 20.32 10.16 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "UCLAMP3301H.TCT_1" (id 1) (at 20.32 7.62 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "UCLAMP3301H-TCT:UCLAMP3301H.TCT" (id 2) (at 22.86 15.24 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/44000000MDWf/s0KJxyOHQyYOcvBXVBK9X3X8Cxj1gNltZ2vd2k1S0Wo" (id 3) (at 1.27 -8.89 0)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Manufacturer's Part Number" "UCLAMP3301H.TCT" (id 4) (at 3.81 13.97 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Digikey Part Number" "UCLAMP3301HDKR-ND" (id 5) (at 2.54 11.43 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Mouser Part Number" " 947-UCLAMP3301H.TCT " (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Digikey Link" "https://www.digikey.com/en/products/detail/semtech-corporation/UCLAMP3301H-TCT/1000952" (id 7) (at 1.27 -8.89 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Mouser Link" "https://www.mouser.com/ProductDetail/Semtech/UCLAMP3301H.TCT?qs=rBWM4%252BvDhIeimYmappCp5Q%3D%3D" (id 8) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SOD_01H.TCT_SEM SOD_01H.TCT_SEM-M SOD_01H.TCT_SEM-L" (id 9) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "UCLAMP3301H.TCT_1_0_1"
+        (polyline
+          (pts
+            (xy 12.7 0)
+            (xy 13.97 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 13.97 -2.54)
+            (xy 15.24 -2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 27.94 0)
+            (xy 26.67 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "UCLAMP3301H.TCT_1_1_1"
         (polyline
           (pts
             (xy 12.7 -5.08)
@@ -1845,7 +2161,7 @@
     (pin "1" (uuid 51788b34-693d-4396-b910-a2a01dd21ec4))
   )
 
-  (symbol (lib_id "CL10B104KB8NNC:CL10B104KB8NNNC") (at 77.47 118.11 90) (mirror x) (unit 1)
+  (symbol (lib_id "CL10B104KB8NNNC:CL10B104KB8NNNC") (at 77.47 118.11 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 36963fc9-2041-4e08-81b9-bcc0156de18a)
     (property "Reference" "C34" (id 0) (at 83.82 119.38 90)
@@ -1879,7 +2195,7 @@
     (pin "2" (uuid d445a34d-fdf3-4c3f-b916-47d30e46de2d))
   )
 
-  (symbol (lib_id "OQ04325500000G:OQ0432500000G") (at 151.13 60.96 0) (unit 1)
+  (symbol (lib_id "OQ0432500000G:OQ0432500000G") (at 151.13 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3ac0c338-f7c8-4b4a-8f85-1e71ff13f107)
     (property "Reference" "J12" (id 0) (at 167.64 64.7699 0)
@@ -1906,8 +2222,8 @@
     (property "Mouser Link" "https://www.mouser.com/ProductDetail/Amphenol-Anytek/OQ0432500000G?qs=Mv7BduZupUhaPicvo3xrhg%3D%3D" (id 12) (at 151.13 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 151.13 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 167.64 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid e7a9cb6a-a806-4617-9ce4-7cd87a26592b))
     (pin "2" (uuid a02d1232-1343-47b5-acd1-9f1873567e26))
@@ -1983,7 +2299,7 @@
     (pin "2" (uuid 0b3a8c86-e9ce-4db1-a20d-a771a541f846))
   )
 
-  (symbol (lib_id "UCLAMP3301H-TCT:UCLAMP3301H.TCT") (at 49.53 166.37 90) (unit 1)
+  (symbol (lib_name "UCLAMP3301H.TCT_1") (lib_id "UCLAMP3301H-TCT:UCLAMP3301H.TCT") (at 49.53 166.37 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5624a629-0ac3-4b93-9306-570d7a549b33)
     (property "Reference" "U14" (id 0) (at 55.88 149.86 90)
@@ -2261,7 +2577,7 @@
     (pin "9" (uuid 8049882b-baf4-49ba-9010-873d7a8372a4))
   )
 
-  (symbol (lib_id "OQ04325500000G:OQ0432500000G") (at 151.13 127 0) (unit 1)
+  (symbol (lib_id "OQ0432500000G:OQ0432500000G") (at 151.13 127 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 82530046-379f-4c3b-acc9-6bcf9fffc48b)
     (property "Reference" "J14" (id 0) (at 167.64 130.8099 0)
@@ -2288,8 +2604,8 @@
     (property "Mouser Link" "https://www.mouser.com/ProductDetail/Amphenol-Anytek/OQ0432500000G?qs=Mv7BduZupUhaPicvo3xrhg%3D%3D" (id 12) (at 151.13 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 151.13 127 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 167.64 142.24 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid f385051f-ca0f-4ed0-96f3-64367c234b9c))
     (pin "2" (uuid a0a394f5-c745-47fd-a810-4fe82f290a21))
@@ -2331,7 +2647,7 @@
     (pin "2" (uuid 37bc3c92-36cc-456d-979e-291e6e470ba0))
   )
 
-  (symbol (lib_id "OQ04325500000G:OQ0432500000G") (at 151.13 139.7 0) (unit 1)
+  (symbol (lib_id "OQ0432500000G:OQ0432500000G") (at 151.13 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8612367f-f4d0-47fb-bfb6-306ce386c6a6)
     (property "Reference" "J15" (id 0) (at 167.64 142.2399 0)
@@ -2358,8 +2674,8 @@
     (property "Mouser Link" "https://www.mouser.com/ProductDetail/Amphenol-Anytek/OQ0432500000G?qs=Mv7BduZupUhaPicvo3xrhg%3D%3D" (id 12) (at 151.13 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 151.13 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 167.64 154.94 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid 67173794-1ee6-496a-836b-f17820742264))
     (pin "2" (uuid 8d8a2325-ca3e-4a3f-87c3-f1ee1b80bb1a))
@@ -2499,7 +2815,7 @@
     (pin "1" (uuid d29369ee-6f14-420c-91c9-f7fedb902787))
   )
 
-  (symbol (lib_id "OQ04325500000G:OQ0432500000G") (at 248.92 135.89 90) (unit 1)
+  (symbol (lib_id "OQ0432500000G:OQ0432500000G") (at 248.92 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b0977820-609b-433e-9fcd-7201d9317261)
     (property "Reference" "J19" (id 0) (at 251.4599 119.38 0)
@@ -2526,8 +2842,8 @@
     (property "Mouser Link" "https://www.mouser.com/ProductDetail/Amphenol-Anytek/OQ0432500000G?qs=Mv7BduZupUhaPicvo3xrhg%3D%3D" (id 12) (at 248.92 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 248.92 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 264.16 119.38 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid 2d570d24-a5ee-4ed0-8eb4-25a8da6d4a30))
     (pin "2" (uuid 10968e14-dfa5-4032-b774-fc95ff3d8f45))
@@ -2569,7 +2885,7 @@
     (pin "2" (uuid 5b0a991f-d34d-4914-a884-8ab7822f58d8))
   )
 
-  (symbol (lib_id "OQ04325500000G:OQ0432500000G") (at 204.47 135.89 90) (unit 1)
+  (symbol (lib_id "OQ0432500000G:OQ0432500000G") (at 204.47 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bcbdd514-16f8-46aa-a988-a14e3d3bb36b)
     (property "Reference" "J17" (id 0) (at 207.0099 119.38 0)
@@ -2596,8 +2912,8 @@
     (property "Mouser Link" "https://www.mouser.com/ProductDetail/Amphenol-Anytek/OQ0432500000G?qs=Mv7BduZupUhaPicvo3xrhg%3D%3D" (id 12) (at 204.47 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 204.47 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 219.71 119.38 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid d4c9a07f-63e5-4d74-8527-40849edaf4cc))
     (pin "2" (uuid def698db-3b10-4b70-9a88-90be62b454c1))
@@ -2605,7 +2921,7 @@
     (pin "4" (uuid b1ac23a6-e6be-4983-a031-7622c7e79fef))
   )
 
-  (symbol (lib_id "OQ04325500000G:OQ0432500000G") (at 248.92 71.12 90) (unit 1)
+  (symbol (lib_id "OQ0432500000G:OQ0432500000G") (at 248.92 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c69c0715-0241-4748-8ae4-e6a6ca0162fb)
     (property "Reference" "J18" (id 0) (at 251.4599 54.61 0)
@@ -2632,8 +2948,8 @@
     (property "Mouser Link" "https://www.mouser.com/ProductDetail/Amphenol-Anytek/OQ0432500000G?qs=Mv7BduZupUhaPicvo3xrhg%3D%3D" (id 12) (at 248.92 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 248.92 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 264.16 54.61 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid 468b8dfa-0be1-4e93-96a3-0d4d374eaa31))
     (pin "2" (uuid 3a3c638a-fb95-4910-83ba-fcf3c8ec8398))
@@ -2709,7 +3025,7 @@
     (pin "2" (uuid a9c400a7-0175-4016-b3e9-530838a1489a))
   )
 
-  (symbol (lib_id "OQ04325500000G:OQ0432500000G") (at 151.13 73.66 0) (unit 1)
+  (symbol (lib_id "OQ0432500000G:OQ0432500000G") (at 151.13 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e35f962b-bd95-4177-b780-95dc6792693d)
     (property "Reference" "J13" (id 0) (at 167.64 76.1999 0)
@@ -2736,8 +3052,8 @@
     (property "Mouser Link" "https://www.mouser.com/ProductDetail/Amphenol-Anytek/OQ0432500000G?qs=Mv7BduZupUhaPicvo3xrhg%3D%3D" (id 12) (at 151.13 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 151.13 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 167.64 88.9 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid 3b883a98-92ca-4928-8408-b4ef74ae6b68))
     (pin "2" (uuid c9b4f3cf-c4fc-48f5-8c92-2aa39cecbc61))
@@ -2847,7 +3163,7 @@
     (pin "2" (uuid c7818300-e8e9-466a-a154-447f63811182))
   )
 
-  (symbol (lib_id "CL10B104KB8NNC:CL10B104KB8NNNC") (at 77.47 52.07 90) (mirror x) (unit 1)
+  (symbol (lib_id "CL10B104KB8NNNC:CL10B104KB8NNNC") (at 77.47 52.07 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fd7a81d4-2d78-4fb0-8dd4-d8a4f9d87f81)
     (property "Reference" "C33" (id 0) (at 83.82 53.34 90)
@@ -2881,7 +3197,7 @@
     (pin "2" (uuid 2e1d9f8e-4402-438e-8de1-9329c08e001e))
   )
 
-  (symbol (lib_id "OQ04325500000G:OQ0432500000G") (at 204.47 71.12 90) (unit 1)
+  (symbol (lib_id "OQ0432500000G:OQ0432500000G") (at 204.47 71.12 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fe26b46b-10e1-44e9-b936-a9a96b80bacd)
     (property "Reference" "J16" (id 0) (at 207.0099 54.61 0)
@@ -2908,8 +3224,8 @@
     (property "Mouser Link" "https://www.mouser.com/ProductDetail/Amphenol-Anytek/OQ0432500000G?qs=Mv7BduZupUhaPicvo3xrhg%3D%3D" (id 12) (at 204.47 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 204.47 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Manufacturer's Part Number" "OQ0432500000G" (id 14) (at 219.71 54.61 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid a69a151a-6f0e-47a1-8623-72a65f421c3b))
     (pin "2" (uuid f385f8fc-720e-4c31-ace9-867fbc9e23dc))

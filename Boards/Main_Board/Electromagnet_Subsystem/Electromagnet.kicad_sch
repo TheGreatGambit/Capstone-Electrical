@@ -134,7 +134,7 @@
         )
       )
     )
-    (symbol "CL10B104KB8NNC:CL10B104KB8NNNC" (pin_numbers hide) (pin_names (offset 1.651) hide) (in_bom yes) (on_board yes)
+    (symbol "CL10B104KB8NNNC:CL10B104KB8NNNC" (pin_numbers hide) (pin_names (offset 1.651) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 3.81 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
@@ -585,7 +585,7 @@
     (pin "" (uuid 174338d2-f1f5-4c0a-b1b3-6bc9d2e05acb))
   )
 
-  (symbol (lib_id "CL10B104KB8NNC:CL10B104KB8NNNC") (at 133.35 99.06 90) (mirror x) (unit 1)
+  (symbol (lib_id "CL10B104KB8NNNC:CL10B104KB8NNNC") (at 133.35 99.06 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f52323bd-bd8f-4034-a8c0-163501999e2a)
     (property "Reference" "C35" (id 0) (at 139.7 101.6 90)

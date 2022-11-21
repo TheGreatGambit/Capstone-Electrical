@@ -106,7 +106,7 @@
       (property "Value" "RUC002N05T116" (id 1) (at 22.86 7.62 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Footprint" "SOT23-3_ROM" (id 2) (at 22.86 6.096 0)
+      (property "Footprint" "RUC002N05T116:RUC002N05T116" (id 2) (at 22.86 6.096 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/ruc002n05t116-e.pdf" (id 3) (at 1.27 -12.7 0)
