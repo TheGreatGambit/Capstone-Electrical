@@ -4,7 +4,7 @@
     (thickness 1.6)
   )
 
-  (paper "A4")
+  (paper "USLetter")
   (title_block
     (title "Full Schematic")
     (company "The Great Gambit")
