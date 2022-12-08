@@ -1914,16 +1914,16 @@
     (uuid ff0f9961-ebe9-4466-991d-3651cc358ab2)
   )
 
-  (text "DEMUX (Select Column)" (at 30.48 45.72 0)
+  (text "MUX (Select Column)" (at 30.48 45.72 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 1a016ae4-5b6e-4a36-a45e-eb7197f5a623)
   )
-  (text "General Notes:\n	Assumes a crosspoint array of 8 rows, 8 columns, connected by reed switches\n	Reed switches to be used - https://standexelectronics.com/viewer/pdfjs/web/viewer.php?file=https%3A%2F%2Fstandexelectronics.com%2Fwp-content%2Fuploads%2F2019%2F06%2FGP560_V03.pdf\n	DEMUX selects the column to be sent power\n	MUX selects the row to read\n	Designed for carry current of 6mA\n	*** BE MINDFUL OF THE ORDERING OF CONNECTOR PINS ***"
-    (at 16.51 29.21 0)
+  (text "General Notes:\n	Assumes a crosspoint array of 8 rows, 8 columns, connected by reed switches\n	Reed switches to be used - https://standexelectronics.com/viewer/pdfjs/web/viewer.php?file=https%3A%2F%2Fstandexelectronics.com%2Fwp-content%2Fuploads%2F2019%2F06%2FGP560_V03.pdf\n	DEMUX selects the column to be sent power\n	MUX selects the row to read\n	Designed for carry current of 6mA\n	*** BE MINDFUL OF THE ORDERING OF CONNECTOR PINS ***\n\nWARNING: There is a mistake on the DEMUX, VCC and COM should be separate"
+    (at 16.51 33.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4d08bd5b-fe22-41d4-984c-11bf392e5d67)
   )
-  (text "DEMUX (Select Column)" (at 30.48 111.76 0)
+  (text "DEMUX (Select Row)" (at 30.48 111.76 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid c359a8bc-7be1-48af-b88a-99c9e5b873e2)
   )
