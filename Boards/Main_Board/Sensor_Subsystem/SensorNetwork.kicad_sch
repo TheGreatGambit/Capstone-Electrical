@@ -1914,7 +1914,7 @@
     (uuid ff0f9961-ebe9-4466-991d-3651cc358ab2)
   )
 
-  (text "MUX (Select Column)" (at 30.48 45.72 0)
+  (text "DEMUX (Select Column)" (at 30.48 45.72 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 1a016ae4-5b6e-4a36-a45e-eb7197f5a623)
   )
@@ -1923,7 +1923,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4d08bd5b-fe22-41d4-984c-11bf392e5d67)
   )
-  (text "DEMUX (Select Row)" (at 30.48 111.76 0)
+  (text "MUX (Select Row)" (at 30.48 111.76 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid c359a8bc-7be1-48af-b88a-99c9e5b873e2)
   )

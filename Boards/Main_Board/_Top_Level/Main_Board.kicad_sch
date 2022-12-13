@@ -3294,7 +3294,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 99e2fdf5-4f09-4740-9225-5067f050e8b1)
     )
-    (pin "PA_6" bidirectional (at 63.5 107.95 90)
+    (pin "PD_6" bidirectional (at 63.5 107.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid a2fdbcb4-188c-4986-8d26-169d9b489881)
     )
